@@ -1,6 +1,6 @@
-# thyflow2
+# ThyFlow Phase II Website
 
-> My superb Nuxt.js project
+> Thyflow Phase II Website
 
 ## Build Setup
 
@@ -19,4 +19,4 @@ $ yarn start
 $ yarn generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+[![Netlify Status](https://api.netlify.com/api/v1/badges/885b3468-b323-4323-92a3-dba61c02f70f/deploy-status)](https://app.netlify.com/sites/admiring-beaver-84e8ee/deploys)
