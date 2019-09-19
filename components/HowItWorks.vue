@@ -9,6 +9,10 @@
       <div class="w-full mb-4">
         <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
+      <a
+        class="fixed bg-blue-600 btn text-white-400 right-0 rounded py-2 px-4"
+        href="https://www.thyflow.co"
+      >Book a barber</a>
 
       <div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
         <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden text-center">
@@ -18,7 +22,9 @@
 
           <a href="#" class="flex flex-wrap no-underline hover:no-underline">
             <div class="w-full font-bold text-xl text-gray-800 px-6">Create an account</div>
-            <p class="text-gray-800 text-base px-6 mb-5">Fill in basic Info to create an account</p>
+            <p
+              class="text-gray-800 text-base px-6 mb-5"
+            >Fill in basic info about yourself to create an account</p>
           </a>
         </div>
       </div>
@@ -61,7 +67,7 @@
             <div class="w-full font-bold text-xl text-gray-800 px-6">Barber arrival</div>
             <p
               class="text-gray-800 text-base px-6 mb-5"
-            >Thyflow barber will bing all state of tools to barber your hair.</p>
+            >ThyFlow barbers bring all state of the art tool for your haircut.</p>
           </a>
         </a>
       </a>
