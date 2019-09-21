@@ -24,15 +24,15 @@
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <nuxt-link
-                to="#"
+                to="/faq"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >Help</nuxt-link>
+              >FAQ</nuxt-link>
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <nuxt-link
-                to="#"
+                to="/contact"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >Support</nuxt-link>
+              >Contact Us</nuxt-link>
             </li>
           </ul>
         </div>
@@ -77,7 +77,7 @@
           </ul>
         </div>
         <div class="flex-1">
-          <p class="uppercase text-gray-500 md:mb-6">Company</p>
+          <p class="uppercase text-gray-500 md:mb-6">Links</p>
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
@@ -89,7 +89,7 @@
               <a
                 href="#"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >About Us</a>
+              >Suggest City</a>
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <nuxt-link
