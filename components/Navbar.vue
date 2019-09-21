@@ -8,13 +8,14 @@
           <h1 class="my-6 text-5xl font-bold leading-tight text-center text-blue-600">THYFLOW</h1>
           <h3 class="my-4 text-4xl font-bold leading-tight text-center">About ThyFlow</h3>
           <button
-            class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
+            class="btn mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
           >Book a barber!</button>
         </div>
       </div>
     </header>
     <div class="relative -mt-12 lg:-mt-24">
       <svg
+        class="wave-top"
         viewBox="0 0 1428 174"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"
