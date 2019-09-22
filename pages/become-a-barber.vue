@@ -11,7 +11,7 @@
         </div>
       </div>
     </header>
-    <div class="container mx-auto px-6 lg:px-48">
+    <div class="container mx-auto lg:px-24">
       <h1
         class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
       >BECOME A BARBER</h1>
@@ -72,6 +72,7 @@
                 <p class="text-gray-800 text-base px-6 mb-5">Bag for barber tools</p>
                 <p class="text-gray-800 text-base px-6 mb-5">Barber chair for haircuts</p>
                 <p class="text-gray-800 text-base px-6 mb-5">In app support</p>
+                <br />
                 <p class="text-gray-800 text-base px-6 mb-5">Weekly Pay</p>
               </a>
             </div>
@@ -87,8 +88,8 @@
           class="w-full my-2 text-5xl font-bold gradient leading-tight text-center text-white-200"
         >Apply here</a>
       </div>
-      <Footer />
     </div>
+    <Footer />
   </div>
 </template>
 
