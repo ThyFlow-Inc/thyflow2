@@ -41,7 +41,7 @@
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <nuxt-link
-                to="#"
+                to="/terms"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
               >Terms</nuxt-link>
             </li>
@@ -80,22 +80,22 @@
           <p class="uppercase text-gray-500 md:mb-6">Links</p>
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
+              <nuxt-link
+                to="/become-a-barber"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >Official Blog</a>
+              >Become a barber</nuxt-link>
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
+              <nuxt-link
+                to="/suggest"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >Suggest City</a>
+              >Suggest City</nuxt-link>
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <nuxt-link
                 to="#"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >Contact</nuxt-link>
+              >#</nuxt-link>
             </li>
           </ul>
         </div>
