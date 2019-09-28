@@ -139,7 +139,7 @@ body {
   white-space: nowrap;
   display: inline-block;
   position: relative;
-  animation-duration: 10s;
+  animation-duration: 15s;
   animation-timing-function: steps(25, end);
   animation-iteration-count: infinite;
 }
