@@ -8,8 +8,7 @@
             class="text-orange-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
             to="/"
           >
-            <img class="w-8 fill-current inline" src="~/assets/big_logo.png" alt="number-one" />
-            ThyFlow
+            <img class="w-48 fill-current" src="~/assets/big_logo.png" alt="number-one" />
           </nuxt-link>
         </div>
 
