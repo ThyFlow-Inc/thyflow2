@@ -12,15 +12,15 @@
       <div class="flex flex-wrap">
         <div class="w-5/6 sm:w-1/2 p-6">
           <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Book the best</h3>
-          <p class="text-gray-600 mb-6">
+          <p class="text-gray-600 mb-6 font-medium">
             ThyFlow barbers have years of experiences.
             <br />
           </p>
-          <p class="text-gray-600 mb-6">
+          <p class="text-gray-600 mb-6 font-medium">
             ThyFlow Master Barber verify every new barber upon joining the platform.
             <br />
           </p>
-          <p class="text-gray-600 mb-6">
+          <p class="text-gray-600 mb-6 font-medium">
             World class customer support.
             <br />
           </p>
@@ -37,15 +37,15 @@
         <div class="w-full sm:w-1/2 p-6 mt-6">
           <div class="align-middle">
             <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Promise to customers</h3>
-            <p class="text-gray-600 mb-5">
+            <p class="text-gray-600 mb-5 font-medium">
               Like your haircut or your money back
               <br />
             </p>
-            <p class="text-gray-600 mb-5">
+            <p class="text-gray-600 mb-5 font-medium">
               Experience barbershop from the comfort of your home
               <br />
             </p>
-            <p class="text-gray-600 mb-5">
+            <p class="text-gray-600 mb-5 font-medium">
               Kids get free haircut with any adult
               <br />
             </p>
@@ -56,19 +56,19 @@
       <div class="flex flex-wrap">
         <div class="w-5/6 sm:w-1/2 p-6">
           <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">ThyFLow Way</h3>
-          <p class="text-gray-600 mb-6">
+          <p class="text-gray-600 mb-6 font-medium">
             Barbershop experience at the comfort of your house.
             <br />
           </p>
-          <p class="text-gray-600 mb-6">
+          <p class="text-gray-600 mb-6 font-medium">
             Licensed Barbers.
             <br />
           </p>
-          <p class="text-gray-600 mb-6">
+          <p class="text-gray-600 mb-6 font-medium">
             Two-step interview process.
             <br />
           </p>
-          <p class="text-gray-600 mb-6">
+          <p class="text-gray-600 mb-6 font-medium">
             Friends and Family referral confirmed
             <br />
           </p>
