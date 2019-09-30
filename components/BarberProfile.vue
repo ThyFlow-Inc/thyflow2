@@ -15,7 +15,7 @@
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
             <img class="h-16 w-16 rounded-full mx-auto" src="~/assets/barber1.jpg" />
 
-            <div class="p-8 text-3xl font-bold text-center border-b-4">Thy Barber James</div>
+            <div class="p-8 text-3xl font-bold text-center border-b-4">Thy Barber Noah</div>
             <div class="p-5 text-2xl font-bold text-center border-b-4">San Jose</div>
 
             <p class="w-full text-center text-sm px-5 py-6">
@@ -34,7 +34,7 @@
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
             <img class="h-16 w-16 rounded-full mx-auto" src="~/assets/barber2.png" />
 
-            <div class="w-full p-8 text-3xl font-bold text-center">Sthylus Barber</div>
+            <div class="w-full p-8 text-3xl font-bold text-center">Thy Barber Aaron</div>
             <div class="h-1 w-full gradient my-0 py-0 rounded-t"></div>
 
             <div class="w-full p-5 text-2xl font-bold text-center">Santa Clara</div>
@@ -55,7 +55,7 @@
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
             <img class="h-16 w-16 rounded-full mx-auto" src="~/assets/barber3.jpg" />
 
-            <div class="p-8 text-3xl font-bold text-center border-b-4">Drey Barber</div>
+            <div class="p-8 text-3xl font-bold text-center border-b-4">Thy Barber</div>
             <div class="p-5 text-2xl font-bold text-center border-b-4">San Francisco</div>
 
             <p
