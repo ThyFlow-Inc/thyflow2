@@ -19,8 +19,8 @@
             <div class="p-5 text-2xl font-bold text-center border-b-4">San Jose</div>
 
             <p class="w-full text-center text-sm px-5 py-6">
-              James Tomas is an experienced barber with over 10 years, He has won award as an outstanding
-              of the year. He was certified by Association of proffesional barber, San Jose
+              I been cutting hair for 6+ Years. Cutting haircut is something I enjoy doing and
+              I take pride in my work. As a Barber giving my clients the best haircut everything is what I strive for. ThyFlow App, Allows me to bring my service to local clients in my local area.
             </p>
           </div>
           <div
@@ -40,9 +40,10 @@
             <div class="w-full p-5 text-2xl font-bold text-center">Santa Clara</div>
 
             <div class="h-1 w-full gradient my-0 py-0 rounded-t"></div>
-            <p
-              class="w-full text-center text-base font-bold py-6 px-5"
-            >I joined ThyFlow to focus solely on barbering. I’m hugely passionate about the work involved and creating men’s styles.</p>
+            <p class="w-full text-center text-base font-bold py-6 px-5">
+              Cutting hair is something I have been doing for years now, I worked at a local barbershop for 3+ years. ThyFlow, Makes it easy for a barber like me who been doing mobile haircut for a while,
+              Can have more customers to cut.
+            </p>
           </div>
           <div
             class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6"
@@ -60,7 +61,7 @@
 
             <p
               class="w-full text-center text-sm py-6 px-5"
-            >Hey, my name is Matthew. I started my career as a Junior Barber at San Franscisco, working with the company for almost five years.</p>
+            >I am a Bay Area native, Cutting hair is what I've been doing for 5+ years. After I got my Barber license, I worked at a local barbershop for years. Being a mobile Barber with ThyFlow Is new to me, I still enjoy it because I get to cut locals hair everyday.</p>
           </div>
           <div
             class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6"
