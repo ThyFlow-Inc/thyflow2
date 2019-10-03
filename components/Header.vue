@@ -7,7 +7,7 @@
       class="heading-primary w-full my-2 text-6xl font-bold leading-tight text-center tracking-widest text-box"
     >ThyFLow</h1>
     <h1 class="w-full my-3 text-3xl font-bold leading-tight text-center sub-header">
-      <span class="text_1 text-yellow-100">Mobile Barbers</span>
+      <span class="text_1 text-orange-500">Mobile Barbers</span>
       <span class="text_2 text-orange-500">Local Barbers</span>
       <span class="text_3">Handpicked Barbers</span>
     </h1>
