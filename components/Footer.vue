@@ -10,6 +10,10 @@
           >
             <img class="w-48 fill-current" src="~/assets/big_logo.png" alt="number-one" />
           </nuxt-link>
+          <a
+            class="mx-auto lg:mx-0 hover:underline bg-orange-400 text-gray-800 rounded-full my-6 py-4 px-4 shadow-lg"
+            href="#"
+          >Subscribe to Mailing List</a>
         </div>
 
         <div class="flex-1">
