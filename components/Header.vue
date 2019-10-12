@@ -1,8 +1,6 @@
 <template>
   <header class="header">
-    <div class="logo-box">
-      <img class="logo" src="~assets/logo.png" alt="logo" />
-    </div>
+    <div class="logo-box"></div>
     <h1
       class="heading-primary w-full my-2 text-6xl font-bold leading-tight text-center tracking-widest text-box"
     >ThyFLow</h1>

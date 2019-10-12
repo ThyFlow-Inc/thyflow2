@@ -2,11 +2,11 @@
   <nav id="header" class="w-full z-30 text-white gradient">
     <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
       <div class="pl-4 flex items-center">
-        <img class="h-10 fill-current inline px-2" src="~/assets/small_logo.png" alt="number-one" />
+        <img class="h-10 fill-current inline px-2" src="~/assets/big_logo.png" alt="number-one" />
         <nuxt-link
           class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
           to="/"
-        >ThyFlow</nuxt-link>
+        ></nuxt-link>
       </div>
       <!------------Hambuger menu---------->
       <div class="block sm:hidden">
@@ -28,7 +28,7 @@
         <div class="text-sm sm:flex-grow">
           <nuxt-link
             class="block py-2 px-4 lg:invisible text-white sm:inline-block font-bolder text-lg no-underline mt-4"
-            to="/dashboard"
+            to="/become-a-barber"
           >Dashboard</nuxt-link>
           <nuxt-link
             class="block py-2 px-4 lg:invisible text-white sm:inline-block font-bolder text-lg no-underline mt-4"
