@@ -1,7 +1,7 @@
 {
-  "name": "thyflow2",
+  "name": "Thyflow",
   "version": "1.0.0",
-  "description": "My superb Nuxt.js project",
+  "description": "Verified Local barbers Provider",
   "author": "Yusuf Adeyemo",
   "private": true,
   "scripts": {
