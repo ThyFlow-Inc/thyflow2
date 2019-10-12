@@ -1,5 +1,6 @@
 <template>
   <div class="gradient">
+    <Navbar />
     <Header />
     <HowItWorks />
     <Features />
@@ -10,6 +11,7 @@
 </template>
 
 <script>
+import Navbar from "~/components/Navbar.vue";
 import Header from "~/components/Header.vue";
 import HowItWorks from "~/components/HowItWorks.vue";
 import Features from "~/components/Features.vue";
@@ -18,6 +20,7 @@ import ApplyBarber from "~/components/ApplyBarber.vue";
 import Footer from "~/components/Footer.vue";
 export default {
   components: {
+    Navbar,
     Header,
     HowItWorks,
     Features,
