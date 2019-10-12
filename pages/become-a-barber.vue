@@ -1,20 +1,32 @@
 <template>
   <div>
     <Navbar />
-    <header class="pt-9 gradient">
-      <div class="container px-1 py-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-        <div
-          class="flex flex-col w-full md:w-5/5 justify-center items-center content-center md:text-center"
-        >
-          <h1 class="my-4 text-4xl font-bold leading-tight text-center text-blue-700">THYFLOW</h1>
+    <div class="container mx-auto px-4">
+      <div class="flex flex-wrap -mx-4 my-5">
+        <!--Left Col-->
+        <div class="w-full lg:w-2/5 px-4 text-center lg:text-left self-center">
+          <h1 class="mb-12 text-5xl font-bold leading-none text-orange">Become a ThyFlow Barber</h1>
+          <p class="mb-12">
+            <a
+              class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
+              href="#"
+              v-scroll-to="'#requestrial'"
+            >Fill the form here!</a>
+          </p>
+          <a
+            class="mx-auto lg:mx-0 hover:underline text-gray-800 font-bold my-6 py-4 px-8"
+            v-scroll-to="'#requestrial'"
+          ></a>
+        </div>
+
+        <!--Right Col-->
+        <div class="w-full lg:w-3/5 px-4 text-center lg:text-right lg:text-left self-center px-4">
+          <img src="~/assets/barber.png" class="w-full xl:w-4/5 z-50 inline-block" />
         </div>
       </div>
-    </header>
+    </div>
+    <!--------------Header Done----------->
     <div class="container mx-auto lg:px-24">
-      <h1
-        class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
-      >BECOME A BARBER</h1>
-
       <div class="pb-16">
         <div class="mb-4 text-2xl font-bold text-center">Become a Mobile Barber</div>
         <p class="text-center">
