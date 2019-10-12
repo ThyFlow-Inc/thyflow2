@@ -1,13 +1,12 @@
 <template>
   <div>
+    <Navbar />
     <header class="pt-9 gradient">
       <div class="container px-1 py-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
         <div
           class="flex flex-col w-full md:w-5/5 justify-center items-center content-center md:text-center"
         >
           <h1 class="my-4 text-4xl font-bold leading-tight text-center text-blue-700">THYFLOW</h1>
-
-          <h3 class="my-4 text-4xl font-bold leading-tight text-center">Become a barber</h3>
         </div>
       </div>
     </header>
@@ -94,9 +93,11 @@
 </template>
 
 <script>
+import Navbar from "~/components/Navbar.vue";
 import Footer from "~/components/Footer.vue";
 export default {
   components: {
+    Navbar,
     Footer
   }
 };
