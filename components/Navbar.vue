@@ -30,7 +30,7 @@
           <nuxt-link
             class="block py-2 px-4 lg:invisible text-orange sm:inline-block font-bolder text-lg no-underline mt-4"
             to="/become-a-barber"
-          >Dashboard</nuxt-link>
+          >Become a barber</nuxt-link>
           <nuxt-link
             class="block py-2 px-4 lg:invisible text-white sm:inline-block font-bolder text-lg no-underline mt-4"
             to="/about"
