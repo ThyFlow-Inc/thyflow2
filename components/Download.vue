@@ -10,7 +10,7 @@
         class="text-blue-400 font-bold pb-4 lg:pb-3 text-center md:text-left fade-in"
       >Download our app:</p>
       <div class="flex w-full justify-center md:justify-start pb-4 lg:pb-0 fade-in">
-        <a href="https://play.google.com/store/apps/developer?id=Thyflow.com">
+        <a href="https://play.google.com/store/apps/details?id=com.thyflow.orderingapp">
           <img src="~/assets/googleplay.svg" class="h-12 pr-4 bounce-top-icons" />
         </a>
 
