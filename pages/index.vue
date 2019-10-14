@@ -5,6 +5,7 @@
     <HowItWorks />
     <Features />
     <BarberProfile />
+    <Download />
     <ApplyBarber />
     <Footer />
   </div>
@@ -16,6 +17,7 @@ import Header from "~/components/Header.vue";
 import HowItWorks from "~/components/HowItWorks.vue";
 import Features from "~/components/Features.vue";
 import BarberProfile from "~/components/BarberProfile.vue";
+import Download from "~/components/Download.vue";
 import ApplyBarber from "~/components/ApplyBarber.vue";
 import Footer from "~/components/Footer.vue";
 export default {
@@ -25,6 +27,7 @@ export default {
     HowItWorks,
     Features,
     BarberProfile,
+    Download,
     ApplyBarber,
     Footer
   }
