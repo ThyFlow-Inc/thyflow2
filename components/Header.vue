@@ -68,7 +68,6 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  animation: moveInRight 3s;
 }
 .heading-primary {
   color: #fff;
