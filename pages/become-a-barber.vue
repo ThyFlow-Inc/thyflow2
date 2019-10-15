@@ -31,7 +31,7 @@
         <div class="mb-4 text-2xl font-bold text-center">Become a Mobile Barber</div>
         <p class="text-center">
           If you are looking for a flexible way to earn great income doing what you enjoy, Join ThyFlow Barber Team. THYFLOW - Is an alternative way for men to get a haircut at home.
-          ThyFlow offer customers Barbershop experience at home or wherever they at. ThyFlow Barbers work within their neighborhood to drive to customers home to provide a haircut service.
+          ThyFlow, offer customers Barbershop experience at home or wherever they at. ThyFlow Barbers work within their neighborhood to drive to customers home to provide a haircut service.
         </p>
       </div>
       <section class="bg-white border-b py-8">
@@ -78,13 +78,16 @@
           <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
             <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
               <a href="#" class="flex flex-wrap no-underline hover:no-underline">
-                <div class="w-full font-bold text-xl text-gray-800 px-6 text-center">We Provide</div>
-                <p class="text-gray-800 text-base px-6 mb-5">Yearly Training</p>
-                <p class="text-gray-800 text-base px-6 mb-5">Bag for barber tools</p>
-                <p class="text-gray-800 text-base px-6 mb-5">Barber chair for haircuts</p>
-                <p class="text-gray-800 text-base px-6 mb-5">In app support</p>
-                <br />
-                <p class="text-gray-800 text-base px-6 mb-5">Weekly Pay</p>
+                <div class="w-full font-bold text-xl text-gray-800 px-6">We Provide</div>
+                <div class="text-gray-800 mb-5 px-5">
+                  Yearly Training.
+                  <br />
+                </div>
+
+                <div class="text-gray-800 mb-5">Bag for barber tools.</div>
+                <p class="text-gray-800 mb-5">Barber chair for haircuts.</p>
+                <p class="text-gray-800 mb-5">In app support.</p>
+                <p class="text-gray-800 mb-5">Weekly Pay.</p>
               </a>
             </div>
             <div

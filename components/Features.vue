@@ -3,7 +3,7 @@
   <section class="bg-white border-b py-8">
     <div class="container max-w-7xl mx-auto m-8">
       <h1
-        class="w-full my-2 text-5xl font-bold leading-tight text-center text-orange"
+        class="w-full my-2 text-5xl font-bold leading-tight text-center text-orange-500"
       >Book with confidence</h1>
       <div class="w-full mb-4">
         <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
@@ -45,7 +45,7 @@
           <p class="text-black-600 mb-5">Barbershop experience at the comfort of your house.</p>
           <p class="text-black-600 mb-5">Licensed Barbers.</p>
           <p class="text-black-600 mb-5">Two-step interview process.</p>
-          <p class="text-black-600 mb-5">Friends and Family referral</p>
+          <p class="text-black-600 mb-5">Friends and Family referral.</p>
         </div>
         <div class="w-full sm:w-1/2 p-6">
           <img class="w-full md:w-5/5 z-50 shadow" src="~/assets/barber_showcase.png" />
