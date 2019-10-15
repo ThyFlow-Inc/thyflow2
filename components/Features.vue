@@ -3,7 +3,7 @@
   <section class="bg-white border-b py-8">
     <div class="container max-w-7xl mx-auto m-8">
       <h1
-        class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
+        class="w-full my-2 text-5xl font-bold leading-tight text-center text-orange"
       >Book with confidence</h1>
       <div class="w-full mb-4">
         <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
@@ -12,18 +12,12 @@
       <div class="flex flex-wrap">
         <div class="w-5/6 sm:w-1/2 p-6">
           <h3 class="text-3xl text-black-800 font-bold leading-none mb-3">Book the best</h3>
-          <p class="text-black-600 mb-6 font-bold">
-            ThyFlow barbers have years of experiences.
-            <br />
-          </p>
-          <p class="text-black-600 mb-6 font-bold">
-            ThyFlow Master Barber verify every new barber upon joining the platform.
-            <br />
-          </p>
-          <p class="text-black-600 mb-6 font-bold">
-            World class customer support.
-            <br />
-          </p>
+          <p class="text-black-600 mb-5">ThyFlow barbers have years of experiences.</p>
+          <p class="text-black-600 mb-5">ThyFlow Barber provides exceptional customer service.</p>
+          <p
+            class="text-black-600 mb-5"
+          >ThyFlow Master Barber verify every new barber upon joining the platform.</p>
+          <p class="text-black-600 mb-5">World class customer support.</p>
         </div>
         <div class="w-full sm:w-1/2 p-6">
           <img class="w-full md:w-5/5 z-50 shadow" src="~/assets/barber_showcase.png" />
@@ -37,41 +31,21 @@
         <div class="w-full sm:w-1/2 p-6 mt-6">
           <div class="align-middle">
             <h3 class="text-3xl text-black-800 font-bold leading-none mb-3">Promise to customers</h3>
-            <p class="text-black-600 mb-5 font-bold">
-              Like your haircut or your money back.
-              <br />
-            </p>
-            <p class="text-black-600 mb-5 font-bold">
-              Experience barbershop from the comfort of your home.
-              <br />
-            </p>
-            <p class="text-black-600 mb-5 font-bold">
-              Kids get free haircut with any adult.
-              <br />
-            </p>
+            <p class="tex-black-600 mb-5">Expect barbershop experience from your home.</p>
+            <p class="text-black-600 mb-5">Like your haircut or your money back.</p>
+            <p class="text-black-600 mb-5">Experience barbershop from the comfort of your home.</p>
+            <p class="text-black-600 mb-5">Kids get free haircut with any adult.</p>
           </div>
         </div>
       </div>
 
       <div class="flex flex-wrap">
         <div class="w-5/6 sm:w-1/2 p-6">
-          <h3 class="text-3xl text-black-800 font-bold leading-none mb-3">ThyFLow Way</h3>
-          <p class="text-black-600 mb-6 font-bold">
-            Barbershop experience at the comfort of your house.
-            <br />
-          </p>
-          <p class="text-black-600 mb-6 font-bold">
-            Licensed Barbers.
-            <br />
-          </p>
-          <p class="text-black-600 mb-6 font-bold">
-            Two-step interview process.
-            <br />
-          </p>
-          <p class="text-black-600 mb-6 font-bold">
-            Friends and Family referral confirmed
-            <br />
-          </p>
+          <h3 class="text-3xl text-black-800 font-bold leading-none mb-3">Vetted Barbers</h3>
+          <p class="text-black-600 mb-5">Barbershop experience at the comfort of your house.</p>
+          <p class="text-black-600 mb-5">Licensed Barbers.</p>
+          <p class="text-black-600 mb-5">Two-step interview process.</p>
+          <p class="text-black-600 mb-5">Friends and Family referral</p>
         </div>
         <div class="w-full sm:w-1/2 p-6">
           <img class="w-full md:w-5/5 z-50 shadow" src="~/assets/barber_showcase.png" />
