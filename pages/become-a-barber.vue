@@ -100,7 +100,7 @@
         <a
           href="https://zfrmz.com/Zum2JBzGehXjwB9XNyUp"
           class="w-full my-2 text-5xl font-bold gradient leading-tight text-center text-white-200"
-        >Apply here</a>
+        >Fill the form here!</a>
       </div>
     </div>
     <Footer />
