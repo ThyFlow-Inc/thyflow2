@@ -27,7 +27,7 @@
         </div>
       </div>
     </section>
-    <Customer />
+    <BarberProfile />
     <div class="gradient">
       <svg
         class="wave-top"
@@ -86,13 +86,13 @@
 
 <script>
 import Navbar from "~/components/Navbar.vue";
-import Customer from "~/components/Customer.vue";
+import BarberProfile from "~/components/BarberProfile.vue";
 import Footer from "~/components/Footer.vue";
 
 export default {
   components: {
     Navbar,
-    Customer,
+    BarberProfile,
     Footer
   }
 };
