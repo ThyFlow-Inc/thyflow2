@@ -92,7 +92,7 @@
               <nuxt-link
                 to="/suggest"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >Suggest City</nuxt-link>
+              >ThyFlow Cities</nuxt-link>
             </li>
           </ul>
         </div>
