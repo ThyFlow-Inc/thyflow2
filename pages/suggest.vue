@@ -7,10 +7,12 @@
           class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
         >ThyFlow Cities</h1>
 
-        <div class="mb-4 text-2xl font-bold text-center">ThyFlow Cities</div>
+        <div
+          class="mb-4 text-3xl font-bold text-center xl:text-4xl"
+        >Below are the Cities we are launching in</div>
+        <h3 class="leading-tight font-bold px-6 text-gray-900">San Francisco Bay Area</h3>
         <p class="text-center">
           Add a list of city we are launching in
-          San Francisco Bay Area
           Santa Clara, San Jose, Mountain View, Palo Alto, Sunnyvale, Redwood City, San Mateo, Morgan Hill and Gilroy. .
         </p>
       </div>
