@@ -10,11 +10,23 @@
         <div
           class="mb-4 text-3xl font-bold text-center xl:text-4xl"
         >Below are the Cities we are launching in</div>
+        <div class="text-center pb-8">
+          <h2 class="uppercase text pb-8">
+            <span class="pb-2 border-b-2">San Francisco Bay Area</span>
+          </h2>
+        </div>
         <h3 class="leading-tight font-bold px-6 text-gray-900">San Francisco Bay Area</h3>
-        <p class="text-center">
-          Add a list of city we are launching in
-          Santa Clara, San Jose, Mountain View, Palo Alto, Sunnyvale, Redwood City, San Mateo, Morgan Hill and Gilroy. .
-        </p>
+        <p>Add a list of city we are launching in</p>
+        <ul class="list-outside">
+          <li>Santa Clara</li>
+          <li>San Jose</li>
+          <li>Mountain View</li>
+          <li>Sunnyvale</li>
+          <li>Palo Alto</li>
+          <li>Redwood City</li>
+          <li>San Mateo</li>
+          <li>Morgan Hill</li>
+        </ul>
       </div>
       <section class="bg-white border-b py-8">
         <div class="container mx-auto flex flex-wrap pt-4 pb-12">
