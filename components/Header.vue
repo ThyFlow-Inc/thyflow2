@@ -5,16 +5,9 @@
       class="heading-primary w-full my-2 text-6xl font-bold leading-tight text-center tracking-widest text-box"
     >ThyFLow</h1>
     <vue-typer
-      class="w-full my-3 text-3xl font-bold leading-tight text-center sub-header"
+      class="w-full my-3 text-3xl font-bold leading-tight text-center sub-header text-orange"
       :text="Yusadolat"
     ></vue-typer>
-
-    <h1 class="w-full my-3 text-3xl font-bold leading-tight text-center sub-header">
-      <span class="text_1 text-orange-500">Mobile Barbers</span>
-      <span class="text_2 text-orange-500">Local Barbers</span>
-      <span class="text_3">Handpicked Barbers</span>
-    </h1>
-
     <a
       class="header-button bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-full"
       href="https://www.thyflow.co"
@@ -44,6 +37,16 @@ body {
   font-weight: 400;
   font-size: 16px;
   color: #777;
+}
+.vue-typer {
+  /* Styles for the vue-typer container
+     e.g. font-family, font-size  */
+  color: orange;
+}
+.custom.char {
+  /* Styles for each character
+       e.g. color, background-color */
+  color: orange;
 }
 
 .header {
@@ -79,6 +82,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  color: orange !important;
 }
 .header-button {
   position: absolute;
@@ -105,119 +109,12 @@ body {
   letter-spacing: 3px;
   animation: moveInRight 3s;
 }
-
-@keyframes moveInLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-100%);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
+.vue-typer,
+.typed {
+  background-color: transparent;
 }
-
-@keyframes moveInRight {
-  0% {
-    opacity: 0;
-    transform: translateX(100px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateX(-10px);
-  }
-}
-.btn:link,
-.btn:visited {
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 15px 40px;
-}
-.btn-white {
-  background-color: #fff;
-  color: #777;
-  border-radius: 20px;
-}
-
-.text_1 {
-  animation: text1;
-}
-
-.text_2 {
-  animation: text2;
-}
-.text_3 {
-  animation: text3;
-}
-.text_1,
-.text_2,
-.text_3 {
-  overflow: hidden;
-  white-space: nowrap;
-  display: inline-block;
-  position: relative;
-  animation-duration: 15s;
-  animation-timing-function: steps(25, end);
-  animation-iteration-count: infinite;
-}
-
-.text_1::after,
-.text_2::after,
-.text_3::after {
-  content: '|';
-  position: absolute;
-  right: 0;
-  animation: caret infinite;
-  animation-duration: 1s;
-  animation-timing-function: steps(1, end);
-}
-
-@keyframes text3 {
-  0%,
-  50%,
-  100% {
-    width: 0;
-  }
-
-  130% {
-    width: 10em;
-  }
-}
-
-@keyframes text2 {
-  0%,
-  50%,
-  100% {
-    width: 0;
-  }
-
-  60%,
-  80% {
-    width: 9em;
-  }
-}
-
-@keyframes text1 {
-  0%,
-  50%,
-  100% {
-    width: 0;
-  }
-  0%,
-  40% {
-    width: 8em;
-  }
-}
-
-@keyframes caret {
-  0%,
-  100% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
+.selected[data-v-302772ec] {
+  color: #000;
+  background-color: #accef7;
 }
 </style>
