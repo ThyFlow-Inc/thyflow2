@@ -4,6 +4,11 @@
     <h1
       class="heading-primary w-full my-2 text-6xl font-bold leading-tight text-center tracking-widest text-box"
     >ThyFLow</h1>
+    <vue-typer
+      class="w-full my-3 text-3xl font-bold leading-tight text-center sub-header"
+      :text="["Arya Stark","Jon Snow","Daenerys Targaryen","Melisandre","Tyrion Lannister"]"
+    ></vue-typer>
+
     <h1 class="w-full my-3 text-3xl font-bold leading-tight text-center sub-header">
       <span class="text_1 text-orange-500">Mobile Barbers</span>
       <span class="text_2 text-orange-500">Local Barbers</span>
@@ -35,7 +40,7 @@ body {
       rgba(88, 201, 236, 0.801),
       rgba(28, 58, 228, 0.603)
     ),
-    url("~assets/hero.png");
+    url('~assets/hero.png');
   background-size: cover;
   background-position: top;
   position: relative;
@@ -148,7 +153,7 @@ body {
 .text_1::after,
 .text_2::after,
 .text_3::after {
-  content: "|";
+  content: '|';
   position: absolute;
   right: 0;
   animation: caret infinite;
