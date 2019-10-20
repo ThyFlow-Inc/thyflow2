@@ -15,9 +15,9 @@
             <span class="pb-2 border-b-2">San Francisco Bay Area</span>
           </h2>
         </div>
-        <h3 class="leading-tight font-bold px-6 text-gray-900">San Francisco Bay Area</h3>
-        <p>Add a list of city we are launching in</p>
-        <ul class="list-outside">
+
+        <p class="text-center">Add a list of city we are launching in</p>
+        <ul class="list-outside text-center">
           <li>Santa Clara</li>
           <li>San Jose</li>
           <li>Mountain View</li>
@@ -28,13 +28,11 @@
           <li>Morgan Hill</li>
         </ul>
       </div>
-      <section class="bg-white border-b py-8">
+      <section class="bg-white border-b">
         <div class="container mx-auto flex flex-wrap pt-4 pb-12">
           <div class="w-full mb-4 text-center">
             <h2 class="text-orange-500 font-bold text-2xl">Add Suggest your city</h2>
             <a href="https://forms.zoho.com/thyflow/form/SuggestYourCitytoThyFlow">Fill this form</a>
-
-            <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
           </div>
         </div>
       </section>
