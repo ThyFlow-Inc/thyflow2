@@ -38,10 +38,17 @@ body {
   font-size: 16px;
   color: #777;
 }
-
-span {
-  color: orange !important;
+.vue-typer {
+  /* Styles for the vue-typer container
+     e.g. font-family, font-size  */
+  color: orange;
 }
+.custom.char {
+  /* Styles for each character
+       e.g. color, background-color */
+  color: orange;
+}
+
 .header {
   height: 80vh;
   background-image: linear-gradient(
@@ -75,6 +82,7 @@ span {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  color: orange !important;
 }
 .header-button {
   position: absolute;
@@ -101,7 +109,12 @@ span {
   letter-spacing: 3px;
   animation: moveInRight 3s;
 }
-.vue-typer .custom.char {
-  color: #d4d4bd;
+.vue-typer,
+.typed {
+  background-color: transparent;
+}
+.selected[data-v-302772ec] {
+  color: #000;
+  background-color: #accef7;
 }
 </style>

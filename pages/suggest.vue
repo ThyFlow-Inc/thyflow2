@@ -10,7 +10,7 @@
         <div
           class="mb-4 text-3xl font-bold text-center xl:text-4xl"
         >Below are the Cities we are launching in</div>
-        <div class="text-center pb-8">
+        <div class="text-center pb-8 xl:text-center">
           <h2 class="uppercase text pb-8">
             <span class="pb-2 border-b-2">San Francisco Bay Area</span>
           </h2>
@@ -30,7 +30,10 @@
       </div>
       <section class="bg-white border-b py-8">
         <div class="container mx-auto flex flex-wrap pt-4 pb-12">
-          <div class="w-full mb-4">
+          <div class="w-full mb-4 text-center">
+            <h2 class="text-orange-500 font-bold text-2xl">Add Suggest your city</h2>
+            <a href="https://forms.zoho.com/thyflow/form/SuggestYourCitytoThyFlow">Fill this form</a>
+
             <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
           </div>
         </div>
@@ -41,8 +44,8 @@
 </template>
 
 <script>
-import Navbar from "~/components/Navbar.vue";
-import Footer from "~/components/Footer.vue";
+import Navbar from '~/components/Navbar.vue';
+import Footer from '~/components/Footer.vue';
 export default {
   components: {
     Navbar,
