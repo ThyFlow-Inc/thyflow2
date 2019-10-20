@@ -6,7 +6,7 @@
     >ThyFLow</h1>
     <vue-typer
       class="w-full my-3 text-3xl font-bold leading-tight text-center sub-header"
-      :text="["Arya Stark","Jon Snow","Daenerys Targaryen","Melisandre","Tyrion Lannister"]"
+      :text="Yusadolat"
     ></vue-typer>
 
     <h1 class="w-full my-3 text-3xl font-bold leading-tight text-center sub-header">
@@ -23,7 +23,20 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      Yusadolat: [
+        'Mobile Barbers',
+        'Local Barbers',
+        'Handpicked Barbers',
+        'Haircut at home',
+        'Your Private Barber',
+        'Barbershop Experience at home'
+      ]
+    };
+  }
+};
 </script>
 
 <style lang="css" scoped>
