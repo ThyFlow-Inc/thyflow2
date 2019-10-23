@@ -42,7 +42,7 @@
             <div class="w-full font-bold text-xl text-gray-800 px-6 text-center">David Trojan.</div>
             <p
               class="text-gray-800 text-base px-6 mb-5 text-center"
-            >“If you're looking for trusted platform for barbers, ThyFlow is your best bet.”</p>
+            >“If you're looking for a trusted platform for barbers, ThyFlow is your best bet.”</p>
           </a>
         </div>
         <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6"></div>
