@@ -42,7 +42,7 @@
             <div class="w-full font-bold text-xl text-gray-800 px-6 text-center">David Trojan.</div>
             <p
               class="text-gray-800 text-base px-6 mb-5 text-center"
-            >If upu're looking for trusted platform for barbers, ThyFlow is your best bet.</p>
+            >If you're looking for trusted platform for barbers, ThyFlow is your best bet.</p>
           </a>
         </div>
         <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6"></div>
@@ -56,7 +56,7 @@
             <div class="w-full font-bold text-xl text-gray-800 px-6 text-center">Alex Smith</div>
             <p
               class="text-gray-800 text-base px-6 mb-5 text-center"
-            >ThyFLow is a great platform to find awesome local barbers and we completely enjoy their services. 100% satisfied.</p>
+            >"ThyFLow is a great platform to find awesome local barbers and we completely enjoy their services. 100% satisfied."</p>
           </a>
         </div>
         <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6"></div>
