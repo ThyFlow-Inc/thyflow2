@@ -16,7 +16,7 @@
           </h2>
         </div>
 
-        <p class="text-center">Add a list of city we are launching in</p>
+        <p class="text-center">List of city we are launching in</p>
         <ul class="list-outside text-center">
           <li>Santa Clara</li>
           <li>San Jose</li>
@@ -31,7 +31,7 @@
       <section class="bg-white border-b">
         <div class="container mx-auto flex flex-wrap pt-4 pb-12">
           <div class="w-full mb-4 text-center">
-            <h2 class="text-orange-500 font-bold text-2xl">Add Suggest your city</h2>
+            <h2 class="text-orange-500 font-bold text-2xl">Suggest your city</h2>
             <a href="https://forms.zoho.com/thyflow/form/SuggestYourCitytoThyFlow">Fill this form</a>
           </div>
         </div>
