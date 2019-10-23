@@ -52,7 +52,7 @@
             <div class="w-full font-bold text-xl text-gray-800 px-6">Appointment</div>
             <p
               class="text-gray-800 text-base px-6 mb-5"
-            >Once appointment is confirmed, track barber till arrival.</p>
+            >Once the appointment is confirmed, track the barber till arrival.</p>
           </a>
         </div>
       </div>
