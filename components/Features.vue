@@ -42,6 +42,7 @@
       <div class="flex flex-wrap">
         <div class="w-5/6 sm:w-1/2 p-6">
           <h3 class="text-3xl text-black-800 font-bold leading-none mb-3">Vetted Barbers</h3>
+          <p class="text-black-600 mb-5">Barbers Background checked.</p>
           <p class="text-black-600 mb-5">Licensed Barbers.</p>
           <p class="text-black-600 mb-5">Two-step interview process.</p>
           <p class="text-black-600 mb-5">Friends and Family referral.</p>
