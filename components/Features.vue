@@ -12,12 +12,12 @@
       <div class="flex flex-wrap">
         <div class="w-5/6 sm:w-1/2 p-6">
           <h3 class="text-3xl text-black-800 font-bold leading-none mb-3">Book the best</h3>
-          <p class="text-black-600 mb-5">ThyFlow barbers have years of experiences.</p>
+          <p class="text-black-600 mb-5">ThyFlow barbers have years of experience.</p>
           <p class="text-black-600 mb-5">ThyFlow Barber provides exceptional customer service.</p>
           <p
             class="text-black-600 mb-5"
           >ThyFlow Master Barber verify every new barber upon joining the platform.</p>
-          <p class="text-black-600 mb-5">World class customer support.</p>
+          <p class="text-black-600 mb-5">World-class customer support.</p>
         </div>
         <div class="w-full sm:w-1/2 p-6">
           <img class="w-full md:w-5/5 z-50 shadow" src="~/assets/barber_showcase.png" />
