@@ -30,8 +30,8 @@
       <div class="pb-16">
         <div class="mb-4 text-2xl font-bold text-center">Become a Mobile Barber</div>
         <p class="text-center">
-          If you are looking for a flexible way to earn great income doing what you enjoy, Join ThyFlow Barber Team. THYFLOW - Is an alternative way for men to get a haircut at home.
-          ThyFlow, offer customers Barbershop experience at home or wherever they at. ThyFlow Barbers work within their neighborhood to drive to customers home to provide a haircut service.
+          If you are looking for a flexible way to earn a great income doing what you enjoy, Join ThyFlow Barber Team. THYFLOW - This is an alternative way for men to get a haircut at home. ThyFlow, offer customers Barbershop experience at home or wherever they at.
+          ThyFlow Barbers work within their neighborhood to drive to customer's homes to provide a haircut service.
         </p>
       </div>
       <section class="bg-white border-b py-8">
@@ -108,8 +108,8 @@
 </template>
 
 <script>
-import Navbar from "~/components/Navbar.vue";
-import Footer from "~/components/Footer.vue";
+import Navbar from '~/components/Navbar.vue';
+import Footer from '~/components/Footer.vue';
 export default {
   components: {
     Navbar,
