@@ -79,11 +79,7 @@
             <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
               <a href="#" class="flex flex-wrap no-underline hover:no-underline">
                 <div class="w-full font-bold text-xl text-gray-800 px-6">We Provide</div>
-                <div class="text-gray-800 mb-5 px-5">
-                  Yearly Training.
-                  <br />
-                </div>
-
+                <div class="text-gray-800 mb-5 px-5">Yearly Training.</div>
                 <div class="text-gray-800 mb-5">Bag for barber tools.</div>
                 <p class="text-gray-800 mb-5">Barber chair for haircuts.</p>
                 <p class="text-gray-800 mb-5">In app support.</p>

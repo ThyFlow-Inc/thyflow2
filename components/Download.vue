@@ -22,7 +22,7 @@
 
     <!--Right Col-->
     <div class="w-full xl:w-3/5 py-6 overflow-y-hidden">
-      <img class="w-5/6 mx-auto lg:mr-0 slide-in-bottom" src="~/assets/devices.svg" />
+      <img class="w-5/6 mx-auto lg:mr-0 slide-in-bottom" src="~/assets/devices.png" />
     </div>
   </div>
 </template>
