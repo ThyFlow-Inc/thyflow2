@@ -11,6 +11,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "front-matter-markdown": "^0.4.3",
+    "frontmatter-markdown-loader": "^2.3.0",
     "nuxt": "^2.0.0",
     "vue-typer": "^1.2.0"
   },
