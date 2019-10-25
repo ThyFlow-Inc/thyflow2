@@ -33,7 +33,7 @@
             <h3 class="text-3xl text-black-800 font-bold leading-none mb-3">Promise to customers</h3>
             <p class="tex-black-600 mb-5">Expect barbershop experience from your home.</p>
             <p class="text-black-600 mb-5">Like your haircut or your money back.</p>
-            <p class="text-black-600 mb-5">Kids get a free haircut with any adult.</p>
+            <p class="text-black-600 mb-5">Kids get a free haircut with any adult haircut.</p>
           </div>
         </div>
       </div>
