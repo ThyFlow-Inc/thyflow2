@@ -1,3 +1,5 @@
+import blogs from './content/blogs.json'
+
 
 export default {
   mode: 'universal',
@@ -44,6 +46,10 @@ export default {
   */
   modules: [
   ],
+  generate: {
+    routes: [].concat(blogs.map(blog => `/blog/${blog.slug}`))
+  },
+
   /*
   ** Build configuration
   */

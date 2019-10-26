@@ -8,7 +8,7 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "node content/index.js && nuxt generate"
   },
   "dependencies": {
     "front-matter-markdown": "^0.4.3",
