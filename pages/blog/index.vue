@@ -1,5 +1,7 @@
 <template>
-  <div></div>
+  <section>
+    <PostCard v-for="(blog, index) in blogList" :key="index" :post-info="blog" />
+  </section>
 </template>
 
 <script>
