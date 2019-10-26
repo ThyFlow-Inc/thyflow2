@@ -1,3 +1,5 @@
+import blogs from './content/blogs.json'
+
 
 export default {
   mode: 'universal',
@@ -44,6 +46,10 @@ export default {
   */
   modules: [
   ],
+  generate: {
+    routes: [].concat(blogs.map(blog => `/blog/${blog.slug}`))
+  },
+
   /*
   ** Build configuration
   */
@@ -52,6 +58,13 @@ export default {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
+      config.module.rules.push({
+        test: /\.md$/,
+        loader: 'frontmatter-markdown-loader',
+        options: {
+          vue: true
+        }
+      })
     }
   }
 }
