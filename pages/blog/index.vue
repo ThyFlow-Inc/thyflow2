@@ -4,17 +4,19 @@
     <section>
       <PostCard v-for="(blog, index) in blogList" :key="index" :post-info="blog" />
     </section>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Navbar from '~/components/Navbar.vue';
-im;
+import Footer from '~/components/Footer.vue';
 import blogs from '~/content/blogs.json';
 
 export default {
   components: {
-    Navbar
+    Navbar,
+    Footer
   },
   async asyncData({ app }) {
     async function awaitImport(blog) {
