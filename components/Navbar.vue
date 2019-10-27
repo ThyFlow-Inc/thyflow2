@@ -31,6 +31,11 @@
             class="block py-2 px-4 lg:invisible text-orange sm:inline-block font-bolder text-lg no-underline mt-4"
             to="/become-a-barber"
           >Become a barber</nuxt-link>
+          <div class="text-sm sm:flex-grow">
+          <nuxt-link
+            class="block py-2 px-4 lg:invisible text-orange sm:inline-block font-bolder text-lg no-underline mt-4"
+            to="/blog"
+          >Blog</nuxt-link>
           <nuxt-link
             class="block py-2 px-4 lg:invisible text-white sm:inline-block font-bolder text-lg no-underline mt-4"
             to="/about"
