@@ -1,10 +1,6 @@
 <template>
   <!-----------------------How it works---------->
   <section class="bg-white border-b py-8">
-    <a
-      class="fixed bg-blue-600 btn text-white-400 left-0 rounded py-2 px-4"
-      href="https://www.thyflow.co"
-    >Book a barber</a>
     <a class="container mx-auto flex flex-wrap pt-4 pb-12">
       <h1
         class="w-full my-2 text-4xl font-bold leading-tight text-center text-orange-500"
