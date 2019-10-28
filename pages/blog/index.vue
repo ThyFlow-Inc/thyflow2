@@ -2,7 +2,7 @@
   <div>
     <Navbar />
     <section>
-      <PostCard v-for="(blog, index) in blogList" :key="index" :post-info="blog" />
+      <div v-for="(blog, index) in blogList" :key="index" :post-info="blog" />
     </section>
     <Footer />
   </div>
