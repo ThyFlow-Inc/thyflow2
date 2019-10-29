@@ -18,24 +18,10 @@ export default {
     Navbar,
     Footer
   },
-  async asyncData({ app }) {
-    async function awaitImport(blog) {
-      const wholeMD = await import(`~/content/blog/${blog.slug}.md`);
-      return {
-        attributes: wholeMD.attributes,
-        link: blog.slug
-      };
+  computed: {
+    blogPosts() {
+      return this.$store.state.blogPosts;
     }
-
-    const blogList = await Promise.all(
-      blogs.map(blog => awaitImport(blog))
-    ).then(res => {
-      return {
-        blogList: res
-      };
-    });
-
-    return blogList;
   }
 };
 </script>
