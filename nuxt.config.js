@@ -31,8 +31,7 @@ export default {
   */
   plugins: [
     { src: '~/plugins/VueTyper.js', ssr: false },
-    { src: '~plugins/ga.js', ssr: false },
-
+    { src: '~plugins/ga.js', ssr: false }
 
   ],
   /*
