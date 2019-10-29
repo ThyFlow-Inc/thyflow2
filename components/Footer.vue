@@ -8,7 +8,7 @@
             class="text-orange-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
             to="/"
           >
-            <img class="w-48 fill-current" src="~/assets/big_logo.png" alt="number-one" />
+            <img class="w-48 fill-current" src="~/assets/big_logo.png" alt="big/_logo" />
           </nuxt-link>
           <!--Zoho Campaigns Web-Optin Form Starts Here-->
 
