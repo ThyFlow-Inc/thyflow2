@@ -3,6 +3,7 @@
     <Navbar />
     <Header />
     <HowItWorks />
+
     <Features />
     <Customer />
     <Download />
@@ -12,14 +13,14 @@
 </template>
 
 <script>
-import Navbar from "~/components/Navbar.vue";
-import Header from "~/components/Header.vue";
-import HowItWorks from "~/components/HowItWorks.vue";
-import Features from "~/components/Features.vue";
-import Customer from "~/components/Customer.vue";
-import Download from "~/components/Download.vue";
-import ApplyBarber from "~/components/ApplyBarber.vue";
-import Footer from "~/components/Footer.vue";
+import Navbar from '~/components/Navbar.vue';
+import Header from '~/components/Header.vue';
+import HowItWorks from '~/components/HowItWorks.vue';
+import Features from '~/components/Features.vue';
+import Customer from '~/components/Customer.vue';
+import Download from '~/components/Download.vue';
+import ApplyBarber from '~/components/ApplyBarber.vue';
+import Footer from '~/components/Footer.vue';
 export default {
   components: {
     Navbar,
