@@ -22,6 +22,13 @@ import Download from '~/components/Download.vue';
 import ApplyBarber from '~/components/ApplyBarber.vue';
 import Footer from '~/components/Footer.vue';
 export default {
+  head() {
+    return {
+      script: [
+        { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }
+      ]
+    };
+  },
   components: {
     Navbar,
     Header,
