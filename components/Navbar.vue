@@ -32,6 +32,10 @@
             to="/become-a-barber"
           >Become a barber</nuxt-link>
           <nuxt-link
+            class="block py-2 px-4 lg:invisible text-orange sm:inline-block font-bolder text-lg no-underline mt-4"
+            to="/blog"
+          >Blog</nuxt-link>
+          <nuxt-link
             class="block py-2 px-4 lg:invisible text-white sm:inline-block font-bolder text-lg no-underline mt-4"
             to="/about"
           >About us</nuxt-link>
@@ -48,6 +52,12 @@
               class="inline-block py-2 px-4 text-white font-bold no-underline"
               to="/become-a-barber"
             >Become a barber</nuxt-link>
+          </li>
+          <li class="mr-3">
+            <nuxt-link
+              class="inline-block py-2 px-4 text-white font-bold no-underline"
+              to="/blog"
+            >Blog</nuxt-link>
           </li>
           <li class="mr-3">
             <nuxt-link

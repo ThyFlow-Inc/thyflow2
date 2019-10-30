@@ -1,3 +1,5 @@
+import blogs from './content/blogs.json'
+
 
 export default {
   mode: 'universal',
@@ -42,8 +44,20 @@ export default {
   /*
   ** Nuxt.js modules
   */
-  modules: [
-  ],
+  modules: ['@nuxtjs/markdownit'],
+
+  generate: {
+    routes: function () {
+      const fs = require('fs');
+      return fs.readdirSync('./assets/content/blog').map(file => {
+        return {
+          route: `/blog/${file.slice(2, -5)}`, // Remove the .json from the end of the filename
+          payload: require(`./assets/content/blog/${file}`),
+        };
+      });
+    },
+  },
+
   /*
   ** Build configuration
   */
@@ -52,6 +66,13 @@ export default {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
+      config.module.rules.push({
+        test: /\.md$/,
+        loader: 'frontmatter-markdown-loader',
+        options: {
+          vue: true
+        }
+      })
     }
   }
 }
