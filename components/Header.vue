@@ -2,7 +2,7 @@
   <header class="header">
     <div class="logo-box"></div>
     <h1
-      class="t-color heading-primary w-full my-2 text-6xl font-bold leading-tight text-center tracking-widest text-box "
+      class="t-color heading-primary w-full my-2 text-6xl font-bold leading-tight text-center tracking-widest text-box"
     >ThyFLow</h1>
     <vue-typer
       class="t-color w-full my-3 text-3xl font-bold leading-tight text-center sub-header text-orange"
@@ -10,7 +10,7 @@
     ></vue-typer>
     <a
       class="header-button bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-full"
-      href="https://www.thyflow.co"
+      href="https://forms.zoho.com/thyflow/form/SoftwareEvaluation"
     >Book a Mobile barber</a>
   </header>
 </template>
@@ -20,12 +20,12 @@ export default {
   data() {
     return {
       Yusadolat: [
-        'Mobile Barbers',
-        'Local Barbers',
-        'Handpicked Barbers',
-        'Haircut at home',
-        'Your Private Barber',
-        'Barbershop Experience at home'
+        "Mobile Barbers",
+        "Local Barbers",
+        "Handpicked Barbers",
+        "Haircut at home",
+        "Your Private Barber",
+        "Barbershop Experience at home"
       ]
     };
   }
@@ -38,7 +38,7 @@ body {
   font-size: 16px;
   color: #777;
 }
-.t-color{
+.t-color {
   color: orange !important;
 }
 .vue-typer {
@@ -59,7 +59,7 @@ body {
       rgba(88, 201, 236, 0.801),
       rgba(28, 58, 228, 0.603)
     ),
-    url('~assets/hero.png');
+    url("~assets/hero.png");
   background-size: cover;
   background-position: top;
   position: relative;
