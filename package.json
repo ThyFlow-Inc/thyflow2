@@ -1,0 +1,25 @@
+{
+  "name": "thyflow",
+  "version": "1.0.0",
+  "description": "ThyFlow Web - Verified Local barbers Provider",
+  "author": "Yusadolat",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "prismic-dom": "^2.1.0",
+    "prismic-javascript": "^2.1.1",
+    "prismic-vue": "git+https://github.com/prismicio/prismic-vue.git#nuxt",
+    "vue-typer": "^1.2.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.0.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^7.3.1"
+  }
+}
