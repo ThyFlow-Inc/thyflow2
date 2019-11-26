@@ -11,19 +11,19 @@
       </div>
     </header>
     <div class="container mx-auto px-8 lg:px-48">
-      <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">FAQ</h1>
+      <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-orange-800">FAQ</h1>
 
-      <div class="pb-16">
+      <div class="pb-8">
         <div class="mb-4 text-2xl font-bold">What if I do not like my cut?</div>
         <p>That has never happened, But we will take your request and refund your full payment.</p>
       </div>
-      <div class="pb-16">
+      <div class="pb-8">
         <div
           class="mb-4 text-2xl font-bold"
         >Can you accommodate groups or events? (Like a wedding for example)</div>
         <p>Yes, email our customer support with your inquiries, a member from our team will reach out to you.</p>
       </div>
-      <div class="pb-16">
+      <div class="pb-8">
         <div class="mb-4 text-2xl font-bold">How experienced are the barbers?</div>
         <p>ThyFlow Barbers have a minimum of 3+ years of experience cutting hair, Before joining the platform.</p>
       </div>
