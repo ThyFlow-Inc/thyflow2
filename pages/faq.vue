@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Navbar />
     <header class="pt-9 gradient">
       <div class="container px-1 py-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
         <div
@@ -62,9 +63,11 @@
 </template>
 
 <script>
+import Navbar from "~/components/Navbar.vue";
 import Footer from "~/components/Footer.vue";
 export default {
   components: {
+    Navbar,
     Footer
   }
 };

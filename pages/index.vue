@@ -8,7 +8,7 @@
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-20 my-0 py-0 rounded-t"></div>
           <p
-            class="w-full my-2 text-1xl text-center text-black-600 px-8 sm:align-middle md:align-middle"
+            class="w-full my-2 text-1xl text-center text-black-600 px-16 sm:align-middle md:align-middle"
           >
             At ThyFlow, We believe a great looking haircut gives you confident to achieve your goals. Having confidence in yourself will help you do anything you want in this life and be a leader among your friends. ThyFlow Mobile Barbers help you be more confident by providing a world class haircut service at the comfort of your home or wherever.
             ThyFlow service is convenient and reliable for anyone with a busy lifestyle. Only the top local barbers on the platform!
