@@ -7,7 +7,6 @@
           class="flex flex-col w-full md:w-5/5 justify-center items-center content-center md:text-center"
         >
           <h1 class="my-6 text-5xl font-bold leading-tight text-center text-blue-600">THYFLOW</h1>
-          <h3 class="my-4 text-4xl font-bold leading-tight text-center">FAQ</h3>
         </div>
       </div>
     </header>
