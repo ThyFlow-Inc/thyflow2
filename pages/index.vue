@@ -2,20 +2,7 @@
   <div class="gradient">
     <Navbar />
     <Header />
-    <section class="bg-white border-b py-8 story-section">
-      <a class="container mx-auto flex flex-wrap pt-4 pb-12">
-        <p class="w-full my-2 text-2xl font-bold text-center text-gray-800">Our Story</p>
-        <div class="w-full mb-4">
-          <div class="h-1 mx-auto gradient w-64 opacity-20 my-0 py-0 rounded-t"></div>
-          <p
-            class="w-full my-2 text-1xl text-center text-black-600 px-16 sm:align-middle md:align-middle"
-          >
-            At ThyFlow, We believe a great looking haircut gives you confident to achieve your goals. Having confidence in yourself will help you do anything you want in this life and be a leader among your friends. ThyFlow Mobile Barbers help you be more confident by providing a world class haircut service at the comfort of your home or wherever.
-            ThyFlow service is convenient and reliable for anyone with a busy lifestyle. Only the top local barbers on the platform!
-          </p>
-        </div>
-      </a>
-    </section>
+    <OurStory />
     <HowItWorks />
     <!------------First Book a barber--------------->
 
@@ -54,6 +41,7 @@ import HowItWorks from "~/components/HowItWorks.vue";
 import Features from "~/components/Features.vue";
 import Customer from "~/components/Customer.vue";
 import Download from "~/components/Download.vue";
+import OurStory from "~/components/OurStory.vue";
 import ApplyBarber from "~/components/ApplyBarber.vue";
 import Footer from "~/components/Footer.vue";
 
@@ -65,6 +53,7 @@ export default {
     Features,
     Customer,
     Download,
+    OurStory,
     ApplyBarber,
     Footer
   }
@@ -75,10 +64,7 @@ export default {
 .gradient {
   background: linear-gradient(90deg, #0a3ead 0%, #e38914 100%);
 }
-.story-section {
-  background-image: url("../assets/hero.png");
-  background-size: cover;
-}
+
 .slide-in-enter {
   opacity: 0;
   transform: scale(0.5);
