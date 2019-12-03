@@ -19,7 +19,7 @@
           <a href="#" class="flex flex-wrap no-underline hover:no-underline">
             <div class="w-full font-bold text-xl text-gray-800 px-6">Create an account</div>
             <p
-              class="text-gray-800 text-base px-6 mb-5"
+              class="text-blue-600 text-base px-6 mb-5"
             >Fill in basic info about yourself to create an account.</p>
           </a>
         </div>
@@ -33,7 +33,7 @@
           <a href="#" class="flex flex-wrap no-underline hover:no-underline">
             <div class="w-full font-bold text-xl text-gray-800 px-6">Download App</div>
             <p
-              class="text-gray-800 text-base px-6 mb-5"
+              class="text-blue-600 text-base px-6 mb-5"
             >Use our website or Download App to book an appointment.</p>
           </a>
         </div>
@@ -47,7 +47,7 @@
           <a href="#" class="flex flex-wrap no-underline hover:no-underline">
             <div class="w-full font-bold text-xl text-gray-800 px-6">Appointment</div>
             <p
-              class="text-gray-800 text-base px-6 mb-5"
+              class="text-blue-600 text-base px-6 mb-5"
             >Once the appointment is confirmed, track the barber till arrival.</p>
           </a>
         </div>
@@ -62,7 +62,7 @@
           <a href="#" class="flex flex-wrap no-underline hover:no-underline">
             <div class="w-full font-bold text-xl text-gray-800 px-6">Barber arrival</div>
             <p
-              class="text-gray-800 text-base px-6 mb-5"
+              class="text-blue-600 text-base px-6 mb-5"
             >ThyFlow barbers bring all state of the art tools for your haircut.</p>
           </a>
         </a>
