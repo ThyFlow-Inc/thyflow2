@@ -1,7 +1,7 @@
 <template>
   <div>
-    <section class="bg-white border-b py-8 story-section">
-      <a class="container mx-auto flex flex-wrap pt-4 pb-12">
+    <section class="bg-white border-b py-8 lg:px-16 px-8 story-section mt-8">
+      <a class="container mx-auto flex flex-wrap pt-4 rounded bg-white">
         <p class="w-full my-2 text-2xl font-bold text-center text-gray-800">Our Story</p>
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-20 my-0 py-0 rounded-t"></div>
