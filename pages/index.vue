@@ -2,7 +2,7 @@
   <div class="gradient">
     <Navbar />
     <Header />
-    <section class="bg-white border-b py-8">
+    <section class="bg-white border-b py-8 story-section">
       <a class="container mx-auto flex flex-wrap pt-4 pb-12">
         <p class="w-full my-2 text-2xl font-bold text-center text-gray-800">Our Story</p>
         <div class="w-full mb-4">
@@ -74,6 +74,10 @@ export default {
 <style lang="css" scoped>
 .gradient {
   background: linear-gradient(90deg, #0a3ead 0%, #e38914 100%);
+}
+.story-section {
+  background-image: url("../assets/hero.png");
+  background-size: cover;
 }
 .slide-in-enter {
   opacity: 0;
