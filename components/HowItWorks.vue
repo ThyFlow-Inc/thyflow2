@@ -17,9 +17,9 @@
           <img class="w-full object-cover" src="~/assets/to_do.png" alt="number-one" />
 
           <a href="#" class="flex flex-wrap no-underline hover:no-underline">
-            <div class="w-full font-bold text-xl text-gray-800 px-6">Create an account</div>
+            <div class="w-full font-bold text-xl text-orange-500 px-6">Create an account</div>
             <p
-              class="text-blue-600 text-base px-6 mb-5"
+              class="text-black-600 text-base px-6 mb-5"
             >Fill in basic info about yourself to create an account.</p>
           </a>
         </div>
@@ -33,7 +33,7 @@
           <a href="#" class="flex flex-wrap no-underline hover:no-underline">
             <div class="w-full font-bold text-xl text-gray-800 px-6">Download App</div>
             <p
-              class="text-blue-600 text-base px-6 mb-5"
+              class="text-black-600 text-base px-6 mb-5"
             >Use our website or Download App to book an appointment.</p>
           </a>
         </div>
