@@ -12,9 +12,9 @@
 
       <div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
         <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden text-center">
-          <img class="w-1/6 md:w-1/5 mx-auto" src="~/assets/number-one.png" alt="number-one" />
+          <img class="w-1/6 md:w-1/5 mx-auto sticker" src="~/assets/number-one.png" alt="number-one" />
 
-          <img class="w-full object-cover" src="~/assets/to_do.png" alt="number-one" />
+          <img class="w-full object-cover zoom" src="~/assets/to_do.png" alt="number-one" />
 
           <a href="#" class="flex flex-wrap no-underline hover:no-underline">
             <div class="w-full font-bold text-xl text-orange-500 px-6">Create an account</div>
@@ -27,8 +27,8 @@
 
       <div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
         <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden text-center">
-          <img class="w-1/6 md:w-1/5 mx-auto" src="~/assets/number-two.png" alt="number-two" />
-          <img class="w-full object-cover" src="~/assets/download.png" alt="download" />
+          <img class="w-1/6 md:w-1/5 mx-auto sticker" src="~/assets/number-two.png" alt="number-two" />
+          <img class="w-full object-cover zoom" src="~/assets/download.png" alt="download" />
 
           <a href="#" class="flex flex-wrap no-underline hover:no-underline">
             <div class="w-full font-bold text-xl text-orange-500 px-6">Download App</div>
@@ -41,8 +41,8 @@
 
       <div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
         <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden text-center">
-          <img class="w-1/6 md:w-1/5 mx-auto" src="~/assets/number-three.png" alt="number-three" />
-          <img class="w-full object-cover" src="~/assets/booking.png" alt="download" />
+          <img class="w-1/6 md:w-1/5 mx-auto sticker" src="~/assets/number-three.png" alt="number-three" />
+          <img class="w-full object-cover zoom" src="~/assets/booking.png" alt="download" />
 
           <a href="#" class="flex flex-wrap no-underline hover:no-underline">
             <div class="w-full font-bold text-xl text-orange-500 px-6">Appointment</div>
@@ -55,9 +55,9 @@
 
       <a class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
         <a class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden text-center">
-          <img class="w-1/6 md:w-1/5 mx-auto" src="~/assets/number-four.png" alt="number-three" />
+          <img class="w-1/6 md:w-1/5 mx-auto sticker" src="~/assets/number-four.png" alt="number-three" />
 
-          <img class="w-full object-cover" src="~/assets/barber.png" alt="barber" />
+          <img class="w-full object-cover zoom" src="~/assets/barber.png" alt="barber" />
 
           <a href="#" class="flex flex-wrap no-underline hover:no-underline">
             <div class="w-full font-bold text-xl text-orange-500 px-6">Barber arrival</div>
@@ -75,5 +75,23 @@
 export default {};
 </script>
 
-<style lang="scss" scoped>
+<style lang="css" scoped>
+.zoom:hover {
+  transform: scale(1.2);
+}
+
+.sticker {
+  animation: spin 10s linear infinite;
+  /*Set our animation play state to paused initially */
+  animation-play-state: paused; 
+}
+.sticker:hover {
+  /* Toggle our animation play state to running when we are hovering over our sticker */
+  animation-play-state: running;
+}
+
+
+@keyframes spin {
+  100% {transform: rotate(1turn); }
+}
 </style>
