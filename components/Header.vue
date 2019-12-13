@@ -10,7 +10,7 @@
     ></vue-typer>
     <a
       class="header-button bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-full"
-      href="https://forms.zoho.com/thyflow/form/SoftwareEvaluation"
+      href="https://forms.zoho.com/thyflow/form/GeneralInfoRequest"
     >Book a Mobile barber</a>
   </header>
 </template>
