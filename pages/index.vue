@@ -22,7 +22,7 @@
         <button
           class="mx-auto lg:mx-0 hover:underline gradient give-white font-bold rounded-full my-6 py-4 px-8 shadow-lg"
         >
-          <a href="https://forms.zoho.com/thyflow/form/SoftwareEvaluation">Book a Mobile barber!</a>
+          <a href="https://zfrmz.com/YwaCWiBx7wEJ3E7hNmZl">Book a Mobile barber!</a>
         </button>
       </div>
     </transition>
