@@ -1,5 +1,5 @@
 <template>
-  <!-----------------------How it works---------->
+  <!--------------------How it works---------->
   <section class="bg-white border-b py-8">
     <a class="container mx-auto flex flex-wrap pt-4 pb-12">
       <h1
@@ -12,7 +12,11 @@
 
       <div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
         <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden text-center">
-          <img class="w-1/6 md:w-1/5 mx-auto sticker" src="~/assets/number-one.png" alt="number-one" />
+          <img
+            class="w-1/6 md:w-1/5 mx-auto sticker"
+            src="~/assets/number-one.png"
+            alt="number-one"
+          />
 
           <img class="w-full object-cover zoom" src="~/assets/to_do.png" alt="number-one" />
 
@@ -27,7 +31,11 @@
 
       <div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
         <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden text-center">
-          <img class="w-1/6 md:w-1/5 mx-auto sticker" src="~/assets/number-two.png" alt="number-two" />
+          <img
+            class="w-1/6 md:w-1/5 mx-auto sticker"
+            src="~/assets/number-two.png"
+            alt="number-two"
+          />
           <img class="w-full object-cover zoom" src="~/assets/download.png" alt="download" />
 
           <a href="#" class="flex flex-wrap no-underline hover:no-underline">
@@ -41,7 +49,11 @@
 
       <div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
         <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden text-center">
-          <img class="w-1/6 md:w-1/5 mx-auto sticker" src="~/assets/number-three.png" alt="number-three" />
+          <img
+            class="w-1/6 md:w-1/5 mx-auto sticker"
+            src="~/assets/number-three.png"
+            alt="number-three"
+          />
           <img class="w-full object-cover zoom" src="~/assets/booking.png" alt="download" />
 
           <a href="#" class="flex flex-wrap no-underline hover:no-underline">
@@ -55,7 +67,11 @@
 
       <a class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
         <a class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden text-center">
-          <img class="w-1/6 md:w-1/5 mx-auto sticker" src="~/assets/number-four.png" alt="number-three" />
+          <img
+            class="w-1/6 md:w-1/5 mx-auto sticker"
+            src="~/assets/number-four.png"
+            alt="number-three"
+          />
 
           <img class="w-full object-cover zoom" src="~/assets/barber.png" alt="barber" />
 
@@ -83,15 +99,16 @@ export default {};
 .sticker {
   animation: spin 10s linear infinite;
   /*Set our animation play state to paused initially */
-  animation-play-state: paused; 
+  animation-play-state: paused;
 }
 .sticker:hover {
   /* Toggle our animation play state to running when we are hovering over our sticker */
   animation-play-state: running;
 }
 
-
 @keyframes spin {
-  100% {transform: rotate(1turn); }
+  100% {
+    transform: rotate(1turn);
+  }
 }
 </style>

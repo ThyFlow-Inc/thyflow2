@@ -52,7 +52,7 @@
           </ul>
         </div>
         <div class="w-full sm:w-1/2 p-6">
-          <img class="w-full md:w-5/5 z-50 shadow" src="~/assets/barber_showcase.png" />
+          <img class="w-full md:w-5/5 z-50 shadow zoom" src="~/assets/barber_showcase.png" />
         </div>
       </div>
     </div>
@@ -63,5 +63,8 @@
 export default {};
 </script>
 
-<style lang="scss" scoped>
+<style lang="css" scoped>
+.zoom:hover {
+  transform: scale(1.2);
+}
 </style>
