@@ -1,6 +1,6 @@
 <template>
   <!---------------------Features-------->
-  <section class="bg-white border-b py-8">
+  <section class="bg-white border-b py-12">
     <div class="container max-w-7xl mx-auto m-8">
       <h1
         class="w-full my-2 text-5xl font-bold leading-tight text-center text-black-600"
