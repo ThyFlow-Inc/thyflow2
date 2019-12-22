@@ -2,8 +2,10 @@
   <header class="header">
     <div class="logo-box"></div>
     <h1
-      class="t-color heading-primary w-full my-2 text-6xl font-bold leading-tight text-center tracking-widest text-box"
-    >ThyFLow</h1>
+      class="zoom t-color heading-primary w-full my-2 text-6xl font-bold leading-tight text-center tracking-widest text-box"
+    >
+      <span>ThyFLow</span>
+    </h1>
     <vue-typer
       class="t-color w-full my-3 text-3xl font-bold leading-tight text-center sub-header text-orange"
       :text="Yusadolat"

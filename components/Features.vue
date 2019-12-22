@@ -10,14 +10,16 @@
       </div>
       <div class="flex flex-wrap">
         <div class="w-5/6 sm:w-1/2 p-6">
-          <h3 class="text-3xl text-orange-500 font-bold leading-none mb-3">Book the best</h3>
+          <h3 class="text-3xl text-orange-500 font-bold leading-none mb-6">Book the best</h3>
           <ul class="list-disc px-4">
-            <li class="text-black-800 mb-5">ThyFlow barbers have years of experience.</li>
-            <li class="text-black-800 mb-5">ThyFlow Barber provides exceptional customer service.</li>
+            <li class="text-black-800 text-lg mb-5">ThyFlow barbers have years of experience.</li>
             <li
-              class="text-black-800 mb-5"
+              class="text-black-800 text-lg mb-5"
+            >ThyFlow Barber provides exceptional customer service.</li>
+            <li
+              class="text-black-800 text-lg mb-5"
             >ThyFlow Master Barber verify every new barber upon joining the platform.</li>
-            <li class="text-black-800 mb-5">World-class customer support.</li>
+            <li class="text-black-800 text-lg mb-5">World-class customer support.</li>
           </ul>
         </div>
         <div class="w-full sm:w-1/2 p-6">
@@ -31,11 +33,13 @@
         </div>
         <div class="w-full sm:w-1/2 p-6 mt-6">
           <div class="align-middle">
-            <h3 class="text-3xl text-orange-500 font-bold leading-none mb-3">Promise to customers</h3>
+            <h3 class="text-3xl text-orange-500 font-bold leading-none mb-6">Promise to customers</h3>
             <ul class="list-disc px-4">
-              <li class="text-black-800 mb-5">Expect barbershop experience from your home.</li>
-              <li class="text-black-800 mb-5">Like your haircut or your money back.</li>
-              <li class="text-black-800 mb-5">Kids get a free haircut with any adult haircut.</li>
+              <li class="text-black-800 text-lg mb-5">Expect barbershop experience from your home.</li>
+              <li class="text-black-800 text-lg mb-5">Like your haircut or your money back.</li>
+              <li
+                class="text-black-800 text-lg mb-5"
+              >Kids get a free haircut with any adult haircut.</li>
             </ul>
           </div>
         </div>
@@ -43,12 +47,12 @@
 
       <div class="flex flex-wrap">
         <div class="w-5/6 sm:w-1/2 p-6">
-          <h3 class="text-3xl text-orange-500 font-bold leading-none mb-3">Vetted Barbers</h3>
+          <h3 class="text-3xl text-orange-500 font-bold leading-none mb-6">Vetted Barbers</h3>
           <ul class="list-disc px-4">
-            <li class="text-black-800 mb-5">Barbers Background checked.</li>
-            <li class="text-black-800 mb-5">Licensed Barbers.</li>
-            <li class="text-black-800 mb-5">Two-step interview process.</li>
-            <li class="text-black-800 mb-5">Friends and Family referral.</li>
+            <li class="text-black-800 text-lg mb-5">Barbers Background checked.</li>
+            <li class="text-black-800 text-lg mb-5">Licensed Barbers.</li>
+            <li class="text-black-800 text-lg mb-5">Two-step interview process.</li>
+            <li class="text-black-800 text-lg mb-5">Friends and Family referral.</li>
           </ul>
         </div>
         <div class="w-full sm:w-1/2 p-6">
