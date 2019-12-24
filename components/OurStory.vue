@@ -24,7 +24,7 @@ export default {};
 
 <style lang="css" scoped>
 .story-section {
-  background-color: orange;
+  background-color: rgb(163, 108, 7);
   background-size: cover;
 }
 </style>
