@@ -7,8 +7,9 @@
           <p
             class="w-full my-2 lg:text-2xl text-center text-black-600 px-16 sm:align-middle md:align-middle"
           >
-           At <span class="text-orange-500 inline font-bold">ThyFlow</span>, We believe a great looking haircut gives you confident to achieve your goals. Having confidence in yourself will help you do anything you want in this life and be a leader among your friends. ThyFlow Mobile Barbers help you be more confident by providing a world class haircut service at the comfort of your home or wherever.
-            ThyFlow service is convenient and reliable for anyone with a busy lifestyle. Only the top local barbers on the platform!
+            At
+            <span class="text-orange-500 inline font-bold">ThyFlow</span>, We believe a great looking haircut gives you confident to achieve your goals. Having confidence in yourself will help you do anything you want in this life and be a leader among your friends. ThyFlow Mobile Barbers help you be more confident by providing a world class haircut service at the comfort of your home or wherever.
+            ThyFlow service is convenient and reliable for anyone with a busy lifestyle. Only the top local barbers on platform!
           </p>
         </div>
       </a>
