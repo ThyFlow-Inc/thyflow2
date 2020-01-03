@@ -34,9 +34,12 @@
         <div class="w-full sm:w-1/2 p-6 mt-6">
           <div class="align-middle">
             <h3 class="text-3xl text-orange-500 font-bold leading-none mb-6">Promise to customers</h3>
+            <h4 class="text-black-800 text-lg mb-5">Expect barbershop Experience from your home</h4>
             <ul class="list-disc px-4">
-              <li class="text-black-800 text-lg mb-5">Expect barbershop experience from your home.</li>
-              <li class="text-black-800 text-lg mb-5">Like your haircut or your money back.</li>
+              <li
+                class="text-black-800 text-lg mb-5"
+              >Our barbers carry their own tools for each haircut.</li>
+              <li class="text-black-800 text-lg mb-5">Barber tools are cleaned weekly.</li>
               <li
                 class="text-black-800 text-lg mb-5"
               >Kids get a free haircut with any adult haircut.</li>
