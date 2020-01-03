@@ -11,16 +11,38 @@
       <div class="flex flex-wrap">
         <div class="w-5/6 sm:w-1/2 p-6">
           <h3 class="text-3xl text-orange-500 font-bold leading-none mb-6">Book the best</h3>
-          <h4 class="text-lg text-black-800 mb-5">ThyFlow barbers have years of experience</h4>
+          <h4 class="text-lg text-black-800 mb-3">ThyFlow barbers have years of experience</h4>
           <ul class="list-disc px-4">
             <li
-              class="text-black-800 text-lg mb-5"
+              class="text-black-800 text-lg mb-3"
             >We only work with barber who take pride in their work.</li>
-            <li class="text-black-800 text-lg mb-5">We choose the best local barbers in every city.</li>
+            <li class="text-black-800 text-lg mb-3">We choose the best local barbers in every city.</li>
+          </ul>
+          <h4 class="text-lg text-black-800 mb-3">ThyFlow Barbers provides exceptional service</h4>
+          <ul class="list-disc px-4">
             <li
-              class="text-black-800 text-lg mb-5"
-            >ThyFlow Master Barber verify every new barber upon joining the platform.</li>
-            <li class="text-black-800 text-lg mb-5">World-class customer support.</li>
+              class="text-black-800 text-lg mb-3"
+            >ThyFlow Barbers care about the overall customer satisfaction.</li>
+            <li
+              class="text-black-800 text-lg mb-3"
+            >ThyFlow barbers are trained on ways to improve their service.</li>
+            <li
+              class="text-black-800 text-lg mb-3"
+            >ThyFlow Barbers use only professionals tools for the best haircut experience.</li>
+          </ul>
+          <h4
+            class="text-lg text-black-800 mb-3"
+          >ThyFlow Industry Proffesionals handpicked and verify new barbers</h4>
+          <ul class="list-disc px-4">
+            <li
+              class="text-black-800 text-lg mb-3"
+            >Our industry professionals also manger and train new barbers.</li>
+            <li
+              class="text-black-800 text-lg mb-3"
+            >Our industry professionals have seen every new barber cut hair live!</li>
+            <li
+              class="text-black-800 text-lg mb-3"
+            >ThyFlow Barbers use only professionals tools for the best haircut experience.</li>
           </ul>
         </div>
         <div class="w-full sm:w-1/2 p-6">
