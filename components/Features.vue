@@ -44,6 +44,7 @@
                 class="text-black-800 text-lg mb-5"
               >Kids get a free haircut with any adult haircut.</li>
             </ul>
+            <h4 class="text-black-800 text-lg mb-5">Like your haircut or your money back.</h4>
           </div>
         </div>
       </div>
