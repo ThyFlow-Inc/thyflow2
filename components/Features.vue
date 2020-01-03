@@ -11,11 +11,12 @@
       <div class="flex flex-wrap">
         <div class="w-5/6 sm:w-1/2 p-6">
           <h3 class="text-3xl text-orange-500 font-bold leading-none mb-6">Book the best</h3>
+          <h4 class="text-lg text-black-800 mb-5">ThyFlow barbers have years of experience</h4>
           <ul class="list-disc px-4">
-            <li class="text-black-800 text-lg mb-5">ThyFlow barbers have years of experience.</li>
             <li
               class="text-black-800 text-lg mb-5"
-            >ThyFlow Barber provides exceptional customer service.</li>
+            >We only work with barber who take pride in their work.</li>
+            <li class="text-black-800 text-lg mb-5">We choose the best local barbers in every city.</li>
             <li
               class="text-black-800 text-lg mb-5"
             >ThyFlow Master Barber verify every new barber upon joining the platform.</li>
