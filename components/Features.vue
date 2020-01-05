@@ -63,11 +63,14 @@
                 class="text-black-800 text-lg mb-5"
               >Our barbers carry their own tools for each haircut.</li>
               <li class="text-black-800 text-lg mb-5">Barber tools are cleaned weekly.</li>
-              <li
-                class="text-black-800 text-lg mb-5"
-              >Kids get a free haircut with any adult haircut.</li>
+              <li class="text-black-800 text-lg mb-5">Barbers carry a chair for every haircut.</li>
             </ul>
             <h4 class="text-black-800 text-lg mb-5">Like your haircut or your money back.</h4>
+            <ul class="list-disc px-4">
+              <li
+                class="text-black-800 text-lg mb-5"
+              >No questions asked to get your refund if needed.</li>
+            </ul>
           </div>
         </div>
       </div>
