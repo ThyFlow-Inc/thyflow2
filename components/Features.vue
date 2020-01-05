@@ -71,6 +71,15 @@
                 class="text-black-800 text-lg mb-5"
               >No questions asked to get your refund if needed.</li>
             </ul>
+            <h4 class="text-black-800 text-lg mb-5">Barbers are always on time.</h4>
+            <ul class="list-disc px-4">
+              <li
+                class="text-black-800 text-lg mb-5"
+              >Easily Keep track of your barber ETA in app till arrival.</li>
+              <li
+                class="text-black-800 text-lg mb-5"
+              >After your haircut easily pay and rate your barber in app.</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -78,11 +87,31 @@
       <div class="flex flex-wrap">
         <div class="w-5/6 sm:w-1/2 p-6">
           <h3 class="text-3xl text-orange-500 font-bold leading-none mb-6">Vetted Barbers</h3>
+          <h4 class="text-black-800 text-lg mb-5">Barbers Background checked</h4>
           <ul class="list-disc px-4">
-            <li class="text-black-800 text-lg mb-5">Barbers Background checked.</li>
-            <li class="text-black-800 text-lg mb-5">Licensed Barbers.</li>
-            <li class="text-black-800 text-lg mb-5">Two-step interview process.</li>
-            <li class="text-black-800 text-lg mb-5">Friends and Family referral.</li>
+            <li class="text-black-800 text-lg mb-5">ThyFlow barbers undergo yearly background check.</li>
+            <li class="text-black-800 text-lg mb-5">ThyFlow Barbers are safe and trustworthy.</li>
+          </ul>
+          <h4 class="text-black-800 text-lg mb-5">Licensed Barbers</h4>
+          <ul class="list-disc px-4">
+            <li
+              class="text-black-800 text-lg mb-5"
+            >Each barber has a licensed and has worked in a barbershop in the past.</li>
+            <li
+              class="text-black-800 text-lg mb-5"
+            >Barbers licensed are from top local barbering schools.</li>
+          </ul>
+          <h4 class="text-black-800 text-lg mb-5">Two Step Interview Process</h4>
+          <ul class="list-disc px-4">
+            <li
+              class="text-black-800 text-lg mb-5"
+            >Barbers are interviewed by two different mangers.</li>
+            <li
+              class="text-black-800 text-lg mb-5"
+            >Each barber is also interviewed by our industry professionals.</li>
+            <li
+              class="text-black-800 text-lg mb-5"
+            >Barbers are trained On ThyFlow way of customer service.</li>
           </ul>
         </div>
         <div class="w-full sm:w-1/2 p-6">
