@@ -12,7 +12,7 @@
         <div class="w-5/6 sm:w-1/2 p-6">
           <h3 class="text-3xl text-orange-500 font-bold leading-none mb-8">Book the best</h3>
           <h4
-            class="text-base text-black-800 mb-2 uppercase"
+            class="text-base text-black-800 mb-2 font-bold"
           >ThyFlow barbers have years of experience</h4>
           <ul class="list-disc px-4">
             <li
@@ -21,7 +21,7 @@
             <li class="text-black-800 text-sm mb-2">We choose the best local barbers in every city.</li>
           </ul>
           <h4
-            class="text-base text-black-800 mb-3 uppercase"
+            class="text-base text-black-800 mb-3 font-bold"
           >ThyFlow Barbers provides exceptional service</h4>
           <ul class="list-disc px-4">
             <li
@@ -35,7 +35,7 @@
             >ThyFlow Barbers use only professionals tools for the best haircut experience.</li>
           </ul>
           <h4
-            class="text-base text-black-800 mb-2 uppercase"
+            class="text-base text-black-800 mb-2 font-bold"
           >ThyFlow Industry Proffesionals handpicked and verify new barbers</h4>
           <ul class="list-disc px-4">
             <li
@@ -62,7 +62,7 @@
           <div class="align-middle">
             <h3 class="text-3xl text-orange-500 font-bold leading-none mb-8">Promise to customers</h3>
             <h4
-              class="text-black-800 text-base mb-2 uppercase"
+              class="text-black-800 text-base mb-2 font-bold"
             >Expect barbershop Experience from your home</h4>
             <ul class="list-disc px-4">
               <li
@@ -95,12 +95,12 @@
       <div class="flex flex-wrap">
         <div class="w-5/6 sm:w-1/2 p-6">
           <h3 class="text-3xl text-orange-500 font-bold leading-none mb-6">Vetted Barbers</h3>
-          <h4 class="text-black-800 text-base mb-2">Barbers Background checked</h4>
+          <h4 class="text-black-800 text-base font-bold mb-2">Barbers Background checked</h4>
           <ul class="list-disc px-4">
-            <li class="text-black-800 text-lg mb-5">ThyFlow barbers undergo yearly background check.</li>
-            <li class="text-black-800 text-lg mb-5">ThyFlow Barbers are safe and trustworthy.</li>
+            <li class="text-black-800 text-sm mb-2">ThyFlow barbers undergo yearly background check.</li>
+            <li class="text-black-800 text-sm mb-2">ThyFlow Barbers are safe and trustworthy.</li>
           </ul>
-          <h4 class="text-black-800 text-lg mb-5">Licensed Barbers</h4>
+          <h4 class="text-black-800 text-base font-bold mb-2">Licensed Barbers</h4>
           <ul class="list-disc px-4">
             <li
               class="text-black-800 text-lg mb-5"
