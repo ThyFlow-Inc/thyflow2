@@ -72,7 +72,7 @@
               <li class="text-black-800 text-sm mb-2">Barbers carry a chair for every haircut.</li>
             </ul>
             <h4
-              class="text-black-800 text-base mb-2 uppercase"
+              class="text-black-800 text-base mb-2 font-bold"
             >Like your haircut or your money back.</h4>
             <ul class="list-disc px-4">
               <li
@@ -103,22 +103,22 @@
           <h4 class="text-black-800 text-base font-bold mb-2">Licensed Barbers</h4>
           <ul class="list-disc px-4">
             <li
-              class="text-black-800 text-lg mb-5"
+              class="text-black-800 text-sm mb-2"
             >Each barber has a licensed and has worked in a barbershop in the past.</li>
             <li
-              class="text-black-800 text-lg mb-5"
+              class="text-black-800 text-sm mb-2"
             >Barbers licensed are from top local barbering schools.</li>
           </ul>
-          <h4 class="text-black-800 text-lg mb-5">Two Step Interview Process</h4>
+          <h4 class="text-black-800 text-sm mb-2 font-bold">Two Step Interview Process</h4>
           <ul class="list-disc px-4">
             <li
-              class="text-black-800 text-lg mb-5"
+              class="text-black-800 text-sm mb-2"
             >Barbers are interviewed by two different mangers.</li>
             <li
-              class="text-black-800 text-lg mb-5"
+              class="text-black-800 text-sm mb-2"
             >Each barber is also interviewed by our industry professionals.</li>
             <li
-              class="text-black-800 text-lg mb-5"
+              class="text-black-800 text-sm mb-2"
             >Barbers are trained On ThyFlow way of customer service.</li>
           </ul>
         </div>
