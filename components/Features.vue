@@ -66,24 +66,26 @@
             >Expect barbershop Experience from your home</h4>
             <ul class="list-disc px-4">
               <li
-                class="text-black-800 text-lg mb-5"
+                class="text-black-800 text-sm mb-2"
               >Our barbers carry their own tools for each haircut.</li>
-              <li class="text-black-800 text-lg mb-5">Barber tools are cleaned weekly.</li>
-              <li class="text-black-800 text-lg mb-5">Barbers carry a chair for every haircut.</li>
+              <li class="text-black-800 text-sm mb-2">Barber tools are cleaned weekly.</li>
+              <li class="text-black-800 text-sm mb-2">Barbers carry a chair for every haircut.</li>
             </ul>
-            <h4 class="text-black-800 text-lg mb-5">Like your haircut or your money back.</h4>
+            <h4
+              class="text-black-800 text-base mb-2 uppercase"
+            >Like your haircut or your money back.</h4>
             <ul class="list-disc px-4">
               <li
-                class="text-black-800 text-lg mb-5"
+                class="text-black-800 text-sm mb-2"
               >No questions asked to get your refund if needed.</li>
             </ul>
-            <h4 class="text-black-800 text-lg mb-5">Barbers are always on time.</h4>
+            <h4 class="text-black-800 text-base mb-2 font-bold">Barbers are always on time.</h4>
             <ul class="list-disc px-4">
               <li
-                class="text-black-800 text-lg mb-5"
+                class="text-black-800 text-sm mb-2"
               >Easily Keep track of your barber ETA in app till arrival.</li>
               <li
-                class="text-black-800 text-lg mb-5"
+                class="text-black-800 text-sm mb-2"
               >After your haircut easily pay and rate your barber in app.</li>
             </ul>
           </div>
@@ -93,7 +95,7 @@
       <div class="flex flex-wrap">
         <div class="w-5/6 sm:w-1/2 p-6">
           <h3 class="text-3xl text-orange-500 font-bold leading-none mb-6">Vetted Barbers</h3>
-          <h4 class="text-black-800 text-lg mb-5">Barbers Background checked</h4>
+          <h4 class="text-black-800 text-base mb-2">Barbers Background checked</h4>
           <ul class="list-disc px-4">
             <li class="text-black-800 text-lg mb-5">ThyFlow barbers undergo yearly background check.</li>
             <li class="text-black-800 text-lg mb-5">ThyFlow Barbers are safe and trustworthy.</li>
