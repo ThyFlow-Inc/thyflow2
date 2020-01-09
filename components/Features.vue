@@ -30,9 +30,6 @@
             <li
               class="text-black-800 text-sm mb-2"
             >ThyFlow barbers are trained on ways to improve their service.</li>
-            <li
-              class="text-black-800 text-sm mb-2"
-            >ThyFlow Barbers use only professionals tools for the best haircut experience.</li>
           </ul>
           <h4
             class="text-base text-black-800 mb-2 font-bold"

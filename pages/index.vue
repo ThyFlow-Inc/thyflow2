@@ -2,7 +2,7 @@
   <div class="gradient">
     <Navbar />
     <Header />
-    <OurStory />
+    <OurStoryHome />
     <HowItWorks />
     <!------------First Book a barber--------------->
 
@@ -41,7 +41,7 @@ import HowItWorks from "~/components/HowItWorks.vue";
 import Features from "~/components/Features.vue";
 import Customer from "~/components/Customer.vue";
 import Download from "~/components/Download.vue";
-import OurStory from "~/components/OurStory.vue";
+import OurStoryHome from "~/components/OurStoryHome.vue";
 import ApplyBarber from "~/components/ApplyBarber.vue";
 import Footer from "~/components/Footer.vue";
 
@@ -53,7 +53,7 @@ export default {
     Features,
     Customer,
     Download,
-    OurStory,
+    OurStoryHome,
     ApplyBarber,
     Footer
   }
