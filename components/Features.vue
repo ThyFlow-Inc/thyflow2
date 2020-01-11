@@ -46,14 +46,14 @@
             >ThyFlow Barbers use only professionals tools for the best haircut experience.</li>
           </ul>
         </div>
-        <div class="w-full sm:w-1/2 p-6">
-          <img class="zoom w-full md:w-5/5 z-50 shadow" src="~/assets/barber_showcase.png" />
+        <div class="w-full sm:w-1/2 p-6 mb-5">
+          <img class="zoom w-full md:w-5/5 z-50 shadow h-full" src="~/assets/barber_showcase.png" />
         </div>
       </div>
 
       <div class="flex flex-wrap flex-col-reverse sm:flex-row">
         <div class="w-full sm:w-1/2 p-6 mt-6">
-          <img class="zoom w-full md:w-5/5 z-50 shadow" src="~/assets/promise.png" />
+          <img class="zoom w-full md:w-5/5 z-50 shadow h-full" src="~/assets/promise.png" />
         </div>
         <div class="w-full sm:w-1/2 p-6 mt-6">
           <div class="align-middle">
@@ -120,7 +120,7 @@
           </ul>
         </div>
         <div class="w-full sm:w-1/2 p-6">
-          <img class="zoom w-full md:w-5/5 z-50 shadow" src="~/assets/barber_showcase.png" />
+          <img class="zoom w-full md:w-5/5 z-50 shadow h-full" src="~/assets/barber_showcase.png" />
         </div>
       </div>
     </div>
