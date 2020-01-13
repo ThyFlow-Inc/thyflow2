@@ -55,7 +55,7 @@
         <div class="w-full sm:w-1/2 p-6 mt-6">
           <img class="zoom w-full md:w-5/5 z-50 shadow h-full" src="~/assets/promise.png" />
         </div>
-        <div class="w-full sm:w-1/2 p-6 mt-6">
+        <div class="w-full sm:w-1/2 p-6 mt-6 mb-5">
           <div class="align-middle">
             <h3 class="text-3xl text-orange-500 font-bold leading-none mb-8">Promise to customers</h3>
             <h4
