@@ -1,4 +1,4 @@
-<template>
+<template class="gradient" >
   <div class="pt-4 bg-white md:pt-8 px-6 mx-auto flex flex-wrap flex-col md:flex-row items-center">
     <!--Left Col-->
     <div class="flex flex-col w-full xl:w-2/5 justify-center lg:items-start overflow-y-hidden">
@@ -32,4 +32,7 @@ export default {};
 </script>
 
 <style lang="css" scoped>
+.gradient {
+  background: linear-gradient(90deg, #0a3ead 0%, #e38914 100%);
+}
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="gradient">
+  <div>
     <Navbar />
     <Header />
     <OurStoryHome />
