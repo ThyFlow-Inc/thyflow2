@@ -3,7 +3,7 @@
   <section class="bg-white border-b py-12 gradient-back">
     <div class="container max-w-7xl mx-auto m-8">
       <h1
-        class="w-full my-2 text-5xl font-bold leading-tight text-center text-white"
+        class="w-full my-2 text-5xl font-bold leading-tight text-center text-black"
       >Book with confidence</h1>
       <div class="w-full mb-4">
         <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
@@ -11,7 +11,9 @@
       <div class="flex flex-wrap">
         <div class="w-5/6 sm:w-1/2 p-6">
           <h3 class="text-3xl text-black-500 font-bold leading-none mb-8">Book the best</h3>
-          <h4 class="text-base text-black-500 mb-2 font-bold">ThyFlow barbers have years of experience</h4>
+          <h4
+            class="text-base text-black-500 mb-2 font-bold"
+          >ThyFlow barbers have years of experience</h4>
           <ul class="list-disc px-4">
             <li
               class="text-black-800 text-sm mb-2"
