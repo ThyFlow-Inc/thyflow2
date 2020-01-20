@@ -10,8 +10,8 @@
       </div>
       <div class="flex flex-wrap">
         <div class="w-5/6 sm:w-1/2 p-6">
-          <h3 class="text-3xl text-white font-bold leading-none mb-8">Book the best</h3>
-          <h4 class="text-base text-white mb-2 font-bold">ThyFlow barbers have years of experience</h4>
+          <h3 class="text-3xl text-black-500 font-bold leading-none mb-8">Book the best</h3>
+          <h4 class="text-base text-black-500 mb-2 font-bold">ThyFlow barbers have years of experience</h4>
           <ul class="list-disc px-4">
             <li
               class="text-black-800 text-sm mb-2"
@@ -45,11 +45,11 @@
           </ul>
         </div>
         <div
-          class="w-full sm:w-1/2 p-6 mb-5"
+          class="w-full sm:w-1/2 mb-5"
           style="background: linear-gradient(60deg, #00EAC3, #1F9DD4);"
         >
           <img
-            class="zoom w-48 md:w-4/5 z-50 shadow h-full sm:w-full sm:h-full"
+            class="zoom md:w-64 md:w-4/7 z-50 shadow sm:w-full sm:h-full md:px-8 md:py-16"
             src="~/assets/barber_showcase.png"
           />
         </div>
@@ -162,7 +162,7 @@ h1 {
   }
 }
 .zoom:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 .threeD {
   color: orange;
