@@ -3,17 +3,15 @@
   <section class="bg-white border-b py-12 gradient-back">
     <div class="container max-w-7xl mx-auto m-8">
       <h1
-        class="w-full my-2 text-5xl font-bold leading-tight text-center text-black-600"
+        class="w-full my-2 text-5xl font-bold leading-tight text-center text-white"
       >Book with confidence</h1>
       <div class="w-full mb-4">
         <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
       <div class="flex flex-wrap">
         <div class="w-5/6 sm:w-1/2 p-6">
-          <h3 class="text-3xl text-orange-500 font-bold leading-none mb-8">Book the best</h3>
-          <h4
-            class="text-base text-black-800 mb-2 font-bold"
-          >ThyFlow barbers have years of experience</h4>
+          <h3 class="text-3xl text-white font-bold leading-none mb-8">Book the best</h3>
+          <h4 class="text-base text-white mb-2 font-bold">ThyFlow barbers have years of experience</h4>
           <ul class="list-disc px-4">
             <li
               class="text-black-800 text-sm mb-2"
@@ -46,8 +44,14 @@
             >ThyFlow Barbers use only professionals tools for the best haircut experience.</li>
           </ul>
         </div>
-        <div class="w-full sm:w-1/2 p-6 mb-5">
-          <img class="zoom w-full md:w-5/5 z-50 shadow h-full" src="~/assets/barber_showcase.png" />
+        <div
+          class="w-full sm:w-1/2 p-6 mb-5"
+          style="background: linear-gradient(60deg, #00EAC3, #1F9DD4);"
+        >
+          <img
+            class="zoom w-48 md:w-4/5 z-50 shadow h-full sm:w-full sm:h-full"
+            src="~/assets/barber_showcase.png"
+          />
         </div>
       </div>
 
