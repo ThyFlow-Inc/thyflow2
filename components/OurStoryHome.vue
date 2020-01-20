@@ -23,7 +23,7 @@ export default {};
 
 <style lang="css" scoped>
 .story-section {
-  background-color: rgb(163, 108, 7);
+  background-color: rgba(18, 52, 243, 0.603);
   background-size: cover;
 }
 </style>
