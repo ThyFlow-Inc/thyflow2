@@ -1,6 +1,6 @@
 <template>
   <!---------------------Features-------->
-  <section class="bg-white border-b py-12">
+  <section class="bg-white border-b py-12 gradient-back">
     <div class="container max-w-7xl mx-auto m-8">
       <h1
         class="w-full my-2 text-5xl font-bold leading-tight text-center text-black-600"
@@ -132,6 +132,9 @@ export default {};
 </script>
 
 <style lang="css" scoped>
+.gradient-back {
+  background-color: rgba(18, 52, 243, 0.603);
+}
 h1 {
   position: relative;
   font-family: sans-serif;
