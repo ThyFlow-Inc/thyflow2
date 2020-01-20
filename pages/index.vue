@@ -5,7 +5,6 @@
     <OurStoryHome />
     <HowItWorks />
     <!------------First Book a barber--------------->
-
     <transition appear name="slide-in">
       <div class="bg-white mx-auto text-center">
         <button
@@ -15,7 +14,6 @@
         </button>
       </div>
     </transition>
-
     <Features />
     <transition appear name="slide-in">
       <div class="bg-white mx-auto text-center">
@@ -26,7 +24,7 @@
         </button>
       </div>
     </transition>
-    <!-----------------Second Boo a barber---------->
+    <!-----------------Second Book a barber---------->
     <Customer />
     <Download />
     <ApplyBarber />
@@ -61,8 +59,8 @@ export default {
 </script>
 
 <style lang="css" scoped>
-.gradient {
-  background: linear-gradient(90deg, #0a3ead 0%, #e38914 100%);
+.gradient-back {
+  background: rgba(28, 58, 228, 0.603);
 }
 
 .slide-in-enter {
