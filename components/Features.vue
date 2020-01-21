@@ -3,14 +3,14 @@
   <section class="bg-white border-b py-12 gradient-back">
     <div class="container max-w-7xl mx-auto m-8">
       <h1
-        class="w-full my-2 text-5xl font-bold leading-tight text-center text-white"
+        class="w-full my-2 text-5xl font-bold leading-tight text-center text-orange-800"
       >Book with confidence</h1>
       <div class="w-full mb-4">
         <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
       <div class="flex flex-wrap" data-aos="flip-up" data-aos-duration="1000">
         <div class="w-5/6 sm:w-1/2 p-6">
-          <h3 class="text-3xl text-white font-bold leading-none mb-8">Book the best</h3>
+          <h3 class="text-3xl text-black font-bold leading-none mb-8">Book the best</h3>
           <h4 class="text-base text-white mb-2 font-bold">ThyFlow barbers have years of experience</h4>
           <ul class="list-disc px-4">
             <li
@@ -185,9 +185,9 @@ h1 {
   font-family: sans-serif;
   letter-spacing: 0.1em;
   transition: 0.3s;
-  text-shadow: 1px 1px 0 grey, 1px 2px 0 grey, 1px 3px 0 grey, 1px 4px 0 grey,
-    1px 5px 0 grey, 1px 6px 0 grey, 1px 7px 0 grey, 1px 8px 0 grey,
-    5px 13px 15px white;
+  text-shadow: 1px 1px 0 rgb(233, 77, 163), 1px 2px 0 grey, 1px 3px 0 grey,
+    1px 4px 0 grey, 1px 5px 0 grey, 1px 6px 0 grey, 1px 7px 0 grey,
+    1px 8px 0 grey, 5px 13px 15px white;
 }
 
 .threeD:hover {
