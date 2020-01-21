@@ -51,7 +51,7 @@
           style="background: linear-gradient(60deg, #00EAC3, #1F9DD4);"
         >
           <img
-            class="zoom md:w-64 md:w-4/7 z-50 shadow sm:w-full sm:h-full md:px-8 md:py-16"
+            class="zoom md:min-w-0 md:w-4/7 z-50 shadow sm:w-full sm:h-full md:px-8 md:py-16"
             src="~/assets/barber_showcase.png"
           />
         </div>
