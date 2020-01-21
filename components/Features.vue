@@ -51,15 +51,21 @@
           style="background: linear-gradient(60deg, #00EAC3, #1F9DD4);"
         >
           <img
-            class="zoom md:min-w-0 md:w-4/7 z-50 shadow sm:w-full sm:h-full md:px-8 md:py-16"
+            class="zoom md:min-w-0 md:w-4/7 z-50 sm:w-full sm:h-full md:px-16 md:py-16"
             src="~/assets/barber_showcase.png"
           />
         </div>
       </div>
 
       <div class="flex flex-wrap flex-col-reverse sm:flex-row">
-        <div class="w-full sm:w-1/2 p-6 mt-6">
-          <img class="zoom w-full md:w-5/5 z-50 shadow h-full" src="~/assets/promise.png" />
+        <div
+          class="w-full sm:w-1/2 p-6 mt-6"
+          style="background: linear-gradient(60deg, #FFC200, #FF7218);"
+        >
+          <img
+            class="zoom md:min-w-0 md:w-4/7 z-50 sm:w-full sm:h-full md:px-16 md:py-16"
+            src="~/assets/promise.png"
+          />
         </div>
         <div class="w-full sm:w-1/2 p-6 mt-6 mb-5">
           <div class="align-middle">
@@ -125,8 +131,14 @@
             >Barbers are trained On ThyFlow way of customer service.</li>
           </ul>
         </div>
-        <div class="w-full sm:w-1/2 p-6">
-          <img class="zoom w-full md:w-5/5 z-50 shadow h-full" src="~/assets/barber_showcase.png" />
+        <div
+          class="w-full sm:w-1/2 p-6"
+          style="background: linear-gradient(60deg, #C10149, #E97348);"
+        >
+          <img
+            class="zoom w-full md:w-5/5 z-50 h-full py-16 px-16 sm:w-full"
+            src="~/assets/barber_showcase.png"
+          />
         </div>
       </div>
     </div>
