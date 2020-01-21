@@ -30,6 +30,8 @@ export default {
   */
   css: [
     '@/assets/css/common.css',
+    'aos/dist/aos.css'
+
 
   ],
   /*
@@ -39,6 +41,7 @@ export default {
     { src: '~/plugins/VueTyper.js', ssr: false },
     { src: '~/plugins/link-resolver.js' },
     { src: '~/plugins/prismic-vue.js' },
+    { src: '~/plugins/aos.js', ssr: false }
   ],
   /*
   ** Nuxt.js dev-modules
