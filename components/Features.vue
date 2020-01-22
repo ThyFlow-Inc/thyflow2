@@ -99,7 +99,7 @@
         </div>
       </div>
 
-      <div class="flex flex-wrap" ata-aos="flip-up" data-aos-duration="1000">
+      <div class="flex flex-wrap" data-aos="flip-up" data-aos-duration="1000">
         <div class="w-5/6 sm:w-1/2 p-6">
           <h3 class="text-3xl text-orange font-bold leading-none mb-6">Vetted Barbers</h3>
           <h4 class="text-white text-base font-bold mb-2">Barbers Background checked</h4>
