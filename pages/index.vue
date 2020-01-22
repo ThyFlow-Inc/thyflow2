@@ -5,25 +5,9 @@
     <OurStoryHome />
     <HowItWorks />
     <!------------First Book a barber--------------->
-    <transition appear name="slide-in">
-      <div class="bg-white mx-auto text-center">
-        <button
-          class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg"
-        >
-          <a href="https://zfrmz.com/YwaCWiBx7wEJ3E7hNmZl">Book a Mobile barber!</a>
-        </button>
-      </div>
-    </transition>
+
     <Features />
-    <transition appear name="slide-in">
-      <div class="bg-white mx-auto text-center">
-        <button
-          class="mx-auto lg:mx-0 hover:underline gradient give-white font-bold rounded-full my-6 py-4 px-8 shadow-lg"
-        >
-          <a href="https://zfrmz.com/YwaCWiBx7wEJ3E7hNmZl">Book a Mobile barber!</a>
-        </button>
-      </div>
-    </transition>
+
     <!-----------------Second Book a barber---------->
     <Customer />
     <Download />
