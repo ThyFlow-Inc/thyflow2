@@ -8,7 +8,7 @@
       <div class="w-full mb-4">
         <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
-      <div class="flex flex-wrap" data-aos="flip-up" data-aos-duration="1000">
+      <div class="flex flex-wrap">
         <div class="w-5/6 sm:w-1/2 p-6">
           <h3 class="text-3xl text-black font-bold leading-none mb-8">Book the best</h3>
           <h4 class="text-base text-white mb-2 font-bold">ThyFlow barbers have years of experience</h4>
@@ -55,11 +55,7 @@
         </div>
       </div>
 
-      <div
-        class="flex flex-wrap flex-col-reverse sm:flex-row"
-        data-aos="slide-up"
-        data-aos-easing="ease"
-      >
+      <div class="flex flex-wrap flex-col-reverse sm:flex-row">
         <div
           class="w-full sm:w-1/2 p-6 mt-6"
           style="background: linear-gradient(60deg, #FFC200, #FF7218);"
@@ -99,7 +95,7 @@
         </div>
       </div>
 
-      <div class="flex flex-wrap" data-aos="flip-up" data-aos-duration="1000">
+      <div class="flex flex-wrap">
         <div class="w-5/6 sm:w-1/2 p-6">
           <h3 class="text-3xl text-orange font-bold leading-none mb-6">Vetted Barbers</h3>
           <h4 class="text-white text-base font-bold mb-2">Barbers Background checked</h4>
