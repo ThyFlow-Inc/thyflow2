@@ -124,7 +124,7 @@
           </ul>
         </div>
         <div
-          class="w-full sm:w-1/2 p-6"
+          class="w-full sm:w-1/2 p-6 w-3/4"
           style="background: linear-gradient(60deg, #C10149, #E97348);"
         >
           <img
@@ -133,6 +133,14 @@
           />
         </div>
       </div>
+    </div>
+
+    <!---------------Changes Mimic Gulo --------------->
+    <div class="flex flex-wrap">
+      <div
+        class="md:w-3/5 sm:w-full p-6"
+        style="background: linear-gradient(60deg, #C10149, #E97348);"
+      ></div>
     </div>
   </section>
 </template> 

@@ -1,5 +1,5 @@
 <template>
-  <div class="gradient-back">
+  <div class="bg-blue-500">
     <Navbar />
     <Header />
     <OurStoryHome />
@@ -60,7 +60,7 @@ export default {
 
 <style lang="css" scoped>
 .gradient-back {
-  background-color: rgba(18, 52, 243, 0.603);
+  background-color: rgba(6, 36, 207, 0.603);
 }
 
 .slide-in-enter {

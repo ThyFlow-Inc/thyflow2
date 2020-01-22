@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-blue-600">
-    <section class="bg-white border-b py-24 lg:px-64 px-8 story-section mt-8">
+  <div class="bg-blue-500">
+    <section class="bg-blue-500 border-b py-24 lg:px-64 px-8 story-section mt-8">
       <a class="container mx-auto flex flex-wrap pt-4 rounded bg-white">
         <p class="w-full my-2 text-3xl lg:text-5xl font-bold text-center text-gray-800">Our Story</p>
         <div class="w-full mb-4">
@@ -23,7 +23,6 @@ export default {};
 
 <style lang="css" scoped>
 .story-section {
-  background-color: rgba(18, 52, 243, 0.603);
   background-size: cover;
 }
 </style>
