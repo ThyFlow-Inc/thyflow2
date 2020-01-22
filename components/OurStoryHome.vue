@@ -1,11 +1,11 @@
 <template>
   <div class="bg-blue-500">
-    <section class="bg-blue-500 border-b py-24 lg:px-64 px-8 story-section mt-8">
-      <a class="container mx-auto flex flex-wrap pt-4 rounded bg-white">
+    <section class="bg-blue-700 border-b py-24 lg:px-64 px-8 story-section mt-8">
+      <a class="container mx-auto flex flex-wrap pt-4 rounded">
         <p class="w-full my-2 text-3xl lg:text-5xl font-bold text-center text-gray-800">Our Story</p>
         <div class="w-full mb-4">
           <p
-            class="w-full my-2 lg:text-2xl text-center text-black-600 px-12 lg:px-16 sm:align-middle md:align-middle"
+            class="w-full my-2 lg:text-2xl text-center text-white px-12 lg:px-16 sm:align-middle md:align-middle"
           >
             At
             <span class="text-orange-500 inline font-bold">ThyFlow</span>

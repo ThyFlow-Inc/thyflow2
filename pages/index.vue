@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-blue-500">
+  <div class="bg-blue-700">
     <Navbar />
     <Header />
     <OurStoryHome />
