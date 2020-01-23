@@ -44,7 +44,7 @@
             >Our industry professionals have seen every new barber cut hair live!</li>
             <li
               class="text-white md:text-lg sm:text-base mb-2"
-            >ThyFlow Barbers use only professionals tools for the best haircut experience.</li>
+            >ThyFlow Barbers use only professional tools for the best haircut experience.</li>
           </ul>
         </div>
         <div
