@@ -3,30 +3,31 @@
   <section class="bg-white border-b py-12 gradient-back">
     <div class="container max-w-7xl mx-auto m-8">
       <h1
-        class="w-full my-2 text-5xl font-bold leading-tight text-center text-orange-800"
+        class="my-6 md:text-6xl uppercase sm:text-3xl font-bold leading-tight text-center text-orange-600"
       >Book with confidence</h1>
       <div class="w-full mb-4">
         <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
       <div class="flex flex-wrap">
         <div class="w-5/6 sm:w-1/2 p-6">
-          <h3 class="text-3xl text-black font-bold leading-none mb-8">Book the best</h3>
-          <h4 class="text-base text-white mb-2 font-bold">ThyFlow barbers have years of experience</h4>
-          <ul class="list-disc px-4">
+          <h4
+            class="text-base md:text-3xl sm:text-xl mb-2 font-bold text-white"
+          >ThyFlow barbers have years of experience</h4>
+          <ul class="px-4">
             <li
-              class="text-white text-sm mb-2"
+              class="text-white text-base mb-2"
             >We only work with barber who take pride in their work.</li>
-            <li class="text-white text-sm mb-2">We choose the best local barbers in every city.</li>
+            <li class="text-white text-base mb-2">We choose the best local barbers in every city.</li>
           </ul>
           <h4
             class="text-base text-white mb-3 font-bold"
           >ThyFlow Barbers provides exceptional service</h4>
           <ul class="list-disc px-4">
             <li
-              class="text-white text-sm mb-2"
+              class="text-white text-base mb-2"
             >ThyFlow Barbers care about the overall customer satisfaction.</li>
             <li
-              class="text-white text-sm mb-2"
+              class="text-white text-base mb-2"
             >ThyFlow barbers are trained on ways to improve their service.</li>
           </ul>
           <h4
@@ -153,28 +154,7 @@ export default {};
 .gradient-back {
   background-color: rgba(18, 52, 243, 0.603);
 }
-h1 {
-  position: relative;
-  font-family: sans-serif;
-  text-transform: uppercase;
-  font-size: 2em;
-  letter-spacing: 4px;
-  overflow: hidden;
-  background: linear-gradient(90deg, #000, #fff, #000);
-  background-repeat: no-repeat;
-  background-size: 80%;
-  animation: animate 3s linear infinite;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: rgba(255, 255, 255, 0);
-}
-@keyframes animate {
-  0% {
-    background-position: %;
-  }
-  100% {
-    background-position: %;
-  }
-}
+
 .zoom:hover {
   transform: scale(1.1);
 }
