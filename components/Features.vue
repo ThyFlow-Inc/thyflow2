@@ -20,9 +20,9 @@
             <li class="text-white text-base mb-2">We choose the best local barbers in every city.</li>
           </ul>
           <h4
-            class="text-base text-white mb-3 font-bold"
+            class="md:text-3xl sm:text-xl text-white mb-3 font-bold"
           >ThyFlow Barbers provides exceptional service</h4>
-          <ul class="list-disc px-4">
+          <ul class="px-4">
             <li
               class="text-white text-base mb-2"
             >ThyFlow Barbers care about the overall customer satisfaction.</li>
@@ -31,17 +31,17 @@
             >ThyFlow barbers are trained on ways to improve their service.</li>
           </ul>
           <h4
-            class="text-base text-white mb-2 font-bold"
+            class="md:text-3xl sm:text-xl text-white mb-2 font-bold"
           >ThyFlow Industry Proffesionals handpicked and verify new barbers</h4>
-          <ul class="list-disc px-4">
+          <ul class="px-4">
             <li
-              class="text-white text-sm mb-2"
+              class="text-white text-base mb-2"
             >Our industry professionals also manger and train new barbers.</li>
             <li
-              class="text-white text-sm mb-2"
+              class="text-white text-base mb-2"
             >Our industry professionals have seen every new barber cut hair live!</li>
             <li
-              class="text-white text-sm mb-2"
+              class="text-white text-base mb-2"
             >ThyFlow Barbers use only professionals tools for the best haircut experience.</li>
           </ul>
         </div>
@@ -68,13 +68,12 @@
         </div>
         <div class="w-full sm:w-1/2 p-6 mt-6 mb-5">
           <div class="align-middle">
-            <h3 class="text-3xl text-orange font-bold leading-none mb-8">Promise to customers</h3>
             <h4
-              class="text-white text-base mb-2 font-bold"
+              class="text-white md:text-3xl sm:text-xl mb-2 font-bold"
             >Expect barbershop Experience from your home</h4>
             <ul class="list-disc px-4">
               <li
-                class="text-white text-sm mb-2"
+                class="text-white text-base mb-2"
               >Our barbers carry their own tools for each haircut.</li>
               <li class="text-white text-sm mb-2">Barber tools are cleaned weekly.</li>
               <li class="text-white text-sm mb-2">Barbers carry a chair for every haircut.</li>

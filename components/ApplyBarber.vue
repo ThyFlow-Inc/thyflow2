@@ -35,7 +35,7 @@
         </g>
       </g>
     </svg>
-    <section class="container mx-auto text-center py-6 mb-12">
+    <section class="container mx-auto text-center py-6 px-6">
       <h1
         class="w-full my-2 text-4xl font-bold leading-tight text-center text-white"
       >Become a Mobile Barber</h1>
