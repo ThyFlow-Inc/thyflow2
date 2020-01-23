@@ -34,7 +34,7 @@
           </ul>
           <h4
             class="md:text-3xl sm:text-xl text-white mb-2 font-bold"
-          >ThyFlow Industry Proffesionals handpicked and verify new barbers</h4>
+          >ThyFlow Industry Profesionals handpicked and verify new barbers</h4>
           <ul class="px-1">
             <li
               class="text-white md:text-lg sm:text-base mb-2"
