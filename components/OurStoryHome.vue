@@ -2,7 +2,7 @@
   <div class="bg-blue-500">
     <section class="bg-blue-700 border-b py-24 lg:px-64 px-8 story-section mt-8">
       <a class="container mx-auto flex flex-wrap pt-4 rounded">
-        <div class="m-auto">
+        <div class="m-auto w-auto">
           <svg
             version="1.1"
             class="csvg"
@@ -11,8 +11,8 @@
             xmlns:xlink="http://www.w3.org/1999/xlink"
             x="0px"
             y="0px"
-            width="48px"
-            height="48px"
+            width="80px"
+            height="80px"
             viewBox="0 0 48 48"
             xml:space="preserve"
             data-v-3c99b697
@@ -43,7 +43,7 @@ MS0xNFQxOToxMzozMiswMzowMMIy76sAAAAASUVORK5CYII="
         </div>
         <div class="w-full mb-4">
           <p
-            class="w-full my-2 lg:text-2xl text-center text-white px-12 lg:px-16 sm:align-middle md:align-middle"
+            class="w-full my-2 lg:text-2xl text-center text-orange-500 px-12 lg:px-16 sm:align-middle md:align-middle"
           >
             At
             <span class="text-orange-500 inline font-bold">ThyFlow</span>

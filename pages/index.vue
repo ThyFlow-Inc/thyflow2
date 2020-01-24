@@ -6,7 +6,7 @@
     <HowItWorks />
     <!------------First Book a barber--------------->
 
-    <Features />
+    <Features class="bg-blue-700" />
 
     <!-----------------Second Book a barber---------->
     <Customer />

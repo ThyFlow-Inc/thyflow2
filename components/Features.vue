@@ -1,6 +1,6 @@
 <template>
   <!---------------------Features-------->
-  <section class="bg-white border-b py-12 gradient-back">
+  <section class="bg-blue-700 border-b py-12">
     <div class="container max-w-7xl mx-auto m-8">
       <h1
         class="my-6 md:text-6xl uppercase sm:text-3xl font-bold leading-tight text-center text-orange-600"
@@ -158,7 +158,6 @@ export default {};
 
 <style lang="css" scoped>
 .gradient-back {
-  background-color: rgba(18, 52, 243, 0.603);
 }
 
 .zoom:hover {
