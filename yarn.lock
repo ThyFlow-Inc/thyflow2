@@ -7853,6 +7853,11 @@ vue-client-only@^2.0.0:
   resolved "https://registry.yarnpkg.com/vue-client-only/-/vue-client-only-2.0.0.tgz#ddad8d675ee02c761a14229f0e440e219de1da1c"
   integrity sha512-arhk1wtWAfLsJyxGMoEYhoBowM87/i6HLSG2LH/03Yog6i2d9JEN1peMP0Ceis+/n9DxdenGYZZTxbPPJyHciA==
 
+vue-easy-slider@^5.3.2:
+  version "5.3.2"
+  resolved "https://registry.yarnpkg.com/vue-easy-slider/-/vue-easy-slider-5.3.2.tgz#b27ff1c178cdbc3342e7e76e53b5dbafb14b0b3b"
+  integrity sha512-5cCpzAowFajqtCHcbTzoSOcwiSrmGwg6WXbMxxQlhn3Fa0t9ediTbJa5M5wn+UUTKfkqK7hw9cO+2rz6YmcVew==
+
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"

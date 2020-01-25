@@ -41,7 +41,8 @@ export default {
     { src: '~/plugins/VueTyper.js', ssr: false },
     { src: '~/plugins/link-resolver.js' },
     { src: '~/plugins/prismic-vue.js' },
-    { src: '~/plugins/aos.js', ssr: false }
+    { src: '~/plugins/aos.js', ssr: false },
+    { src: '~/plugins/vue-slider.js' }
   ],
   /*
   ** Nuxt.js dev-modules
