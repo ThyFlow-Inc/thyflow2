@@ -116,10 +116,7 @@
             <p
               class="text-lg font-light leading-relaxed mt-0 mb-4 text-white"
             >We connect service providers with customers that need and want their service, in a safe and secure manner.</p>
-            <a
-              href="https://www.creative-tim.com/framework/tailwind-starter-kit"
-              class="font-bold text-orange-400 mt-8"
-            >Sal Sosso, Founder ThyFlow</a>
+            <a href="#" class="font-bold text-orange-400 mt-8">Sal Sosso, Founder ThyFlow</a>
           </div>
           <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
             <div
