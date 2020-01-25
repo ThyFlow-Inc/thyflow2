@@ -2,9 +2,9 @@
   <div class="bg-blue-500">
     <section class="bg-blue-700 border-b py-24 lg:px-64 px-8 story-section mt-8">
       <a class="container mx-auto flex flex-wrap pt-4 rounded">
-        <div class="m-auto w-64">
+        <div class="mx-auto w-auto">
           <svg
-            class="h-64 w-100"
+            style="height: 95px; width: 95px;"
             version="1.0"
             xmlns="http://www.w3.org/2000/svg"
             width="500.000000pt"
