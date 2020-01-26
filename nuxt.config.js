@@ -42,7 +42,7 @@ export default {
     { src: '~/plugins/link-resolver.js' },
     { src: '~/plugins/prismic-vue.js' },
     { src: '~/plugins/aos.js', ssr: false },
-    { src: '~/plugins/vue-slider.js' }
+    { src: '~/plugins/vue-slider.js', ssr: false }
   ],
   /*
   ** Nuxt.js dev-modules

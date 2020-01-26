@@ -5,21 +5,25 @@
       v-model="sliderValue"
       :duration="5000"
       :speed="1000"
-      class="md:flex bg-white rounded-lg p-6"
+      class="container mx-auto flex flex-wrap pt-4 pb-12"
     >
       <SliderItem
         v-for="(i, index) in list"
         :key="index"
         @click="changeIndex(1);"
         :style="i"
-        class="md:flex bg-white rounded-lg p-6 lg:flex"
+        class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink gradient"
       >
-        <img
-          class="h-16 w-16 md:h-24 md:w-24 rounded-full mx-auto md:mx-0 md:mr-6"
-          src="~/assets/profile.png"
-        />
+        <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow gradient">
+          <img class="h-16 w-16 rounded-full mx-auto pt-1 bg-white" src="~/assets/profile.png" />
 
-        <h2 class="text-lg">Henry John</h2>
+          <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+            <div class="w-full font-bold text-xl text-white px-6 text-center">Craig Rooney</div>
+            <p
+              class="text-white text-base px-6 mb-5 text-center"
+            >“What can I say, great price with excellent results. Thank you ThyFlow!”</p>
+          </a>
+        </div>
 
         <div class="text-center md:text-left">
           <p>Page noni {{ index + 1 }}</p>
