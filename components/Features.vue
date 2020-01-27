@@ -11,7 +11,7 @@
       <div class="flex flex-wrap">
         <div class="w-6/6 sm:w-1/2 p-6">
           <h4
-            class="text-base md:text-3xl sm:text-xl mb-4 font-bold text-white"
+            class="text-base md:text-3xl sm:text-xl mb-2 font-bold text-white"
           >ThyFlow barbers have years of experience</h4>
           <ul class="px-1">
             <li
@@ -22,7 +22,7 @@
             >We choose the best local barbers in every city.</li>
           </ul>
           <h4
-            class="md:text-3xl sm:text-xl text-white mb-4 font-bold"
+            class="md:text-3xl sm:text-xl text-white mb-2 font-bold"
           >ThyFlow Barbers provides exceptional service</h4>
           <ul class="px-1">
             <li
@@ -33,7 +33,7 @@
             >ThyFlow barbers are trained on ways to improve their service.</li>
           </ul>
           <h4
-            class="md:text-3xl sm:text-xl text-white mb-4 font-bold"
+            class="md:text-3xl sm:text-xl text-white mb-2 font-bold"
           >ThyFlow Industry Profesionals handpicked and verify new barbers</h4>
           <ul class="px-1">
             <li
@@ -71,7 +71,7 @@
         <div class="w-full sm:w-1/2 p-6 mt-6 mb-5">
           <div class="align-middle">
             <h4
-              class="text-white md:text-3xl sm:text-xl mb-4 font-bold"
+              class="text-white md:text-3xl sm:text-xl mb-2 font-bold"
             >Expect barbershop Experience from your home</h4>
             <ul class="px-1">
               <li
@@ -83,14 +83,14 @@
               >Barbers carry a chair for every haircut.</li>
             </ul>
             <h4
-              class="text-white md:text-3xl sm:text-xl mb-4 font-bold"
+              class="text-white md:text-3xl sm:text-xl mb-2 font-bold"
             >Like your haircut or your money back.</h4>
             <ul class="px-1">
               <li
                 class="text-white md:text-lg sm:text-base mb-2"
               >No questions asked to get your refund if needed.</li>
             </ul>
-            <h4 class="text-white md:text-3xl sm:text-xl mb-4 font-bold">Barbers are always on time</h4>
+            <h4 class="text-white md:text-3xl sm:text-xl mb-2 font-bold">Barbers are always on time</h4>
             <ul class="1px-1">
               <li
                 class="text-white md:text-lg sm:text-base mb-2"
@@ -105,7 +105,7 @@
 
       <div class="flex flex-wrap flex-col-reverse sm:flex-row">
         <div class="w-5/6 sm:w-1/2 p-6">
-          <h4 class="text-white md:text-3xl sm:text-xl font-bold mb-4">Barbers Background checked</h4>
+          <h4 class="text-white md:text-3xl sm:text-xl font-bold mb-2">Barbers Background checked</h4>
           <ul class="px-1">
             <li
               class="text-white md:text-lg sm:text-base mb-2"
@@ -114,7 +114,7 @@
               class="text-white md:text-lg sm:text-base mb-2"
             >ThyFlow Barbers are safe and trustworthy.</li>
           </ul>
-          <h4 class="text-white md:text-3xl sm:text-xl font-bold mb-4">Licensed Barbers</h4>
+          <h4 class="text-white md:text-3xl sm:text-xl font-bold mb-2">Licensed Barbers</h4>
           <ul class="px-1">
             <li
               class="text-white md:text-lg sm:text-base mb-2"
@@ -123,7 +123,7 @@
               class="text-white md:text-lg sm:text-base mb-2"
             >Barbers licensed are from top local barbering schools.</li>
           </ul>
-          <h4 class="text-white md:text-3xl sm:text-xl mb-4 font-bold">Two Step Interview Process</h4>
+          <h4 class="text-white md:text-3xl sm:text-xl mb-2 font-bold">Two Step Interview Process</h4>
           <ul class="px-1">
             <li
               class="text-white md:text-lg sm:text-base mb-2"
