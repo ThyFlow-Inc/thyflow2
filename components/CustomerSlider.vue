@@ -3,6 +3,9 @@
     <h1
       class="w-full mb-2 text-4xl font-bold leading-tight text-center text-orange-500"
     >What our customers are saying</h1>
+    <div class="w-full mb-4">
+      <div class="h-1 mx-auto w-64 opacity-25 my-0 py-0 rounded-t"></div>
+    </div>
     <Slider
       animation="fade"
       v-model="sliderValue"
@@ -34,6 +37,21 @@
             <p
               class="text-black text-base px-12 mx-auto mb-5 text-center"
             >If you are looking for a trusted baber platform, Thyflow is the best!</p>
+          </a>
+        </div>
+
+        <div class="text-center md:text-left"></div>
+      </SliderItem>
+      <!-------------Second--------------->
+      <SliderItem class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink gradient">
+        <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow gradient">
+          <img class="h-16 w-16 rounded-full mx-auto pt-1 bg-white" src="~/assets/profile.png" />
+
+          <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+            <div class="w-full font-bold text-xl text-black px-6 text-center">David Trojan.</div>
+            <p
+              class="text-black text-base px-12 mx-auto mb-5 text-center"
+            >What can I say, great price with excellent results. Thank you ThyFlow!</p>
           </a>
         </div>
 
