@@ -9,7 +9,6 @@
     <Features class="bg-blue-700" />
 
     <!-----------------Second Book a barber---------->
-    <Customer />
     <CustomerSlider />
     <Download />
     <ApplyBarber />
@@ -22,7 +21,6 @@ import Navbar from "~/components/Navbar.vue";
 import Header from "~/components/Header.vue";
 import HowItWorks from "~/components/HowItWorks.vue";
 import Features from "~/components/Features.vue";
-import Customer from "~/components/Customer.vue";
 import CustomerSlider from "~/components/CustomerSlider.vue";
 import Download from "~/components/Download.vue";
 import OurStoryHome from "~/components/OurStoryHome.vue";
@@ -35,7 +33,6 @@ export default {
     Header,
     HowItWorks,
     Features,
-    Customer,
     CustomerSlider,
     Download,
     OurStoryHome,
