@@ -1,7 +1,7 @@
 <template>
   <div class="bg-white">
     <h1
-      class="w-full my-2 text-4xl font-bold leading-tight text-center text-orange-500"
+      class="w-full mb-2 text-4xl font-bold leading-tight text-center text-orange-500"
     >What our customers are saying</h1>
     <Slider
       animation="fade"
