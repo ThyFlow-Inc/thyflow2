@@ -84,7 +84,7 @@
             </ul>
             <h4
               class="text-white md:text-3xl sm:text-xl mb-2 font-bold"
-            >Like your haircut or your money back.</h4>
+            >Like your haircut or your money back</h4>
             <ul class="px-1">
               <li
                 class="text-white md:text-lg sm:text-base mb-2"

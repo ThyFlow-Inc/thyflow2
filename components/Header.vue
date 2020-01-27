@@ -1,11 +1,6 @@
 <template>
   <header class="header">
     <div class="logo-box"></div>
-    <h1
-      class="zoom t-color heading-primary w-full my-2 text-6xl font-bold leading-tight text-center tracking-widest text-box"
-    >
-      <span>ThyFLow</span>
-    </h1>
     <vue-typer
       class="t-color w-full my-3 text-3xl font-bold leading-tight text-center sub-header text-orange"
       :text="Yusadolat"
@@ -14,6 +9,11 @@
       class="header-button bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-full"
       href="https://zfrmz.com/YwaCWiBx7wEJ3E7hNmZl"
     >Book a Mobile barber</a>
+    <h1
+      class="zoom t-color heading-primary w-full my-2 text-6xl font-bold leading-tight text-center tracking-widest text-box"
+    >
+      <span>ThyFLow</span>
+    </h1>
   </header>
 </template>
 
