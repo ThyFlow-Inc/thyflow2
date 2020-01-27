@@ -7,27 +7,35 @@
       :speed="1000"
       class="container mx-auto flex flex-wrap pt-4 pb-12"
     >
-      <SliderItem
-        v-for="(i, index) in list"
-        :key="index"
-        @click="changeIndex(1);"
-        :style="i"
-        class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink gradient"
-      >
+      <SliderItem class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink gradient">
         <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow gradient">
           <img class="h-16 w-16 rounded-full mx-auto pt-1 bg-white" src="~/assets/profile.png" />
 
           <a href="#" class="flex flex-wrap no-underline hover:no-underline">
-            <div class="w-full font-bold text-xl text-white px-6 text-center">Craig Rooney</div>
+            <div class="w-full font-bold text-xl text-black px-6 text-center">Craig Rooney</div>
             <p
-              class="text-white text-base px-6 mb-5 text-center"
-            >“What can I say, great price with excellent results. Thank you ThyFlow!”</p>
+              class="text-black text-base px-12 mx-auto mb-5 text-center"
+            >ThyFLow is a great platform to find awesome local barbers and we completely enjoy their services. 100% satisfied.</p>
           </a>
         </div>
 
-        <div class="text-center md:text-left">
-          <p>Page noni {{ index + 1 }}</p>
+        <div class="text-center md:text-left"></div>
+        <p class="mx-auto">Sub title</p>
+      </SliderItem>
+      <!--------------One------------>
+      <SliderItem class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink gradient">
+        <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow gradient">
+          <img class="h-16 w-16 rounded-full mx-auto pt-1 bg-white" src="~/assets/profile.png" />
+
+          <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+            <div class="w-full font-bold text-xl text-black px-6 text-center">Craig Rooney</div>
+            <p
+              class="text-black text-base px-12 mx-auto mb-5 text-center"
+            >ThyFLow is a great platform to find awesome local barbers and we completely enjoy their services. 100% satisfied.</p>
+          </a>
         </div>
+
+        <div class="text-center md:text-left"></div>
         <p class="mx-auto">Sub title</p>
       </SliderItem>
     </Slider>
@@ -54,9 +62,8 @@ export default {
       () =>
         (this.list = [
           {
-            backgroundColor: "#3f51b5",
-            width: "100%",
-            height: "100%",
+            backgroundColor: "#fff",
+
             text: "I love thylow because of the seamless experience"
           },
           {
