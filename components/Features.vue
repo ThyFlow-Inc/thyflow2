@@ -9,7 +9,7 @@
         <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
       <div class="flex flex-wrap">
-        <div class="w-5/6 sm:w-1/2 p-6">
+        <div class="w-6/6 sm:w-1/2 p-6">
           <h4
             class="text-base md:text-3xl sm:text-xl mb-4 font-bold text-white"
           >ThyFlow barbers have years of experience</h4>
@@ -90,7 +90,7 @@
                 class="text-white md:text-lg sm:text-base mb-2"
               >No questions asked to get your refund if needed.</li>
             </ul>
-            <h4 class="text-white md:text-3xl sm:text-xl mb-4 font-bold">Barbers are always on time.</h4>
+            <h4 class="text-white md:text-3xl sm:text-xl mb-4 font-bold">Barbers are always on time</h4>
             <ul class="1px-1">
               <li
                 class="text-white md:text-lg sm:text-base mb-2"
