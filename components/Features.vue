@@ -75,11 +75,11 @@
             >Expect barbershop Experience from your home</h4>
             <ul class="px-1">
               <li class="text-white md:text-lg sm:text-base mb-2">
-                <font-awesome-icon :icon="['fas', 'cut']" class="mx-1" />Our barbers carry their own tools for each haircut.
+                <font-awesome-icon :icon="['fas', 'cut']" class="mx-1 h-3 inline-block" />Our barbers carry their own tools for each haircut.
               </li>
               <li class="text-white md:text-lg sm:text-base mb-2">Barber tools are cleaned weekly.</li>
               <li class="text-white md:text-lg sm:text-base mb-2">
-                <font-awesome-icon :icon="['fas', 'cut']" class="mx-1 -3 inline-block" />Barbers carry a chair for every haircut.
+                <font-awesome-icon :icon="['fas', 'cut']" class="mx-1 h-3 inline-block" />Barbers carry a chair for every haircut.
               </li>
             </ul>
             <h4
@@ -126,10 +126,10 @@
           <h4 class="text-white md:text-3xl sm:text-xl mb-2 font-bold">Two Step Interview Process</h4>
           <ul class="px-1">
             <li class="text-white md:text-lg sm:text-base mb-2">
-              <font-awesome-icon :icon="['fas', 'store-alt']" class="mx-1 h-2" />Barbers are interviewed by two different mangers.
+              <font-awesome-icon :icon="['fas', 'store-alt']" class="mx-1 h-3 inline-block" />Barbers are interviewed by two different mangers.
             </li>
             <li class="text-white md:text-lg sm:text-base mb-2">
-              <font-awesome-icon :icon="['fas', 'store-alt']" class="mx-1 h-2" />Each barber is also interviewed by our industry professionals.
+              <font-awesome-icon :icon="['fas', 'store-alt']" class="mx-1 h-3 inline-block" />Each barber is also interviewed by our industry professionals.
             </li>
             <li class="text-white text-lg mb-2">
               <font-awesome-icon :icon="['fas', 'store-alt']" class="mx-1 h-3 inline-block" />Barbers are trained On ThyFlow way of customer service.
