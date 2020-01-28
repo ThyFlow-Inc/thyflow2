@@ -30,7 +30,6 @@ export default {
   */
   css: [
     '@/assets/css/common.css',
-    'aos/dist/aos.css'
 
 
   ],
@@ -41,7 +40,6 @@ export default {
     { src: '~/plugins/VueTyper.js', ssr: false },
     { src: '~/plugins/link-resolver.js' },
     { src: '~/plugins/prismic-vue.js' },
-    { src: '~/plugins/aos.js', ssr: false },
     { src: '~/plugins/vue-slider.js', ssr: false }
   ],
   /*
@@ -55,10 +53,23 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-  ],
-  /*
-  ** Build configuration
-  */
+    [
+      'nuxt-fontawesome', {
+        imports: [
+          {
+            set: '@fortawesome/free-solid-svg-icons',
+            icons: ['fas']
+          },
+          {
+            set: '@fortawesome/free-brands-svg-icons',
+            icons: ['fab']
+          }
+        ]
+      }
+    ]
+  ], /*
+    ** Build configuration
+    */
   build: {
     /*
     ** You can extend webpack config here
