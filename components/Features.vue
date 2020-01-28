@@ -12,7 +12,7 @@
         <div class="w-6/6 sm:w-1/2 p-6">
           <h4
             class="text-base md:text-3xl sm:text-xl mb-2 font-bold text-white"
-          >ThyFlow barbers have years of experience</h4>
+          >Barbers have years of experience</h4>
           <ul class="px-1">
             <li class="text-white md:text-lg sm:text-base mb-2">
               <font-awesome-icon :icon="['fas', 'cut']" class="mx-1 h-3 inline-block" />We only work with barber who take pride in their work.
@@ -23,7 +23,7 @@
           </ul>
           <h4
             class="md:text-3xl sm:text-xl text-white mb-2 font-bold"
-          >ThyFlow Barbers provides exceptional service</h4>
+          >Barbers provides exceptional service</h4>
           <ul class="px-1">
             <li class="text-white md:text-lg sm:text-base mb-2">
               <font-awesome-icon :icon="['fas', 'chair']" class="mx-1 h-3 inline-block" />ThyFlow Barbers care about the overall customer satisfaction.
@@ -72,7 +72,7 @@
           <div class="align-middle w-6/6">
             <h4
               class="text-white md:text-3xl sm:text-xl mb-2 font-bold"
-            >Expect barbershop Experience from your home</h4>
+            >Barbershop Experience from your home</h4>
             <ul class="px-1">
               <li class="text-white md:text-lg sm:text-base mb-2">
                 <font-awesome-icon :icon="['fas', 'cut']" class="mx-1 h-3 inline-block" />Our barbers carry their own tools for each haircut.
