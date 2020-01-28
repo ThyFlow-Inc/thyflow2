@@ -4,7 +4,7 @@
     <a class="container mx-auto flex flex-wrap pt-4 pb-12">
       <h1
         class="w-full my-2 text-4xl font-bold leading-tight text-center text-orange-500"
-      >How ThyFlow works</h1>
+      >How ThyFlow Works</h1>
 
       <div class="w-full mb-4">
         <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>

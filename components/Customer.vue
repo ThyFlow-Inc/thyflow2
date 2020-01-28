@@ -49,7 +49,9 @@
       </div>
 
       <div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink gradient">
-        <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow rounded-lg gradient">
+        <div
+          class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow rounded-lg gradient"
+        >
           <img class="h-16 w-16 rounded-full mx-auto pt-1 bg-white" src="~/assets/profile.png" />
 
           <a href="#" class="flex flex-wrap no-underline hover:no-underline">

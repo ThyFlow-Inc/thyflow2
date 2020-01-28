@@ -1,33 +1,153 @@
 <template>
   <div>
     <Navbar />
-    <section class="bg-white border-b py-8">
-      <div class="container max-w-5xl mx-auto m-8">
-        <div class="w-full mb-4">
-          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-        </div>
-
-        <div class="flex flex-wrap">
-          <div class="w-5/6 sm:w-1/2 p-6">
-            <h3
-              class="text-3xl text-gray-800 font-bold leading-none mb-3"
-            >Verified Mobile Service providers</h3>
-            <p class="text-gray-600 mb-8">
-              ThyFlow
-              Team, focus on building a trusted platform for anyone to find verified
-              Mobile Service providers in their local area and book an appointment. We
-              connect service providers with customers that need and want their
-              service, in a safe and secure manner.
-              <br />
-            </p>
+    <section
+      class="relative pt-16 pb-32 flex content-center items-center justify-center"
+      style="min-height: 75vh;"
+    >
+      <div class="absolute top-0 w-full h-full bg-center bg-cover header-2">
+        <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
+      </div>
+      <div class="container relative mx-auto">
+        <div class="items-center flex flex-wrap">
+          <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+            <div class="pr-12">
+              <h1 class="text-white font-semibold text-5xl">About Us</h1>
+              <p class="mt-4 text-lg text-white">
+                At ThyFlow, We believe a great looking haircut gives you confident
+                to achieve your goals. Having confidence in yourself will help you do
+                anything you want in this life and be a leader among your friends.
+                ThyFlow Mobile Barbers help you be more confident by providing a world
+                class haircut service at the comfort of your home or wherever.
+                ThyFlow service is convenient and reliable for anyone with a busy
+                lifestyle. Only the top local barbers on platform!
+              </p>
+            </div>
           </div>
-          <div class="w-full sm:w-1/2 p-6">
-            <img src="~/assets/barber-vector.png" class="w-full sm:h-64 mx-auto" />
+        </div>
+      </div>
+      <!-----------hery------->
+      <div
+        class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
+        style="height: 70px; transform: translateZ(0px);"
+      >
+        <svg
+          class="absolute bottom-0 overflow-hidden"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+          version="1.1"
+          viewBox="0 0 2560 100"
+          x="0"
+          y="0"
+        >
+          <polygon class="text-gray-300 fill-current" points="2560 0 2560 100 0 100" />
+        </svg>
+      </div>
+      <!------------hello------>
+    </section>
+    <section class="pb-20 bg-blue-500 -mt-24">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap">
+          <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+            <div
+              class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+            >
+              <div class="px-4 py-5 flex-auto">
+                <div
+                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400"
+                >
+                  <i class="fas fa-award"></i>
+                </div>
+                <h6 class="text-xl font-semibold">Vetted Service Providers</h6>
+                <p class="mt-2 mb-4 text-gray-600">
+                  All our local providers go through a
+                  background check before they join our network.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-4/12 px-4 text-center">
+            <div
+              class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+            >
+              <div class="px-4 py-5 flex-auto">
+                <div
+                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400"
+                >
+                  <i class="fas fa-retweet"></i>
+                </div>
+                <h6 class="text-xl font-semibold">Security</h6>
+                <p
+                  class="mt-2 mb-4 text-gray-600"
+                >All employees go through security and safety training.</p>
+              </div>
+            </div>
+          </div>
+          <div class="pt-6 w-full md:w-4/12 px-4 text-center">
+            <div
+              class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+            >
+              <div class="px-4 py-5 flex-auto">
+                <div
+                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400"
+                >
+                  <i class="fas fa-fingerprint"></i>
+                </div>
+                <h6 class="text-xl font-semibold">Money-back Guarantee</h6>
+                <p class="mt-2 mb-4 text-gray-600">
+                  Like your haircut or get your money back!
+                  Our Service ensures barbershop from your home.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-wrap items-center mt-32">
+          <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
+            <div
+              class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100"
+            >
+              <i class="fas fa-user-friends text-xl"></i>
+            </div>
+            <h3 class="text-3xl mb-2 font-semibold leading-normal text-orange-400">Our Story</h3>
+            <p
+              class="text-lg font-light leading-relaxed mt-4 mb-4 text-white"
+            >ThyFlow Team, focus on building a trusted platform for anyone to find verified Mobile Service providers in their local area and book an appointment.</p>
+            <p
+              class="text-lg font-light leading-relaxed mt-0 mb-4 text-white"
+            >We connect service providers with customers that need and want their service, in a safe and secure manner.</p>
+            <a href="#" class="font-bold text-orange-400 mt-8">Support@thyflow.com</a>
+          </div>
+          <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
+            <div
+              class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600"
+            >
+              <img
+                alt="..."
+                src="https://images.unsplash.com/photo-1493256338651-d82f7acb2b38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+                class="w-full align-middle rounded-t-lg"
+              />
+              <blockquote class="relative p-8 mb-4">
+                <svg
+                  preserveAspectRatio="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 583 95"
+                  class="absolute left-0 w-full block"
+                  style="height: 95px; top: -94px;"
+                >
+                  <polygon points="-30,95 583,95 583,65" class="text-pink-600 fill-current" />
+                </svg>
+                <h4 class="text-xl font-bold text-white">Top Notch Services</h4>
+                <p
+                  class="text-md font-light mt-2 text-white"
+                >ThyFlow Industry Profesionals handpicked and verify new barbers.</p>
+              </blockquote>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <OurStory />
+
     <BarberProfile />
     <div class="gradient">
       <svg
@@ -104,5 +224,8 @@ export default {
 <style lang="css" scoped>
 .gradient {
   background: linear-gradient(90deg, #0a3ead 0%, #e38914 100%);
+}
+.header-2 {
+  background-image: url("~assets/about-header.jpg");
 }
 </style>

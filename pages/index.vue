@@ -1,31 +1,15 @@
 <template>
-  <div class="gradient-back">
+  <div class="bg-blue-700">
     <Navbar />
     <Header />
     <OurStoryHome />
     <HowItWorks />
     <!------------First Book a barber--------------->
-    <transition appear name="slide-in">
-      <div class="bg-white mx-auto text-center">
-        <button
-          class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg"
-        >
-          <a href="https://zfrmz.com/YwaCWiBx7wEJ3E7hNmZl">Book a Mobile barber!</a>
-        </button>
-      </div>
-    </transition>
-    <Features />
-    <transition appear name="slide-in">
-      <div class="bg-white mx-auto text-center">
-        <button
-          class="mx-auto lg:mx-0 hover:underline gradient give-white font-bold rounded-full my-6 py-4 px-8 shadow-lg"
-        >
-          <a href="https://zfrmz.com/YwaCWiBx7wEJ3E7hNmZl">Book a Mobile barber!</a>
-        </button>
-      </div>
-    </transition>
+
+    <Features class="bg-blue-700" />
+
     <!-----------------Second Book a barber---------->
-    <Customer />
+    <CustomerSlider />
     <Download />
     <ApplyBarber />
     <Footer />
@@ -37,7 +21,7 @@ import Navbar from "~/components/Navbar.vue";
 import Header from "~/components/Header.vue";
 import HowItWorks from "~/components/HowItWorks.vue";
 import Features from "~/components/Features.vue";
-import Customer from "~/components/Customer.vue";
+import CustomerSlider from "~/components/CustomerSlider.vue";
 import Download from "~/components/Download.vue";
 import OurStoryHome from "~/components/OurStoryHome.vue";
 import ApplyBarber from "~/components/ApplyBarber.vue";
@@ -49,7 +33,7 @@ export default {
     Header,
     HowItWorks,
     Features,
-    Customer,
+    CustomerSlider,
     Download,
     OurStoryHome,
     ApplyBarber,
@@ -60,7 +44,7 @@ export default {
 
 <style lang="css" scoped>
 .gradient-back {
-  background-color: rgba(18, 52, 243, 0.603);
+  background-color: rgba(6, 36, 207, 0.603);
 }
 
 .slide-in-enter {
