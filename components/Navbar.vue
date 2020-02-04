@@ -41,7 +41,12 @@
           >About us</nuxt-link>
         </div>
       </div>
-
+ <div class="mb-4 w-full md:mb-0 md:w-1/4">
+   <a
+        class="header-button bg-black-500 hover:bg-blue-700 text-white font-bold py-2 px-4"
+        href="https://zfrmz.com/YwaCWiBx7wEJ3E7hNmZl"
+      >Book a Mobile barber</a>
+  </div>
       <div
         class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
         id="nav-content"
