@@ -41,7 +41,7 @@
           >About us</nuxt-link>
         </div>
       </div>
- <div class="mb-4 w-full md:mb-0 md:w-1/4">
+ <div class="mb-4 w-full md:mb-0 md:w-1/4 ">
    <a
         class="header-button bg-orange-500 hover:bg-blue-700 text-white font-bold py-2 px-4"
         href="https://zfrmz.com/YwaCWiBx7wEJ3E7hNmZl"

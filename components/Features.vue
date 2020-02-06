@@ -117,7 +117,7 @@
           <h4 class="text-white md:text-3xl sm:text-xl font-bold mb-3 inline-block">Licensed Barbers</h4>
           <ul class="px-1">
             <li class="text-white md:text-lg sm:text-base mb-2">
-              <font-awesome-icon :icon="['fas', 'chair']" class="mx-1 h-4 inline-block" />Each barber has a licensed and has worked in a barbershop in the past.
+              <font-awesome-icon :icon="['fas', 'chair']" class="mx-1 h-4 inline-block" />All Barbers are licensed and have worked in a barbershop
             </li>
             <li class="text-white md:text-lg sm:text-base mb-2">
               <font-awesome-icon :icon="['fas', 'chair']" class="mx-1 h-4 inline-block" />Barbers licensed are from top local barbering schools.
