@@ -14,7 +14,7 @@
           <img src="~/assets/googleplay.svg" class="h-12 pr-4 bounce-top-icons" />
         </a>
 
-        <a href="#">
+        <a href="https://apps.apple.com/us/app/thyflow/id1472945216">
           <img src="~/assets/appstore.svg" class="h-12 bounce-top-icons" />
         </a>
       </div>
