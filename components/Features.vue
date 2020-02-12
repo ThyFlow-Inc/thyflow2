@@ -31,7 +31,7 @@
             <li class="text-white md:text-lg sm:text-base mb-3">
               <font-awesome-icon :icon="['fas', 'chair']" class="mx-1 h-4 inline-block" />ThyFlow barbers are trained on ways to improve their service.
             </li>
-          </ul>ß
+          </ul>
           <h4
             class="md:text-3xl sm:text-xl text-white mb-3 font-bold"
           >ThyFlow Industry Profesionals handpicked and verify new barbers</h4>
