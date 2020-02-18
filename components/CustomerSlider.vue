@@ -1,13 +1,13 @@
 <template>
   <div class="bg-white">
     <h1
-      class="w-full mb-2 text-4xl font-bold leading-tight text-center text-orange-500 py-5"
+      class="w-full mb-2 text-4xl font-bold leading-tight text-center text-orange-500"
     >What our customers are saying</h1>
 
-     <h5
+     <h6
       class="w-full mb-2 text-4xl font-bold leading-tight text-center text-blue-500 py-4"
     >Imagine having your own personal barber with a snap of a finger, Now that's ThyFlow! 
-</h5>
+</h6>
     
     <div class="w-full mb-4">
       <div class="h-1 mx-auto w-64 opacity-25 my-0 py-0 rounded-t"></div>
