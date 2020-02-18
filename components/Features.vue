@@ -3,49 +3,42 @@
   <section class="bg-blue-700 border-b py-12">
     <div class="container max-w-7xl mx-auto m-8">
       <h1
-        class="my-6 md:text-6xl uppercase sm:text-3xl font-bold leading-tight text-center text-orange-600"
-      >Book with confidence</h1>
+        class="my-3 md:text-6xl uppercase sm:text-3xl font-bold leading-tight text-center text-white"
+      >
+        Book with ease
+      </h1>
       <div class="w-full mb-4">
-        <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+        <div
+          class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
+        ></div>
       </div>
       <div class="flex flex-wrap">
         <div class="w-6/6 sm:w-1/2 p-6">
           <h4
-            class="text-base md:text-3xl sm:text-xl mb-2 font-bold text-white"
-          >Barbers have years of experience</h4>
-          <ul class="px-1">
-            <li class="text-white md:text-lg sm:text-base mb-2">
-              <font-awesome-icon :icon="['fas', 'cut']" class="mx-1 h-3 inline-block" />We only work with barber who take pride in their work.
-            </li>
-            <li class="text-white md:text-lg sm:text-base mb-2">
-              <font-awesome-icon :icon="['fas', 'cut']" class="mx-1 h-3 inline-block" />We choose the best local barbers in every city.
-            </li>
-          </ul>
-          <h4
-            class="md:text-3xl sm:text-xl text-white mb-2 font-bold"
-          >Barbers provides exceptional service</h4>
-          <ul class="px-1">
-            <li class="text-white md:text-lg sm:text-base mb-2">
-              <font-awesome-icon :icon="['fas', 'chair']" class="mx-1 h-3 inline-block" />ThyFlow Barbers care about the overall customer satisfaction.
-            </li>
-            <li class="text-white md:text-lg sm:text-base mb-2">
-              <font-awesome-icon :icon="['fas', 'chair']" class="mx-1 h-3 inline-block" />ThyFlow barbers are trained on ways to improve their service.
-            </li>
-          </ul>
-          <h4
-            class="md:text-3xl sm:text-xl text-white mb-2 font-bold"
-          >ThyFlow Industry Profesionals handpicked and verify new barbers</h4>
-          <ul class="px-1">
-            <li class="text-white md:text-lg sm:text-base mb-2">
-              <font-awesome-icon :icon="['fas', 'store-alt']" class="mx-1 h-3 inline-block" />Our industry professionals also manger and train new barbers.
-            </li>
-            <li class="text-white md:text-lg sm:text-base mb-2">
-              <font-awesome-icon :icon="['fas', 'store-alt']" class="mx-1 h-3 inline-block" />Our industry professionals have seen every new barber cut hair live!
-            </li>
-            <li class="text-white md:text-lg sm:text-base mb-2">
-              <font-awesome-icon :icon="['fas', 'store-alt']" class="mx-1 h-3 inline-block" />ThyFlow Barbers use only professional tools for the best haircut experience.
-            </li>
-          </ul>
+            class="text-base md:text-3xl sm:text-xl mb-3 font-bold text-white"
+          >
+            Barbers have years of experience
+          </h4>
+          <h5 class="px-1 text-white md:text-lg sm:text-base mb-3">
+            With the help of our industry professionals, we have partnered with
+            the top barbers in your city. ThyFlow, Only work with barbers that
+            take pride in their work.
+          </h5>
+          <h4 class="md:text-3xl sm:text-xl text-white mb-3 font-bold">
+            ThyFlow Barbers, Provides Exceptional Service. 
+          </h4>
+          <h5 class="px-1 text-white md:text-lg sm:text-base mb-3">
+            All barbers will bring years of barbershop experience to you with every haircut. 
+
+          </h5>
+          <h4 class="md:text-3xl sm:text-xl text-white mb-3 font-bold">
+ThyFlow Industry Profesionals handpicked new barbers. 
+          </h4>
+          <h5 class="px-1 text-white md:text-lg sm:text-base mb-3">
+            Industry professionals on our team have seen every new barber cut hair live! Also 
+ensure all barbers are using only professional tools to provide a great haircut 
+experience.
+          </h5>
         </div>
         <div
           class="w-full sm:w-1/2 mb-5"
@@ -70,71 +63,71 @@
         </div>
         <div class="w-full sm:w-1/2 p-6 mt-6 mb-5">
           <div class="align-middle w-6/6">
-            <h4
-              class="text-white md:text-3xl sm:text-xl mb-2 font-bold"
-            >Barbershop Experience from your home</h4>
-            <ul class="px-1">
-              <li class="text-white md:text-lg sm:text-base mb-2">
-                <font-awesome-icon :icon="['fas', 'cut']" class="mx-1 h-3 inline-block" />Our barbers carry their own tools for each haircut.
-              </li>
-              <li class="text-white md:text-lg sm:text-base mb-2">Barber tools are cleaned weekly.</li>
-              <li class="text-white md:text-lg sm:text-base mb-2">
-                <font-awesome-icon :icon="['fas', 'cut']" class="mx-1 h-3 inline-block" />Barbers carry a chair for every haircut.
-              </li>
-            </ul>
-            <h4
-              class="text-white md:text-3xl sm:text-xl mb-2 font-bold"
-            >Like your haircut or your money back</h4>
-            <ul class="px-1">
-              <li class="text-white md:text-lg sm:text-base mb-2">
-                <font-awesome-icon :icon="['fas', 'chair']" class="mx-1 h-3 inline-block" />No questions asked to get your refund if needed.
-              </li>
-            </ul>
-            <h4 class="text-white md:text-3xl sm:text-xl mb-2 font-bold">Barbers are always on time</h4>
-            <ul class="1px-1">
-              <li class="text-white md:text-lg sm:text-base mb-2">
-                <font-awesome-icon :icon="['fas', 'store-alt']" class="mx-1 h-3 inline-block" />Easily Keep track of your barber ETA in app till arrival.
-              </li>
-              <li class="text-white md:text-lg sm:text-base mb-2">
-                <font-awesome-icon :icon="['fas', 'store-alt']" class="mx-1 h-3 inline-block" />After your haircut easily pay and rate your barber in app.
-              </li>
-            </ul>
+            <h4 class="text-white md:text-3xl sm:text-xl mb-3 font-bold">
+ThyFlow, Barbers carry a case of needed tools to all haircut request. 
+            </h4>
+            <h5 class="px-1 text-white md:text-lg sm:text-base mb-3">
+              Yes, Barbers clean tools weekly. Yes, Barbers also have a chair for your haircut. 
+
+            </h5>
+            <h4 class="text-white md:text-3xl sm:text-xl mb-3 font-bold">
+ThyFlow Barbers are always a tap away 
+            </h4>
+            <h5 class="px-1 text-white md:text-lg sm:text-base mb-3">
+              Easily track your barber's E.T.A in app till arrival. After your haircut, leave the cleaning to 
+the barber and rate your experience in app. 
+
+            </h5>
+            
           </div>
         </div>
       </div>
 
       <div class="flex flex-wrap flex-col-reverse sm:flex-row">
         <div class="w-5/6 sm:w-1/2 p-6">
-          <h4 class="text-white md:text-3xl sm:text-xl font-bold mb-2">Barbers Background checked</h4>
+          <h4 class="text-white md:text-3xl sm:text-xl font-bold mb-3">
+Safety & Security is a key propriety to our team 
+          </h4>
           <ul class="px-1">
-            <li class="text-white md:text-lg sm:text-base mb-2">
-              <font-awesome-icon :icon="['fas', 'cut']" class="mx-1 h-3 inline-block" />ThyFlow barbers undergo yearly background check.
+            <li class="text-white md:text-lg sm:text-base mb-3">
+              Barbers background
+
+              <font-awesome-icon
+                :icon="['fas', 'check']"
+                class="mx-1 h-4 inline-block"
+              />
             </li>
-            <li class="text-white md:text-lg sm:text-base mb-2">
-              <font-awesome-icon :icon="['fas', 'cut']" class="mx-1 h-3 inline-block" />ThyFlow Barbers are safe and trustworthy.
+            <li class="text-white md:text-lg sm:text-base mb-3">
+Barbers license
+              <font-awesome-icon
+                :icon="['fas', 'check']"
+                class="mx-1 h-4 inline-block"
+              />
+            </li><li class="text-white md:text-lg sm:text-base mb-3">
+              Two-step interview process
+
+              <font-awesome-icon
+                :icon="['fas', 'check']"
+                class="mx-1 h-4 inline-block"
+              />
+            </li><li class="text-white md:text-lg sm:text-base mb-3">
+Friends and family referral
+              <font-awesome-icon
+                :icon="['fas', 'check']"
+                class="mx-1 h-4 inline-block"
+              />
+            </li><li class="text-white md:text-lg sm:text-base mb-3">
+Interview by industry professional
+              <font-awesome-icon
+                :icon="['fas', 'check']"
+                class="mx-1 h-4 inline-block"
+              />
             </li>
           </ul>
-          <h4 class="text-white md:text-3xl sm:text-xl font-bold mb-3 inline-block">Licensed Barbers</h4>
-          <ul class="px-1">
-            <li class="text-white md:text-lg sm:text-base mb-2">
-              <font-awesome-icon :icon="['fas', 'chair']" class="mx-1 h-3 inline-block" />Each barber has a licensed and has worked in a barbershop in the past.
-            </li>
-            <li class="text-white md:text-lg sm:text-base mb-2">
-              <font-awesome-icon :icon="['fas', 'chair']" class="mx-1 h-3 inline-block" />Barbers licensed are from top local barbering schools.
-            </li>
-          </ul>
-          <h4 class="text-white md:text-3xl sm:text-xl mb-2 font-bold">Two Step Interview Process</h4>
-          <ul class="px-1">
-            <li class="text-white md:text-lg sm:text-base mb-2">
-              <font-awesome-icon :icon="['fas', 'store-alt']" class="mx-1 h-3 inline-block" />Barbers are interviewed by two different mangers.
-            </li>
-            <li class="text-white md:text-lg sm:text-base mb-2">
-              <font-awesome-icon :icon="['fas', 'store-alt']" class="mx-1 h-3 inline-block" />Each barber is also interviewed by our industry professionals.
-            </li>
-            <li class="text-white text-lg mb-2">
-              <font-awesome-icon :icon="['fas', 'store-alt']" class="mx-1 h-3 inline-block" />Barbers are trained On ThyFlow way of customer service.
-            </li>
-          </ul>
+  
+           
+ 
+          
         </div>
         <div
           class="w-full sm:w-1/2 p-6 w-3/4 mt-6"
@@ -150,7 +143,7 @@
 
     <!---------------Changes Mimic Gulo --------------->
   </section>
-</template> 
+</template>
 
 <script>
 export default {};
