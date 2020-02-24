@@ -24,13 +24,7 @@
             the top barbers in your city. ThyFlow, Only work with barbers that
             take pride in their work.
           </h5>
-          <h4 class="md:text-3xl sm:text-xl text-white mb-3 font-bold">
-            ThyFlow Barbers, Provides Exceptional Service. 
-          </h4>
-          <h5 class="px-1 text-white md:text-lg sm:text-base mb-3">
-            All barbers will bring years of barbershop experience to you with every haircut. 
-
-          </h5>
+          
           <h4 class="md:text-3xl sm:text-xl text-white mb-3 font-bold">
 ThyFlow Industry Profesionals handpicked new barbers. 
           </h4>
@@ -85,9 +79,18 @@ the barber and rate your experience in app.
 
       <div class="flex flex-wrap flex-col-reverse sm:flex-row">
         <div class="w-5/6 sm:w-1/2 p-6">
+        <h4 class="md:text-3xl sm:text-xl text-white mb-3 font-bold">
+            ThyFlow Barbers, Provides Exceptional Service. 
+          </h4>
+          <h5 class="px-1 text-white md:text-lg sm:text-base mb-3">
+            All barbers will bring years of barbershop experience to you with every haircut. 
+
+          </h5>
           <h4 class="text-white md:text-3xl sm:text-xl font-bold mb-3">
 Safety & Security is a key propriety to our team 
           </h4>
+
+
           <ul class="px-1">
             <li class="text-white md:text-lg sm:text-base mb-3">
               Barbers background
