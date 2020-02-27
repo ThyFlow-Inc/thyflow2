@@ -14,31 +14,30 @@
       </div>
       <div class="flex flex-wrap">
         <div class="w-6/6 sm:w-1/2 p-6">
-          <h4
+          <p
             class="text-base md:text-3xl sm:text-xl mb-3 font-bold text-white"
           >
             Barbers have years of experience
-          </h4>
-          <h5 class="px-1 text-white md:text-lg sm:text-base mb-3">
+          </p>
+          <p class="px-1 text-white md:text-lg sm:text-base mb-3">
             With the help of our industry professionals, we have partnered with
             the top barbers in your city. ThyFlow, Only work with barbers that
             take pride in their work.
-          </h5>
+          </p>
           <h4 class="md:text-3xl sm:text-xl text-white mb-3 font-bold">
-            ThyFlow Barbers, Provides Exceptional Service. 
+            Barbers, Provides Exceptional Service. 
           </h4>
-          <h5 class="px-1 text-white md:text-lg sm:text-base mb-3">
+          <p class="px-1 text-white md:text-lg sm:text-base mb-3">
             All barbers will bring years of barbershop experience to you with every haircut. 
 
-          </h5>
-          <h4 class="md:text-3xl sm:text-xl text-white mb-3 font-bold">
-ThyFlow Industry Profesionals handpicked new barbers. 
+          </p>
+          <h4 class="md:text-3xl sm:text-xl text-white mb-3 font-bold">Profesionals handpicked new barbers. 
           </h4>
-          <h5 class="px-1 text-white md:text-lg sm:text-base mb-3">
+          <p class="px-1 text-white md:text-lg sm:text-base mb-3">
             Industry professionals on our team have seen every new barber cut hair live! Also 
 ensure all barbers are using only professional tools to provide a great haircut 
 experience.
-          </h5>
+          </p>
         </div>
         <div
           class="w-full sm:w-1/2 mb-5"
@@ -63,13 +62,12 @@ experience.
         </div>
         <div class="w-full sm:w-1/2 p-6 mt-6 mb-5">
           <div class="align-middle w-6/6">
-            <h4 class="text-white md:text-3xl sm:text-xl mb-3 font-bold">
-ThyFlow, Barbers carry a case of needed tools to all haircut request. 
+            <h4 class="text-white md:text-3xl sm:text-xl mb-3 font-bold">Barbers carry all needed tools to all haircut requests. 
             </h4>
-            <h5 class="px-1 text-white md:text-lg sm:text-base mb-3">
+            <p class="px-1 text-white md:text-lg sm:text-base mb-3">
               Yes, Barbers clean tools weekly. Yes, Barbers also have a chair for your haircut. 
 
-            </h5>
+            </p>
             <h4 class="text-white md:text-3xl sm:text-xl mb-3 font-bold">
 ThyFlow Barbers are always a tap away 
             </h4>
