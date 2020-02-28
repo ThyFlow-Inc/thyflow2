@@ -93,7 +93,7 @@
                 class="mx-1 h-4 inline-block"
               />
             </li>
-            <li class="text-white md:text-lg sm:text-base mb-3 inline-block">
+            <li class="text-white md:text-lg sm:text-base mb-3">
               Barbers license
               <font-awesome-icon
                 :icon="['fas', 'check']"
