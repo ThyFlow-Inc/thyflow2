@@ -14,9 +14,7 @@
       </div>
       <div class="flex flex-wrap">
         <div class="w-6/6 sm:w-1/2 p-6">
-          <p
-            class="text-base md:text-3xl sm:text-xl mb-3 font-bold text-white"
-          >
+          <p class="text-base md:text-3xl sm:text-xl mb-3 font-bold text-white">
             Barbers have years of experience
           </p>
           <p class="px-1 text-white md:text-lg sm:text-base mb-3">
@@ -25,18 +23,19 @@
             take pride in their work.
           </p>
           <h4 class="md:text-3xl sm:text-xl text-white mb-3 font-bold">
-            Barbers, Provides Exceptional Service. 
+            Barbers, Provides Exceptional Service.
           </h4>
           <p class="px-1 text-white md:text-lg sm:text-base mb-3">
-            All barbers will bring years of barbershop experience to you with every haircut. 
-
+            All barbers will bring years of barbershop experience to you with
+            every haircut.
           </p>
-          <h4 class="md:text-3xl sm:text-xl text-white mb-3 font-bold">Profesionals handpicked new barbers. 
+          <h4 class="md:text-3xl sm:text-xl text-white mb-3 font-bold">
+            Profesionals handpicked new barbers.
           </h4>
           <p class="px-1 text-white md:text-lg sm:text-base mb-3">
-            Industry professionals on our team have seen every new barber cut hair live! Also 
-ensure all barbers are using only professional tools to provide a great haircut 
-experience.
+            Industry professionals on our team have seen every new barber cut
+            hair live! Also ensure all barbers are using only professional tools
+            to provide a great haircut experience.
           </p>
         </div>
         <div
@@ -62,21 +61,21 @@ experience.
         </div>
         <div class="w-full sm:w-1/2 p-6 mt-6 mb-5">
           <div class="align-middle w-6/6">
-            <h4 class="text-white md:text-3xl sm:text-xl mb-3 font-bold">Barbers carry all needed tools to all haircut requests. 
+            <h4 class="text-white md:text-3xl sm:text-xl mb-3 font-bold">
+              Barbers carry all needed tools to all haircut requests.
             </h4>
             <p class="px-1 text-white md:text-lg sm:text-base mb-3">
-              Yes, Barbers clean tools weekly. Yes, Barbers also have a chair for your haircut. 
-
+              Yes, Barbers clean tools weekly. Yes, Barbers also have a chair
+              for your haircut.
             </p>
             <h4 class="text-white md:text-3xl sm:text-xl mb-3 font-bold">
-ThyFlow Barbers are always a tap away 
+              ThyFlow Barbers are always a tap away
             </h4>
             <h5 class="px-1 text-white md:text-lg sm:text-base mb-3">
-              Easily track your barber's E.T.A in app till arrival. After your haircut, leave the cleaning to 
-the barber and rate your experience in app. 
-
+              Easily track your barber's E.T.A in app till arrival. After your
+              haircut, leave the cleaning to the barber and rate your experience
+              in app.
             </h5>
-            
           </div>
         </div>
       </div>
@@ -84,48 +83,47 @@ the barber and rate your experience in app.
       <div class="flex flex-wrap flex-col-reverse sm:flex-row">
         <div class="w-5/6 sm:w-1/2 p-6">
           <h4 class="text-white md:text-3xl sm:text-xl font-bold mb-3">
-Safety & Security is a key propriety to our team 
+            Safety & Security is a key propriety to our team
           </h4>
           <ul class="px-1">
-            <li class="text-white md:text-lg sm:text-base mb-3">
+            <p class="text-white md:text-lg sm:text-base mb-3">
               Barbers background
 
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
-            </li>
-            <li class="text-white md:text-lg sm:text-base mb-3">
-Barbers license
+            </p>
+            <p class="text-white md:text-lg sm:text-base mb-3 inline-block">
+              Barbers license
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
-            </li><li class="text-white md:text-lg sm:text-base mb-3">
+            </p>
+            <li class="text-white md:text-lg sm:text-base mb-3">
               Two-step interview process
 
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
-            </li><li class="text-white md:text-lg sm:text-base mb-3">
-Friends and family referral
+            </li>
+            <li class="text-white md:text-lg sm:text-base mb-3">
+              Friends and family referral
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
-            </li><li class="text-white md:text-lg sm:text-base mb-3">
-Interview by industry professional
+            </li>
+            <li class="text-white md:text-lg sm:text-base mb-3">
+              Interview by industry professional
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
             </li>
           </ul>
-  
-           
- 
-          
         </div>
         <div
           class="w-full sm:w-1/2 p-6 w-3/4 mt-6"
@@ -139,7 +137,7 @@ Interview by industry professional
       </div>
     </div>
 
-    <!---------------Changes Mimic Gulo --------------->
+    <!---------------Changes Mimic Gulo Solutions--------------->
   </section>
 </template>
 
