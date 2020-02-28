@@ -85,22 +85,21 @@
           <h4 class="text-white md:text-3xl sm:text-xl font-bold mb-3">
             Safety & Security is a key propriety to our team
           </h4>
-          <ul class="px-1">
-            <p class="text-white md:text-lg sm:text-base mb-3">
+            <li class="text-white md:text-lg sm:text-base mb-3">
               Barbers background
 
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
-            </p>
-            <p class="text-white md:text-lg sm:text-base mb-3 inline-block">
+            </li>
+            <li class="text-white md:text-lg sm:text-base mb-3 inline-block">
               Barbers license
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
-            </p>
+            </li>
             <li class="text-white md:text-lg sm:text-base mb-3">
               Two-step interview process
 
@@ -123,7 +122,6 @@
                 class="mx-1 h-4 inline-block"
               />
             </li>
-          </ul>
         </div>
         <div
           class="w-full sm:w-1/2 p-6 w-3/4 mt-6"
