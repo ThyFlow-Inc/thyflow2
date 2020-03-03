@@ -5,8 +5,8 @@
     <OurStoryHome />
     <HowItWorks />
     <!------------First Book a barber--------------->
-
-    <Features class="bg-blue-700" />
+   <!----- <Features class="bg-blue-700" />----->
+    <Features2 />
 
     <!-----------------Second Book a barber---------->
     <CustomerSlider />
@@ -20,7 +20,8 @@
 import Navbar from "~/components/Navbar.vue";
 import Header from "~/components/Header.vue";
 import HowItWorks from "~/components/HowItWorks.vue";
-import Features from "~/components/Features.vue";
+//import Features from "~/components/Features.vue";
+import Features2 from "~/components/Features2.vue";
 import CustomerSlider from "~/components/CustomerSlider.vue";
 import Download from "~/components/Download.vue";
 import OurStoryHome from "~/components/OurStoryHome.vue";
@@ -32,7 +33,8 @@ export default {
     Navbar,
     Header,
     HowItWorks,
-    Features,
+    //Features,
+    Features2,
     CustomerSlider,
     Download,
     OurStoryHome,
