@@ -144,8 +144,7 @@ export default {};
 </script>
 
 <style lang="css" scoped>
-.gradient-back {
-}
+
 
 .zoom:hover {
   transform: scale(1.1);
