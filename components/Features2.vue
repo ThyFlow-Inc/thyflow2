@@ -47,11 +47,11 @@
       <div class="flex flex-wrap flex-col-reverse sm:flex-row">
         <div
           class="w-full sm:w-3/5 p-6 mt-6"
-          style="background: linear-gradient(60deg, #FFC200, #FF7218);"
+          
         >
           <img
-            class="zoom md:min-w-0 md:w-4/7 z-50 sm:w-full sm:h-full md:px-16 md:py-16"
-            src="~/assets/promise.png"
+            class="zoom md:min-w-0 md:w-4/7 z-50 sm:w-full sm:h-full "
+            src="~/assets/barber_33.jpg"
           />
         </div>
         <div class="w-full sm:w-2/5 p-6 mt-6 mb-5">
@@ -76,8 +76,8 @@
       </div>
 
       <div class="flex flex-wrap flex-col-reverse sm:flex-row">
-        <div class="w-5/6 sm:w-2/5 p-6">
-          <h4 class="text-white md:text-3xl sm:text-xl font-bold mb-3">
+        <div class="w-5/6 sm:w-2/5 md:px-16 md:py-16">
+          <h4 class="text-white md:text-2xl sm:text-xl font-bold mb-3">
             Safety & Security is a key propriety to our team
           </h4>
             <li class="text-white md:text-lg sm:text-base mb-3">
