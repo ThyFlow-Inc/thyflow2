@@ -145,7 +145,6 @@ export default {};
 
 <style lang="css" scoped>
 
-
 .zoom:hover {
   transform: scale(1.1);
 }

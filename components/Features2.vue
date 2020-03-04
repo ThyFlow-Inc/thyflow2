@@ -14,29 +14,22 @@
       </div>
       <div class="flex flex-wrap">
         <div class="w-6/6 sm:w-2/5 p-6">
-          <p class="text-base md:text-3xl sm:text-xl mb-3 font-bold text-white">
+          <p class="text-base md:text-2xl sm:text-xl mb-3 font-bold text-white">
             Barbers have years of experience
           </p>
-          <p class="px-1 text-white md:text-lg sm:text-base mb-3">
+          <p class="text-white md:text-lg sm:text-base mb-3">
             With the help of our industry professionals, we have partnered with
             the top barbers in your city. ThyFlow, Only work with barbers that
             take pride in their work.
           </p>
-          <h4 class="md:text-3xl sm:text-xl text-white mb-3 font-bold">
+          <h4 class="md:text-2xl sm:text-xl text-white mb-3 font-bold">
             Barbers, Provides Exceptional Service.
           </h4>
           <p class="px-1 text-white md:text-lg sm:text-base mb-3">
             All barbers will bring years of barbershop experience to you with
             every haircut.
           </p>
-          <h4 class="md:text-3xl sm:text-xl text-white mb-3 font-bold">
-            Profesionals handpicked new barbers.
-          </h4>
-          <p class="px-1 text-white md:text-lg sm:text-base mb-3">
-            Industry professionals on our team have seen every new barber cut
-            hair live! Also ensure all barbers are using only professional tools
-            to provide a great haircut experience.
-          </p>
+          
         </div>
         <div
           class="w-full sm:w-3/5 mb-5"
