@@ -13,7 +13,7 @@
         ></div>
       </div>
       <div class="flex flex-wrap">
-        <div class="w-6/6 sm:w-2/5 p-6">
+        <div class="w-6/6 sm:w-2/5 md:px-16 md:py-16">
           <p class="text-base md:text-2xl sm:text-xl mb-3 font-bold text-white">
             Barbers have years of experience
           </p>
@@ -31,13 +31,15 @@
           </p>
           
         </div>
-        <div
+        <!------<div
           class="w-full sm:w-3/5 mb-5"
           style="background: linear-gradient(60deg, #00EAC3, #1F9DD4);"
-        >
+        >-->
+        <div
+          class="w-full sm:w-3/5 mb-5">
           <img
-            class="zoom md:min-w-0 md:w-4/7 z-50 sm:w-full sm:h-full md:px-16 md:py-16"
-            src="~/assets/barber_showcase.png"
+            class="zoom md:min-w-0 md:w-4/7  sm:w-full "
+            src="~/assets/barber_22.jpg"
           />
         </div>
       </div>
@@ -53,15 +55,15 @@
           />
         </div>
         <div class="w-full sm:w-2/5 p-6 mt-6 mb-5">
-          <div class="align-middle w-6/6">
-            <h4 class="text-white md:text-3xl sm:text-xl mb-3 font-bold">
+          <div class="align-middle w-6/6 md:px-16 md:py-16">
+            <h4 class="text-white md:text-2xl sm:text-xl mb-3 font-bold">
               Barbers carry all needed tools to all haircut requests.
             </h4>
             <p class="px-1 text-white md:text-lg sm:text-base mb-3">
               Yes, Barbers clean tools weekly. Yes, Barbers also have a chair
               for your haircut.
             </p>
-            <h4 class="text-white md:text-3xl sm:text-xl mb-3 font-bold">
+            <h4 class="text-white md:text-2xl sm:text-xl mb-3 font-bold">
               ThyFlow Barbers are always a tap away
             </h4>
             <h5 class="px-1 text-white md:text-lg sm:text-base mb-3">
