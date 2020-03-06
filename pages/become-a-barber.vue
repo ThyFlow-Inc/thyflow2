@@ -101,98 +101,8 @@ Submit Information</button>
        <div class="header2">
       <div class="flex flex-wrap mx-4">
         <!--Left Col-->
-        <div class="w-full lg:w-3/6 px-8 text-center lg:text-left self-center ">
-          <h1 class="mx-16 text-5xl font-bold leading-none text-orange">Become a ThyFlow Barber</h1>
-          <p class="mb-12">
-            <p
-              class="mx-16 text-white font-bold lg:text-2xl md:text-1xl"
-            
-            > If you are looking for a flexible way to earn a great income doing what you enjoy, Join ThyFlow Barber Team. 
-             <p
-              class="mx-16 text-white font-bold lg:text-1xl md:text-1xl"
-            
-            > 
-            THYFLOW - This is an alternative way for men to get a haircut at home. ThyFlow, offer customers Barbershop experience at home or wherever they at. 
-            ThyFlow Barbers work within their neighborhood to drive to customer's homes to provide a haircut service.</p>
-          
-        </div>
-
-        <!--Right Col-->
-        <div class="w-full lg:w-3/6 px-4 text-center lg:center lg:text-left self-center px-12">
-    
-        </div>
-      </div>
-    </div>
-    <!-----------Willing do------->
-    <div class="container mx-auto lg:px-24">
-      <div class="pb-16">
-        <div class="mb-4 text-2xl font-bold text-center">Become a Mobile Barber</div>
-        <p class="text-center text-2xl">
-          If you are looking for a flexible way to earn a great income doing what you enjoy, Join ThyFlow Barber Team. THYFLOW - This is an alternative way for men to get a haircut at home. ThyFlow, offer customers Barbershop experience at home or wherever they at.
-          ThyFlow Barbers work within their neighborhood to drive to customer's homes to provide a haircut service.
-        </p>
-      </div>
-      <section class="bg-white border-b py-8">
-        <div class="container mx-auto flex flex-wrap pt-4 pb-12">
-          <div class="w-full mb-4">
-            <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-          </div>
-
-          <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-            <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-              <p class="flex flex-wrap no-underline hover:no-underline">
-                <div class="w-full font-bold text-xl text-gray-800 px-6 text-center">Responsibility</div>
-                <p
-                  class="text-gray-800 text-base px-4 mb-5"
-                >Provide all customers with a High-Quality haircut.</p>
-                <p class="text-gray-800 text-base px-4 mb-5">Represent the ThyFlow Brand.</p>
-                <p class="text-gray-800 text-base px-4 mb-5">Provide exceptional customer service.</p>
-                <p class="text-gray-800 text-base px-4 mb-5">Repeat all customers&#39; homes.</p>
-              
-            </div>
-            <div
-              class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6"
-            ></div>
-          </div>
-
-          <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-            <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-              <a href="#" class="flex flex-wrap no-underline hover:no-underline">
-                <div class="w-full font-bold text-xl text-gray-800 px-6 text-center">Qualifications</div>
-                <p class="text-gray-800 text-base px-4 mb-5">Haircut experience.</p>
-                <p class="text-gray-800 text-base px-4 mb-5">Have a smart phone.</p>
-                <p class="text-gray-800 text-base px-4 mb-5">Have a reliable transportation.</p>
-                <p class="text-gray-800 text-base px-4 mb-5">Have Barber license.</p>
-                <p class="text-gray-800 text-base px-4 mb-5">Friendly personality.</p>
-                <p class="text-gray-800 text-base px-4 mb-5">Take Pride in your work.</p>
-                <p class="text-gray-800 text-base px-4 mb-5">Can communicate with customers.</p>
-              </a>
-            </div>
-            <div
-              class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6"
-            ></div>
-          </div>
-
-          <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-            <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-              <a href="#" class="flex flex-wrap no-underline hover:no-underline">
-                <p class="w-full font-bold text-xl text-gray-800 px-4 mb-5">We Provide</p>
-                <p class="text-gray-800 px-4 mb-5">Yearly Training.</p>
-                <p class="text-gray-800 px-4 mb-5">Bag for barber tools.</p>
-                <p class="text-gray-800 px-4 mb-5">Barber chair for haircuts.</p>
-                <p class="text-gray-800 px-4 mb-5">In app support.</p>
-              </a>
-            </div>
-            <div
-              class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6"
-            ></div>
-          </div>
-        </div>
-      </section>
-      <!----------tabs-------->
-         <div class=" mx-auto lg:px-24">
-      <div class="pb-16">
-         <tabs
+        <div class="w-full lg:w-6/6 px-8 text-center lg:text-left self-center ">
+      <tabs class="mt-20"
       :tabs="tabs"
       :currentTab="currentTab"
       :wrapper-class="'default-tabs'"
@@ -201,8 +111,8 @@ Submit Information</button>
       :line-class="'default-tabs__active-line'"
       @onClick="handleClick"
     />
-    <div class="content">
-      <div v-if="currentTab === 'tab1'">
+    <div class="content px-6">
+      <div class="px-8" v-if="currentTab === 'tab1'">
         Sed ut perspiciatis unde omnis iste natus error sit
         voluptatem accusantium doloremque laudantium, totam rem aperiam,
         eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
@@ -213,7 +123,7 @@ Submit Information</button>
         numquam eius modi tempora incidunt ut labore
         et dolore magnam aliquam quaerat voluptatem.
       </div>
-      <div v-if="currentTab === 'tab2'">
+      <div class="text-white text-2xl" v-if="currentTab === 'tab2'">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
         exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
@@ -228,6 +138,17 @@ Submit Information</button>
         mollitia animi, id est laborum et dolorum fuga.
       </div>
     </div>
+        </div>
+
+       
+      </div>
+    </div>
+    <!-----------Willing do------->
+    
+      <!----------tabs-------->
+         <div class=" mx-auto">
+      <div class="pb-16">
+        
       </div>
          </div>
       <!-------Finish Tabs------>
@@ -240,7 +161,6 @@ Submit Information</button>
           class="bg-blue-500 hover:bg-blue-400 text-white w-full font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded text-2xl"
         >Fill the form here!</a>
       </div>
-    </div>
     <Footer />
   </div>
 </template>
@@ -281,7 +201,54 @@ export default {
   }
 };
 </script>
-<style lang="css" scoped>
+<style lang="scss" scoped>
+
+.default-tabs {
+  position: relative;
+  margin: 0 auto;
+  &__item {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    padding-top: 8px;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.25s;
+    &_active {
+      color: white;
+    }
+    &:hover {
+      border-bottom: 2px solid gray;
+      color: black;
+    }
+    &:focus {
+      outline: none;
+      border-bottom: 2px solid gray;
+      color: white;
+    }
+    &:first-child {
+      margin-left: 0;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  &__active-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    background-color: rgb(255, 252, 251);
+    transition: transform 0.4s ease, width 0.4s ease;
+  }
+}
+
 .gradient {
   background: linear-gradient(90deg, #0a3ead 0%, #e38914 100%);
 }
