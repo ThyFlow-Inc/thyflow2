@@ -12,16 +12,16 @@
             
             > If you are looking for a flexible way to earn a great income doing what you enjoy, Join ThyFlow Barber Team. 
              <p
-              class="mx-16 text-white font-bold lg:text-1xl md:text-1xl"
+              class="mx-16 text-white font-bold lg:text-2xl md:text-1xl"
             
             > 
             THYFLOW - This is an alternative way for men to get a haircut at home. ThyFlow, offer customers Barbershop experience at home or wherever they at. 
             ThyFlow Barbers work within their neighborhood to drive to customer's homes to provide a haircut service.</p>
-            </p>
+          
         </div>
 
         <!--Right Col-->
-        <div class="w-full lg:w-3/6 px-4 text-center lg:center lg:text-left self-center px-12">
+        <div class="w-full lg:w-3/6 px-4 text-center lg:center lg:text-left self-center px-20">
     <div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 flex flex-col my-8">
   <div class="-mx-3 md:flex mb-6">
     <div class="md:w-1/2 px-3 mb-6 md:mb-0">
@@ -75,28 +75,54 @@ Submit Information</button>
       </div>
     </div>
     <!--------------Header Done----------->
-  <div class="flex flex-wrap mt-6">
+  <div class="flex flex-wrap md:px-16 md:py-16">
         <div class="w-6/6 sm:w-1/2 p-6">
-          <p class="text-base md:text-3xl sm:text-xl mb-3 font-bold text-orange">
+          <p class="text-base md:text-3xl sm:text-xl mb-3 font-bold text-orange mx-4">
             Why ThyFlow?
           </p>
-          <p class="px-1 text-orange md:text-lg sm:text-base mb-3">
-            With the help of our industry professionals, we have partnered with
-            the top barbers in your city. ThyFlow, Only work with barbers that
-            take pride in their work.
+          <p class="px-3 text-orange md:text-2xl sm:text-base mb-3">
+            ThyFlow Team, focus on building a trusted platform for anyone to find 
+            verified Mobile Service providers in their local area and book an appointment. We connect 
+            service providers with customers that need and want their service, in 
+            a safe and secure manner. 
           </p>
-          
         </div>
         <div
           class="w-full sm:w-1/2 mb-5"
-          style="background: linear-gradient(60deg, #00EAC3, #1F9DD4);"
         >
           <img
-            class="zoom md:min-w-0 md:w-4/7 z-50 sm:w-full sm:h-full md:px-16 md:py-16"
+            class="zoom md:min-w-0 md:w-4/7 z-50 sm:w-full sm:h-full"
             src="~/assets/barber_showcase.png"
           />
         </div>
       </div>
+
+      <!------Third section-------->
+       <div class="header2">
+      <div class="flex flex-wrap mx-4">
+        <!--Left Col-->
+        <div class="w-full lg:w-3/6 px-8 text-center lg:text-left self-center ">
+          <h1 class="mx-16 text-5xl font-bold leading-none text-orange">Become a ThyFlow Barber</h1>
+          <p class="mb-12">
+            <p
+              class="mx-16 text-white font-bold lg:text-2xl md:text-1xl"
+            
+            > If you are looking for a flexible way to earn a great income doing what you enjoy, Join ThyFlow Barber Team. 
+             <p
+              class="mx-16 text-white font-bold lg:text-1xl md:text-1xl"
+            
+            > 
+            THYFLOW - This is an alternative way for men to get a haircut at home. ThyFlow, offer customers Barbershop experience at home or wherever they at. 
+            ThyFlow Barbers work within their neighborhood to drive to customer's homes to provide a haircut service.</p>
+          
+        </div>
+
+        <!--Right Col-->
+        <div class="w-full lg:w-3/6 px-4 text-center lg:center lg:text-left self-center px-12">
+    
+        </div>
+      </div>
+    </div>
     <!-----------Willing do------->
     <div class="container mx-auto lg:px-24">
       <div class="pb-16">
@@ -196,6 +222,18 @@ export default {
       rgba(28, 58, 228, 0.603)
     ),
     url("~assets/barber_22.jpg");
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+.header2 {
+  height: 70vh;
+  background-image: linear-gradient(
+      to right,
+      rgba(65, 99, 109, 0.801),
+      rgba(28, 58, 228, 0.603)
+    ),
+    url("~assets/barber_33.jpg");
   background-size: cover;
   background-position: top;
   position: relative;
