@@ -4,8 +4,8 @@
     <div class="header">
       <div class="flex flex-wrap mx-4">
         <!--Left Col-->
-        <div class="w-full lg:w-3/6 px-8 text-center lg:text-left self-center ">
-          <h1 class="mx-16 text-5xl font-bold leading-none text-orange">Become a ThyFlow Barber</h1>
+        <div class="w-full lg:w-3/6 px-8 text-center lg:text-left self-center mt-10">
+          <h1 class="mx-16 text-5xl font-bold leading-none text-orange-700">Become a ThyFlow Barber</h1>
           <p class="mb-12">
             <p
               class="mx-16 text-white font-bold lg:text-2xl md:text-1xl"
@@ -189,10 +189,13 @@ Submit Information</button>
           </div>
         </div>
       </section>
-      <div class="container mx-auto flex flex-wrap pt-4 pb-12">
+      <div class="mx-auto flex flex-wrap pt-4 pb-4">
+        <h1 class="mx-auto block text-5xl font-bold leading-none text-orange self-center">Interested?</h1>
+      </div>
+      <div class="mx-auto  self-center">
         <a
           href="https://thyflow.zohorecruit.com/careers"
-          class="w-full my-2 text-5xl font-bold gradient leading-tight text-center text-white-200"
+          class="bg-blue-500 hover:bg-blue-400 text-white w-full font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded text-2xl"
         >Fill the form here!</a>
       </div>
     </div>
@@ -206,7 +209,21 @@ import Footer from "~/components/Footer.vue";
 export default {
   components: {
     Navbar,
+    Tabs,
     Footer
+  },
+  data: () => ({
+    tabs: [
+      { title: 'Tab 1', value: 'tab1' },
+      { title: 'Tab 2', value: 'tab2' },
+      { title: 'Tab 3', value: 'tab3', }
+    ],
+    currentTab: 'tab1',
+  }),
+  methods: {
+    handleClick(newTab) {
+      this.currentTab = newTab;
+    },
   }
 };
 </script>
