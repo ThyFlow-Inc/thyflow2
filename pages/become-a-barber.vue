@@ -4,29 +4,31 @@
     <div class="header">
       <div class="flex flex-wrap mx-4">
         <!--Left Col-->
-        <div class="w-full lg:w-3/6 px-4 text-center lg:text-left self-center ">
-          <h1 class="mx-12 text-5xl font-bold leading-none text-orange">Become a ThyFlow Barber</h1>
+        <div class="w-full lg:w-3/6 px-8 text-center lg:text-left self-center ">
+          <h1 class="mx-16 text-5xl font-bold leading-none text-orange">Become a ThyFlow Barber</h1>
           <p class="mb-12">
             <p
-              class="mx-16 text-white font-semibold lg:text-1xl"
+              class="mx-16 text-white font-bold lg:text-2xl md:text-1xl"
             
             > If you are looking for a flexible way to earn a great income doing what you enjoy, Join ThyFlow Barber Team. 
+             <p
+              class="mx-16 text-white font-bold lg:text-1xl md:text-1xl"
+            
+            > 
             THYFLOW - This is an alternative way for men to get a haircut at home. ThyFlow, offer customers Barbershop experience at home or wherever they at. 
             ThyFlow Barbers work within their neighborhood to drive to customer's homes to provide a haircut service.</p>
-          
-          <a class="mx-auto lg:mx-0 hover:underline text-gray-800 font-bold my-6 py-4 px-8"></a>
+            </p>
         </div>
 
         <!--Right Col-->
         <div class="w-full lg:w-3/6 px-4 text-center lg:center lg:text-left self-center px-12">
-    <div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 flex flex-col my-2">
+    <div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 flex flex-col my-8">
   <div class="-mx-3 md:flex mb-6">
     <div class="md:w-1/2 px-3 mb-6 md:mb-0">
       <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-first-name">
         First Name
       </label>
       <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-red rounded py-3 px-4 mb-3" id="grid-first-name" type="text" placeholder="Jane">
-      <p class="text-red text-xs italic">Please fill out this field.</p>
     </div>
     <div class="md:w-1/2 px-3">
       <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-last-name">
@@ -38,47 +40,64 @@
   <div class="-mx-3 md:flex mb-6">
     <div class="md:w-full px-3">
       <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-password">
-        Password
+        Email
       </label>
-      <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 mb-3" id="grid-password" type="password" placeholder="******************">
-      <p class="text-grey-dark text-xs italic">Make it as long and as crazy as you'd like</p>
+      <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 mb-3" id="grid-password" type="text" placeholder="Type your email">
     </div>
   </div>
-  <div class="-mx-3 md:flex mb-2">
-    <div class="md:w-1/2 px-3 mb-6 md:mb-0">
-      <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-city">
-        City
+  <div class="-mx-3 md:flex mb-6">
+    <div class="md:w-full px-3">
+      <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-password">
+        Phone Number
       </label>
-      <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4" id="grid-city" type="text" placeholder="Albuquerque">
-    </div>
-    <div class="md:w-1/2 px-3">
-      <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-state">
-        State
-      </label>
-      <div class="relative">
-        <select class="block appearance-none w-full bg-grey-lighter border border-grey-lighter text-grey-darker py-3 px-4 pr-8 rounded" id="grid-state">
-          <option>New Mexico</option>
-          <option>Missouri</option>
-          <option>Texas</option>
-        </select>
-        <div class="pointer-events-none absolute pin-y pin-r flex items-center px-2 text-grey-darker">
-          <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
-        </div>
-      </div>
-    </div>
-    <div class="md:w-1/2 px-3">
-      <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-zip">
-        Zip
-      </label>
-      <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4" id="grid-zip" type="text" placeholder="90210">
+      <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 mb-3" id="grid-password" type="text" placeholder="Type your email">
     </div>
   </div>
+  <!-----Checkbox----->
+  <div class=" mb-6">
+  <span class="text-xs uppercase font-bold">Are you a certified barber? </span>
+  <div class="mt-2">
+    <label class="inline-flex items-center">
+      <input type="radio" class="form-radio" name="accountType" value="personal">
+      <span class="ml-2">Yes</span>
+    </label>
+    <label class="inline-flex items-center ml-6">
+      <input type="radio" class="form-radio" name="accountType" value="busines">
+      <span class="ml-2">No</span>
+    </label>
+  </div>
+</div>
+  <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+Submit Information</button>
 </div>
           <!---<img src="~/assets/barber.png" class="w-full xl:w-4/5 z-50 inline-block" />-->
         </div>
       </div>
     </div>
     <!--------------Header Done----------->
+  <div class="flex flex-wrap mt-6">
+        <div class="w-6/6 sm:w-1/2 p-6">
+          <p class="text-base md:text-3xl sm:text-xl mb-3 font-bold text-orange">
+            Why ThyFlow?
+          </p>
+          <p class="px-1 text-orange md:text-lg sm:text-base mb-3">
+            With the help of our industry professionals, we have partnered with
+            the top barbers in your city. ThyFlow, Only work with barbers that
+            take pride in their work.
+          </p>
+          
+        </div>
+        <div
+          class="w-full sm:w-1/2 mb-5"
+          style="background: linear-gradient(60deg, #00EAC3, #1F9DD4);"
+        >
+          <img
+            class="zoom md:min-w-0 md:w-4/7 z-50 sm:w-full sm:h-full md:px-16 md:py-16"
+            src="~/assets/barber_showcase.png"
+          />
+        </div>
+      </div>
+    <!-----------Willing do------->
     <div class="container mx-auto lg:px-24">
       <div class="pb-16">
         <div class="mb-4 text-2xl font-bold text-center">Become a Mobile Barber</div>
