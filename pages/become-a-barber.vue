@@ -39,7 +39,7 @@
   </div>
   <div class="-mx-3 md:flex mb-6">
     <div class="md:w-full px-3">
-      <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-password">
+      <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-email">
         Email
       </label>
       <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 mb-3" id="grid-password" type="text" placeholder="Type your email">
@@ -47,7 +47,7 @@
   </div>
   <div class="-mx-3 md:flex mb-6">
     <div class="md:w-full px-3">
-      <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-password">
+      <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-phone">
         Phone Number
       </label>
       <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 mb-3" id="grid-password" type="text" placeholder="Type your email">
@@ -140,7 +140,7 @@ Submit Information</button>
 
           <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
             <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-              <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+              <p class="flex flex-wrap no-underline hover:no-underline">
                 <div class="w-full font-bold text-xl text-gray-800 px-6 text-center">Responsibility</div>
                 <p
                   class="text-gray-800 text-base px-4 mb-5"
@@ -148,7 +148,7 @@ Submit Information</button>
                 <p class="text-gray-800 text-base px-4 mb-5">Represent the ThyFlow Brand.</p>
                 <p class="text-gray-800 text-base px-4 mb-5">Provide exceptional customer service.</p>
                 <p class="text-gray-800 text-base px-4 mb-5">Repeat all customers&#39; homes.</p>
-              </a>
+              
             </div>
             <div
               class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6"
@@ -189,6 +189,48 @@ Submit Information</button>
           </div>
         </div>
       </section>
+      <!----------tabs-------->
+         <div class=" mx-auto lg:px-24">
+      <div class="pb-16">
+         <tabs
+      :tabs="tabs"
+      :currentTab="currentTab"
+      :wrapper-class="'default-tabs'"
+      :tab-class="'default-tabs__item'"
+      :tab-active-class="'default-tabs__item_active'"
+      :line-class="'default-tabs__active-line'"
+      @onClick="handleClick"
+    />
+    <div class="content">
+      <div v-if="currentTab === 'tab1'">
+        Sed ut perspiciatis unde omnis iste natus error sit
+        voluptatem accusantium doloremque laudantium, totam rem aperiam,
+        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+        dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur
+        aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+        voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+        quia dolor sit amet, consectetur, adipisci velit, sed quia non
+        numquam eius modi tempora incidunt ut labore
+        et dolore magnam aliquam quaerat voluptatem.
+      </div>
+      <div v-if="currentTab === 'tab2'">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </div>
+      <div v-if="currentTab === 'tab3'">
+        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+        voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+        occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt
+        mollitia animi, id est laborum et dolorum fuga.
+      </div>
+    </div>
+      </div>
+         </div>
+      <!-------Finish Tabs------>
       <div class="mx-auto flex flex-wrap pt-4 pb-4">
         <h1 class="mx-auto block text-5xl font-bold leading-none text-orange self-center">Interested?</h1>
       </div>
@@ -205,7 +247,23 @@ Submit Information</button>
 
 <script>
 import Navbar from "~/components/Navbar.vue";
+import Tabs from "vue-tabs-with-active-line";
+
 import Footer from "~/components/Footer.vue";
+
+
+
+const TABS = [{
+  title: 'Tab 1',
+  value: 'tab1',
+}, {
+  title: 'Tab 2',
+  value: 'tab2',
+}, {
+  title: 'Tab 3',
+  value: 'tab3',
+}];
+
 export default {
   components: {
     Navbar,
@@ -213,11 +271,7 @@ export default {
     Footer
   },
   data: () => ({
-    tabs: [
-      { title: 'Tab 1', value: 'tab1' },
-      { title: 'Tab 2', value: 'tab2' },
-      { title: 'Tab 3', value: 'tab3', }
-    ],
+    tabs: TABS,
     currentTab: 'tab1',
   }),
   methods: {
@@ -255,4 +309,13 @@ export default {
   background-position: top;
   position: relative;
 }
+.content {
+  margin-top: 30px;
+  font-size: 20px;
+}
+.default-tabs {
+  position: relative;
+  margin: 0 auto;
+}
+
 </style>

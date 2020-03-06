@@ -1,81 +1,87 @@
-const PrismicConfig = require('./prismic.config')
+const PrismicConfig = require("./prismic.config");
 
 export default {
-  mode: 'universal',
+  mode: "universal",
   /*
-  ** Headers of the page
-  */
+   ** Headers of the page
+   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: process.env.npm_package_name || "",
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { charset: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      {
+        hid: "description",
+        name: "description",
+        content: process.env.npm_package_description || ""
+      }
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ],
+    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
     script: [
-      { innerHTML: '{ window.prismic = { endpoint: "' + PrismicConfig.apiEndpoint + '"} }' },
-      { src: '//static.cdn.prismic.io/prismic.min.js' }
+      {
+        innerHTML:
+          '{ window.prismic = { endpoint: "' +
+          PrismicConfig.apiEndpoint +
+          '"} }'
+      },
+      { src: "//static.cdn.prismic.io/prismic.min.js" }
     ],
-    __dangerouslyDisableSanitizers: ['script'],
+    __dangerouslyDisableSanitizers: ["script"]
   },
   /*
-  ** Customize the progress-bar color
-  */
-  loading: { color: '#fff' },
+   ** Customize the progress-bar color
+   */
+  loading: { color: "#fff" },
   /*
-  ** Global CSS
-  */
-  css: [
-    '@/assets/css/common.css',
-
-
-  ],
+   ** Global CSS
+   */
+  css: ["@/assets/css/common.css"],
   /*
-  ** Plugins to load before mounting the App
-  */
+   ** Plugins to load before mounting the App
+   */
   plugins: [
-    { src: '~/plugins/VueTyper.js', ssr: false },
-    { src: '~/plugins/link-resolver.js' },
-    { src: '~/plugins/prismic-vue.js' },
-    { src: '~/plugins/vue-slider.js', ssr: false }
+    { src: "~/plugins/VueTyper.js", ssr: false },
+    { src: "~/plugins/link-resolver.js" },
+    { src: "~/plugins/prismic-vue.js" },
+    { src: "~/plugins/vue-slider.js", ssr: false },
+    { src: "~/plugins/vue-tabs.js", ssr: false }
   ],
   /*
-  ** Nuxt.js dev-modules
-  */
+   ** Nuxt.js dev-modules
+   */
   buildModules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-    '@nuxtjs/tailwindcss',
+    "@nuxtjs/tailwindcss"
   ],
   /*
-  ** Nuxt.js modules
-  */
+   ** Nuxt.js modules
+   */
   modules: [
     [
-      'nuxt-fontawesome', {
+      "nuxt-fontawesome",
+      {
         imports: [
           {
-            set: '@fortawesome/free-solid-svg-icons',
-            icons: ['fas']
+            set: "@fortawesome/free-solid-svg-icons",
+            icons: ["fas"]
           },
           {
-            set: '@fortawesome/free-brands-svg-icons',
-            icons: ['fab']
+            set: "@fortawesome/free-brands-svg-icons",
+            icons: ["fab"]
           }
         ]
       }
     ]
-  ], /*
-    ** Build configuration
-    */
+  ]
+  /*
+   ** Build configuration
+   */,
   build: {
     /*
-    ** You can extend webpack config here
-    */
+     ** You can extend webpack config here
+     */
     extend(config, ctx) {
-      config.resolve.alias['vue'] = 'vue/dist/vue.common'
+      config.resolve.alias["vue"] = "vue/dist/vue.common";
     }
   }
-}
+};
