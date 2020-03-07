@@ -51,7 +51,7 @@
         >
           <img
             class="zoom md:min-w-0 md:w-4/7 z-50 sm:w-full sm:h-full "
-            src="~/assets/barber_33.jpg"
+            src="~/assets/barber_55.png"
           />
         </div>
         <div class="w-full sm:w-2/5 p-6 mt-6 mb-5">
@@ -59,7 +59,7 @@
             <h4 class="text-orange-500 md:text-2xl sm:text-xl mb-3 font-bold">
               Barbers carry all needed tools to all haircut requests.
             </h4>
-            <p class="px-1 text-white md:text-lg sm:text-base mb-3">
+            <p class="px-1 text-white md:text-lg sm:text-base mb-5">
               Yes, Barbers clean tools weekly. Yes, Barbers also have a chair
               for your haircut.
             </p>
@@ -77,7 +77,7 @@
 
       <div class="flex flex-wrap flex-col-reverse sm:flex-row">
         <div class="w-5/6 sm:w-2/5 md:px-16 md:py-16">
-          <h4 class="text-orange-500 md:text-2xl sm:text-xl font-bold mb-3">
+          <h4 class="text-orange-500 md:text-2xl sm:text-xl font-bold mb-5">
             Safety & Security is a key propriety to our team
           </h4>
             <li class="text-white md:text-lg sm:text-base mb-3">
@@ -124,7 +124,7 @@
         >
           <img
             class="zoom md:min-w-0 md:w-4/7 z-50 sm:w-full sm:h-full md:px-16 md:py-16"
-            src="~/assets/barber_showcase.png"
+            src="~/assets/barber66_.png"
           />
         </div>
       </div>
