@@ -155,7 +155,7 @@
     <div class="header2">
       <div class="flex flex-wrap mx-4">
         <!--Left Col-->
-        <div class="w-full lg:w-3/6 px-12 text-center lg:text-left self-center mt-12 ">
+        <div class="w-full lg:w-3/6 py-12 px-16 text-center lg:text-left self-center mt-12 ">
           <!-------First section------>
           <button
             @click="button1 = true"
@@ -240,7 +240,7 @@
         Interested?
       </h1>
     </div>
-    <div class="mx-auto  self-center">
+    <div class="w-full text-center  self-center">
       <a
         href="https://thyflow.zohorecruit.com/careers"
         class="bg-blue-500 hover:bg-blue-400 text-white w-full font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded text-2xl"
