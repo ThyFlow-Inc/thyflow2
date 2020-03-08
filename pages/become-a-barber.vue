@@ -159,20 +159,20 @@
           <!-------First section------>
           <button
             @click="button1 = true"
-            class="bg-blue-500 hover:bg-blue-700 block text-white text-2xl font-bold py-2 px-12 border border-blue-700 rounded mb-8"
+            class="bg-blue-500 hover:bg-blue-700 block text-white text-2xl font-bold w-full py-2 px-12 border border-blue-700 rounded mb-8"
           >
             What you'll do
           </button>
 
            <button
             @click="button1 = false"
-            class="bg-blue-500 hover:bg-blue-700 text-white text-2xl font-bold py-2 px-12 border border-blue-700 rounded mb-8"
+            class="bg-blue-500 hover:bg-blue-700 text-white text-2xl font-bold w-full py-2 px-12 border border-blue-700 rounded mb-8"
           >
           What you'll need
           </button>
            <button
             @click="button1 = false"
-            class="bg-blue-500 hover:bg-blue-700 text-white text-2xl font-bold py-2 px-12 border border-blue-700 rounded mb-8"
+            class="bg-blue-500 hover:bg-blue-700 text-white text-2xl font-bold w-full py-2 px-12 border border-blue-700 rounded mb-8"
           >
           Who we're looking for
           </button>
