@@ -228,19 +228,16 @@
     </div>
     <!-----------Willing do------->
 
-    <!----------tabs-------->
-    <div class=" mx-auto">
-      <div class="pb-16"></div>
-    </div>
+    
     <!-------Finish Tabs------>
-    <div class="mx-auto flex flex-wrap pt-4 pb-4">
+    <div class="mx-auto flex flex-wrap pt-4 pb-4 bg-gray-400">
       <h1
         class="mx-auto block text-5xl font-bold leading-none text-orange self-center"
       >
         Interested?
       </h1>
     </div>
-    <div class="w-full text-center  self-center">
+    <div class="w-full text-center  self-center bg-gray-400">
       <a
         href="https://thyflow.zohorecruit.com/careers"
         class="bg-blue-500 hover:bg-blue-400 text-white w-full font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded text-2xl"
