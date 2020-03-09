@@ -118,12 +118,13 @@
               />
             </li>
         </div>
+        <!-----          style="background: linear-gradient(60deg, #C10149, #E97348);"--->
+
         <div
           class="w-full sm:w-3/5 p-6 w-3/4 mt-6"
-          style="background: linear-gradient(60deg, #C10149, #E97348);"
         >
           <img
-            class="zoom md:min-w-0 md:w-4/7 z-50 sm:w-full sm:h-full md:px-16 md:py-16"
+            class="zoom md:min-w-0 md:w-4/7 z-50 sm:w-full sm:h-full"
             src="~/assets/barber66_.png"
           />
         </div>
