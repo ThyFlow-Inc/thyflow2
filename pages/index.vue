@@ -5,11 +5,7 @@
     <OurStoryHome />
     <HowItWorks />
     <!------------First Book a barber--------------->
-      <h1
-        class="-my-10 md:text-6xl uppercase sm:text-3xl font-bold leading-tight text-center text-orange-500"
-      >
-        Book with ease
-      </h1>
+     
    <!----- <Features class="bg-blue-700" />----->
     <Features2 />
 
