@@ -16,6 +16,7 @@
     <!-----------------Second Book a barber---------->
     <CustomerSlider />
     <Download />
+    <faqComponent />
     <ApplyBarber />
     <Footer />
   </div>
@@ -29,6 +30,7 @@ import HowItWorks from "~/components/HowItWorks.vue";
 import Features2 from "~/components/Features2.vue";
 import CustomerSlider from "~/components/CustomerSlider.vue";
 import Download from "~/components/Download.vue";
+import faqComponent from "~/components/faqComponent.vue"
 import OurStoryHome from "~/components/OurStoryHome.vue";
 import ApplyBarber from "~/components/ApplyBarber.vue";
 import Footer from "~/components/Footer.vue";
@@ -42,6 +44,7 @@ export default {
     Features2,
     CustomerSlider,
     Download,
+    faqComponent,
     OurStoryHome,
     ApplyBarber,
     Footer

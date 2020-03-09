@@ -130,7 +130,6 @@
       </div>
     </div>
 
-    <!---------------Changes Mimic Gulo Solutions--------------->
   </section>
 </template>
 
