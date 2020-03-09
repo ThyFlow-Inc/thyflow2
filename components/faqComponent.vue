@@ -36,9 +36,13 @@
   <!--  Panel 3  -->
   <div class="w-1/2">
     <input type="checkbox" name="panel" id="panel-3" class="hidden">
-    <label for="panel-3" class="relative block bg-orange-500 text-white p-4 shadow border-b border-grey">About how long will each appointment last?</label>
+    <label for="panel-3" class="relative block bg-orange-500 text-white p-4 shadow border-b border-grey">Can I guarantee I will get the same barber each time?
+</label>
     <div class="accordion__content overflow-hidden bg-grey-lighter">
-      <p class="accordion__body p-4">It varies from one hour to an Hour and a half. Depending on the haircut you choose.</p>
+      <p class="accordion__body p-4">
+        Depending on the area you live, Most of our barbers service their neighborhood and local areas, But if you rate a barber below 3 stars, you will not get the same barber again.
+
+</p>
     </div>
   </div>
   <!--  Panel 4  -->
