@@ -2,11 +2,11 @@
   <!---------------------Features-------->
   <section class="bg-blue-700 border-b py-12">
     <div class="container max-w-7xl mx-auto m-8">
-      <h1
+      <!------<h1
         class="my-3 md:text-6xl uppercase sm:text-3xl font-bold leading-tight text-center text-white"
       >
         Book with ease
-      </h1>
+      </h1>----->
       <div class="w-full mb-4">
         <div
           class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
