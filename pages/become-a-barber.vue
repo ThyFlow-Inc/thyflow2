@@ -180,7 +180,34 @@
 
         <div class="w-full lg:w-3/6 px-8 text-center lg:text-left self-center ">
           <!-------Secdonf section------>
-          <h3 v-show="!button1" class="text-white mt-8">If you are looking for a flexible way to earn a great income doing what you enjoy, Join ThyFlow Barber Team. THYFLOW - This is an alternative way for men to get a haircut at home. ThyFlow, offer customers Barbershop experience at home or wherever they at. ThyFlow Barbers work within their neighborhood to drive to customer's homes to provide a haircut service.</h3>
+          <h4 v-show="!button1" class="text-white md:text-3xl sm:text-xl font-bold mb-3">
+            Your Responsibilities
+          </h4>
+            <li class="text-white md:text-lg sm:text-base mb-3">
+              Provide all customers with a High-Quality haircut.
+
+              <font-awesome-icon
+                :icon="['fas', 'check']"
+                class="mx-1 h-4 inline-block"
+              />
+            </li>
+            <li class="text-white md:text-lg sm:text-base mb-3">
+              Represent the ThyFlow Brand.
+              <font-awesome-icon
+                :icon="['fas', 'check']"
+                class="mx-1 h-4 inline-block"
+              />
+            </li>
+            <li class="text-white md:text-lg sm:text-base mb-3">
+            Provide exceptional customer service.
+              <font-awesome-icon
+                :icon="['fas', 'check']"
+                class="mx-1 h-4 inline-block"
+              />
+            </li>
+            
+            
+        
           <div v-show="button2" >
             <h4 class="text-white md:text-3xl sm:text-xl font-bold mb-3">
             Safety & Security is a key propriety to our team
@@ -230,14 +257,14 @@
 
     
     <!-------Finish Tabs------>
-    <div class="mx-auto flex flex-wrap pt-4 pb-4 bg-gray-400">
+    <div class="mx-auto flex flex-wrap pt-4 pb-4">
       <h1
         class="mx-auto block text-5xl font-bold leading-none text-orange self-center"
       >
         Interested?
       </h1>
     </div>
-    <div class="w-full text-center  self-center bg-gray-400">
+    <div class="w-full text-center  self-center">
       <a
         href="https://thyflow.zohorecruit.com/careers"
         class="bg-blue-500 hover:bg-blue-400 text-white w-full font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded text-2xl"
