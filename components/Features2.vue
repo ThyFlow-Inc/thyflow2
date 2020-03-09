@@ -15,7 +15,7 @@
       <div class="w-full mb-4">
         
       </div>
-      <div class="flex flex-wrap sm:w-2/5">
+      <div class="flex flex-wrap">
         <div class=" align-middle w-6/6 sm:w-2/5 md:px-16 md:py-16">
           <h4 class="text-base md:text-2xl sm:text-xl  font-bold text-orange-500">
             Barbers have years of experience
