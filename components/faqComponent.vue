@@ -1,6 +1,6 @@
 <template class="gradient">
   <div
-    class="pt-2 bg-white md:pt-8 px-6 mx-auto flex flex-wrap flex-col md:flex-row items-center text-center"
+    class="pt-2 bg-white md:pt-8 px-6 mx-auto flex flex-wrap flex-col md:flex-row  text-center"
   >
     <!-------Accordion-------->
 <h1
@@ -98,6 +98,6 @@ input:checked + label:after {
 }
 input[name='panel']:checked ~ .accordion__content {
   /* Get this as close to what height you expect */
-  max-height: 50em;
+  max-height: 53em;
 }
 </style>
