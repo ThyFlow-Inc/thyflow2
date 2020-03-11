@@ -1,8 +1,7 @@
 <template>
   <div>
     <Navbar />
-    <div class="header">
-      <div class="flex flex-wrap lg:mx-4 sm:mx-2">
+    <div class="header flex flex-wrap lg:mx-4 sm:mx-2">
         <!--Left Col-->
         <div
           class="w-full lg:w-3/6  sm:w-3/6 px-8 text-center lg:text-left self-center mt-5"
@@ -126,7 +125,6 @@
           <!---<img src="~/assets/barber.png" class="w-full xl:w-4/5 z-50 inline-block" />-->
         </div>
       </div>
-    </div>
     <!--------------Header Done----------->
     <div class="flex flex-wrap md:px-16 md:py-16">
       <div class="w-6/6 sm:w-1/2 p-6">
@@ -154,31 +152,31 @@
     <div class="header2">
       <div class="flex flex-wrap mx-4">
         <!--Left Col-->
-        <div class="w-full lg:w-3/6 py-12 px-16 text-center lg:text-left self-center mt-12 ">
+        <div class="w-full lg:w-3/6 py-12 px-16 text-center lg:text-left self-center lg:mt-12 sm:mt-6 ">
           <!-------First section------>
           <button
             @click="button1 = true"
-            class="bg-blue-500 hover:bg-blue-700 block text-white text-2xl font-bold w-full py-2 px-12 border border-blue-700 rounded mb-8"
+            class="bg-blue-500 hover:bg-blue-700 block text-white lg:text-2xl sm:1xl font-bold w-full py-2 lg:px-12 sm:px-4 border border-blue-700 rounded lg:mb-8 sm:mb-6"
           >
             What you'll do
           </button>
 
            <button
             @click="button1 = false"
-            class="bg-blue-500 hover:bg-blue-700 text-white text-2xl font-bold w-full py-2 px-12 border border-blue-700 rounded mb-8"
+            class="bg-blue-500 hover:bg-blue-700 text-white lg:text-2xl sm:text-1xl font-bold w-full py-2 lg:px-12 sm:px-6 border border-blue-700 rounded lg:mb-8"
           >
           What you'll need
           </button>
            <button
             @click="button1 = false"
-            class="bg-blue-500 hover:bg-blue-700 text-white text-2xl font-bold w-full py-2 px-12 border border-blue-700 rounded mb-8"
+            class="bg-blue-500 hover:bg-blue-700 text-white lg:text-2xl sm:text-1xl font-bold w-full py-2 lg:px-12  sm:px-6 border border-blue-700 rounded lg:mb-8"
           >
           Who we're looking for
           </button>
         </div>
 
         <div class="w-full lg:w-3/6 px-8 text-center lg:text-left self-center ">
-          <!-------Secdonf section------>
+          <!-------Second section------>
           <h4 v-show="!button1" class="text-white md:text-3xl sm:text-xl font-bold mb-3">
             Your Responsibilities
           </h4>
@@ -205,27 +203,25 @@
               />
             </li>
             
-            
-        
           <div v-show="button2" >
             <h4 class="text-white md:text-3xl sm:text-xl font-bold mb-3">
             Safety & Security is a key propriety to our team
           </h4>
-            <li class="text-white md:text-lg sm:text-base mb-3">
+            <p class="text-white md:text-lg sm:text-base mb-3">
               Barbers background
 
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
-            </li>
-            <li class="text-white md:text-lg sm:text-base mb-3">
+            </p>
+            <p class="text-white md:text-lg sm:text-base mb-3">
               Barbers license
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
-            </li>
+            </p>
             <li class="text-white md:text-lg sm:text-base mb-3">
               Two-step interview process
 
@@ -347,7 +343,6 @@ export default {
   background: linear-gradient(90deg, #0a3ead 0%, #e38914 100%);
 }
 .header {
-  height: 100vh;
   background-image: linear-gradient(
       to right,
       rgba(88, 201, 236, 0.801),
@@ -359,7 +354,6 @@ export default {
   position: relative;
 }
 .header2 {
-  height: 70vh;
   background-image: linear-gradient(
       to right,
       rgba(65, 99, 109, 0.801),
