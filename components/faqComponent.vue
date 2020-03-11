@@ -1,6 +1,6 @@
 <template class="gradient">
   <div
-    class="pt-2 bg-white md:pt-8 px-6 mx-auto flex flex-wrap flex-col md:flex-row items-center text-center"
+    class="pt-2 bg-white md:pt-8 px-6 mx-auto flex flex-wrap flex-col md:flex-row  text-center"
   >
     <!-------Accordion-------->
 <h1
@@ -36,31 +36,33 @@
   <!--  Panel 3  -->
   <div class="w-1/2">
     <input type="checkbox" name="panel" id="panel-3" class="hidden">
-    <label for="panel-3" class="relative block bg-orange-500 text-white p-4 shadow border-b border-grey">Can I get refund if am not satisfied with the service?</label>
+    <label for="panel-3" class="relative block bg-orange-500 text-white p-4 shadow border-b border-grey">Can I guarantee I will get the same barber each time?
+</label>
     <div class="accordion__content overflow-hidden bg-grey-lighter">
-      <h2 class="accordion__header pt-4 pl-4">Header</h2>
-      <p class="accordion__body p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto possimus at a cum saepe molestias modi illo facere ducimus voluptatibus praesentium deleniti fugiat ab error quia sit perspiciatis velit necessitatibus.Lorem ipsum dolor sit amet, consectetur
-        adipisicing elit. Lorem ipsum dolor sit amet.</p>
+      <p class="accordion__body p-4">
+        Depending on the area you live, Most of our barbers service their neighborhood and local areas, But if you rate a barber below 3 stars, you will not get the same barber again.
+
+</p>
     </div>
   </div>
   <!--  Panel 4  -->
   <div class="w-1/2">
-    <input type="checkbox" name="panel" id="panel-3" class="hidden">
-    <label for="panel-3" class="relative block bg-orange-500 text-white p-4 shadow border-b border-grey">Can I get refund if am not satisfied with the service?</label>
+    <input type="checkbox" name="panel" id="panel-4" class="hidden">
+    <label for="panel-4" class="relative block bg-orange-500 text-white p-4 shadow border-b border-grey">How far in advance can I book an appointment?
+</label>
     <div class="accordion__content overflow-hidden bg-grey-lighter">
-      <h2 class="accordion__header pt-4 pl-4">Header</h2>
-      <p class="accordion__body p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto possimus at a cum saepe molestias modi illo facere ducimus voluptatibus praesentium deleniti fugiat ab error quia sit perspiciatis velit necessitatibus.Lorem ipsum dolor sit amet, consectetur
-        adipisicing elit. Lorem ipsum dolor sit amet.</p>
+      <p class="accordion__body p-4">You can book an appointment 2 hours in advance.</p>
     </div>
   </div>
   <!--  Panel 5  -->
   <div class="w-1/2">
-    <input type="checkbox" name="panel" id="panel-3" class="hidden">
-    <label for="panel-3" class="relative block bg-orange-500 text-white p-4 shadow border-b border-grey">Can I get refund if am not satisfied with the service?</label>
+    <input type="checkbox" name="panel" id="panel-5" class="hidden">
+    <label for="panel-5" class="relative block bg-orange-500 text-white p-4 shadow border-b border-grey">Can you accommodate groups or events? (Like a wedding for example)</label>
     <div class="accordion__content overflow-hidden bg-grey-lighter">
-      <h2 class="accordion__header pt-4 pl-4">Header</h2>
-      <p class="accordion__body p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto possimus at a cum saepe molestias modi illo facere ducimus voluptatibus praesentium deleniti fugiat ab error quia sit perspiciatis velit necessitatibus.Lorem ipsum dolor sit amet, consectetur
-        adipisicing elit. Lorem ipsum dolor sit amet.</p>
+      <p class="accordion__body p-4">Yes, email our customer support with your inquiries, 
+          a member from our team will reach out to you.
+
+</p>
     </div>
   </div>
 </div>
@@ -96,6 +98,6 @@ input:checked + label:after {
 }
 input[name='panel']:checked ~ .accordion__content {
   /* Get this as close to what height you expect */
-  max-height: 50em;
+  max-height: 53em;
 }
 </style>

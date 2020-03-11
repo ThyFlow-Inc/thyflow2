@@ -13,12 +13,10 @@
         Book With Ease
       </h1>
       <div class="w-full mb-4">
-        <div
-          class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
-        ></div>
+        
       </div>
       <div class="flex flex-wrap">
-        <div class="w-6/6 sm:w-2/5 md:px-16 md:py-16">
+        <div class=" align-middle w-6/6 sm:w-2/5 md:px-16 md:py-16">
           <h4 class="text-base md:text-2xl sm:text-xl  font-bold text-orange-500">
             Barbers have years of experience
           </h4>
@@ -41,7 +39,7 @@
           style="background: linear-gradient(60deg, #00EAC3, #1F9DD4);"
         >-->
         <div
-          class="w-full sm:w-3/5 mb-5">
+          class="w-full sm:w-3/5 p-6 mt-6">
           <img
             class="zoom md:min-w-0 md:w-4/7  sm:w-full "
             src="~/assets/berber_44.jpg"
@@ -56,7 +54,7 @@
         >
           <img
             class="zoom md:min-w-0 md:w-4/7 z-50 sm:w-full sm:h-full "
-            src="~/assets/barber_55.png"
+            src="~/assets/barber_77.png"
           />
         </div>
         <div class="w-full sm:w-2/5 p-6 mt-6 mb-5">

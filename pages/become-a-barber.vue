@@ -2,20 +2,19 @@
   <div>
     <Navbar />
     <div class="header">
-      <div class="flex flex-wrap mx-4">
+      <div class="flex flex-wrap lg:mx-4 sm:mx-2">
         <!--Left Col-->
         <div
-          class="w-full lg:w-3/6 px-8 text-center lg:text-left self-center mt-10"
+          class="w-full lg:w-3/6  sm:w-3/6 px-8 text-center lg:text-left self-center mt-5"
         >
-          <h1 class="mx-16 text-5xl font-bold leading-none text-orange-700">
+          <h1 class="lg:mx-16 sm:mx-8 lg:text-5xl sm:text-2xl font-bold leading-none text-orange-700">
             Become a ThyFlow Barber
           </h1>
-          <p class="mb-12"></p>
-          <p class="mx-16 text-white font-bold lg:text-2xl md:text-1xl">
+          <p class="lg:mx-16  sm:mx-6 text-white font-bold lg:text-2xl md:text-1xl">
             If you are looking for a flexible way to earn a great income doing
             what you enjoy, Join ThyFlow Barber Team.
           </p>
-          <p class="mx-16 text-white font-bold lg:text-2xl md:text-1xl">
+          <p class="lg:mx-16 sm:mx-4 text-white font-bold lg:text-2xl md:text-1xl">
             THYFLOW - This is an alternative way for men to get a haircut at
             home. ThyFlow, offer customers Barbershop experience at home or
             wherever they at. ThyFlow Barbers work within their neighborhood to
@@ -25,7 +24,7 @@
 
         <!--Right Col-->
         <div
-          class="w-full lg:w-3/6 px-4 text-center lg:center lg:text-left self-center px-20"
+          class="w-full lg:w-3/6 px-4 text-center lg:center lg:text-left self-center lg:px-20 sm:px-10"
         >
           <div
             class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 flex flex-col my-8"
@@ -348,13 +347,13 @@ export default {
   background: linear-gradient(90deg, #0a3ead 0%, #e38914 100%);
 }
 .header {
-  height: 80vh;
+  height: 100vh;
   background-image: linear-gradient(
       to right,
       rgba(88, 201, 236, 0.801),
       rgba(28, 58, 228, 0.603)
     ),
-    url("~assets/barber_22.jpg");
+    url("~assets/barber_88.png");
   background-size: cover;
   background-position: top;
   position: relative;
