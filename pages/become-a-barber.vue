@@ -233,28 +233,28 @@
                 class="mx-1 h-4 inline-block"
               />
             </p>
-            <li class="text-white md:text-lg sm:text-base mb-3">
+            <p class="text-white md:text-lg sm:text-base mb-3">
               Two-step interview process
 
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
-            </li>
-            <li class="text-white md:text-lg sm:text-base mb-3">
+            </p>
+            <p class="text-white md:text-lg sm:text-base mb-3">
               Friends and family referral
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
-            </li>
-            <li class="text-white md:text-lg sm:text-base mb-3">
+            </p>
+            <p class="text-white md:text-lg sm:text-base mb-3">
               Interview by industry professional
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
-            </li>
+            </p>
           </div>
         </div>
       </div>
