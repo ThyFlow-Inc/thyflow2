@@ -25,9 +25,12 @@
         <div
           class="w-full lg:w-3/6 px-4 text-center lg:center lg:text-left self-center lg:px-20 sm:px-10"
         >
+                     <form action='https://forms.zohopublic.com/thyflow/form/JobApplicationForm1/formperma/1Mjwi0GhpXVJPdj52haw-eWIuyNXje40sTFLllnIVEk/htmlRecords/submit' name='form' method='POST'  accept-charset='UTF-8' enctype='multipart/form-data' id='form'>  
+
           <div
             class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 flex flex-col my-8"
           >
+          
             <div class="-mx-3 md:flex mb-6">
               <div class="md:w-1/2 px-3 mb-6 md:mb-0">
                 <label
@@ -36,9 +39,10 @@
                 >
                   First Name
                 </label>
+
                 <input
                   class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-red rounded py-3 px-4 mb-3"
-                  id="grid-first-name"
+                  name="Name_First"
                   type="text"
                   placeholder="Jane"
                 />
@@ -52,7 +56,7 @@
                 </label>
                 <input
                   class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4"
-                  id="grid-last-name"
+                  name="Name_Last"
                   type="text"
                   placeholder="Doe"
                 />
@@ -68,10 +72,11 @@
                 </label>
                 <input
                   class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 mb-3"
-                  id="grid-password"
+                  name="Email"
                   type="text"
                   placeholder="Type your email"
                 />
+
               </div>
             </div>
             <div class="-mx-3 md:flex mb-6">
@@ -84,9 +89,9 @@
                 </label>
                 <input
                   class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 mb-3"
-                  id="grid-password"
+                  name="PhoneNumber_countrycode"
                   type="text"
-                  placeholder="Type your email"
+                  placeholder="Type your Phone"
                 />
               </div>
             </div>
@@ -100,8 +105,8 @@
                   <input
                     type="radio"
                     class="form-radio"
-                    name="accountType"
-                    value="personal"
+                    name="Radio"
+                    value="Yes"
                   />
                   <span class="ml-2">Yes</span>
                 </label>
@@ -121,10 +126,16 @@
             >
               Submit Information
             </button>
+
           </div>
+
           <!---<img src="~/assets/barber.png" class="w-full xl:w-4/5 z-50 inline-block" />-->
+              </form>
+
         </div>
+
       </div>
+
     <!--------------Header Done----------->
     <div class="flex flex-wrap md:px-16 md:py-16">
       <div class="w-6/6 sm:w-1/2 p-6">
