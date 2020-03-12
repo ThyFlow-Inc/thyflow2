@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="m-0">
     <Navbar />
-    <div class="header flex flex-wrap lg:mx-4 sm:mx-2">
+    <div class="header flex flex-wrap">
         <!--Left Col-->
         <div
           class="w-full lg:w-3/6  sm:w-3/6 px-8 text-center lg:text-left self-center mt-5"
@@ -114,8 +114,8 @@
                   <input
                     type="radio"
                     class="form-radio"
-                    name="accountType"
-                    value="busines"
+                    name="Radio"
+                    value="No"
                   />
                   <span class="ml-2">No</span>
                 </label>
@@ -233,37 +233,71 @@
                 class="mx-1 h-4 inline-block"
               />
             </p>
-            <li class="text-white md:text-lg sm:text-base mb-3">
+            <p class="text-white md:text-lg sm:text-base mb-3">
               Two-step interview process
 
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
-            </li>
-            <li class="text-white md:text-lg sm:text-base mb-3">
+            </p>
+            <p class="text-white md:text-lg sm:text-base mb-3">
               Friends and family referral
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
-            </li>
-            <li class="text-white md:text-lg sm:text-base mb-3">
+            </p>
+            <p class="text-white md:text-lg sm:text-base mb-3">
               Interview by industry professional
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
-            </li>
+            </p>
           </div>
         </div>
       </div>
     </div>
     <!-----------Willing do------->
 
-    
+    <div class="flex flex-wrap md:px-16 md:py-16">
+      <div class="w-full sm:w-1/2 mb-5">
+        <img
+          class="zoom md:min-w-0 md:w-4/7 z-50 sm:w-full sm:h-full"
+          src="~/assets/berber_44.jpg"
+        />
+      </div>
+      <div class="w-6/6 sm:w-1/2 p-6">
+        <p
+          class="text-base md:text-3xl sm:text-xl mb-3 font-bold text-orange mx-4"
+        >
+          Rewarding Benefits?
+        </p>
+        <p class="px-3 text-orange md:text-2xl sm:text-base mb-3">
+          We offer competitive benefits to keep you healthy and grow your career.
+        </p>
+        <p class="text-orange md:text-lg sm:text-base mb-3 mx-6">
+          <font-awesome-icon
+                :icon="['fas', 'check']"
+                class="mx-1 h-4 inline-block"
+              />
+              Competitive pay
+            </p>
+            <p class="text-orange md:text-lg sm:text-base mb-3 mx-6">
+              <font-awesome-icon
+                :icon="['fas', 'check']"
+                class="mx-1 h-4 inline-block"
+              />
+              Monthly bonus
+              
+            </p>
+      </div>
+      
+    </div>
+
     <!-------Finish Tabs------>
-    <div class="mx-auto flex flex-wrap pt-4 pb-4">
+   <!-- <div class="mx-auto flex flex-wrap pt-4 pb-4">
       <h1
         class="mx-auto block text-5xl font-bold leading-none text-orange self-center"
       >
@@ -276,7 +310,7 @@
         class="bg-blue-500 hover:bg-blue-400 text-white w-full font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded text-2xl"
         >Fill the form here!</a
       >
-    </div>
+    </div>--->
     <Footer />
   </div>
 </template>
