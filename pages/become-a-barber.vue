@@ -56,7 +56,7 @@
                 </label>
                 <input
                   class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4"
-                  id="grid-last-name"
+                  name="Name_Last"
                   type="text"
                   placeholder="Doe"
                 />
