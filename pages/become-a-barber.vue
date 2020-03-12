@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="m-0">
     <Navbar />
-    <div class="header flex flex-wrap lg:mx-4 sm:mx-2">
+    <div class="header flex flex-wrap">
         <!--Left Col-->
         <div
           class="w-full lg:w-3/6  sm:w-3/6 px-8 text-center lg:text-left self-center mt-5"
