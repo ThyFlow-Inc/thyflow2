@@ -72,7 +72,7 @@
                 </label>
                 <input
                   class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 mb-3"
-                  id="grid-password"
+                  name="Email"
                   type="text"
                   placeholder="Type your email"
                 />
@@ -89,9 +89,9 @@
                 </label>
                 <input
                   class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 mb-3"
-                  id="grid-password"
+                  name="PhoneNumber_countrycode"
                   type="text"
-                  placeholder="Type your email"
+                  placeholder="Type your Phone"
                 />
               </div>
             </div>
@@ -105,8 +105,8 @@
                   <input
                     type="radio"
                     class="form-radio"
-                    name="accountType"
-                    value="personal"
+                    name="Radio"
+                    value="Yes"
                   />
                   <span class="ml-2">Yes</span>
                 </label>
