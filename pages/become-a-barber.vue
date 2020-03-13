@@ -173,7 +173,7 @@
           </button>
 
            <button
-            @click="button1 = false"
+            @click="button2 = true"
             class="bg-blue-500 hover:bg-blue-700 text-white lg:text-2xl sm:text-1xl font-bold w-full py-2 lg:px-12 sm:px-6 border border-blue-700 rounded lg:mb-8"
           >
           What you'll need
@@ -188,7 +188,7 @@
 
         <div class="w-full lg:w-3/6 px-8 text-center lg:text-left self-center ">
           <!-------Second section------>
-          <h4 v-show="!button1" class="text-white md:text-3xl sm:text-xl font-bold mb-3">
+          <h4  class="text-white md:text-3xl sm:text-xl font-bold mb-3">
             Your Responsibilities
           </h4>
             <li class="text-white md:text-lg sm:text-base mb-3">
