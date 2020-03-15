@@ -188,6 +188,8 @@
 
         <div class="w-full lg:w-3/6 px-8 text-center lg:text-left self-center ">
           <!-------Second section------>
+          <div v-show="button1" >
+
           <h4  class="text-white md:text-3xl sm:text-xl font-bold mb-3">
             Your Responsibilities
           </h4>
@@ -213,7 +215,7 @@
                 class="mx-1 h-4 inline-block"
               />
             </li>
-            
+          </div>
           <div v-show="button2" >
             <h4 class="text-white md:text-3xl sm:text-xl font-bold mb-3">
             Safety & Security is a key propriety to our team
@@ -236,20 +238,6 @@
             <p class="text-white md:text-lg sm:text-base mb-3">
               Two-step interview process
 
-              <font-awesome-icon
-                :icon="['fas', 'check']"
-                class="mx-1 h-4 inline-block"
-              />
-            </p>
-            <p class="text-white md:text-lg sm:text-base mb-3">
-              Friends and family referral
-              <font-awesome-icon
-                :icon="['fas', 'check']"
-                class="mx-1 h-4 inline-block"
-              />
-            </p>
-            <p class="text-white md:text-lg sm:text-base mb-3">
-              Interview by industry professional
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
@@ -328,7 +316,7 @@ export default {
     Footer
   },
   data: () => ({
-    button1: false,
+    button1: true,
     button2: false
   }),
   methods: {
