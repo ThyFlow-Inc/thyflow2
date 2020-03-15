@@ -444,7 +444,7 @@ export default {
       rgba(65, 99, 109, 0.801),
       rgba(28, 58, 228, 0.603)
     ),
-    url("~assets/barber_33.jpg");
+    url("~assets/barber_11.jpg");
   background-size: cover;
   background-position: top;
   position: relative;
