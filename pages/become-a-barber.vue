@@ -270,14 +270,66 @@
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
-              Competitive pay
+              Yearly training 
             </p>
             <p class="text-orange md:text-lg sm:text-base mb-3 mx-6">
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
-              Monthly bonus
+              Branded case for barber tools
+              
+            </p>
+            <p class="text-orange md:text-lg sm:text-base mb-3 mx-6">
+              <font-awesome-icon
+                :icon="['fas', 'check']"
+                class="mx-1 h-4 inline-block"
+              />
+              Barber chair for haircut
+              
+            </p><p class="text-orange md:text-lg sm:text-base mb-3 mx-6">
+              <font-awesome-icon
+                :icon="['fas', 'check']"
+                class="mx-1 h-4 inline-block"
+              />
+              In app support
+              
+            </p><p class="text-orange md:text-lg sm:text-base mb-3 mx-6">
+              <font-awesome-icon
+                :icon="['fas', 'check']"
+                class="mx-1 h-4 inline-block"
+              />
+              Weekly Pay
+              
+            </p>
+            <p class="text-orange md:text-lg sm:text-base mb-3 mx-6">
+              <font-awesome-icon
+                :icon="['fas', 'check']"
+                class="mx-1 h-4 inline-block"
+              />
+              Barber Shirts with logo
+              
+            </p>
+             <p class="text-orange md:text-lg sm:text-base mb-3 mx-6">
+              <font-awesome-icon
+                :icon="['fas', 'check']"
+                class="mx-1 h-4 inline-block"
+              />
+              Barber Apron
+              
+            </p> <p class="text-orange md:text-lg sm:text-base mb-3 mx-6">
+              <font-awesome-icon
+                :icon="['fas', 'check']"
+                class="mx-1 h-4 inline-block"
+              />
+              Weekly local customers
+              
+            </p> <p class="text-orange md:text-lg sm:text-base mb-3 mx-6">
+              <font-awesome-icon
+                :icon="['fas', 'check']"
+                class="mx-1 h-4 inline-block"
+              />
+              Work in different cites
               
             </p>
       </div>
