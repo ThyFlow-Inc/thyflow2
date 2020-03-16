@@ -252,7 +252,7 @@
             Qualifications
           </h4>
             <p class="text-white md:text-lg sm:text-base mb-3">
-              Barbers background
+              Haircut experience.
 
               <font-awesome-icon
                 :icon="['fas', 'check']"
@@ -260,14 +260,29 @@
               />
             </p>
             <p class="text-white md:text-lg sm:text-base mb-3">
-              Barbers license
+             Have a smart phone.
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
             </p>
             <p class="text-white md:text-lg sm:text-base mb-3">
-              Two-step interview process
+              Can communicate with customers.
+
+              <font-awesome-icon
+                :icon="['fas', 'check']"
+                class="mx-1 h-4 inline-block"
+              />
+            </p>
+            <p class="text-white md:text-lg sm:text-base mb-3">
+              Take Pride in your work.
+
+              <font-awesome-icon
+                :icon="['fas', 'check']"
+                class="mx-1 h-4 inline-block"
+              />
+            </p><p class="text-white md:text-lg sm:text-base mb-3">
+              Have Barber license.
 
               <font-awesome-icon
                 :icon="['fas', 'check']"
