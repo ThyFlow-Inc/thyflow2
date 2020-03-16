@@ -179,7 +179,7 @@
           What you'll need
           </button>
            <button
-            @click="button1 = false"
+            @click="button3 = true"
             class="bg-blue-500 hover:bg-blue-700 text-white lg:text-2xl sm:text-1xl font-bold w-full py-2 lg:px-12  sm:px-6 border border-blue-700 rounded lg:mb-8"
           >
           Who we're looking for
@@ -216,6 +216,8 @@
               />
             </li>
           </div>
+
+          <!-------End of button one----->
           <div v-show="button2" >
             <h4 class="text-white md:text-3xl sm:text-xl font-bold mb-3">
             Safety & Security is a key propriety to our team
@@ -244,6 +246,36 @@
               />
             </p>
           </div>
+          <!------Button3----->
+              <div v-show="button3" >
+            <h4 class="text-white md:text-3xl sm:text-xl font-bold mb-3">
+            Qualifications
+          </h4>
+            <p class="text-white md:text-lg sm:text-base mb-3">
+              Barbers background
+
+              <font-awesome-icon
+                :icon="['fas', 'check']"
+                class="mx-1 h-4 inline-block"
+              />
+            </p>
+            <p class="text-white md:text-lg sm:text-base mb-3">
+              Barbers license
+              <font-awesome-icon
+                :icon="['fas', 'check']"
+                class="mx-1 h-4 inline-block"
+              />
+            </p>
+            <p class="text-white md:text-lg sm:text-base mb-3">
+              Two-step interview process
+
+              <font-awesome-icon
+                :icon="['fas', 'check']"
+                class="mx-1 h-4 inline-block"
+              />
+            </p>
+          </div>
+          <!------- Ends Button3----->
         </div>
       </div>
     </div>
