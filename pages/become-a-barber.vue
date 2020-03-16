@@ -154,7 +154,7 @@
       <div class="w-full sm:w-1/2 mb-5">
         <img
           class="zoom md:min-w-0 md:w-4/7 z-50 sm:w-full sm:h-full"
-          src="~/assets/barber_33.jpg"
+          src="~/assets/barber_11.jpg"
         />
       </div>
     </div>
@@ -173,7 +173,7 @@
           </button>
 
            <button
-            @click="button1 = false"
+            @click="button2 = true"
             class="bg-blue-500 hover:bg-blue-700 text-white lg:text-2xl sm:text-1xl font-bold w-full py-2 lg:px-12 sm:px-6 border border-blue-700 rounded lg:mb-8"
           >
           What you'll need
@@ -188,7 +188,9 @@
 
         <div class="w-full lg:w-3/6 px-8 text-center lg:text-left self-center ">
           <!-------Second section------>
-          <h4 v-show="!button1" class="text-white md:text-3xl sm:text-xl font-bold mb-3">
+          <div v-show="button1" >
+
+          <h4  class="text-white md:text-3xl sm:text-xl font-bold mb-3">
             Your Responsibilities
           </h4>
             <li class="text-white md:text-lg sm:text-base mb-3">
@@ -213,7 +215,7 @@
                 class="mx-1 h-4 inline-block"
               />
             </li>
-            
+          </div>
           <div v-show="button2" >
             <h4 class="text-white md:text-3xl sm:text-xl font-bold mb-3">
             Safety & Security is a key propriety to our team
@@ -236,20 +238,6 @@
             <p class="text-white md:text-lg sm:text-base mb-3">
               Two-step interview process
 
-              <font-awesome-icon
-                :icon="['fas', 'check']"
-                class="mx-1 h-4 inline-block"
-              />
-            </p>
-            <p class="text-white md:text-lg sm:text-base mb-3">
-              Friends and family referral
-              <font-awesome-icon
-                :icon="['fas', 'check']"
-                class="mx-1 h-4 inline-block"
-              />
-            </p>
-            <p class="text-white md:text-lg sm:text-base mb-3">
-              Interview by industry professional
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
@@ -282,14 +270,66 @@
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
-              Competitive pay
+              Yearly training 
             </p>
             <p class="text-orange md:text-lg sm:text-base mb-3 mx-6">
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
-              Monthly bonus
+              Branded case for barber tools
+              
+            </p>
+            <p class="text-orange md:text-lg sm:text-base mb-3 mx-6">
+              <font-awesome-icon
+                :icon="['fas', 'check']"
+                class="mx-1 h-4 inline-block"
+              />
+              Barber chair for haircut
+              
+            </p><p class="text-orange md:text-lg sm:text-base mb-3 mx-6">
+              <font-awesome-icon
+                :icon="['fas', 'check']"
+                class="mx-1 h-4 inline-block"
+              />
+              In app support
+              
+            </p><p class="text-orange md:text-lg sm:text-base mb-3 mx-6">
+              <font-awesome-icon
+                :icon="['fas', 'check']"
+                class="mx-1 h-4 inline-block"
+              />
+              Weekly Pay
+              
+            </p>
+            <p class="text-orange md:text-lg sm:text-base mb-3 mx-6">
+              <font-awesome-icon
+                :icon="['fas', 'check']"
+                class="mx-1 h-4 inline-block"
+              />
+              Barber Shirts with logo
+              
+            </p>
+             <p class="text-orange md:text-lg sm:text-base mb-3 mx-6">
+              <font-awesome-icon
+                :icon="['fas', 'check']"
+                class="mx-1 h-4 inline-block"
+              />
+              Barber Apron
+              
+            </p> <p class="text-orange md:text-lg sm:text-base mb-3 mx-6">
+              <font-awesome-icon
+                :icon="['fas', 'check']"
+                class="mx-1 h-4 inline-block"
+              />
+              Weekly local customers
+              
+            </p> <p class="text-orange md:text-lg sm:text-base mb-3 mx-6">
+              <font-awesome-icon
+                :icon="['fas', 'check']"
+                class="mx-1 h-4 inline-block"
+              />
+              Work in different cites
               
             </p>
       </div>
@@ -328,7 +368,7 @@ export default {
     Footer
   },
   data: () => ({
-    button1: false,
+    button1: true,
     button2: false
   }),
   methods: {
@@ -404,7 +444,7 @@ export default {
       rgba(65, 99, 109, 0.801),
       rgba(28, 58, 228, 0.603)
     ),
-    url("~assets/barber_33.jpg");
+    url("~assets/barber_11.jpg");
   background-size: cover;
   background-position: top;
   position: relative;
