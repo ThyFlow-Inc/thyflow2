@@ -10,7 +10,7 @@
 
       <div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink gradient">
         <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow gradient">
-          <img class="h-16 w-16 rounded-full mx-auto pt-1 bg-white" src="~/assets/profile.png" />
+          <img class="h-16 w-16 rounded-full mx-auto pt-1 bg-white" src="~/assets/profile.png"  alt="profile_img"/>
 
           <a href="#" class="flex flex-wrap no-underline hover:no-underline">
             <div class="w-full font-bold text-xl text-white px-6 text-center">Craig Rooney</div>
@@ -36,7 +36,7 @@
       </div>
       <div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink gradient">
         <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow gradient">
-          <img class="h-16 w-16 rounded-full mx-auto pt-1 bg-white" src="~/assets/profile.png" />
+          <img class="h-16 w-16 rounded-full mx-auto pt-1 bg-white" src="~/assets/profile.png"  alt="profileimg"/>
 
           <a href="#" class="flex flex-wrap no-underline hover:no-underline">
             <div class="w-full font-bold text-xl text-white px-6 text-center">David Trojan.</div>
