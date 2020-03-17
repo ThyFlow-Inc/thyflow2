@@ -16,12 +16,14 @@
     "@fortawesome/free-solid-svg-icons": "^5.12.0",
     "@fortawesome/vue-fontawesome": "^0.1.9",
     "aos": "next",
+    "encoding": "^0.1.12",
     "nuxt": "^2.0.0",
     "nuxt-fontawesome": "^0.4.0",
     "prismic-dom": "^2.1.0",
     "prismic-javascript": "^2.1.1",
     "prismic-vue": "git+https://github.com/prismicio/prismic-vue.git#nuxt",
     "vue-easy-slider": "^5.3.2",
+    "vue-tabs-with-active-line": "^1.2.5",
     "vue-typer": "^1.2.0"
   },
   "devDependencies": {

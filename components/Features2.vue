@@ -2,90 +2,87 @@
   <!---------------------Features-------->
   <section class="bg-blue-700 border-b py-12">
     <div class="container max-w-7xl mx-auto m-8">
-      <h1
+      <!------<h1
         class="my-3 md:text-6xl uppercase sm:text-3xl font-bold leading-tight text-center text-white"
       >
         Book with ease
+      </h1>----->
+       <h1
+        class="my-6 md:text-6xl  sm:text-3xl font-bold leading-tight text-center text-orange-500"
+      >
+        Book With Ease
       </h1>
       <div class="w-full mb-4">
-        <div
-          class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
-        ></div>
+        
       </div>
       <div class="flex flex-wrap">
-        <div class="w-6/6 sm:w-1/2 p-6">
-          <p class="text-base md:text-3xl sm:text-xl mb-3 font-bold text-white">
+        <div class=" align-middle w-6/6 sm:w-2/5 md:px-16 md:py-16">
+          <h4 class="text-base md:text-2xl sm:text-xl  font-bold text-orange-500">
             Barbers have years of experience
-          </p>
-          <p class="px-1 text-white md:text-lg sm:text-base mb-3">
+          </h4>
+          <p class="text-white md:text-lg sm:text-base mb-8">
             With the help of our industry professionals, we have partnered with
             the top barbers in your city. ThyFlow, Only work with barbers that
             take pride in their work.
-
-          <h4 class="md:text-3xl sm:text-xl text-white mb-3 font-bold">
-            Profesionals handpicked new barbers.
-          </h4>
-          <p class="px-1 text-white md:text-lg sm:text-base mb-3">
-            Industry professionals on our team have seen every new barber cut
-            hair live! Also ensure all barbers are using only professional tools
-            to provide a great haircut experience.
           </p>
+          <h4 class="md:text-2xl sm:text-xl text-orange-500  font-bold">
+            Barbers, Provides Exceptional Service.
+          </h4>
+          <p class="px-1 text-white md:text-lg sm:text-base mb-8">
+            All barbers will bring years of barbershop experience to you with
+            every haircut.
+          </p>
+          
         </div>
-        <div
-          class="w-full sm:w-1/2 mb-5"
+        <!------<div
+          class="w-full sm:w-3/5 mb-5"
           style="background: linear-gradient(60deg, #00EAC3, #1F9DD4);"
-        >
+        >-->
+        <div
+          class="w-full sm:w-3/5 p-6 mt-6">
           <img
-            class="zoom md:min-w-0 md:w-4/7 z-50 sm:w-full sm:h-full md:px-16 md:py-16"
-            src="~/assets/barber_showcase.png"
+            class="zoom md:min-w-0 md:w-4/7  sm:w-full "
+            src="~/assets/berber_44.jpg"
           />
         </div>
       </div>
 
       <div class="flex flex-wrap flex-col-reverse sm:flex-row">
         <div
-          class="w-full sm:w-1/2 p-6 mt-6"
-          style="background: linear-gradient(60deg, #FFC200, #FF7218);"
+          class="w-full sm:w-3/5 p-6 mt-6"
+          
         >
           <img
-            class="zoom md:min-w-0 md:w-4/7 z-50 sm:w-full sm:h-full md:px-16 md:py-16"
-            src="~/assets/promise.png"
+            class="zoom md:min-w-0 md:w-4/7 z-50 sm:w-full sm:h-full "
+            src="~/assets/barber_77.png"
           />
         </div>
-        <div class="w-full sm:w-1/2 p-6 mt-6 mb-5">
-          <div class="align-middle w-6/6">
-            <h4 class="text-white md:text-3xl sm:text-xl mb-3 font-bold">
+        <div class="w-full sm:w-2/5 p-6 mt-6 mb-5">
+          <div class="align-middle w-6/6 md:px-16 md:py-16">
+            <h4 class="text-orange-500 md:text-2xl sm:text-xl font-bold">
               Barbers carry all needed tools to all haircut requests.
             </h4>
-            <p class="px-1 text-white md:text-lg sm:text-base mb-3">
+            <p class="px-1 text-white md:text-lg sm:text-base mb-8">
               Yes, Barbers clean tools weekly. Yes, Barbers also have a chair
               for your haircut.
             </p>
-            <h4 class="text-white md:text-3xl sm:text-xl mb-3 font-bold">
+            <h4 class="text-orange-500 md:text-2xl sm:text-xl font-bold">
               ThyFlow Barbers are always a tap away
             </h4>
-            <h5 class="px-1 text-white md:text-lg sm:text-base mb-3">
+            <p class="px-1 text-white md:text-lg sm:text-base mb-8">
               Easily track your barber's E.T.A in app till arrival. After your
               haircut, leave the cleaning to the barber and rate your experience
               in app.
-            </h5>
+            </p>
           </div>
         </div>
       </div>
 
       <div class="flex flex-wrap flex-col-reverse sm:flex-row">
-        <div class="w-5/6 sm:w-1/2 p-6">
-        <h4 class="md:text-3xl sm:text-xl text-white mb-3 font-bold">
-            ThyFlow Barbers, Provides Exceptional Service. 
-          </h4>
-          <h5 class="px-1 text-white md:text-lg sm:text-base mb-3">
-            All barbers will bring years of barbershop experience to you with every haircut. 
-
-          </h5>
-          <h4 class="text-white md:text-3xl sm:text-xl font-bold mb-3">
+        <div class="w-5/6 sm:w-2/5 md:px-16 md:py-16">
+          <h4 class="text-orange-500 md:text-2xl sm:text-xl font-bold">
             Safety & Security is a key propriety to our team
           </h4>
-
             <li class="text-white md:text-lg sm:text-base mb-3">
               Barbers background
 
@@ -124,19 +121,19 @@
               />
             </li>
         </div>
+        <!-----          style="background: linear-gradient(60deg, #C10149, #E97348);"--->
+
         <div
-          class="w-full sm:w-1/2 p-6 w-3/4 mt-6"
-          style="background: linear-gradient(60deg, #C10149, #E97348);"
+          class="w-full sm:w-3/5 p-6 w-3/4 mt-6"
         >
           <img
-            class="zoom md:min-w-0 md:w-4/7 z-50 sm:w-full sm:h-full md:px-16 md:py-16"
-            src="~/assets/barber_showcase.png"
+            class="zoom md:min-w-0 md:w-4/7 z-50 sm:w-full sm:h-full"
+            src="~/assets/barber66_.png"
           />
         </div>
       </div>
     </div>
 
-    <!---------------Changes Mimic Gulo Solutions--------------->
   </section>
 </template>
 
@@ -145,6 +142,7 @@ export default {};
 </script>
 
 <style lang="css" scoped>
+
 
 .zoom:hover {
   transform: scale(1.1);

@@ -35,10 +35,12 @@
         </g>
       </g>
     </svg>
-    <section class="container mx-auto text-center py-6 px-6">
-      <h1
-        class="w-full my-2 text-4xl font-bold leading-tight text-center text-white"
-      >Become a Mobile Barber</h1>
+    <section class="container mx-auto text-center py-8 px-24">
+      
+
+      <h6
+        class="w-full my-2 md:text-4xl sm:text-1xl mx-12 font-bold leading-tight text-center text-white"
+      >Become a Mobile Barber</h6>
       <div class="w-full mb-4">
         <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
