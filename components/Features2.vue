@@ -55,7 +55,7 @@
           <img
             class="zoom md:min-w-0 md:w-4/7 z-50 sm:w-full sm:h-full "
             src="~/assets/barber_77.png"
-          />
+           alt="barber_77"/>
         </div>
         <div class="w-full sm:w-2/5 p-6 mt-6 mb-5">
           <div class="align-middle w-6/6 md:px-16 md:py-16">
@@ -83,43 +83,43 @@
           <h4 class="text-orange-500 md:text-2xl sm:text-xl font-bold">
             Safety & Security is a key propriety to our team
           </h4>
-            <li class="text-white md:text-lg sm:text-base mb-3">
+            <p class="text-white md:text-lg sm:text-base mb-3">
               Barbers background
 
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
-            </li>
-            <li class="text-white md:text-lg sm:text-base mb-3">
+            </p>
+            <p class="text-white md:text-lg sm:text-base mb-3">
               Barbers license
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
-            </li>
-            <li class="text-white md:text-lg sm:text-base mb-3">
+            </p>
+            <p class="text-white md:text-lg sm:text-base mb-3">
               Two-step interview process
 
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
-            </li>
-            <li class="text-white md:text-lg sm:text-base mb-3">
+            </p>
+            <p class="text-white md:text-lg sm:text-base mb-3">
               Friends and family referral
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
-            </li>
-            <li class="text-white md:text-lg sm:text-base mb-3">
+            </p>
+            <p class="text-white md:text-lg sm:text-base mb-3">
               Interview by industry professional
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
-            </li>
+            </p>
         </div>
         <!-----          style="background: linear-gradient(60deg, #C10149, #E97348);"--->
 
@@ -129,7 +129,7 @@
           <img
             class="zoom md:min-w-0 md:w-4/7 z-50 sm:w-full sm:h-full"
             src="~/assets/barber66_.png"
-          />
+           alt="barber_66"/>
         </div>
       </div>
     </div>
