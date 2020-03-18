@@ -1,4 +1,4 @@
-<template>
+<template >
   <!---------------------Features-------->
   <section class="bg-blue-700 border-b py-12">
     <div class="container max-w-7xl mx-auto m-8">
@@ -13,9 +13,9 @@
         Book With Ease
       </h1>
       <div class="w-full mb-4">
-        
+
       </div>
-      <div class="flex flex-wrap">
+      <div class="flex flex-wrap animate1">
         <div class=" align-middle w-6/6 sm:w-2/5 md:px-16 md:py-16">
           <h4 class="text-base md:text-2xl sm:text-xl  font-bold text-orange-500">
             Barbers have years of experience
@@ -32,7 +32,7 @@
             All barbers will bring years of barbershop experience to you with
             every haircut.
           </p>
-          
+
         </div>
         <!------<div
           class="w-full sm:w-3/5 mb-5"
@@ -43,19 +43,19 @@
           <img
             class="zoom md:min-w-0 md:w-4/7  sm:w-full "
             src="~/assets/berber_44.jpg"
-          />
+           alt="barber44"/>
         </div>
       </div>
 
-      <div class="flex flex-wrap flex-col-reverse sm:flex-row">
+      <div class="flex flex-wrap flex-col-reverse sm:flex-row animate2">
         <div
           class="w-full sm:w-3/5 p-6 mt-6"
-          
+
         >
           <img
             class="zoom md:min-w-0 md:w-4/7 z-50 sm:w-full sm:h-full "
             src="~/assets/barber_77.png"
-          />
+           alt="barber_77"/>
         </div>
         <div class="w-full sm:w-2/5 p-6 mt-6 mb-5">
           <div class="align-middle w-6/6 md:px-16 md:py-16">
@@ -78,48 +78,48 @@
         </div>
       </div>
 
-      <div class="flex flex-wrap flex-col-reverse sm:flex-row">
+      <div class="flex flex-wrap flex-col-reverse sm:flex-row animate2">
         <div class="w-5/6 sm:w-2/5 md:px-16 md:py-16">
           <h4 class="text-orange-500 md:text-2xl sm:text-xl font-bold">
             Safety & Security is a key propriety to our team
           </h4>
-            <li class="text-white md:text-lg sm:text-base mb-3">
+            <p class="text-white md:text-lg sm:text-base mb-3">
               Barbers background
 
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
-            </li>
-            <li class="text-white md:text-lg sm:text-base mb-3">
+            </p>
+            <p class="text-white md:text-lg sm:text-base mb-3">
               Barbers license
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
-            </li>
-            <li class="text-white md:text-lg sm:text-base mb-3">
+            </p>
+            <p class="text-white md:text-lg sm:text-base mb-3">
               Two-step interview process
 
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
-            </li>
-            <li class="text-white md:text-lg sm:text-base mb-3">
+            </p>
+            <p class="text-white md:text-lg sm:text-base mb-3">
               Friends and family referral
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
-            </li>
-            <li class="text-white md:text-lg sm:text-base mb-3">
+            </p>
+            <p class="text-white md:text-lg sm:text-base mb-3">
               Interview by industry professional
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
-            </li>
+            </p>
         </div>
         <!-----          style="background: linear-gradient(60deg, #C10149, #E97348);"--->
 
@@ -129,7 +129,7 @@
           <img
             class="zoom md:min-w-0 md:w-4/7 z-50 sm:w-full sm:h-full"
             src="~/assets/barber66_.png"
-          />
+           alt="barber_66"/>
         </div>
       </div>
     </div>
@@ -142,7 +142,14 @@ export default {};
 </script>
 
 <style lang="css" scoped>
+.animate1:hover{
+  animation: moveInLeft 3s;
 
+}
+
+.animate2:hover{
+  animation: moveInRight 3s;
+}
 
 .zoom:hover {
   transform: scale(1.1);
@@ -169,5 +176,32 @@ export default {};
   text-shadow: 1px -1px 0 grey, 1px -2px 0 grey, 1px -3px 0 grey,
     1px -4px 0 grey, 1px -5px 0 grey, 1px -6px 0 grey, 1px -7px 0 grey,
     1px -8px 0 grey, 5px -13px 15px white, 5px -13px 25px #808080;
+}
+  @keyframes moveInLeft {
+    0%{
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    80%{
+      transform: translateX(20px);
+    }
+    100%{
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+
+@keyframes moveInRight {
+  0%{
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  70%{
+    transform: translateX(-20px);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0);
+  }
 }
 </style>
