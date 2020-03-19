@@ -42,7 +42,11 @@
       >Imagine having your own personal barber when you want with a tap of a finger</h6>
       <div class="w-full mb-4">
       </div>
-
+<button
+          class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
+        >
+          <a href="#">Book a barber!</a>
+        </button>
       
     </section>
   </div>
