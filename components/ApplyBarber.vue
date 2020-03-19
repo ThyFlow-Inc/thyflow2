@@ -35,21 +35,19 @@
         </g>
       </g>
     </svg>
-    <section class="container mx-auto text-center py-8 px-24">
+    <section class="container mx-auto text-center py-8 px-56">
       
-
       <h6
-        class="w-full my-2 md:text-4xl sm:text-1xl mx-12 font-bold leading-tight text-center text-white"
-      >Become a Mobile Barber</h6>
+        class="w-full md:text-4xl sm:text-1xl  lg:px-12 font-bold leading-tight text-center text-white"
+      >Imagine having your own personal barber when you want with a tap of a finger</h6>
       <div class="w-full mb-4">
-        <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
-
-      <button
-        class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
-      >
-        <a href="https://www.thyflow.com/become-a-barber">Apply as barber!</a>
-      </button>
+<button
+          class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
+        >
+          <a href="#">Book a barber!</a>
+        </button>
+      
     </section>
   </div>
 </template>

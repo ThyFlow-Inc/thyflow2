@@ -54,7 +54,7 @@
         >
           <img
             class="zoom md:min-w-0 md:w-4/7 z-50 sm:w-full sm:h-full "
-            src="~/assets/barber_77.png"
+            src="~/assets/barber_22.png"
            alt="barber_77"/>
         </div>
         <div class="w-full sm:w-2/5 p-6 mt-6 mb-5">
