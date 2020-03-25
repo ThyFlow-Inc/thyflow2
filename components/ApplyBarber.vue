@@ -35,10 +35,10 @@
         </g>
       </g>
     </svg>
-    <section class="container mx-auto text-center py-8 px-56">
+    <section class="container mx-auto text-center py-8 px-48">
       
       <h6
-        class="w-full md:text-4xl sm:text-1xl  lg:px-12 font-bold leading-tight text-center text-white"
+        class="w-full md:text-4xl sm:text-1xl  lg:px-2 font-bold leading-tight text-center text-white"
       >Imagine having your own personal barber when you want with a tap of a finger</h6>
       <div class="w-full mb-4">
       </div>
