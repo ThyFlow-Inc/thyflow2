@@ -142,8 +142,9 @@ m1000 -1471 c31 -36 29 -79 -7 -115 -33 -32 -58 -36 -100 -14 -32 16 -41 33
           >
             At
             <span class="text-orange-500 inline font-bold">ThyFlow</span>
-            ,We believe your appearance is part of your journey to confidence and success.
-            Our world-class mobile barbers are just a tap away, to help with bad hair days.
+            ,we believe your appearance is part of your journey to <span class="text-orange-500 inline font-bold">Confidence</span> and  
+            <span class="text-orange-500 inline font-bold">Success.</span> Sit back and Relax. Let our <span class="text-orange-500 inline font-bold">Top Rated, Handpicked,</span> Local, Mobile,  
+            Barbers and Hair Stylist Bring their service to YOU! 
           </p>
         </div>
       </a>
