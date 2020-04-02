@@ -24,7 +24,8 @@
     "prismic-vue": "git+https://github.com/prismicio/prismic-vue.git#nuxt",
     "vue-easy-slider": "^5.3.2",
     "vue-tabs-with-active-line": "^1.2.5",
-    "vue-typer": "^1.2.0"
+    "vue-typer": "^1.2.0",
+    "vue-videobg": "^2.0.0"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^1.0.0",
