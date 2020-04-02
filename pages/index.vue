@@ -11,7 +11,7 @@
 
     <!-----------------Second Book a barber---------->
     <CustomerSlider />
-    <Download />
+   
     <faqComponent />
     <ApplyBarber />
     <Footer />
@@ -25,7 +25,6 @@ import HowItWorks from "~/components/HowItWorks.vue";
 //import Features from "~/components/Features.vue";
 import Features2 from "~/components/Features2.vue";
 import CustomerSlider from "~/components/CustomerSlider.vue";
-import Download from "~/components/Download.vue";
 import faqComponent from "~/components/faqComponent.vue"
 import OurStoryHome from "~/components/OurStoryHome.vue";
 import ApplyBarber from "~/components/ApplyBarber.vue";
@@ -39,7 +38,6 @@ export default {
     //Features,
     Features2,
     CustomerSlider,
-    Download,
     faqComponent,
     OurStoryHome,
     ApplyBarber,
