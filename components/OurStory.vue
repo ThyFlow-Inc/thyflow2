@@ -26,7 +26,6 @@ export default {};
 
 <style lang="css" scoped>
 .story-section {
-  background-image: url("../assets/story_section.png");
   background-color: rgb(163, 108, 7);
   background-size: cover;
 }
