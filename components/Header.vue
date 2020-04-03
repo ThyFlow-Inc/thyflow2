@@ -2,10 +2,9 @@
   <div>
     <header class="header">
       <video
-        src="~/assets/thyvideo.mp4"
-        autoplay
-        loop
-        alt
+        src=""
+        ref="videoRef"
+
         class="w-full h-full object-cover opacity-20"
       />
       <vue-typer
@@ -37,7 +36,12 @@ export default {
         "Barbershop Experience at home"
       ]
     };
+  },
+  mounted: function() {
+    this.$refs.videoRef.src = "https://srv-file12.gofile.io/download/xZ5RT5/thyvideo.mp4";
+    this.$refs.videoRef.play();
   }
+
 };
 </script>
 
