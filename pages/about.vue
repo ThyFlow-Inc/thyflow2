@@ -58,10 +58,9 @@
                 >
                   <i class="fas fa-award"></i>
                 </div>
-                <h6 class="text-xl font-semibold">Vetted Service Providers</h6>
+                <h6 class="text-xl font-semibold">Value People</h6>
                 <p class="mt-2 mb-4 text-gray-600">
-                  All our local providers go through a
-                  background check before they join our network.
+                  We will treat all people with respect, dignity, and courtesy. 
                 </p>
               </div>
             </div>
@@ -76,10 +75,10 @@
                 >
                   <i class="fas fa-retweet"></i>
                 </div>
-                <h6 class="text-xl font-semibold">Security</h6>
+                <h6 class="text-xl font-semibold">Integrity</h6>
                 <p
                   class="mt-2 mb-4 text-gray-600"
-                >All employees go through security and safety training.</p>
+                >We will ensure honesty and fairness in our actions. We will always do the right thing.</p>
               </div>
             </div>
           </div>
@@ -93,10 +92,9 @@
                 >
                   <i class="fas fa-fingerprint"></i>
                 </div>
-                <h6 class="text-xl font-semibold">Money-back Guarantee</h6>
+                <h6 class="text-xl font-semibold">Passion for winning</h6>
                 <p class="mt-2 mb-4 text-gray-600">
-                  Like your haircut or get your money back!
-                  Our Service ensures barbershop from your home.
+                  We have an unyielding drive to win. But always remain  humble. 
                 </p>
               </div>
             </div>
