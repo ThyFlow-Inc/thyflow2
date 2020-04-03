@@ -1,11 +1,18 @@
 <template>
   <div>
     <header class="header">
+      <video
+        src="~/assets/thyvideo.mp4"
+        autoplay
+        loop
+        alt
+        class="w-full h-full object-cover opacity-20"
+      />
       <vue-typer
         class="t-color w-full my-3 text-3xl font-bold leading-tight text-center sub-header text-orange"
         :text="Yusadolat"
       ></vue-typer>
-      
+
       <div class="logo-box"></div>
     </header>
 
@@ -55,13 +62,12 @@ body {
 }
 
 .header {
-  height: 80vh;
-  background-image: linear-gradient(
+  height: 90vh;
+  background-image : linear-gradient(
       to right,
       rgba(88, 201, 236, 0.801),
       rgba(28, 58, 228, 0.603)
-    ),
-    url("~assets/hero.png");
+    );
   background-size: cover;
   background-position: top;
   position: relative;
