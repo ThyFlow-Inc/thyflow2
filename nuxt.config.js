@@ -44,7 +44,8 @@ export default {
     { src: "~/plugins/link-resolver.js" },
     { src: "~/plugins/prismic-vue.js" },
     { src: "~/plugins/vue-slider.js", ssr: false },
-    { src: "~/plugins/vue-tabs.js", ssr: false }
+    { src: "~/plugins/vue-videobg.js", ssr: false },
+    { src: "~/plugins/vue-resvideo.js", ssr: false }
   ],
   /*
    ** Nuxt.js dev-modules
@@ -72,11 +73,10 @@ export default {
         ]
       }
     ]
-  ]
+  ],
   /*
    ** Build configuration
-   */,
-  build: {
+   */ build: {
     /*
      ** You can extend webpack config here
      */

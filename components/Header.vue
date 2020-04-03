@@ -1,12 +1,22 @@
 <template>
   <div>
     <header class="header">
-      <video
+       <video-background 
+    src="~/assets/thyvideo.mp4"
+    :sources="[
+        {src: '~/assets/thyvideo.mp4', res: 900, autoplay: true}, 
+        {src: '~/assets/thyvideo.mp4', res: 638, autoplay: true}
+    ]"
+    style="max-height: 400px; height: 100vh;"
+    overlay="linear-gradient(45deg,#2a4ae430,#fb949e6b)" 
+>
+</video-background>
+      <!------<video
         src=""
         ref="videoRef"
 
         class="w-full h-full object-cover opacity-20"
-      />
+      />--->
       <vue-typer
         class="t-color w-full my-3 text-3xl font-bold leading-tight text-center sub-header text-orange"
         :text="Yusadolat"
