@@ -44,7 +44,8 @@ export default {
     { src: "~/plugins/link-resolver.js" },
     { src: "~/plugins/prismic-vue.js" },
     { src: "~/plugins/vue-slider.js", ssr: false },
-    { src: "~/plugins/vue-videobg.js", ssr: false }
+    { src: "~/plugins/vue-videobg.js", ssr: false },
+    { src: "~/plugins/vue-resvideo.js", ssr: false }
   ],
   /*
    ** Nuxt.js dev-modules
