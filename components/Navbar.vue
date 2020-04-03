@@ -38,7 +38,7 @@
           <nuxt-link
             class="block py-2 px-4 lg:invisible text-white sm:inline-block font-bolder text-lg no-underline mt-4"
             to="/about"
-          >About us</nuxt-link>
+          >About</nuxt-link>
         </div>
       </div>
  <div class="mb-4 w-full md:mb-0 md:w-1/4">
@@ -68,7 +68,7 @@
             <nuxt-link
               class="inline-block text-white no-underline font-bold hover:text-gray-800 hover:text-underline py-2 px-4"
               to="about"
-            >About Us</nuxt-link>
+            >About</nuxt-link>
           </li>
         </ul>
       </div>

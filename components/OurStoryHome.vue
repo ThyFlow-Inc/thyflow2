@@ -142,7 +142,9 @@ m1000 -1471 c31 -36 29 -79 -7 -115 -33 -32 -58 -36 -100 -14 -32 16 -41 33
           >
             At
             <span class="text-orange-500 inline font-bold">ThyFlow</span>
-            , We believe a great looking haircut gives you confident to achieve your goals. ThyFlow Mobile Barbers help you be more confident by providing a world class haircut service at the comfort of your home or wherever.
+            ,we believe your appearance is part of your journey to <span class="text-orange-500 inline font-bold">Confidence</span> and  
+            <span class="text-orange-500 inline font-bold">Success.</span> Sit back and Relax. Let our <span class="text-orange-500 inline font-bold">Top Rated, Handpicked,</span> Local, Mobile,  
+            Barbers and Hair Stylist Bring their service to <span class="text-orange-500 inline font-bold">YOU!</span>
           </p>
         </div>
       </a>

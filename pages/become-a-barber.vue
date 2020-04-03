@@ -173,7 +173,7 @@
           </button>
 
            <button
-            @click="button2 = true"
+            v-on:click="button2 = true"
             class="bg-blue-500 hover:bg-blue-700 text-white lg:text-2xl sm:text-1xl font-bold w-full py-2 lg:px-12 sm:px-6 border border-blue-700 rounded lg:mb-8"
           >
           What you'll need
@@ -188,7 +188,7 @@
 
         <div class="w-full lg:w-3/6 px-8 text-center lg:text-left self-center ">
           <!-------Second section------>
-          <div v-show="button1" >
+          <div v-if="!button1" >
 
           <h4  class="text-white md:text-3xl sm:text-xl font-bold mb-3">
             Your Responsibilities
@@ -218,7 +218,7 @@
           </div>
 
           <!-------End of button one----->
-          <div v-show="button2" >
+          <div v-if="button2" >
             <h4 class="text-white md:text-3xl sm:text-xl font-bold mb-3">
             Safety & Security is a key propriety to our team
           </h4>
@@ -247,7 +247,7 @@
             </p>
           </div>
           <!------Button3----->
-              <div v-show="button3" >
+              <div v-if="button3 && button2" >
             <h4 class="text-white md:text-3xl sm:text-xl font-bold mb-3">
             Qualifications
           </h4>
@@ -415,8 +415,9 @@ export default {
     Footer
   },
   data: () => ({
-    button1: true,
-    button2: false
+    button1: false,
+    button2: false,
+    button3: false
   }),
   methods: {
 
