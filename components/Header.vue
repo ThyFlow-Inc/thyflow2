@@ -39,7 +39,7 @@ export default {
   },
  
     mounted: function() {
-    this.$refs.videoRef.src = "https://srv-file12.gofile.io/download/xZ5RT5/thyvideo.mp4";
+    this.$refs.videoRef.src = "https://github.com/Yusadolat/thyflow-new/blob/master/assets/thyvideo.mp4";
     this.$refs.videoRef.play();
   }
 

@@ -165,30 +165,53 @@
         <!--Left Col-->
         <div class="w-full lg:w-3/6 py-12 px-16 text-center lg:text-left self-center lg:mt-12 sm:mt-6 ">
           <!-------First section------>
-          <button
-            @click="button1 = true"
+       <!---   <button
+           @click.prevent="setActive('home')" :class="{ active: isActive('home') }"
             class="bg-blue-500 hover:bg-blue-700 block text-white lg:text-2xl sm:1xl font-bold w-full py-2 lg:px-12 sm:px-4 border border-blue-700 rounded lg:mb-8 sm:mb-6"
+            href="#home"
           >
             What you'll do
           </button>
 
            <button
-            v-on:click="button2 = true"
+           @click.prevent="setActive('profile')" :class="{ active: isActive('profile') }"
             class="bg-blue-500 hover:bg-blue-700 text-white lg:text-2xl sm:text-1xl font-bold w-full py-2 lg:px-12 sm:px-6 border border-blue-700 rounded lg:mb-8"
           >
           What you'll need
           </button>
            <button
-            @click="button3 = true"
+            @click.prevent="setActive('contact')" :class="{ active: isActive('contact') }"
             class="bg-blue-500 hover:bg-blue-700 text-white lg:text-2xl sm:text-1xl font-bold w-full py-2 lg:px-12  sm:px-6 border border-blue-700 rounded lg:mb-8"
           >
           Who we're looking for
-          </button>
+          </button>---->
+
+          <vue-tabs active-tab-color="#e74c3c" 
+           active-text-color="white"
+           type="pills"
+           :start-index="1"
+           direction="vertical"
+ >
+    <v-tab title="First tab" icon="ti-user">
+     <h1>
+     First tab content
+     </h1> 
+    </v-tab>
+
+    <v-tab title="Second tab" icon="ti-settings">
+      Second tab content
+    </v-tab>
+
+    <v-tab title="Third tab" icon="ti-check">
+      Third tab content
+    </v-tab>
+</vue-tabs>
+
         </div>
 
-        <div class="w-full lg:w-3/6 px-8 text-center lg:text-left self-center ">
+      <div class="w-full lg:w-3/6 px-8 text-center lg:text-left self-center ">
           <!-------Second section------>
-          <div v-if="!button1" >
+          <div :class="{ 'active show': isActive('home') }" >
 
           <h4  class="text-white md:text-3xl sm:text-xl font-bold mb-3">
             Your Responsibilities
@@ -218,7 +241,7 @@
           </div>
 
           <!-------End of button one----->
-          <div v-if="button2" >
+          <div :class="{ 'active show': isActive('profile') }" >
             <h4 class="text-white md:text-3xl sm:text-xl font-bold mb-3">
             Safety & Security is a key propriety to our team
           </h4>
@@ -247,7 +270,7 @@
             </p>
           </div>
           <!------Button3----->
-              <div v-if="button3 && button2" >
+              <div :class="{ 'active show': isActive('contact') }" >
             <h4 class="text-white md:text-3xl sm:text-xl font-bold mb-3">
             Qualifications
           </h4>
@@ -414,14 +437,19 @@ export default {
     Navbar,
     Footer
   },
-  data: () => ({
-    button1: false,
-    button2: false,
-    button3: false
-  }),
-  methods: {
-
+  data: function()  {
+    return {
+    activeItem: 'home'
     }
+  },
+  methods: {
+  	isActive (menuItem) {
+      return this.activeItem === menuItem
+    },
+    setActive (menuItem) {
+      this.activeItem = menuItem
+    }
+  }
   
 };
 </script>
