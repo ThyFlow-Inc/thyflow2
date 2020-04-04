@@ -2,11 +2,10 @@
   <div>
     <header class="header">
      
-      <video
-      playsinline
-        src="~/assets/thyvideo.mp4"
+   <video
+        src=""
         ref="videoRef"
-        class="w-full h-full object-cover opacity-20"
+        muted
       />
       <vue-typer
         class="t-color w-full my-3 text-3xl font-bold leading-tight text-center sub-header text-orange"
@@ -39,8 +38,8 @@ export default {
     };
   },
  
-  mounted: function() {
-    this.$refs.videoRef.src = "~/assets/thyvideo.mp4";
+    mounted: function() {
+    this.$refs.videoRef.src = "https://charlyzenger.ch/_nuxt/videos/cz-main.ace01af.mp4";
     this.$refs.videoRef.play();
   }
 

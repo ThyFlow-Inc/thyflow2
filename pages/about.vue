@@ -147,11 +147,7 @@
       </div>
     </section>
 
-  <video
-      playsinline
-        src=""
-        ref="videoRef"
-      />
+
 
     <BarberProfile />
     <div class="gradient">
@@ -222,10 +218,6 @@ export default {
     BarberProfile,
     OurStory,
     Footer
-  },
-  mounted: function() {
-    this.$refs.videoRef.src = "https://charlyzenger.ch/_nuxt/videos/cz-main.ace01af.mp4";
-    this.$refs.videoRef.play();
   }
 };
 </script>
