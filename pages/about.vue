@@ -1,6 +1,7 @@
 <template>
   <div>
     <Navbar />
+    
     <section
       class="relative pt-16 pb-32 flex content-center items-center justify-center"
       style="min-height: 75vh;"
@@ -146,6 +147,12 @@
       </div>
     </section>
 
+  <video
+      playsinline
+        src=""
+        ref="videoRef"
+      />
+
     <BarberProfile />
     <div class="gradient">
       <svg
@@ -215,6 +222,10 @@ export default {
     BarberProfile,
     OurStory,
     Footer
+  },
+  mounted: function() {
+    this.$refs.videoRef.src = "https://charlyzenger.ch/_nuxt/videos/cz-main.ace01af.mp4";
+    this.$refs.videoRef.play();
   }
 };
 </script>

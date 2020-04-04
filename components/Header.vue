@@ -4,7 +4,6 @@
      
       <video
       playsinline
-      preload="auto"
         src="~/assets/thyvideo.mp4"
         ref="videoRef"
         class="w-full h-full object-cover opacity-20"
