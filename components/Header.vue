@@ -5,7 +5,7 @@
    <video
         src=""
         ref="videoRef"
-        muted
+        loop
       />
       <vue-typer
         class="t-color w-full my-3 text-3xl font-bold leading-tight text-center sub-header text-orange"
