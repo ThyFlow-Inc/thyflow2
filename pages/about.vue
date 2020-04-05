@@ -15,13 +15,10 @@
             <div class="pr-12">
               <h1 class="text-white font-semibold text-5xl">About Us</h1>
               <p class="mt-4 text-lg text-white">
-                At ThyFlow, We believe a great looking haircut gives you confident
-                to achieve your goals. Having confidence in yourself will help you do
-                anything you want in this life and be a leader among your friends.
-                ThyFlow Mobile Barbers help you be more confident by providing a world
-                class haircut service at the comfort of your home or wherever.
-                ThyFlow service is convenient and reliable for anyone with a busy
-                lifestyle. Only the top local barbers on platform!
+                We, The team behind ThyFlow Services, enjoy collaborating to create excellent  
+                products and services that will unite people. We have designed a trusted platform to  
+                Connect Mobile Barbers and Hair Stylists with local clients. Other services will be  
+                added to the platform soon! Hope you join us on this journey.  
               </p>
             </div>
           </div>
@@ -111,7 +108,14 @@
             <h3 class="text-3xl mb-2 font-semibold leading-normal text-orange-400">Our Story</h3>
             <p
               class="text-lg font-light leading-relaxed mt-4 mb-4 text-white"
-            >ThyFlow Team, focus on building a trusted platform for anyone to find verified Mobile Service providers in their local area and book an appointment.</p>
+            >
+            We believe by making barbers/ hair stylist mobile, customers can experience a  
+            more personalized and tailored service. Users can stay home, request a mobile service  
+            provider, and receive a haircut with ease. We employ service providers that are  
+            passionate about what they do and believe in quality over quantity. Plus, service  
+            providers can make a good income traveling/driving to locals within their neighborhood  
+            to provide a world-class mobile service; while focusing on their craft. 
+            </p>
             <p
               class="text-lg font-light leading-relaxed mt-0 mb-4 text-white"
             >We connect service providers with customers that need and want their service, in a safe and secure manner.</p>
@@ -136,10 +140,11 @@
                 >
                   <polygon points="-30,95 583,95 583,65" class="text-pink-600 fill-current" />
                 </svg>
-                <h4 class="text-xl font-bold text-white">Top Notch Services</h4>
+                <h4 class="text-xl font-bold text-white">Customer Focus</h4>
                 <p
                   class="text-md font-light mt-2 text-white"
-                >ThyFlow Industry Profesionals handpicked and verify new barbers.</p>
+                >The customer is the BOSS. If we are not supporting the customer  
+                  directly, we serve the service providers that do. Customer service trumps everything! </p>
               </blockquote>
             </div>
           </div>
