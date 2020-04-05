@@ -46,7 +46,6 @@ export default {
     { src: "~/plugins/vue-slider.js", ssr: false },
     { src: "~/plugins/vue-videobg.js", ssr: false },
     { src: "~/plugins/vue-resvideo.js", ssr: false },
-    { src: "~/plugins/vue-tabs.js", ssr: false },
   ],
   /*
    ** Nuxt.js dev-modules
