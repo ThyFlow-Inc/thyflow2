@@ -159,90 +159,47 @@
       </div>
     </div>
 
-    <!------Third section-------->
-    <div class="header2">
+<div class="header2">
       <div class="flex flex-wrap mx-4">
-        <!--Left Col-->
-        <div class="w-full lg:w-3/6 py-12 px-16 text-center lg:text-left self-center lg:mt-12 sm:mt-6 ">
-          <!-------First section------>
-       <!---   <button
-           @click.prevent="setActive('home')" :class="{ active: isActive('home') }"
-            class="bg-blue-500 hover:bg-blue-700 block text-white lg:text-2xl sm:1xl font-bold w-full py-2 lg:px-12 sm:px-4 border border-blue-700 rounded lg:mb-8 sm:mb-6"
-            href="#home"
-          >
-            What you'll do
-          </button>
 
-           <button
-           @click.prevent="setActive('profile')" :class="{ active: isActive('profile') }"
-            class="bg-blue-500 hover:bg-blue-700 text-white lg:text-2xl sm:text-1xl font-bold w-full py-2 lg:px-12 sm:px-6 border border-blue-700 rounded lg:mb-8"
-          >
-          What you'll need
-          </button>
-           <button
-            @click.prevent="setActive('contact')" :class="{ active: isActive('contact') }"
-            class="bg-blue-500 hover:bg-blue-700 text-white lg:text-2xl sm:text-1xl font-bold w-full py-2 lg:px-12  sm:px-6 border border-blue-700 rounded lg:mb-8"
-          >
-          Who we're looking for
-          </button>---->
+        <div id="root" class="container">
 
-          <vue-tabs active-tab-color="#e74c3c" 
-           active-text-color="white"
-           type="pills"
-           :start-index="1"
-           direction="vertical"
- >
-    <v-tab title="First tab" icon="ti-user">
-     <h1>
-     First tab content
-     </h1> 
-    </v-tab>
-
-    <v-tab title="Second tab" icon="ti-settings">
-      Second tab content
-    </v-tab>
-
-    <v-tab title="Third tab" icon="ti-check">
-      Third tab content
-    </v-tab>
-</vue-tabs>
-
-        </div>
-
-      <div class="w-full lg:w-3/6 px-8 text-center lg:text-left self-center ">
-          <!-------Second section------>
-          <div :class="{ 'active show': isActive('home') }" >
+  <tabs>
+    <tab  name="What you'll do" :selected="true">
+      <div class="w-full my-2 lg:text-2xl text-center text-orange-500 px-12 lg:mb-12 lg:px-16 sm:px-4 sm:align-middle md:align-middle" >
 
           <h4  class="text-white md:text-3xl sm:text-xl font-bold mb-3">
             Your Responsibilities
           </h4>
-            <li class="text-white md:text-lg sm:text-base mb-3">
+            <p class="text-white md:text-lg sm:text-base mb-3">
               Provide all customers with a High-Quality haircut.
 
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
-            </li>
-            <li class="text-white md:text-lg sm:text-base mb-3">
+            </p>
+            <p class="text-white md:text-lg sm:text-base mb-3">
               Represent the ThyFlow Brand.
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
-            </li>
-            <li class="text-white md:text-lg sm:text-base mb-3">
+            </p>
+            <p class="text-white md:text-lg sm:text-base mb-3">
             Provide exceptional customer service.
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
-            </li>
-          </div>
+            </p>
 
-          <!-------End of button one----->
-          <div :class="{ 'active show': isActive('profile') }" >
-            <h4 class="text-white md:text-3xl sm:text-xl font-bold mb-3">
+
+      </div>
+    </tab>
+    <tab name="What you'll need">
+            <div class="w-full my-2 lg:text-2xl text-center text-orange-500 px-12 lg:px-16 sm:px-4 sm:align-middle md:align-middle" >
+              <h4 class="text-white md:text-3xl sm:text-xl font-bold mb-3">
             Safety & Security is a key propriety to our team
           </h4>
             <p class="text-white md:text-lg sm:text-base mb-3">
@@ -268,10 +225,12 @@
                 class="mx-1 h-4 inline-block"
               />
             </p>
-          </div>
-          <!------Button3----->
-              <div :class="{ 'active show': isActive('contact') }" >
-            <h4 class="text-white md:text-3xl sm:text-xl font-bold mb-3">
+
+            </div>
+    </tab>
+    <tab name="Who we're looking for">
+                  <div class="w-full my-2 lg:text-2xl text-center text-orange-500 px-12 lg:px-16 sm:px-4 sm:align-middle md:align-middle" >
+                    <h4 class="text-white md:text-3xl sm:text-xl font-bold mb-3">
             Qualifications
           </h4>
             <p class="text-white md:text-lg sm:text-base mb-3">
@@ -312,100 +271,16 @@
                 class="mx-1 h-4 inline-block"
               />
             </p>
-          </div>
-          <!------- Ends Button3----->
-        </div>
-      </div>
-    </div>
-    <!-----------Willing do------->
+                  </div>
+    </tab>
+  </tabs>
 
-    <div class="flex flex-wrap md:px-16 md:py-16">
-      <div class="w-full sm:w-1/2 mb-5">
-        <img
-          class="zoom md:min-w-0 md:w-4/7 z-50 sm:w-full sm:h-full"
-          src="~/assets/berber_44.jpg"
-        />
+</div>
       </div>
-      <div class="w-6/6 sm:w-1/2 p-6">
-        <p
-          class="text-base md:text-3xl sm:text-xl mb-3 font-bold text-orange mx-4"
-        >
-          Rewarding Benefits?
-        </p>
-        <p class="px-3 text-orange md:text-2xl sm:text-base mb-3">
-          We offer competitive benefits to keep you healthy and grow your career.
-        </p>
-        <p class="text-orange md:text-lg sm:text-base mb-3 mx-6">
-          <font-awesome-icon
-                :icon="['fas', 'check']"
-                class="mx-1 h-4 inline-block"
-              />
-              Yearly training 
-            </p>
-            <p class="text-orange md:text-lg sm:text-base mb-3 mx-6">
-              <font-awesome-icon
-                :icon="['fas', 'check']"
-                class="mx-1 h-4 inline-block"
-              />
-              Branded case for barber tools
-              
-            </p>
-            <p class="text-orange md:text-lg sm:text-base mb-3 mx-6">
-              <font-awesome-icon
-                :icon="['fas', 'check']"
-                class="mx-1 h-4 inline-block"
-              />
-              Barber chair for haircut
-              
-            </p><p class="text-orange md:text-lg sm:text-base mb-3 mx-6">
-              <font-awesome-icon
-                :icon="['fas', 'check']"
-                class="mx-1 h-4 inline-block"
-              />
-              In app support
-              
-            </p><p class="text-orange md:text-lg sm:text-base mb-3 mx-6">
-              <font-awesome-icon
-                :icon="['fas', 'check']"
-                class="mx-1 h-4 inline-block"
-              />
-              Weekly Pay
-              
-            </p>
-            <p class="text-orange md:text-lg sm:text-base mb-3 mx-6">
-              <font-awesome-icon
-                :icon="['fas', 'check']"
-                class="mx-1 h-4 inline-block"
-              />
-              Barber Shirts with logo
-              
-            </p>
-             <p class="text-orange md:text-lg sm:text-base mb-3 mx-6">
-              <font-awesome-icon
-                :icon="['fas', 'check']"
-                class="mx-1 h-4 inline-block"
-              />
-              Barber Apron
-              
-            </p> <p class="text-orange md:text-lg sm:text-base mb-3 mx-6">
-              <font-awesome-icon
-                :icon="['fas', 'check']"
-                class="mx-1 h-4 inline-block"
-              />
-              Weekly local customers
-              
-            </p> <p class="text-orange md:text-lg sm:text-base mb-3 mx-6">
-              <font-awesome-icon
-                :icon="['fas', 'check']"
-                class="mx-1 h-4 inline-block"
-              />
-              Work in different cites
-              
-            </p>
       </div>
-      
-    </div>
 
+    <!------Third section-------->
+    
     <!-------Finish Tabs------>
    <!-- <div class="mx-auto flex flex-wrap pt-4 pb-4">
       <h1
@@ -437,6 +312,7 @@ export default {
     Navbar,
     Footer
   },
+
   data: function()  {
     return {
     activeItem: 'home'
