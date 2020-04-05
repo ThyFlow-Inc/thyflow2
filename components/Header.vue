@@ -6,6 +6,7 @@
         src=""
         ref="videoRef"
         loop
+        preload="auto"
       />
       <vue-typer
         class="t-color w-full my-3 text-3xl font-bold leading-tight text-center sub-header text-orange"
