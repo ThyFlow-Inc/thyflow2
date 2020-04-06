@@ -198,7 +198,7 @@
       </div>
     </tab>
     <tab name="What you'll need">
-            <div class="w-full my-2 lg:text-2xl text-center text-orange-500 px-12 lg:px-16 sm:px-4 sm:align-middle md:align-middle" >
+            <div class="w-full my-2 lg:text-2xl text-center text-orange-500 px-12 lg:px-16 sm:px-4 sm:align-middle md:align-middle " >
               <h4 class="text-white md:text-3xl sm:text-xl font-bold mb-3">
             Safety & Security is a key propriety to our team
           </h4>
