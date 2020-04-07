@@ -3,14 +3,14 @@ Vue.component("tabs", {
   template: `
         <div>
             <div class="tabs">
-              <ul class="flex mt-8 sm:1/2">
-                <li class="flex-1 mr-2" v-for="tab in tabs" :class="{ 'is-active': tab.isActive }">
-                    <a class="text-center block font-bold border border-blue-500 rounded lg:text-2xl sm:text-1xl py-2 px-4 bg-blue-500 hover:bg-blue-700 text-white" :href="tab.href" @click="selectTab(tab)">{{ tab.name }}</a>
+              <ul class="flex mt-8 lg:w-full sm:w-1/2 border-b">
+                <li class="flex-1 -mb-px text-2xl" v-for="tab in tabs" :class="{ 'is-active': tab.isActive }">
+                    <a class="bg-white inline-block border-l border-t border-r rounded-t py-2 px-8 text-blue-700 font-bold" :href="tab.href" @click="selectTab(tab)">{{ tab.name }}</a>
                 </li>
               </ul>
             </div>
 
-            <div class="tabs-details">
+            <div class="bg-gray rounded-lg">
                 <slot></slot>
             </div>
         </div>
