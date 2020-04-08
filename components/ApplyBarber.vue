@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-6">
+  <div class="gradient">
  
     <section class=" flex items-center flex-col mx-auto">
       <div class="md:flex bg-white rounded-lg p-6 lg:m-16">
