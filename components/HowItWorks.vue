@@ -92,6 +92,9 @@ export default {};
 </script>
 
 <style lang="css" scoped>
+.zoom {
+  transition: all 1s;
+}
 .zoom:hover {
   transform: scale(1.2);
 }
