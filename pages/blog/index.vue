@@ -2,6 +2,7 @@
   <div>
     <Navbar />
     <section class="home">
+      <div class="container max-w-screen-sm mt-24">
       <article>
         <!-- Button to edit document in dashboard -->
         <prismic-edit-button :documentId="documentId" />
@@ -10,7 +11,24 @@
         <!-- Template for page description -->
         <p class="blog-description">{{ $prismic.richTextAsPlain(homepageContent.description) }}</p>
       </article>
+      </div>
+
+      <!-------Subcription form----->
+      <div class="container max-w-screen-sm mt-12">
+        <form class="mt-8 sm:flex justify-center" action="https://plausible.us20.list-manage.com/subscribe/post?u=aa3638e2a24986bbda7c17506&amp;id=a307649d1b" method="post">
+    <input type="email" name="EMAIL" required="" class="appearance-none w-full px-5 py-3 border border-gray-300 text-base leading-6 rounded-md text-gray-900 bg-white placeholder-gray-500 focus:outline-none focus:shadow-outline focus:border-blue-300 transition duration-150 ease-in-out sm:max-w-xs" placeholder="Enter your email">
+    <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">
+      <button class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
+        Subscribe
+      </button>
+    </div>
+  </form>
+      </div>
     </section>
+
+  <!----------Header Section------->
+<hr class="w-full bg-gray-100 my-12" style="height: 1px">
+
     <section class="mx-auto px-4">
       <ul class="flex">
         <li class="flex-1 mr-2">
@@ -33,22 +51,24 @@
         </li>
       </ul>
     </section>
+    <div class="">
     <!-- Check blog posts exist -->
-    <div v-if="posts.length !== 0" class="flex flex-wrap px-4">
+    <div v-if="posts.length !== 0" class="flex flex-wrap m-4">
       <!-- Template for blog posts -->
       <section
-        class="w-full lg:w-1/3 md:w-1/3 xl:w-1/3 p-3 bg-gray-100 rounded-none"
+        class="w-full mb-6 px-8 md:w-1/3 bg-gray-100 rounded-md"
         v-for="post in posts"
         :key="post.id"
         v-bind:post="post"
       >
         <!-- Here :post="post" passes the data to the component -->
-        <blog-widget :post="post"></blog-widget>
+        <blog-widget  :post="post"></blog-widget>
       </section>
     </div>
     <!-- If no blog posts return message -->
     <div v-else class="blog-main">
       <p>No Posts published at this time.</p>
+    </div>
     </div>
     <ApplyBarber class="gradient" />
     <Footer />
@@ -121,7 +141,6 @@ export default {
   .blog-description
     font-size: 18px
     color: #9A9A9A
-    line-height: 30px
     margin-bottom: 3rem
     padding-bottom: 3rem
     font-family: 'Lato', sans-serif
