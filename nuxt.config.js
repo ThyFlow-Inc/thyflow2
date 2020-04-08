@@ -44,7 +44,7 @@ export default {
     { src: "~/plugins/link-resolver.js" },
     { src: "~/plugins/prismic-vue.js" },
     { src: "~/plugins/vue-slider.js", ssr: false },
-    { src: "~/plugins/vue-videobg.js", ssr: false },
+    { src: "~/plugins/vue-scroll-reveal.js", ssr: false },
     { src: "~/plugins/vue-scrollto.js", ssr: false }
   ],
   /*
