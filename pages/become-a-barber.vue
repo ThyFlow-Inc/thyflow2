@@ -153,7 +153,7 @@
       </div>
       <div class="w-full sm:w-1/2 mb-5">
         <img
-          class="zoom md:min-w-0 md:w-4/7 z-50 sm:w-full sm:h-full"
+          class="zoom md:min-w-0 md:w-4/7 z-50 sm:w-full sm:h-full rounded-lg"
           src="~/assets/barber_11.jpg"
         />
       </div>
