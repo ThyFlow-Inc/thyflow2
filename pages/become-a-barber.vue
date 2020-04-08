@@ -168,29 +168,31 @@
     <div class="header2">
       <div class="container mx-auto px-4">
         <div class="flex justify-between py-16 sm:py-24">
-          <div class="lg:w-1/2 xl:w-6/12 text-center lg:text-left py-4 sm:p-0">
+          <div
+            class="lg:w-1/2 xl:w-6/12 text-center lg:text-left py-4 sm:p-0 m-12"
+          >
             <a
               v-on:click="activetab = 1"
               v-bind:class="[activetab === 1 ? 'active' : '']"
-              class="bg-orange-500 text-white no-underline text-center block font-medium text-lg px-4 py-2 shadow uppercase rounded hover:shadow-md sm:mr-4 py-3 px-2 text-base mb-4 primary"
+              class="bg-orange-500 text-white no-underline text-center block font-medium text-lg px-4 py-2 shadow uppercase rounded hover:shadow-md sm:mr-4 py-3 px-2 text-base mb-6"
               >What you will do</a
             >
             <a
               v-on:click="activetab = 2"
               v-bind:class="[activetab === 2 ? 'active' : '']"
-              class="border hover:bg-orange-500 text-white no-underline text-center block font-medium text-lg px-4 py-2 shadow uppercase rounded hover:shadow-md sm:mr-4 py-3 px-2 text-base mb-4 primary"
+              class="border hover:bg-orange-500 text-white no-underline text-center block font-medium text-lg px-4 py-2 shadow uppercase rounded hover:shadow-md sm:mr-4 py-3 px-2 text-base mb-6"
               >What you will do</a
             >
             <a
               v-on:click="activetab = 3"
               v-bind:class="[activetab === 3 ? 'active' : '']"
-              class="border hover:bg-orange-500 text-white no-underline text-center block font-medium text-lg px-4 py-2 shadow uppercase rounded hover:shadow-md sm:mr-4 py-3 px-2 text-base mb-4 primary"
+              class="border hover:bg-orange-500 text-white no-underline text-center block font-medium text-lg px-4 py-2 shadow uppercase rounded hover:shadow-md sm:mr-4 py-3 px-2 text-base mb-6"
               >Who we are looking for</a
             >
           </div>
 
           <div
-            class="lg:w-1/2 xl:w-6/12 text-center lg:text-left py-4 sm:p-0 mx-8"
+            class="lg:w-1/2 xl:w-6/12 text-center lg:text-left py-4 sm:p-0 mx-12"
           >
             <div
               v-if="activetab === 1"
@@ -518,51 +520,6 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-.default-tabs {
-  position: relative;
-  margin: 0 auto;
-  &__item {
-    display: inline-block;
-    margin: 5px;
-    padding: 10px;
-    padding-top: 8px;
-    font-size: 16px;
-    letter-spacing: 0.8px;
-    color: white;
-    text-decoration: none;
-    border: none;
-    background-color: transparent;
-    border-bottom: 2px solid transparent;
-    cursor: pointer;
-    transition: all 0.25s;
-    &_active {
-      color: white;
-    }
-    &:hover {
-      border-bottom: 2px solid gray;
-      color: black;
-    }
-    &:focus {
-      outline: none;
-      border-bottom: 2px solid gray;
-      color: white;
-    }
-    &:first-child {
-      margin-left: 0;
-    }
-    &:last-child {
-      margin-right: 0;
-    }
-  }
-  &__active-line {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 2px;
-    background-color: rgb(255, 252, 251);
-    transition: transform 0.4s ease, width 0.4s ease;
-  }
-}
 
 .gradient {
   background: linear-gradient(90deg, #0a3ead 0%, #e38914 100%);
@@ -589,12 +546,5 @@ export default {
   background-position: top;
   position: relative;
 }
-.content {
-  margin-top: 30px;
-  font-size: 20px;
-}
-.default-tabs {
-  position: relative;
-  margin: 0 auto;
-}
+
 </style>
