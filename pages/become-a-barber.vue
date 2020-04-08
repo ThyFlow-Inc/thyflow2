@@ -6,19 +6,19 @@
       <div
         class="w-full lg:w-3/6  sm:w-3/6 px-8 text-center lg:text-left self-center mt-5"
       >
-        <h1 class="lg:mx-16 sm:mx-8 lg:text-5xl sm:text-2xl  text-orange-700">
+        <h1 class="lg:mx-16 sm:mx-8 lg:text-4xl sm:text-2xl text-orange-600 mt-6">
           Become a ThyFlow Barber
         </h1>
         <p
-          class="lg:mx-16  sm:mx-6 text-white font-bold lg:text-2xl md:text-1xl"
+          class="lg:mx-16 sm:mx-6 text-white font-bold lg:text-2xl md:text-1xl"
         >
           If you are looking for a flexible way to earn a great income doing
           what you enjoy, Join ThyFlow Barber Team.
         </p>
         <p
-          class="lg:mx-16 sm:mx-4 text-white font-bold lg:text-2xl md:text-1xl"
+          class="lg:mx-16 sm:mx-4 text-white lg:text-2xl md:text-1xl"
         >
-          THYFLOW - This is an alternative way for men to get a haircut at home.
+          This is an alternative way for men to get a haircut at home.
           ThyFlow, offer customers Barbershop experience at home or wherever
           they at. ThyFlow Barbers work within their neighborhood to drive to
           customer's homes to provide a haircut service.
