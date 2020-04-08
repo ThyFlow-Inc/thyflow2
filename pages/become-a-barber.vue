@@ -1,24 +1,24 @@
 <template>
-  <div class="m-0">
+  <div id="applybarber" class="m-0">
     <Navbar />
-    <div class="header flex flex-wrap">
+    <div  class="header flex flex-wrap ">
       <!--Left Col-->
       <div
         class="w-full lg:w-3/6  sm:w-3/6 px-8 text-center lg:text-left self-center mt-5"
       >
-        <h1 class="lg:mx-16 sm:mx-8 lg:text-5xl sm:text-2xl  text-orange-700">
+        <h1 class="lg:mx-16 sm:mx-8 lg:text-4xl sm:text-2xl text-orange-600 mt-6">
           Become a ThyFlow Barber
         </h1>
         <p
-          class="lg:mx-16  sm:mx-6 text-white font-bold lg:text-2xl md:text-1xl"
+          class="lg:mx-16 sm:mx-6 text-white font-bold lg:text-2xl md:text-1xl"
         >
           If you are looking for a flexible way to earn a great income doing
           what you enjoy, Join ThyFlow Barber Team.
         </p>
         <p
-          class="lg:mx-16 sm:mx-4 text-white font-bold lg:text-2xl md:text-1xl"
+          class="lg:mx-16 sm:mx-4 text-white lg:text-2xl md:text-1xl"
         >
-          THYFLOW - This is an alternative way for men to get a haircut at home.
+          This is an alternative way for men to get a haircut at home.
           ThyFlow, offer customers Barbershop experience at home or wherever
           they at. ThyFlow Barbers work within their neighborhood to drive to
           customer's homes to provide a haircut service.
@@ -168,29 +168,31 @@
     <div class="header2">
       <div class="container mx-auto px-4">
         <div class="flex justify-between py-16 sm:py-24">
-          <div class="lg:w-1/2 xl:w-6/12 text-center lg:text-left py-4 sm:p-0">
+          <div
+            class="lg:w-1/2 xl:w-6/12 text-center lg:text-left py-4 sm:p-0 m-12"
+          >
             <a
               v-on:click="activetab = 1"
               v-bind:class="[activetab === 1 ? 'active' : '']"
-              class="bg-orange-500 text-white no-underline text-center block font-medium text-lg px-4 py-2 shadow uppercase rounded hover:shadow-md sm:mr-4 py-3 px-2 text-base mb-4 primary"
+              class="bg-orange-500 text-white no-underline text-center block font-medium text-lg px-4 py-2 shadow uppercase rounded hover:shadow-md sm:mr-4 py-3 px-2 text-base mb-6"
               >What you will do</a
             >
             <a
               v-on:click="activetab = 2"
               v-bind:class="[activetab === 2 ? 'active' : '']"
-              class="border hover:bg-orange-500 text-white no-underline text-center block font-medium text-lg px-4 py-2 shadow uppercase rounded hover:shadow-md sm:mr-4 py-3 px-2 text-base mb-4 primary"
-              >What you will do</a
+              class="border hover:bg-orange-500 text-white no-underline text-center block font-medium text-lg px-4 py-2 shadow uppercase rounded hover:shadow-md sm:mr-4 py-3 px-2 text-base mb-6"
+              >What you will need</a
             >
             <a
               v-on:click="activetab = 3"
               v-bind:class="[activetab === 3 ? 'active' : '']"
-              class="border hover:bg-orange-500 text-white no-underline text-center block font-medium text-lg px-4 py-2 shadow uppercase rounded hover:shadow-md sm:mr-4 py-3 px-2 text-base mb-4 primary"
+              class="border hover:bg-orange-500 text-white no-underline text-center block font-medium text-lg px-4 py-2 shadow uppercase rounded hover:shadow-md sm:mr-4 py-3 px-2 text-base mb-6"
               >Who we are looking for</a
             >
           </div>
 
           <div
-            class="lg:w-1/2 xl:w-6/12 text-center lg:text-left py-4 sm:p-0 mx-8"
+            class="lg:w-1/2 xl:w-6/12 text-center lg:text-left py-4 sm:p-0 mx-12"
           >
             <div
               v-if="activetab === 1"
@@ -266,227 +268,173 @@
 
             <!------Tab COntent 1------->
 
-            <div
+                     <div
               v-if="activetab === 2"
-              class="w-full my-2 lg:text-2xl text-center text-orange-500 px-12 lg:px-16 sm:px-4 sm:align-middle md:align-middle "
+              class="rounded-lg shadow-lg overflow-hidden bg-gray-200"
             >
-              <h4 class="text-white md:text-3xl sm:text-xl font-bold mb-3">
-                Safety & Security is a key propriety to our team
-              </h4>
-              <p class="text-white md:text-lg sm:text-base mb-3">
-                Barbers background
-
-                <font-awesome-icon
-                  :icon="['fas', 'check']"
-                  class="mx-1 h-4 inline-block"
-                />
-              </p>
-              <p class="text-white md:text-lg sm:text-base mb-3">
-                Barbers license
-                <font-awesome-icon
-                  :icon="['fas', 'check']"
-                  class="mx-1 h-4 inline-block"
-                />
-              </p>
-              <p class="text-white md:text-lg sm:text-base mb-3">
-                Two-step interview process
-
-                <font-awesome-icon
-                  :icon="['fas', 'check']"
-                  class="mx-1 h-4 inline-block"
-                />
-              </p>
+              <div class="px-6 py-8 bg-white sm:p-10 sm:pb-6">
+                <div
+                  class="mt-4 flex items-baseline text-4xl leading-none font-extrabold"
+                >
+                  Professionalism
+                </div>
+              </div>
+              <div class="px-6 pt-6 pb-8 bg-gray-50 sm:p-10 sm:pt-6">
+                <ul>
+                  <li class="flex items-start">
+                    <svg
+                      class="mx-1 h-6 inline-block"
+                      stroke="currentColor"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 13l4 4L19 7"
+                      ></path>
+                    </svg>
+                    <p class="ml-3 text-lg leading-6 text-gray-700">
+                      Barbing Experience 
+                    </p>
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="mx-1 h-6 inline-block"
+                      stroke="currentColor"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 13l4 4L19 7"
+                      ></path>
+                    </svg>
+                    <p class="ml-3 text-lg leading-6 text-gray-700">
+                      Have <span class="text-orange-500">Barber</span> license
+                    </p>
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="mx-1 h-6 inline-block"
+                      stroke="currentColor"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 13l4 4L19 7"
+                      ></path>
+                    </svg>
+                    <p class="ml-3 text-lg leading-6 text-gray-700">
+                      Interview by industry <span class="text-orange-500">professional</span>
+                    </p>
+                  </li>
+                </ul>
+              </div>
             </div>
+
             <!------Second Content Finish Here--->
 
-            <div
+                     <div
               v-if="activetab === 3"
-              class=" px-12 lg:px-16 sm:px-4 sm:align-middle md:align-middle"
+              class="rounded-lg shadow-lg overflow-hidden bg-gray-200"
             >
-              <h4 class="text-white md:text-3xl sm:text-xl font-bold mb-3">
-                Qualifications
-              </h4>
-              <p class="text-white md:text-lg sm:text-base mb-3">
-                Haircut experience.
-
-                <font-awesome-icon
-                  :icon="['fas', 'check']"
-                  class="mx-1 h-4 inline-block"
-                />
-              </p>
-              <p class="text-white md:text-lg sm:text-base mb-3">
-                Have a smart phone.
-                <font-awesome-icon
-                  :icon="['fas', 'check']"
-                  class="mx-1 h-4 inline-block"
-                />
-              </p>
-              <p class="text-white md:text-lg sm:text-base mb-3">
-                Can communicate with customers.
-
-                <font-awesome-icon
-                  :icon="['fas', 'check']"
-                  class="mx-1 h-4 inline-block"
-                />
-              </p>
-              <p class="text-white md:text-lg sm:text-base mb-3">
-                Take Pride in your work.
-
-                <font-awesome-icon
-                  :icon="['fas', 'check']"
-                  class="mx-1 h-4 inline-block"
-                />
-              </p>
-              <p class="text-white md:text-lg sm:text-base mb-3">
-                Have Barber license.
-
-                <font-awesome-icon
-                  :icon="['fas', 'check']"
-                  class="mx-1 h-4 inline-block"
-                />
-              </p>
+              <div class="px-6 py-8 bg-white sm:p-10 sm:pb-6">
+                <div
+                  class="mt-4 flex items-baseline text-4xl leading-none font-extrabold"
+                >
+                  Qualifications
+                </div>
+              </div>
+              <div class="px-6 pt-6 pb-8 bg-gray-50 sm:p-10 sm:pt-6">
+                <ul>
+                  <li class="flex items-start">
+                    <svg
+                      class="mx-1 h-6 inline-block"
+                      stroke="currentColor"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 13l4 4L19 7"
+                      ></path>
+                    </svg>
+                    <p class="ml-3 text-lg leading-6 text-gray-700">
+                      Can <b>communicate</b> with customers.
+                    </p>
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="mx-1 h-6 inline-block"
+                      stroke="currentColor"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 13l4 4L19 7"
+                      ></path>
+                    </svg>
+                    <p class="ml-3 text-lg leading-6 text-gray-700">
+                      Have a smart <span class="text-orange-500">phone</span>.
+                    </p>
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="mx-1 h-6 inline-block"
+                      stroke="currentColor"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 13l4 4L19 7"
+                      ></path>
+                    </svg>
+                    <p class="ml-3 text-lg leading-6 text-gray-700">
+                      Take Pride in your <span class="text-orange-500">work.</span>
+                    </p>
+                  </li>
+                </ul>
+              </div>
             </div>
+            <!-----End og tab Content------>
           </div>
         </div>
       </div>
     </div>
-    <div class="header2">
-      <div class="flex flex-wrap mx-4">
-        <div id="root" class="container">
-          <tabs>
-            <tab name="What you'll do" :selected="true">
-              <div
-                class="w-full my-2 lg:text-2xl text-center text-orange-500 px-12 lg:mb-12 lg:px-16 sm:px-4 sm:align-middle md:align-middle"
-              >
-                <h4 class="text-white md:text-3xl sm:text-xl font-bold mb-3">
-                  Your Responsibilities
-                </h4>
-                <p class="text-white md:text-lg sm:text-base mb-3">
-                  Provide all customers with a High-Quality haircut.
 
-                  <font-awesome-icon
-                    :icon="['fas', 'check']"
-                    class="mx-1 h-4 inline-block"
-                  />
-                </p>
-                <p class="text-white md:text-lg sm:text-base mb-3">
-                  Represent the ThyFlow Brand.
-                  <font-awesome-icon
-                    :icon="['fas', 'check']"
-                    class="mx-1 h-4 inline-block"
-                  />
-                </p>
-                <p class="text-white md:text-lg sm:text-base mb-3">
-                  Provide exceptional customer service.
-                  <font-awesome-icon
-                    :icon="['fas', 'check']"
-                    class="mx-1 h-4 inline-block"
-                  />
-                </p>
-              </div>
-            </tab>
-            <tab name="What you'll need">
-              <div
-                class="w-full my-2 lg:text-2xl text-center text-orange-500 px-12 lg:px-16 sm:px-4 sm:align-middle md:align-middle "
-              >
-                <h4 class="text-white md:text-3xl sm:text-xl font-bold mb-3">
-                  Safety & Security is a key propriety to our team
-                </h4>
-                <p class="text-white md:text-lg sm:text-base mb-3">
-                  Barbers background
-
-                  <font-awesome-icon
-                    :icon="['fas', 'check']"
-                    class="mx-1 h-4 inline-block"
-                  />
-                </p>
-                <p class="text-white md:text-lg sm:text-base mb-3">
-                  Barbers license
-                  <font-awesome-icon
-                    :icon="['fas', 'check']"
-                    class="mx-1 h-4 inline-block"
-                  />
-                </p>
-                <p class="text-white md:text-lg sm:text-base mb-3">
-                  Two-step interview process
-
-                  <font-awesome-icon
-                    :icon="['fas', 'check']"
-                    class="mx-1 h-4 inline-block"
-                  />
-                </p>
-              </div>
-            </tab>
-            <tab name="Who we're looking for">
-              <div
-                class="w-full my-2 lg:text-2xl text-center text-orange-500 px-12 lg:px-16 sm:px-4 sm:align-middle md:align-middle"
-              >
-                <h4 class="text-white md:text-3xl sm:text-xl font-bold mb-3">
-                  Qualifications
-                </h4>
-                <p class="text-white md:text-lg sm:text-base mb-3">
-                  Haircut experience.
-
-                  <font-awesome-icon
-                    :icon="['fas', 'check']"
-                    class="mx-1 h-4 inline-block"
-                  />
-                </p>
-                <p class="text-white md:text-lg sm:text-base mb-3">
-                  Have a smart phone.
-                  <font-awesome-icon
-                    :icon="['fas', 'check']"
-                    class="mx-1 h-4 inline-block"
-                  />
-                </p>
-                <p class="text-white md:text-lg sm:text-base mb-3">
-                  Can communicate with customers.
-
-                  <font-awesome-icon
-                    :icon="['fas', 'check']"
-                    class="mx-1 h-4 inline-block"
-                  />
-                </p>
-                <p class="text-white md:text-lg sm:text-base mb-3">
-                  Take Pride in your work.
-
-                  <font-awesome-icon
-                    :icon="['fas', 'check']"
-                    class="mx-1 h-4 inline-block"
-                  />
-                </p>
-                <p class="text-white md:text-lg sm:text-base mb-3">
-                  Have Barber license.
-
-                  <font-awesome-icon
-                    :icon="['fas', 'check']"
-                    class="mx-1 h-4 inline-block"
-                  />
-                </p>
-              </div>
-            </tab>
-          </tabs>
-        </div>
-      </div>
-    </div>
 
     <!------Third section-------->
 
     <!-------Finish Tabs------>
-    <!-- <div class="mx-auto flex flex-wrap pt-4 pb-4">
+    <div class="mx-auto flex flex-wrap pt-24 pb-16">
       <h1
-        class="mx-auto block text-5xl font-bold leading-none text-orange self-center"
+        class="mx-auto block text-5xl font-bold leading-none text-orange-500 self-center"
       >
         Interested?
       </h1>
     </div>
-    <div class="w-full text-center  self-center">
+    <div class="w-full text-center pb-24 self-center">
       <a
-        href="https://thyflow.zohorecruit.com/careers"
-        class="bg-blue-500 hover:bg-blue-400 text-white w-full font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded text-2xl"
-        >Fill the form here!</a
+        href="#" v-scroll-to="'#applybarber'"
+        class="hover:bg-orange-400  hover:text-white text-orange-500 w-full font-bold py-4 px-4 border border-orange-600 hover:border-blue-500 rounded text-2xl"
+        >Apply as a Barber <span class="">↑</span> </a
       >
-    </div>--->
+    </div>
     <Footer />
   </div>
 </template>
@@ -518,51 +466,6 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-.default-tabs {
-  position: relative;
-  margin: 0 auto;
-  &__item {
-    display: inline-block;
-    margin: 5px;
-    padding: 10px;
-    padding-top: 8px;
-    font-size: 16px;
-    letter-spacing: 0.8px;
-    color: white;
-    text-decoration: none;
-    border: none;
-    background-color: transparent;
-    border-bottom: 2px solid transparent;
-    cursor: pointer;
-    transition: all 0.25s;
-    &_active {
-      color: white;
-    }
-    &:hover {
-      border-bottom: 2px solid gray;
-      color: black;
-    }
-    &:focus {
-      outline: none;
-      border-bottom: 2px solid gray;
-      color: white;
-    }
-    &:first-child {
-      margin-left: 0;
-    }
-    &:last-child {
-      margin-right: 0;
-    }
-  }
-  &__active-line {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 2px;
-    background-color: rgb(255, 252, 251);
-    transition: transform 0.4s ease, width 0.4s ease;
-  }
-}
 
 .gradient {
   background: linear-gradient(90deg, #0a3ead 0%, #e38914 100%);
@@ -589,12 +492,5 @@ export default {
   background-position: top;
   position: relative;
 }
-.content {
-  margin-top: 30px;
-  font-size: 20px;
-}
-.default-tabs {
-  position: relative;
-  margin: 0 auto;
-}
+
 </style>

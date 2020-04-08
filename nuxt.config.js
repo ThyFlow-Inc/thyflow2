@@ -13,8 +13,8 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: process.env.npm_package_description || "",
-      },
+        content: process.env.npm_package_description || ""
+      }
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
     script: [
@@ -22,11 +22,11 @@ export default {
         innerHTML:
           '{ window.prismic = { endpoint: "' +
           PrismicConfig.apiEndpoint +
-          '"} }',
+          '"} }'
       },
-      { src: "//static.cdn.prismic.io/prismic.min.js" },
+      { src: "//static.cdn.prismic.io/prismic.min.js" }
     ],
-    __dangerouslyDisableSanitizers: ["script"],
+    __dangerouslyDisableSanitizers: ["script"]
   },
   /*
    ** Customize the progress-bar color
@@ -45,14 +45,14 @@ export default {
     { src: "~/plugins/prismic-vue.js" },
     { src: "~/plugins/vue-slider.js", ssr: false },
     { src: "~/plugins/vue-videobg.js", ssr: false },
-    { src: "~/plugins/vue-resvideo.js", ssr: false },
+    { src: "~/plugins/vue-scrollto.js", ssr: false }
   ],
   /*
    ** Nuxt.js dev-modules
    */
   buildModules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-    "@nuxtjs/tailwindcss",
+    "@nuxtjs/tailwindcss"
   ],
   /*
    ** Nuxt.js modules
@@ -64,15 +64,15 @@ export default {
         imports: [
           {
             set: "@fortawesome/free-solid-svg-icons",
-            icons: ["fas"],
+            icons: ["fas"]
           },
           {
             set: "@fortawesome/free-brands-svg-icons",
-            icons: ["fab"],
-          },
-        ],
-      },
-    ],
+            icons: ["fab"]
+          }
+        ]
+      }
+    ]
   ],
   /*
    ** Build configuration
@@ -82,6 +82,6 @@ export default {
      */
     extend(config, ctx) {
       config.resolve.alias["vue"] = "vue/dist/vue.common";
-    },
-  },
+    }
+  }
 };
