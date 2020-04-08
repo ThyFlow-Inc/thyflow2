@@ -8109,11 +8109,6 @@ vue-no-ssr@^1.1.1:
   resolved "https://registry.yarnpkg.com/vue-no-ssr/-/vue-no-ssr-1.1.1.tgz#875f3be6fb0ae41568a837f3ac1a80eaa137b998"
   integrity sha512-ZMjqRpWabMPqPc7gIrG0Nw6vRf1+itwf0Itft7LbMXs2g3Zs/NFmevjZGN1x7K3Q95GmIjWbQZTVerxiBxI+0g==
 
-vue-responsive-video-background-player@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/vue-responsive-video-background-player/-/vue-responsive-video-background-player-1.1.0.tgz#8e07cc5c310437c699c9a6f2aaf60452b05f64fc"
-  integrity sha512-Ywjim8iuZWgF83iNKFQIFAikF7XhhHAFikXZB/+hfwYFr0GmFWjSJcsVnz9pcSqYNpDTyE+Dp5+FZDWZ4RsvHQ==
-
 vue-router@^3.1.6:
   version "3.1.6"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.1.6.tgz#45f5a3a3843e31702c061dd829393554e4328f89"

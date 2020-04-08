@@ -2,16 +2,12 @@
   <!---------------------Features-------->
   <section class="bg-blue-700 border-b py-12">
     <div class="container max-w-7xl mx-auto m-8">
-      <!------<h1
-        class="my-3 md:text-6xl uppercase sm:text-3xl font-bold leading-tight text-center text-white"
+          <!---<img src="~/assets/bookease.png" alt="bookease" class="h-48 text-center" />--->
+       <h2
+        class="mb-4 text-4xl text-orange-500 lg:text-5xl text-center"
       >
-        Book with ease
-      </h1>----->
-       <h1
-        class="my-6 md:text-6xl  sm:text-3xl font-bold leading-tight text-center text-orange-500"
-      >
-        Book With Ease
-      </h1>
+        Book With <strong>Ease</strong>
+      </h2>
       <div class="w-full mb-4">
 
       </div>
