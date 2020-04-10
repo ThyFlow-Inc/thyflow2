@@ -1,5 +1,7 @@
 <template>
   <!--------------------How it works---------->
+    <vue-aos animation-class="fadeIn animated">
+
   <section class="bg-white border-b py-12">
     <a class="container mx-auto flex flex-wrap pt-4 pb-12">
       <h1
@@ -85,6 +87,7 @@
       </a>
     </a>
   </section>
+    </vue-aos>
 </template>
 
 <script>
