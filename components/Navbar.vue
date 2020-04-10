@@ -6,7 +6,7 @@
           class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
           to="/"
         >
-          <img class="h-10 fill-current inline px-2" src="~/assets/big_logo.png" alt="number-one" />
+          <img class="hee h-10 fill-current inline px-2" src="~/assets/big_logo.png" alt="number-one" />
         </nuxt-link>
       </div>
       <!------------Hambuger menu---------->
@@ -94,6 +94,7 @@ export default {
 </script>
 
 <style lang="css" scoped>
+
 .gradient {
   background: linear-gradient(90deg, #0a3ead 0%, #e38914 100%);
 }
