@@ -1,8 +1,8 @@
 <template>
   <div class="bg-blue-700">
     <Navbar />
-    <Header />
-    <OurStoryHome />
+    <Header  />
+    <OurStoryHome  />
     <HowItWorks />
     <!------------First Book a barber--------------->
      
