@@ -1,7 +1,5 @@
-import AOS from "aos";
+import Vue from "vue";
 
-import "aos/dist/aos.css";
+import VueAos from "vue-aos";
 
-export default ({ app }) => {
-    app.AOS = new AOS.init({ disable: "phone" }); // eslint-disable-line new-cap
-};
+Vue.use(VueAos);

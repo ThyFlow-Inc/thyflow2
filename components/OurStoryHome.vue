@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-blue-500">
+  <div class="bg-blue-500" v-scroll-reveal>
     <section class="bg-blue-700 border-b py-24 lg:px-64 px-8 story-section mt-8">
       <a class="container mx-auto flex flex-wrap pt-4 rounded">
         <div class="mx-auto w-auto">

@@ -120,4 +120,17 @@ em {
   h3 {
     font-size: 18px;
   }
+
+  .hero__title {
+    font-size: 2.667rem;
+    color: #fff;
+    line-height: 1.2
+}
+.hero__tagline {
+  font-size: 1.111rem;
+  line-height: 1.5;
+  color: #f5a08c;
+  font-weight: 700
+}
+
 }
