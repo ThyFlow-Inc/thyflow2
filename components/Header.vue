@@ -3,7 +3,7 @@
     <header class="header">
      
    <video
-        src=""
+        src="~assets/thyvideo.mp4"
         ref="videoRef"
         loop
         preload="auto"
@@ -40,7 +40,7 @@ export default {
   },
  
     mounted: function() {
-    this.$refs.videoRef.src = "https://silly-goldwasser-851e94.netlify.com/_nuxt/videos/26383bd.mp4";
+    //this.$refs.videoRef.src = "./assets/thyvideo.mp4";
     this.$refs.videoRef.play();
   }
 
