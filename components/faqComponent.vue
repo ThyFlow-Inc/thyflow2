@@ -1,6 +1,6 @@
 <template>
   <div
-    class="pt-2 bg-white md:pt-8 px-6 mx-auto flex flex-wrap flex-col md:flex-col  text-center"
+    class="pt-2 bg-white md:pt-8 px-6 mx-auto flex flex-wrap flex-col md:flex-col text-center"
   >
     <!-------Accordion-------->
     <h1

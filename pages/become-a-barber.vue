@@ -1,27 +1,26 @@
 <template>
   <div id="applybarber" class="m-0">
     <Navbar />
-    <div  class="header flex flex-wrap ">
+    <div class="header flex flex-wrap ">
       <!--Left Col-->
       <div
         class="w-full lg:w-3/6  sm:w-3/6 px-8 text-center lg:text-left self-center mt-5"
       >
-        <h1 class="lg:mx-16 sm:mx-8 lg:text-4xl sm:text-2xl text-orange-600 mt-6">
+        <h1
+          class="lg:mx-16 sm:mx-8 lg:text-4xl sm:text-2xl text-orange-600 mt-6"
+        >
           Become a ThyFlow Barber
         </h1>
         <p
           class="lg:mx-16 sm:mx-6 text-white font-bold lg:text-2xl md:text-1xl"
         >
-          If you are looking for a flexible way to earn a great income doing
-          what you enjoy, Join ThyFlow Barber Team.
+        If you are looking for a flexible way to earn a great income doing what you enjoy! Join ThyFlow Barber Team!
         </p>
-        <p
-          class="lg:mx-16 sm:mx-4 text-white lg:text-2xl md:text-1xl"
-        >
-          This is an alternative way for men to get a haircut at home.
-          ThyFlow, offer customers Barbershop experience at home or wherever
-          they at. ThyFlow Barbers work within their neighborhood to drive to
-          customer's homes to provide a haircut service.
+        <p class="lg:mx-16 sm:mx-4 text-white lg:text-2xl md:text-1xl">
+         ThyFlow - Is an alternative way for people to get a haircut at home.
+           ThyFlow, offers customers a barbershop experience at home or wherever they are. 
+           ThyFlow Barbers work within their neighborhood, drive to customer's homes, and
+            give an excellent haircut 
         </p>
       </div>
 
@@ -150,10 +149,11 @@
           Why ThyFlow?
         </p>
         <p class="px-3 text-orange md:text-2xl sm:text-base mb-3">
-          ThyFlow Team, focus on building a trusted platform for anyone to find
-          verified Mobile Service providers in their local area and book an
-          appointment. We connect service providers with customers that need and
-          want their service, in a safe and secure manner.
+          The ThyFlow Team focuses on building a trusted platform, 
+          for anyone to book a hair appointment with verified Mobile
+           Service providers in their local area. We connect service 
+           providers with customers that need and want their service, 
+           in a safe and secure manner.
         </p>
       </div>
       <div class="w-full sm:w-1/2 mb-5">
@@ -268,7 +268,7 @@
 
             <!------Tab COntent 1------->
 
-                     <div
+            <div
               v-if="activetab === 2"
               class="rounded-lg shadow-lg overflow-hidden bg-gray-200"
             >
@@ -296,7 +296,7 @@
                       ></path>
                     </svg>
                     <p class="ml-3 text-lg leading-6 text-gray-700">
-                      Barbing Experience 
+                      Barbing Experience
                     </p>
                   </li>
                   <li class="flex items-start">
@@ -332,7 +332,8 @@
                       ></path>
                     </svg>
                     <p class="ml-3 text-lg leading-6 text-gray-700">
-                      Interview by industry <span class="text-orange-500">professional</span>
+                      Interview by industry
+                      <span class="text-orange-500">professional</span>
                     </p>
                   </li>
                 </ul>
@@ -341,7 +342,7 @@
 
             <!------Second Content Finish Here--->
 
-                     <div
+            <div
               v-if="activetab === 3"
               class="rounded-lg shadow-lg overflow-hidden bg-gray-200"
             >
@@ -405,7 +406,8 @@
                       ></path>
                     </svg>
                     <p class="ml-3 text-lg leading-6 text-gray-700">
-                      Take Pride in your <span class="text-orange-500">work.</span>
+                      Take Pride in your
+                      <span class="text-orange-500">work.</span>
                     </p>
                   </li>
                 </ul>
@@ -416,7 +418,6 @@
         </div>
       </div>
     </div>
-
 
     <!------Third section-------->
 
@@ -430,10 +431,11 @@
     </div>
     <div class="w-full text-center pb-24 self-center">
       <a
-        href="#" v-scroll-to="'#applybarber'"
+        href="#"
+        v-scroll-to="'#applybarber'"
         class="hover:bg-orange-400  hover:text-white text-orange-500 w-full font-bold py-4 px-4 border border-orange-600 hover:border-blue-500 rounded text-2xl"
-        >Apply as a Barber <span class="">↑</span> </a
-      >
+        >Apply as a Barber <span class="">↑</span>
+      </a>
     </div>
     <Footer />
   </div>
@@ -466,7 +468,6 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-
 .gradient {
   background: linear-gradient(90deg, #0a3ead 0%, #e38914 100%);
 }
@@ -492,5 +493,4 @@ export default {
   background-position: top;
   position: relative;
 }
-
 </style>
