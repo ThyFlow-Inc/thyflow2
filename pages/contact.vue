@@ -29,7 +29,7 @@
                 </g></svg
               >Send an Email
             </a>
-            <a
+           <!------ <a
               href="tel:123-456-7890"
               class="bg-white rounded text-black font-bold block w-full my-3 md:inline-block md:w-auto px-4 py-4"
             >
@@ -47,7 +47,7 @@
                 </g>
               </svg>
               Call Us Now
-            </a>
+            </a>--->
           </div>
         </div>
         <p class="text-base font-bold">
@@ -235,16 +235,7 @@
                 Office hours <br />
                 Monday to Friday, 8 a.m. to 5 p.m. (PST)
               </p>
-              <div class="my-6">
-                <p>
-                  <span class="font-semibold text-orange-600 text-xl"
-                    >Toll-free number:</span
-                  >
-                  <a href="tel:94949494949494" class="text-peachy text-xl"
-                    >+1 (0) 9899984494</a
-                  >
-                </p>
-              </div>
+       
             </div>
           </div>
         </div>
