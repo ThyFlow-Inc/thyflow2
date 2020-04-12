@@ -29,7 +29,7 @@
                 </g></svg
               >Send an Email
             </a>
-           <!------ <a
+            <!------ <a
               href="tel:123-456-7890"
               class="bg-white rounded text-black font-bold block w-full my-3 md:inline-block md:w-auto px-4 py-4"
             >
@@ -51,7 +51,8 @@
           </div>
         </div>
         <p class="text-base font-bold">
-          <span class="text-gray-600">Office Hours</span> : Monday to Friday, 8 am to 5 pm.
+          <span class="text-gray-600">Office Hours</span> : Monday to Friday, 8
+          am to 5 pm.
         </p>
       </div>
     </header>
@@ -178,7 +179,7 @@
             <p
               class="flex-grow content-strong-peachy my-6 md:text-base lg:text-lg"
             >
-              Want to feature us on your blog?
+              Contact us for all your press inquiries
               <strong> Send us an Email.</strong>
             </p>
             <div class="flex items-center md:min-h-4">
@@ -235,7 +236,6 @@
                 Office hours <br />
                 Monday to Friday, 8 a.m. to 5 p.m. (PST)
               </p>
-       
             </div>
           </div>
         </div>
