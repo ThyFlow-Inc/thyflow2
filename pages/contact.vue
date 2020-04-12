@@ -184,7 +184,7 @@
             </p>
             <div class="flex items-center md:min-h-4">
               <a
-                href="mailto:press@thyflow.com"
+                href="mailto:support@thyflow.com"
                 class="flex items-center font-semibold text-md md:text-sm lg:text-lg"
               >
                 <div
