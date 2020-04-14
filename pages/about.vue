@@ -1,13 +1,45 @@
 <template>
-  <div>
+  <div class="about">
     <Navbar />
-    
+
+    <header class="hero">
+      <div class="container">
+        <div class="relative content-strong-peachy my-10 lg:pb-20 lg:mt-8">
+          <img
+            class="absolute top-0 bottom-0 right-0 h-full hidden object-cover lg:block"
+            src="~/assets/barber_11.jpg"
+            alt=""
+          />
+          <div class="relative px-4 lg:px-0 lg:pt-20">
+            <h1 class="display-2 font-bold lg:display-0">
+              We <br />
+              are <br />
+              <span class="text-orange-500"> Thyflow</span>
+            </h1>
+            <div class="my-10 lg:w-1/2">
+              <h2 class="mb-10 text-xl text-peachy font-bold">Who are we?</h2>
+              <p class="leading-relaxed lg:mr-20">
+                We, The team behind ThyFlow Services, enjoy collaborating to
+                create excellent products and services that will unite people.
+                We have designed a trusted platform to Connect Mobile Barbers
+                and Hair Stylists with local clients. Other services will be
+                added to the platform soon! Hope you join us on this journey.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
     <section
       class="relative pt-16 pb-32 flex content-center items-center justify-center"
       style="min-height: 75vh;"
     >
       <div class="absolute top-0 w-full h-full bg-center bg-cover header-2">
-        <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
+        <span
+          id="blackOverlay"
+          class="w-full h-full absolute opacity-75 bg-black"
+        ></span>
       </div>
       <div class="container relative mx-auto">
         <div class="items-center flex flex-wrap">
@@ -15,35 +47,21 @@
             <div class="pr-12">
               <h1 class="text-white font-semibold text-5xl">About Us</h1>
               <p class="mt-4 text-lg text-white">
-                We, The team behind ThyFlow Services, enjoy collaborating to create excellent  
-                products and services that will unite people. We have designed a trusted platform to  
-                Connect Mobile Barbers and Hair Stylists with local clients. Other services will be  
-                added to the platform soon! Hope you join us on this journey.  
+                We, The team behind ThyFlow Services, enjoy collaborating to
+                create excellent products and services that will unite people.
+                We have designed a trusted platform to Connect Mobile Barbers
+                and Hair Stylists with local clients. Other services will be
+                added to the platform soon! Hope you join us on this journey.
               </p>
             </div>
           </div>
         </div>
       </div>
       <!-----------hery------->
-      <div
-        class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
-        style="height: 70px; transform: translateZ(0px);"
-      >
-        <svg
-          class="absolute bottom-0 overflow-hidden"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="none"
-          version="1.1"
-          viewBox="0 0 2560 100"
-          x="0"
-          y="0"
-        >
-          <polygon class="text-gray-300 fill-current" points="2560 0 2560 100 0 100" />
-        </svg>
-      </div>
+
       <!------------hello------>
     </section>
-    <section class="pb-20 bg-blue-500 -mt-24">
+    <section class="pb-20 bg-blue-500 mt-24">
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap">
           <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
@@ -58,7 +76,7 @@
                 </div>
                 <h6 class="text-xl font-semibold">Value People</h6>
                 <p class="mt-2 mb-4 text-gray-600">
-                  We will treat all people with respect, dignity, and courtesy. 
+                  We will treat all people with respect, dignity, and courtesy.
                 </p>
               </div>
             </div>
@@ -74,9 +92,10 @@
                   <i class="fas fa-retweet"></i>
                 </div>
                 <h6 class="text-xl font-semibold">Integrity</h6>
-                <p
-                  class="mt-2 mb-4 text-gray-600"
-                >We will ensure honesty and fairness in our actions. We will always do the right thing.</p>
+                <p class="mt-2 mb-4 text-gray-600">
+                  We will ensure honesty and fairness in our actions. We will
+                  always do the right thing.
+                </p>
               </div>
             </div>
           </div>
@@ -92,7 +111,7 @@
                 </div>
                 <h6 class="text-xl font-semibold">Passion for winning</h6>
                 <p class="mt-2 mb-4 text-gray-600">
-                  We have an unyielding drive to win. But always remain  humble. 
+                  We have an unyielding drive to win. But always remain humble.
                 </p>
               </div>
             </div>
@@ -105,21 +124,28 @@
             >
               <i class="fas fa-user-friends text-xl"></i>
             </div>
-            <h3 class="text-3xl mb-2 font-semibold leading-normal text-orange-400">Our Story</h3>
-            <p
-              class="text-lg font-light leading-relaxed mt-4 mb-4 text-white"
+            <h3
+              class="text-3xl mb-2 font-semibold leading-normal text-orange-400"
             >
-            We believe by making barbers/ hair stylist mobile, customers can experience a  
-            more personalized and tailored service. Users can stay home, request a mobile service  
-            provider, and receive a haircut with ease. We employ service providers that are  
-            passionate about what they do and believe in quality over quantity. Plus, service  
-            providers can make a good income traveling/driving to locals within their neighborhood  
-            to provide a world-class mobile service; while focusing on their craft. 
+              Our Story
+            </h3>
+            <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-white">
+              We believe by making barbers/ hair stylist mobile, customers can
+              experience a more personalized and tailored service. Users can
+              stay home, request a mobile service provider, and receive a
+              haircut with ease. We employ service providers that are passionate
+              about what they do and believe in quality over quantity. Plus,
+              service providers can make a good income traveling/driving to
+              locals within their neighborhood to provide a world-class mobile
+              service; while focusing on their craft.
             </p>
-            <p
-              class="text-lg font-light leading-relaxed mt-0 mb-4 text-white"
-            >We connect service providers with customers that need and want their service, in a safe and secure manner.</p>
-            <a href="#" class="font-bold text-orange-400 mt-8">Support@thyflow.com</a>
+            <p class="text-lg font-light leading-relaxed mt-0 mb-4 text-white">
+              We connect service providers with customers that need and want
+              their service, in a safe and secure manner.
+            </p>
+            <a href="#" class="font-bold text-orange-400 mt-8"
+              >Support@thyflow.com</a
+            >
           </div>
           <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
             <div
@@ -138,21 +164,23 @@
                   class="absolute left-0 w-full block"
                   style="height: 95px; top: -94px;"
                 >
-                  <polygon points="-30,95 583,95 583,65" class="text-pink-600 fill-current" />
+                  <polygon
+                    points="-30,95 583,95 583,65"
+                    class="text-pink-600 fill-current"
+                  />
                 </svg>
                 <h4 class="text-xl font-bold text-white">Customer Focus</h4>
-                <p
-                  class="text-md font-light mt-2 text-white"
-                >The customer is the BOSS. If we are not supporting the customer  
-                  directly, we serve the service providers that do. Customer service trumps everything! </p>
+                <p class="text-md font-light mt-2 text-white">
+                  The customer is the BOSS. If we are not supporting the
+                  customer directly, we serve the service providers that do.
+                  Customer service trumps everything!
+                </p>
               </blockquote>
             </div>
           </div>
         </div>
       </div>
     </section>
-
-
 
     <BarberProfile />
     <div class="gradient">
@@ -194,9 +222,13 @@
       <section class="container mx-auto text-center py-6 mb-12">
         <h1
           class="w-full my-2 text-4xl font-bold leading-tight text-center text-white"
-        >Become a Mobile Barber</h1>
+        >
+          Become a Mobile Barber
+        </h1>
         <div class="w-full mb-4">
-          <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
+          <div
+            class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"
+          ></div>
         </div>
 
         <button
@@ -230,6 +262,73 @@ export default {
 <style lang="css" scoped>
 .gradient {
   background: linear-gradient(90deg, #0a3ead 0%, #e38914 100%);
+}
+
+.text-peachy {
+  color: #f5a08c;
+}
+
+.hero {
+  position: relative;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  color: #fff;
+  background-color: #0f6973;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1240px) {
+  .container {
+    max-width: 1240px;
+  }
+}
+
+.display-0 {
+  line-height: 1;
+  font-size: 10rem;
+}
+
+.display-1 {
+  line-height: 1;
+  font-size: 5rem;
+}
+
+.display-2 {
+  line-height: 1;
+  font-size: 4.444rem;
+}
+
+.display-3 {
+  line-height: 1;
+  font-size: 3.889rem;
+}
+.leading-relaxed {
+  line-height: 1.625;
 }
 .header-2 {
   background-image: url("~assets/about-header.jpg");
