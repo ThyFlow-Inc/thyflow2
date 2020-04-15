@@ -2,35 +2,30 @@
   <!---------------------Features-------->
   <section class="bg-blue-700 border-b py-12">
     <div class="container max-w-7xl mx-auto m-8">
-      <!------<h1
-        class="my-3 md:text-6xl uppercase sm:text-3xl font-bold leading-tight text-center text-white"
+          <!---<img src="~/assets/bookease.png" alt="bookease" class="h-48 text-center" />--->
+       <h2
+        class="mb-4 text-4xl text-orange-500 lg:text-5xl text-center"
       >
-        Book with ease
-      </h1>----->
-       <h1
-        class="my-6 md:text-6xl  sm:text-3xl font-bold leading-tight text-center text-orange-500"
-      >
-        Book With Ease
-      </h1>
+        Book With <strong>Ease</strong>
+      </h2>
       <div class="w-full mb-4">
 
       </div>
       <div class="flex flex-wrap animate1">
         <div class=" align-middle w-6/6 sm:w-2/5 md:px-16 md:py-16">
           <h4 class="text-base md:text-2xl sm:text-xl  font-bold text-orange-500">
-            Barbers have years of experience
+            ThyFlow Barbers Have Years Of Experience
           </h4>
           <p class="text-white md:text-lg sm:text-base mb-8">
-            With the help of our industry professionals, we have partnered with
-            the top barbers in your city. ThyFlow, Only work with barbers that
-            take pride in their work.
+            With the help of our industry professionals, we’ve partnered
+             with the top barbers in your city. ThyFlow, only works with barbers
+              that take pride in their work.
           </p>
           <h4 class="md:text-2xl sm:text-xl text-orange-500  font-bold">
-            Barbers, Provides Exceptional Service.
+          ThyFlow Barbers, Provide Exceptional Service.
           </h4>
           <p class="px-1 text-white md:text-lg sm:text-base mb-8">
-            All barbers will bring years of barbershop experience to you with
-            every haircut.
+          All of our barbers bring years of barbershop experience to you with every haircut.
           </p>
 
         </div>
@@ -60,19 +55,18 @@
         <div class="w-full sm:w-2/5 p-6 mt-6 mb-5">
           <div class="align-middle w-6/6 md:px-16 md:py-16">
             <h4 class="text-orange-500 md:text-2xl sm:text-xl font-bold">
-              Barbers carry all needed tools to all haircut requests.
+            Our Barbers Carry Every Needed Tool for All Haircut Requests.
             </h4>
             <p class="px-1 text-white md:text-lg sm:text-base mb-8">
-              Yes, Barbers clean tools weekly. Yes, Barbers also have a chair
-              for your haircut.
+             Yes, our barbers clean their tools weekly.
+            Yes, our barbers bring a chair with them for your haircut.
             </p>
             <h4 class="text-orange-500 md:text-2xl sm:text-xl font-bold">
-              ThyFlow Barbers are always a tap away
+            ThyFlow Barbers Are Just A Tap Away
             </h4>
             <p class="px-1 text-white md:text-lg sm:text-base mb-8">
-              Easily track your barber's E.T.A in app till arrival. After your
-              haircut, leave the cleaning to the barber and rate your experience
-              in app.
+            You can easily track your barber's E.T.A on our app until their arrival.
+            After your haircut, leave the cleaning to your barber and rate your experience on our app.
             </p>
           </div>
         </div>
@@ -80,41 +74,42 @@
 
       <div class="flex flex-wrap flex-col-reverse sm:flex-row animate2">
         <div class="w-5/6 sm:w-2/5 md:px-16 md:py-16">
-          <h4 class="text-orange-500 md:text-2xl sm:text-xl font-bold">
-            Safety & Security is a key propriety to our team
+          <h4 class="text-orange-500 md:text-2xl sm:text-xl font-bold mb-3">
+          Safety & Security a key priority to our team
+          </h4>
+          <h4 class="text-white md:text-2xl sm:text-xl font-bold">
+          ThyFlow Barbers:
           </h4>
             <p class="text-white md:text-lg sm:text-base mb-3">
-              Barbers background
-
+            Are Background Checked
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
             </p>
             <p class="text-white md:text-lg sm:text-base mb-3">
-              Barbers license
+            Have A Barber/Hairstyling License
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
             </p>
             <p class="text-white md:text-lg sm:text-base mb-3">
-              Two-step interview process
-
+            Go Through A Two-step Interview Process
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
             </p>
             <p class="text-white md:text-lg sm:text-base mb-3">
-              Friends and family referral
+           Are Interviewed By Industry Professional
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"
               />
             </p>
             <p class="text-white md:text-lg sm:text-base mb-3">
-              Interview by industry professional
+            And The Thyflow Team Requests Friends And Family Referrals
               <font-awesome-icon
                 :icon="['fas', 'check']"
                 class="mx-1 h-4 inline-block"

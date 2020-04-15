@@ -1,11 +1,17 @@
 <template>
   <nuxt-link :to="link">
     <div class="blog-post">
-      <h2>{{ $prismic.richTextAsPlain(post.data.title) }}</h2>
-      <p class="blog-post-meta">
+      <h2
+        class="text-greenery font-bold leading-snug text-md sm:text-lg md:text-1xl"
+      >
+        {{ $prismic.richTextAsPlain(post.data.title) }}
+      </h2>
+      <p class="uppercase text-xs text-gray-500 font-bold">
         <span class="created-at">{{ formattedDate }}</span>
       </p>
-      <p>{{getFirstParagraph(post)}}</p>
+      <p class="my-4 text-greenery">
+        {{ getFirstParagraph(post) }}
+      </p>
     </div>
   </nuxt-link>
 </template>
@@ -61,10 +67,8 @@ export default {
 };
 </script>
 
-<style lang="sass" scoped>
-.blog-post
-  color: #353535
-
-h2
-  margin: 0
+<style lang="css" scoped>
+.text-greenery {
+  color: #061410;
+}
 </style>

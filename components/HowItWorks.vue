@@ -1,5 +1,7 @@
 <template>
   <!--------------------How it works---------->
+    <vue-aos animation-class="fadeIn animated">
+
   <section class="bg-white border-b py-12">
     <a class="container mx-auto flex flex-wrap pt-4 pb-12">
       <h1
@@ -24,7 +26,7 @@
             <div class="w-full font-bold text-xl text-orange-500 px-6">Create an account</div>
             <p
               class="text-black-600 text-base px-6 mb-5"
-            >Fill in basic info about yourself to create an account.</p>
+            >Fill out basic info about yourself to create an account</p>
           </a>
         </div>
       </div>
@@ -42,7 +44,7 @@
             <div class="w-full font-bold text-xl text-orange-500 px-6">Download App</div>
             <p
               class="text-black-600 text-base px-6 mb-5"
-            >Use our website or Download App to book an appointment.</p>
+            >Use our website or download our app on your phone!</p>
           </a>
         </div>
       </div>
@@ -57,10 +59,10 @@
           <img class="w-full object-cover zoom" src="~/assets/booking.png" alt="download" />
 
           <a href="#" class="flex flex-wrap no-underline hover:no-underline">
-            <div class="w-full font-bold text-xl text-orange-500 px-6">Appointment</div>
+            <div class="w-full font-bold text-xl text-orange-500 px-6">Book an Appointment</div>
             <p
               class="text-black-600 text-base px-6 mb-5"
-            >Once the appointment is confirmed, track the barber till arrival.</p>
+            >Once your appointment is confirmed, you can track your barber until they arrive.</p>
           </a>
         </div>
       </div>
@@ -76,15 +78,16 @@
           <img class="w-full object-cover zoom" src="~/assets/barber.png" alt="barber" />
 
           <a href="#" class="flex flex-wrap no-underline hover:no-underline">
-            <div class="w-full font-bold text-xl text-orange-500 px-6">Barber arrival</div>
+            <div class="w-full font-bold text-xl text-orange-500 px-6">Barber Arrival</div>
             <p
               class="text-black-600 text-base px-6 mb-5"
-            >ThyFlow barbers bring all state of the art tools for your haircut.</p>
+            >Sit back & Relax! As our ThyFlow barber use state of the art tools for your haircut</p>
           </a>
         </a>
       </a>
     </a>
   </section>
+    </vue-aos>
 </template>
 
 <script>
@@ -92,6 +95,9 @@ export default {};
 </script>
 
 <style lang="css" scoped>
+.zoom {
+  transition: all 1s;
+}
 .zoom:hover {
   transform: scale(1.2);
 }

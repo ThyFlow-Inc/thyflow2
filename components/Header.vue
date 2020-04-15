@@ -1,7 +1,6 @@
 <template>
   <div>
-    <header class="header">
-     
+    <header class="header">    
    <video
         src="~assets/thyvideo.mp4"
         ref="videoRef"
