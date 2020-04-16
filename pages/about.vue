@@ -1,35 +1,7 @@
 <template>
   <div class="about">
     <Navbar />
-
-    <header class="hero">
-      <div class="container">
-        <div class="relative content-strong-peachy my-10 lg:pb-20 lg:mt-8">
-          <img
-            class="absolute top-0 bottom-0 right-0 h-full hidden object-cover lg:block"
-            src="~/assets/barber_11.jpg"
-            alt=""
-          />
-          <div class="relative px-4 lg:px-0 lg:pt-20">
-            <h1 class="display-2 font-bold lg:display-0">
-              We <br />
-              are <br />
-              <span class="text-orange-500"> Thyflow</span>
-            </h1>
-            <div class="my-10 lg:w-1/2">
-              <h2 class="mb-10 text-xl text-peachy font-bold">Who are we?</h2>
-              <p class="leading-relaxed lg:mr-20">
-                We, The team behind ThyFlow Services, enjoy collaborating to
-                create excellent products and services that will unite people.
-                We have designed a trusted platform to Connect Mobile Barbers
-                and Hair Stylists with local clients. Other services will be
-                added to the platform soon! Hope you join us on this journey.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
+    <AboutHeader />
 
     <section
       class="relative pt-16 pb-32 flex content-center items-center justify-center"
@@ -64,7 +36,7 @@
     <section class="pb-20 bg-blue-500 mt-24">
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap">
-          <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+          <div class="lg:pt-12 -pt-6 w-full md:w-4/12 px-4 text-center">
             <div
               class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
             >
@@ -246,6 +218,7 @@
 <script>
 import Navbar from "~/components/Navbar.vue";
 import BarberProfile from "~/components/BarberProfile.vue";
+import AboutHeader from "~/components/AboutHeader.vue";
 import OurStory from "~/components/OurStory.vue";
 import Footer from "~/components/Footer.vue";
 
@@ -253,6 +226,7 @@ export default {
   components: {
     Navbar,
     BarberProfile,
+    AboutHeader,
     OurStory,
     Footer
   }
