@@ -9,7 +9,7 @@
         >
           <div class="sm:text-center lg:text-left">
             <div
-              class="text-sm font-semibold uppercase tracking-wide text-gray-500 sm:text-base lg:text-sm xl:text-base"
+              class="text-sm font-semibold uppercase tracking-wide text-gray-500 sm:text-base lg:text-sm xl:text-base mb-6"
             >
               <span
                 class="inline-flex items-center px-2 py-1 rounded-full text-xs font-semibold leading-4 bg-green-100 text-green-800 mr-3"
