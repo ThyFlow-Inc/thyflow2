@@ -1,211 +1,136 @@
 <template>
-  <div>
+  <div class="about">
     <Navbar />
-    
-    <section
-      class="relative pt-16 pb-32 flex content-center items-center justify-center"
-      style="min-height: 75vh;"
-    >
-      <div class="absolute top-0 w-full h-full bg-center bg-cover header-2">
-        <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
-      </div>
-      <div class="container relative mx-auto">
-        <div class="items-center flex flex-wrap">
-          <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-            <div class="pr-12">
-              <h1 class="text-white font-semibold text-5xl">About Us</h1>
-              <p class="mt-4 text-lg text-white">
-                We, The team behind ThyFlow Services, enjoy collaborating to create excellent  
-                products and services that will unite people. We have designed a trusted platform to  
-                Connect Mobile Barbers and Hair Stylists with local clients. Other services will be  
-                added to the platform soon! Hope you join us on this journey.  
+    <AboutHeader />
+    <section class=" pt-12 pb-10 bg-gallery">
+      <div class="container">
+        <h2
+          class="m-8  text-center text-greenery font-bold text-5xl lg:text-6xl"
+        >
+          Our <span class="text-orange-500">Core</span> Values<span
+            class="text-orange-500"
+            >.</span
+          >
+        </h2>
+        <div>
+          <div class="text-peachy text-6xl">
+            <span class="text-stroke-peachy">
+              01
+            </span>
+            <span class="font-hairline opacity-50">/</span>
+          </div>
+          <div class="flex flex-wrap -mx-4">
+            <p
+              class="w-full px-4 mb-4 text-greenery leading-tight text-4xl md:w-1/2 lg:text-5xl"
+            >
+              Value For People
+            </p>
+            <div class="w-full px-4 leading-relaxed md:w-1/2">
+              <p class="text-1xl sm:text-xl">
+                We will treat all people with respect, dignity, and courtesy.
               </p>
             </div>
           </div>
+          <hr class="mt-12" />
+          <div>
+            <div class="text-peachy text-6xl">
+              <span class="text-stroke-peachy">02</span>
+              <span class="font-hairline opacity-50">/</span>
+            </div>
+            <div class="flex flex-wrap -mx-4">
+              <p
+                class="w-full px-4 mb-4 text-greenery leading-tight text-4xl md:w-1/2 lg:text-5xl"
+              >
+                Customer Focus
+              </p>
+              <div class="w-full px-4 leading-relaxed md:w-1/2">
+                <p class="text-1xl sm:text-xl">
+                  The customer is the BOSS. If we are not supporting the
+                  customer directly, we serve the service providers that do.
+                  Customer service trumps everything!
+                </p>
+              </div>
+            </div>
+            <hr class="mt-12" />
+          </div>
+          <div>
+            <div class="text-peachy text-6xl">
+              <span class="text-stroke-peachy">03</span>
+              <span class="font-hairline opacity-50">/</span>
+            </div>
+            <div class="flex flex-wrap -mx-4">
+              <p
+                class="w-full px-4 mb-4 text-greenery leading-tight text-4xl md:w-1/2 lg:text-5xl"
+              >
+                Constant Improvement
+              </p>
+              <div class="w-full px-4 leading-relaxed md:w-1/2">
+                <p class="text-1xl sm:text-xl">
+                  Good enough never is sufficient. We have a strong work ethic
+                  because we enjoy what we do.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <!-----------hery------->
-      <div
-        class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
-        style="height: 70px; transform: translateZ(0px);"
-      >
-        <svg
-          class="absolute bottom-0 overflow-hidden"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="none"
-          version="1.1"
-          viewBox="0 0 2560 100"
-          x="0"
-          y="0"
+    </section>
+
+    <section class="features features--right features--image">
+      <div class="container">
+        <div
+          class="features__container flex flex-wrap lg:flex-no-wrap lg:-mx-4"
         >
-          <polygon class="text-gray-300 fill-current" points="2560 0 2560 100 0 100" />
-        </svg>
-      </div>
-      <!------------hello------>
-    </section>
-    <section class="pb-20 bg-blue-500 -mt-24">
-      <div class="container mx-auto px-4">
-        <div class="flex flex-wrap">
-          <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
-            <div
-              class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
-            >
-              <div class="px-4 py-5 flex-auto">
-                <div
-                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400"
-                >
-                  <i class="fas fa-award"></i>
-                </div>
-                <h6 class="text-xl font-semibold">Value People</h6>
-                <p class="mt-2 mb-4 text-gray-600">
-                  We will treat all people with respect, dignity, and courtesy. 
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="w-full md:w-4/12 px-4 text-center">
-            <div
-              class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
-            >
-              <div class="px-4 py-5 flex-auto">
-                <div
-                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400"
-                >
-                  <i class="fas fa-retweet"></i>
-                </div>
-                <h6 class="text-xl font-semibold">Integrity</h6>
-                <p
-                  class="mt-2 mb-4 text-gray-600"
-                >We will ensure honesty and fairness in our actions. We will always do the right thing.</p>
-              </div>
-            </div>
-          </div>
-          <div class="pt-6 w-full md:w-4/12 px-4 text-center">
-            <div
-              class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
-            >
-              <div class="px-4 py-5 flex-auto">
-                <div
-                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400"
-                >
-                  <i class="fas fa-fingerprint"></i>
-                </div>
-                <h6 class="text-xl font-semibold">Passion for winning</h6>
-                <p class="mt-2 mb-4 text-gray-600">
-                  We have an unyielding drive to win. But always remain  humble. 
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="flex flex-wrap items-center mt-32">
-          <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
-            <div
-              class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100"
-            >
-              <i class="fas fa-user-friends text-xl"></i>
-            </div>
-            <h3 class="text-3xl mb-2 font-semibold leading-normal text-orange-400">Our Story</h3>
-            <p
-              class="text-lg font-light leading-relaxed mt-4 mb-4 text-white"
-            >
-            We believe by making barbers/ hair stylist mobile, customers can experience a  
-            more personalized and tailored service. Users can stay home, request a mobile service  
-            provider, and receive a haircut with ease. We employ service providers that are  
-            passionate about what they do and believe in quality over quantity. Plus, service  
-            providers can make a good income traveling/driving to locals within their neighborhood  
-            to provide a world-class mobile service; while focusing on their craft. 
-            </p>
-            <p
-              class="text-lg font-light leading-relaxed mt-0 mb-4 text-white"
-            >We connect service providers with customers that need and want their service, in a safe and secure manner.</p>
-            <a href="#" class="font-bold text-orange-400 mt-8">Support@thyflow.com</a>
-          </div>
-          <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
-            <div
-              class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600"
-            >
+          <div
+            class="features__visual-col w-full lg:flex lg:items-center lg:w-1/2 features__visual-col--image"
+          >
+            <div class="features__image-wrapper aos-init aos-animate">
               <img
-                alt="..."
-                src="https://images.unsplash.com/photo-1493256338651-d82f7acb2b38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
-                class="w-full align-middle rounded-t-lg"
+                src="~/assets/barber_11.jpg"
+                alt="barber"
+                class="features__image features__image--mobile-center"
               />
-              <blockquote class="relative p-8 mb-4">
-                <svg
-                  preserveAspectRatio="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 583 95"
-                  class="absolute left-0 w-full block"
-                  style="height: 95px; top: -94px;"
-                >
-                  <polygon points="-30,95 583,95 583,65" class="text-pink-600 fill-current" />
-                </svg>
-                <h4 class="text-xl font-bold text-white">Customer Focus</h4>
-                <p
-                  class="text-md font-light mt-2 text-white"
-                >The customer is the BOSS. If we are not supporting the customer  
-                  directly, we serve the service providers that do. Customer service trumps everything! </p>
-              </blockquote>
+            </div>
+          </div>
+          <div class="features__content xl:pr-16">
+            <div class="flex-1">
+              <div
+                class="badge badge--solid badge--solid-peachy badge--fw-lg mb-10"
+              >
+                <img src="~/assets/clipper.png" alt="" class="h-12" />
+              </div>
+              <div
+                class="flex items-center text-base text-orange-500 font-bold"
+              >
+                <h2 class="text-1xl">Our Story</h2>
+              </div>
+              <div class="content-strong-peachy mb-8 leading-loose">
+                <p class=" text-1xl sm:text-lg">
+                  We believe by making barbers/ hair stylist mobile, customers
+                  can experience a more personalized and tailored service. Users
+                  can stay home, request a mobile service provider, and receive
+                  a haircut with ease. We employ service providers that are
+                  passionate about what they do and believe in quality over
+                  quantity. Plus, service providers can make a good income
+                  traveling/driving to locals within their neighborhood to
+                  provide a world-class mobile service; while focusing on their
+                  craft.
+                </p>
+              </div>
+              <div
+                class="flex items-center text-base text-orange-500 font-bold"
+              >
+                <p class="">Support@thyflow.com</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-
-
 
     <BarberProfile />
-    <div class="gradient">
-      <svg
-        class="wave-top"
-        viewBox="0 0 1439 147"
-        version="1.1"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-      >
-        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-          <g transform="translate(-1.000000, -14.000000)" fill-rule="nonzero">
-            <g class="wave" fill="#f8fafc">
-              <path
-                d="M1440,84 C1383.555,64.3 1342.555,51.3 1317,45 C1259.5,30.824 1206.707,25.526 1169,22 C1129.711,18.326 1044.426,18.475 980,22 C954.25,23.409 922.25,26.742 884,32 C845.122,37.787 818.455,42.121 804,45 C776.833,50.41 728.136,61.77 713,65 C660.023,76.309 621.544,87.729 584,94 C517.525,105.104 484.525,106.438 429,108 C379.49,106.484 342.823,104.484 319,102 C278.571,97.783 231.737,88.736 205,84 C154.629,75.076 86.296,57.743 0,32 L0,0 L1440,0 L1440,84 Z"
-              />
-            </g>
-            <g transform="translate(1.000000, 15.000000)" fill="#FFFFFF">
-              <g
-                transform="translate(719.500000, 68.500000) rotate(-180.000000) translate(-719.500000, -68.500000) "
-              >
-                <path
-                  d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496"
-                  opacity="0.100000001"
-                />
-                <path
-                  d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z"
-                  opacity="0.100000001"
-                />
-                <path
-                  d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z"
-                  opacity="0.200000003"
-                />
-              </g>
-            </g>
-          </g>
-        </g>
-      </svg>
-      <section class="container mx-auto text-center py-6 mb-12">
-        <h1
-          class="w-full my-2 text-4xl font-bold leading-tight text-center text-white"
-        >Become a Mobile Barber</h1>
-        <div class="w-full mb-4">
-          <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
-        </div>
 
-        <button
-          class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
-        >
-          <a href="https://www.thyflow.com/become-a-barber">Apply as barber!</a>
-        </button>
-      </section>
-    </div>
+    <ApplyBarber />
 
     <Footer />
   </div>
@@ -214,24 +139,335 @@
 <script>
 import Navbar from "~/components/Navbar.vue";
 import BarberProfile from "~/components/BarberProfile.vue";
+import AboutHeader from "~/components/AboutHeader.vue";
 import OurStory from "~/components/OurStory.vue";
+import ApplyBarber from "~/components/ApplyBarber.vue";
 import Footer from "~/components/Footer.vue";
 
 export default {
   components: {
     Navbar,
     BarberProfile,
+    AboutHeader,
     OurStory,
+    ApplyBarber,
     Footer
   }
 };
 </script>
 
 <style lang="css" scoped>
+.btn {
+  display: inline-block;
+  padding: 0.7778rem 1.5rem;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 600;
+  transition: color 0.2s, box-shadow 0.2s, background-color 0.2s,
+    border-color 0.2s, fill 0.2s, opacity 0.2s;
+}
+.bg-gallery {
+  background-color: #ebefed;
+}
+.content-strong-peachy strong,
+.slice-text strong {
+  color: #f5a08c;
+}
 .gradient {
   background: linear-gradient(90deg, #0a3ead 0%, #e38914 100%);
 }
+
+.text-peachy {
+  color: #f5a08c;
+}
+
+.text-stroke-peachy {
+  color: transparent;
+  font-weight: 700;
+  -webkit-text-stroke: 0.8px #f5a08c;
+}
+
+@media (-ms-high-contrast: none), screen and (-ms-high-contrast: active) {
+  .text-stroke-peachy {
+    color: #fff;
+    text-shadow: -1px -1px 0 #f5a08c, 1px -1px 0 #f5a08c, -1px 1px 0 #f5a08c,
+      1px 1px 0 #f5a08c;
+  }
+}
+
+.hero {
+  position: relative;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  color: #fff;
+  background-color: #0f6973;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1240px) {
+  .container {
+    max-width: 1240px;
+  }
+}
+
+.display-0 {
+  line-height: 1;
+  font-size: 10rem;
+}
+
+.display-1 {
+  line-height: 1;
+  font-size: 5rem;
+}
+
+.display-2 {
+  line-height: 1;
+  font-size: 4.444rem;
+}
+
+.display-3 {
+  line-height: 1;
+  font-size: 3.889rem;
+}
+.leading-relaxed {
+  line-height: 1.625;
+}
 .header-2 {
   background-image: url("~assets/about-header.jpg");
+}
+
+.features {
+  overflow: hidden;
+}
+
+@media (min-width: 1024px) {
+  .features--left .features__visual-col--image {
+    padding-right: 4rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .features--left .features__visual-col {
+    order: 0;
+  }
+  .features--left .features__visual-col--overflow .features__image {
+    background-position: 100%;
+  }
+  .features--left .features__visual-col .features__image {
+    right: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .features--right .features__visual-col--image {
+    padding-left: 4rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .features--right .features__visual-col {
+    order: 1;
+  }
+  .features--right .features__visual-col--overflow .features__image {
+    background-position: 0;
+  }
+  .features--right .features__visual-col .features__image {
+    left: 0;
+  }
+}
+
+.features--image {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.features--overflow {
+  padding-top: 3rem;
+}
+
+@media (min-width: 1024px) {
+  .features--overflow {
+    padding-bottom: 3rem;
+  }
+}
+
+.features--overflow .features__image-wrapper {
+  height: 500px;
+}
+
+@media (min-width: 768px) {
+  .features--overflow .features__image-wrapper {
+    height: 625px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .features--overflow .features__image-wrapper {
+    height: 100%;
+  }
+}
+
+.features--overflow .features__image {
+  position: absolute;
+  height: 100%;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  background-size: contain;
+  width: 9999px;
+  max-width: inherit;
+  max-height: 1000px;
+}
+
+.features--overflow .features__image--mobile-left {
+  left: 0;
+  background-position: 0;
+}
+
+.features--overflow .features__image--mobile-center {
+  left: 50%;
+  background-position: 50%;
+  transform: translateX(-50%);
+}
+
+.features--overflow .features__image--mobile-right {
+  right: 0;
+  background-position: 100%;
+}
+
+@media (min-width: 1024px) {
+  .features--overflow .features__image {
+    right: inherit;
+    left: inherit;
+    transform: translateY(-50%);
+  }
+}
+
+@media (min-width: 1024px) {
+  .features--overflow .features__content {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.features--overflow .features__visual-col--overflow {
+  margin-top: -3rem;
+  background-color: transparent;
+}
+
+@media (min-width: 1024px) {
+  .features--overflow .features__visual-col--overflow {
+    margin-bottom: -3rem;
+    min-height: 720px;
+  }
+}
+
+.features--accordions {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media (min-width: 1024px) {
+  .features--accordions .features__visual-col {
+    height: 900px;
+  }
+}
+
+.features__content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 2.5rem;
+}
+
+@media (min-width: 1024px) {
+  .features__content {
+    width: 50%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+}
+
+.features__image-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.features__image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  height: 411.42857px;
+}
+
+@media (min-width: 1024px) {
+  .features__image {
+    position: absolute;
+    top: 50%;
+    width: 720px;
+    max-width: calc(50vw - 1rem);
+    height: inherit;
+    max-height: 864px;
+    transform: translateY(-50%);
+  }
+}
+
+@media (min-width: 1240px) {
+  .features__image {
+    max-width: calc(50vw - 4rem);
+  }
+}
+
+.features__image-play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (min-width: 1024px) {
+  .features__image-play-button {
+    transform: translate(calc(-50% - 1rem), -50%);
+  }
+}
+
+@media (min-width: 1240px) {
+  .features__image-play-button {
+    transform: translate(calc(-50% - 4rem), -50%);
+  }
 }
 </style>

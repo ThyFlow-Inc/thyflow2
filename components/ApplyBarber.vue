@@ -16,7 +16,7 @@
           <div class="w-full px-4 md:w-auto lg:text-center">
             <a
               href="#"
-              class="ml-4 rounded-lg px-4 md:px-5 xl:px-4 py-4 md:py-4 xl:py-3 bg-transparent hover:bg-white rounded border border-orange-500 md:text-lg xl:text-xl text-orange-700 font-semibold leading-tight"
+              class="rolling_tiles  ml-4 rounded-lg px-4 md:px-5 xl:px-4 py-4 md:py-4 xl:py-3 bg-transparent hover:bg-white rounded border border-orange-500 md:text-lg xl:text-xl text-orange-700 font-semibold leading-tight"
               >Book a Barber</a
             >
             <a
