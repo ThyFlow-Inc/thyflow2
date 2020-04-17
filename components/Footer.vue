@@ -8,7 +8,11 @@
             class="text-orange-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl mb-8"
             to="/"
           >
-            <img class="w-48 fill-current mb-6" src="~/assets/big_logo.png" alt="big/_logo" />
+            <img
+              class="w-48 fill-current mb-6"
+              src="~/assets/big_logo.png"
+              alt="big/_logo"
+            />
           </nuxt-link>
           <!--Zoho Campaigns Web-Optin Form Starts Here-->
 
@@ -20,57 +24,57 @@
           >
             <div id="customForm">
               <style>
-  #customForm.quick_form_9_css * {
-    -webkit-box-sizing: border-box !important;
-    -moz-box-sizing: border-box !important;
-    box-sizing: border-box !important;
-    word-break: break-word;
-    overflow-wrap: break-word;
-  }
+                #customForm.quick_form_9_css * {
+                  -webkit-box-sizing: border-box !important;
+                  -moz-box-sizing: border-box !important;
+                  box-sizing: border-box !important;
+                  word-break: break-word;
+                  overflow-wrap: break-word;
+                }
 
-  /*** RESPONSIVE START */
-  @media only screen and (max-width: 200px) {
-    .quick_form_9_css[name="SIGNUP_BODY"] {
-      width: 100% !important;
-      min-width: 100% !important;
-      margin: 0px auto !important;
-      padding: 0px !important;
-    }
-  }
+                /*** RESPONSIVE START */
+                @media only screen and (max-width: 200px) {
+                  .quick_form_9_css[name="SIGNUP_BODY"] {
+                    width: 100% !important;
+                    min-width: 100% !important;
+                    margin: 0px auto !important;
+                    padding: 0px !important;
+                  }
+                }
 
-  /*Major Mobiles*/
-  @media screen and (min-width: 320px) and (max-width: 580px) and (orientation: portrait) {
-    .quick_form_9_css[name="SIGNUP_BODY"] {
-      max-width: 300px !important;
-      margin: 0px auto !important;
-      padding: 0px !important;
-    }
-  }
+                /*Major Mobiles*/
+                @media screen and (min-width: 320px) and (max-width: 580px) and (orientation: portrait) {
+                  .quick_form_9_css[name="SIGNUP_BODY"] {
+                    max-width: 300px !important;
+                    margin: 0px auto !important;
+                    padding: 0px !important;
+                  }
+                }
 
-  /* iPads*/
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    .quick_form_9_css[name="SIGNUP_BODY"] {
-      max-width: 500px !important;
-      margin: 0px auto !important;
-    }
-  }
+                /* iPads*/
+                @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+                  .quick_form_9_css[name="SIGNUP_BODY"] {
+                    max-width: 500px !important;
+                    margin: 0px auto !important;
+                  }
+                }
 
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    .quick_form_9_css[name="SIGNUP_BODY"] {
-      max-width: 700px !important;
-      margin: 0px auto !important;
-    }
-  }
+                @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+                  .quick_form_9_css[name="SIGNUP_BODY"] {
+                    max-width: 700px !important;
+                    margin: 0px auto !important;
+                  }
+                }
 
-  @media screen and (min-width: 475px) and (max-width: 980px) and (orientation: landscape) {
-    .quick_form_9_css[name="SIGNUP_BODY"] {
-      max-width: 400px !important;
-      margin: 0px auto !important;
-      padding: 0px !important;
-    }
-  }
+                @media screen and (min-width: 475px) and (max-width: 980px) and (orientation: landscape) {
+                  .quick_form_9_css[name="SIGNUP_BODY"] {
+                    max-width: 400px !important;
+                    margin: 0px auto !important;
+                    padding: 0px !important;
+                  }
+                }
 
-  /*** RESPONSIVE END */
+                /*** RESPONSIVE END */
               </style>
               <div
                 class="quick_form_9_css"
@@ -81,13 +85,19 @@
                   <span
                     style="font-size: 14px;font-family:'Arial';font-weight: bold;color: rgb(136, 136, 136);text-align: left;padding: 10px 15px 5px;width:100%;display:block;"
                     id="SIGNUP_HEADING"
-                  >Join Our Newsletter</span>
+                    >Join Our Newsletter</span
+                  >
                   <div style="position:relative;">
                     <div
                       id="Zc_SignupSuccess"
                       style="display:none;position:absolute;margin-left:4%;width:90%;background-color: white; padding: 3px; border: 3px solid rgb(194, 225, 154);  margin-top: 10px;margin-bottom:10px;word-break:break-all "
                     >
-                      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                      <table
+                        width="100%"
+                        cellpadding="0"
+                        cellspacing="0"
+                        border="0"
+                      >
                         <tbody>
                           <tr>
                             <td width="10%">
@@ -101,7 +111,8 @@
                               <span
                                 id="signupSuccessMsg"
                                 style="color: rgb(73, 140, 132); font-family: sans-serif; font-size: 14px;word-break:break-word"
-                              >&nbsp;&nbsp;Thank you for Signing Up</span>
+                                >&nbsp;&nbsp;Thank you for Signing Up</span
+                              >
                             </td>
                           </tr>
                         </tbody>
@@ -118,7 +129,9 @@
                     <div
                       style="background-color: rgb(255, 235, 232); padding: 10px; color: rgb(210, 0, 0); font-size: 11px; margin: 20px 10px 0px; border: 1px solid rgb(255, 217, 211); opacity: 1;display:none;"
                       id="errorMsgDiv"
-                    >Please correct the marked field(s) below.</div>
+                    >
+                      Please correct the marked field(s) below.
+                    </div>
                     <div
                       style="position:relative;margin: 10px 0 15px;width: 230px;height: 30px;display: inline-block;"
                     >
@@ -126,7 +139,9 @@
                         id="Zc_SignupSuccess"
                         style="position: absolute;width: 87%;background-color: white;padding: 3px;border: 3px solid rgb(194, 225, 154);margin-bottom: 10px;word-break: break-all;opacity: 1;display:none;"
                       >
-                        <div style="width: 20px;padding: 5px;display:table-cell">
+                        <div
+                          style="width: 20px;padding: 5px;display:table-cell"
+                        >
                           <img
                             class="successicon"
                             src="https://campaigns.zoho.com/images/challangeiconenable.jpg"
@@ -162,18 +177,61 @@
                     </div>
                     <!-- Do not edit the below Zoho Campaigns hidden tags -->
                     <input type="hidden" id="fieldBorder" value />
-                    <input type="hidden" id="submitType" name="submitType" value="optinCustomView" />
-                    <input type="hidden" id="emailReportId" name="emailReportId" value />
-                    <input type="hidden" id="formType" name="formType" value="QuickForm" />
-                    <input type="hidden" name="zx" id="cmpZuid" value="1296e3045" />
+                    <input
+                      type="hidden"
+                      id="submitType"
+                      name="submitType"
+                      value="optinCustomView"
+                    />
+                    <input
+                      type="hidden"
+                      id="emailReportId"
+                      name="emailReportId"
+                      value
+                    />
+                    <input
+                      type="hidden"
+                      id="formType"
+                      name="formType"
+                      value="QuickForm"
+                    />
+                    <input
+                      type="hidden"
+                      name="zx"
+                      id="cmpZuid"
+                      value="1296e3045"
+                    />
                     <input type="hidden" name="zcvers" value="3.0" />
-                    <input type="hidden" name="oldListIds" id="allCheckedListIds" value />
-                    <input type="hidden" id="mode" name="mode" value="OptinCreateView" />
-                    <input type="hidden" id="zcld" name="zcld" value="185f6c57ede44b25" />
+                    <input
+                      type="hidden"
+                      name="oldListIds"
+                      id="allCheckedListIds"
+                      value
+                    />
+                    <input
+                      type="hidden"
+                      id="mode"
+                      name="mode"
+                      value="OptinCreateView"
+                    />
+                    <input
+                      type="hidden"
+                      id="zcld"
+                      name="zcld"
+                      value="185f6c57ede44b25"
+                    />
                     <input type="hidden" id="document_domain" value />
-                    <input type="hidden" id="zc_Url" value="publ.maillist-manage.com" />
+                    <input
+                      type="hidden"
+                      id="zc_Url"
+                      value="publ.maillist-manage.com"
+                    />
                     <input type="hidden" id="new_optin_response_in" value="0" />
-                    <input type="hidden" id="duplicate_optin_response_in" value="0" />
+                    <input
+                      type="hidden"
+                      id="duplicate_optin_response_in"
+                      value="0"
+                    />
                     <input
                       type="hidden"
                       name="zc_trackCode"
@@ -188,13 +246,22 @@
                       value="b7f50c74b64bd37f23a6d7e9bd810c725845ab0f64ad2eba"
                     />
                     <!-- End of the Zoho Campaigns hidden tags -->
-                    <input type="hidden" id="scriptless" name="scriptless" value="yes" />
+                    <input
+                      type="hidden"
+                      id="scriptless"
+                      name="scriptless"
+                      value="yes"
+                    />
                   </form>
                 </div>
               </div>
             </div>
           </div>
-          <input type="hidden" id="signupFormType" value="QuickForm_Horizontal" />
+          <input
+            type="hidden"
+            id="signupFormType"
+            value="QuickForm_Horizontal"
+          />
           <div
             id="zcOptinOverLay"
             oncontextmenu="return false"
@@ -208,7 +275,9 @@
               style="position: absolute;top: -16px;right:-14px;z-index:99999;cursor: pointer;"
               id="closeSuccess"
             >
-              <img src="https://publ.maillist-manage.com/images/videoclose.png" />
+              <img
+                src="https://publ.maillist-manage.com/images/videoclose.png"
+              />
             </span>
             <div id="zcOptinSuccessPanel"></div>
           </div>
@@ -223,19 +292,22 @@
               <nuxt-link
                 to="/about"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >About Us</nuxt-link>
+                >About Us</nuxt-link
+              >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <nuxt-link
                 to="/faq"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >FAQ</nuxt-link>
+                >FAQ</nuxt-link
+              >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <nuxt-link
                 to="/contact"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >Contact Us</nuxt-link>
+                >Contact Us</nuxt-link
+              >
             </li>
           </ul>
         </div>
@@ -246,13 +318,15 @@
               <nuxt-link
                 to="/terms"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >Terms</nuxt-link>
+                >Terms</nuxt-link
+              >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <nuxt-link
                 to="/privacy"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >Privacy</nuxt-link>
+                >Privacy</nuxt-link
+              >
             </li>
           </ul>
         </div>
@@ -263,19 +337,22 @@
               <a
                 href="https://www.facebook.com/ThyFlow-312710119426057/?ref=bookmarks"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >Facebook</a>
+                >Facebook</a
+              >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="https://www.instagram.com/thyflow/"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >Instagram</a>
+                >Instagram</a
+              >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="https://twitter.com/ThyFlow"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >Twitter</a>
+                >Twitter</a
+              >
             </li>
           </ul>
         </div>
@@ -286,13 +363,15 @@
               <nuxt-link
                 to="/become-a-barber"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >Become a barber</nuxt-link>
+                >Become a barber</nuxt-link
+              >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <nuxt-link
                 to="/suggest"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >ThyFlow Cities</nuxt-link>
+                >ThyFlow Cities</nuxt-link
+              >
             </li>
           </ul>
         </div>
@@ -305,5 +384,4 @@
 export default {};
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>
