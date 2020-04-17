@@ -12,7 +12,7 @@
               class="text-sm font-semibold uppercase tracking-wide text-gray-500 sm:text-base lg:text-sm xl:text-base mb-6"
             >
               <span
-                class="inline-flex items-center px-2 py-1 rounded-full text-xs font-semibold leading-4 bg-green-100 text-green-800 mr-3"
+                class="inline-flex items-center px-2 py-1 rounded-full text-xs font-semibold leading-4 bg-orange-400 text-white mr-3"
                 >ThyFlow</span
               >
             </div>
@@ -33,7 +33,7 @@
             <div class="mt-5 sm:mt-8 flex sm:justify-center lg:justify-start">
               <button
                 type="button"
-                class="cursor-pointer inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-bold rounded-md text-white bg-purple-700  hover:bg-blue-600 focus:outline-none focus:shadow-outline focus:border-blue-300 transition duration-150 ease-in-out"
+                class="cursor-pointer inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-bold rounded-md text-white bg-orange-500  hover:bg-blue-600 focus:outline-none focus:shadow-outline focus:border-blue-300 transition duration-150 ease-in-out"
               >
                 <svg
                   stroke="currentColor"
