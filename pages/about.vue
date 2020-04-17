@@ -2,41 +2,81 @@
   <div class="about">
     <Navbar />
     <AboutHeader />
-
-    <section
-      class="relative pt-16 pb-32 flex content-center items-center justify-center"
-      style="min-height: 75vh;"
-    >
-      <div class="absolute top-0 w-full h-full bg-center bg-cover header-2">
-        <span
-          id="blackOverlay"
-          class="w-full h-full absolute opacity-75 bg-black"
-        ></span>
-      </div>
-      <div class="container relative mx-auto">
-        <div class="items-center flex flex-wrap">
-          <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-            <div class="pr-12">
-              <h1 class="text-white font-semibold text-5xl">About Us</h1>
-              <p class="mt-4 text-lg text-white">
-                We, The team behind ThyFlow Services, enjoy collaborating to
-                create excellent products and services that will unite people.
-                We have designed a trusted platform to Connect Mobile Barbers
-                and Hair Stylists with local clients. Other services will be
-                added to the platform soon! Hope you join us on this journey.
+    <section class="my-20 mt-10">
+      <div class="container">
+        <h2
+          class="mb-8 text-center text-greenery font-bold text-5xl lg:text-6xl"
+        >
+          Our Core Values<span class="text-orange-500">.</span>
+        </h2>
+        <div>
+          <div class="text-peachy text-6xl">
+            <span class="text-stroke-peachy">
+              01
+            </span>
+            <span class="font-hairline opacity-50">/</span>
+          </div>
+          <div class="flex flex-wrap -mx-4">
+            <p
+              class="w-full px-4 mb-4 text-greenery leading-tight text-4xl md:w-1/2 lg:text-5xl"
+            >
+              Value For People
+            </p>
+            <div class="w-full px-4 leading-relaxed md:w-1/2">
+              <p class="text-1xl sm:text-xl">
+                We will treat all people with respect, dignity, and courtesy.
               </p>
+            </div>
+          </div>
+          <hr class="mt-12" />
+          <div>
+            <div class="text-peachy text-6xl">
+              <span class="text-stroke-peachy">02</span>
+              <span class="font-hairline opacity-50">/</span>
+            </div>
+            <div class="flex flex-wrap -mx-4">
+              <p
+                class="w-full px-4 mb-4 text-greenery leading-tight text-4xl md:w-1/2 lg:text-5xl"
+              >
+                Customer Focus
+              </p>
+              <div class="w-full px-4 leading-relaxed md:w-1/2">
+                <p class="text-1xl sm:text-xl">
+                  The customer is the BOSS. If we are not supporting the
+                  customer directly, we serve the service providers that do.
+                  Customer service trumps everything!
+                </p>
+              </div>
+            </div>
+            <hr class="mt-12" />
+          </div>
+          <div>
+            <div class="text-peachy text-6xl">
+              <span class="text-stroke-peachy">03</span>
+              <span class="font-hairline opacity-50">/</span>
+            </div>
+            <div class="flex flex-wrap -mx-4">
+              <p
+                class="w-full px-4 mb-4 text-greenery leading-tight text-4xl md:w-1/2 lg:text-5xl"
+              >
+                Constant Improvement
+              </p>
+              <div class="w-full px-4 leading-relaxed md:w-1/2">
+                <p class="text-1xl sm:text-xl">
+                  Good enough never is sufficient. We have a strong work ethic
+                  because we enjoy what we do.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <!-----------hery------->
-
-      <!------------hello------>
     </section>
+
     <section class="pb-20 bg-blue-500 mt-24">
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap">
-          <div class="lg:pt-12 -pt-6 w-full md:w-4/12 px-4 text-center">
+          <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
             <div
               class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
             >
@@ -240,6 +280,20 @@ export default {
 
 .text-peachy {
   color: #f5a08c;
+}
+
+.text-stroke-peachy {
+  color: transparent;
+  font-weight: 700;
+  -webkit-text-stroke: 0.8px #f5a08c;
+}
+
+@media (-ms-high-contrast: none), screen and (-ms-high-contrast: active) {
+  .text-stroke-peachy {
+    color: #fff;
+    text-shadow: -1px -1px 0 #f5a08c, 1px -1px 0 #f5a08c, -1px 1px 0 #f5a08c,
+      1px 1px 0 #f5a08c;
+  }
 }
 
 .hero {

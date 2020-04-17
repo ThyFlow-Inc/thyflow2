@@ -39,51 +39,30 @@
     </section>
     <!----------Header Section------->
     <hr class="w-full bg-gray-100 my-12" style="height: 1px" />
-
-    <!---<section class="mx-auto px-4">
-      <ul class="flex">
-        <li class="flex-1 mr-2">
-          <a
-            class="text-center block lg:text-2xl text-xl py-2 px-4 text-orange-500 font-semibold uppercase underline"
-            href="#"
-            >Recent</a
-          >
-        </li>
-        <li class="flex-1 mr-2">
-          <a
-            class="text-center block lg:text-2xl text-xl text-gray-500 hover:text-orange-500 hover:underline py-2 px-4 font-semibold uppercase"
-            href="#"
-            >Popular</a
-          >
-        </li>
-        <li class="text-center flex-1">
-          <a
-            class="block py-2 px-4 lg:text-2xl text-xl text-gray-500 hover:text-orange-500 hover:underline font-semibold uppercase"
-            href="#"
-            >Barber Tips</a
-          >
-        </li>
-      </ul>
-    </section>--->
-    <div class="container">
-      <!-- Check blog posts exist -->
-      <div v-if="posts.length !== 0" class="flex flex-rol -mx-4 xl:px-8">
-        <!-- Template for blog posts -->
-        <section
-          class="w-full mb-5 mr-1 px-4 lg:w-1/3 sm:1/3 md:w-1/3 bg-gray-300 rounded-lg"
-          v-for="post in posts"
-          :key="post.id"
-          v-bind:post="post"
+    <section class="bg-grey-lighter pb-6">
+      <div class="container">
+        <!-- Check blog posts exist -->
+        <div
+          v-if="posts.length !== 0"
+          class="hidden lg:flex flex-wrap lg:-mx-4"
         >
-          <!-- Here :post="post" passes the data to the component -->
-          <blog-widget :post="post"></blog-widget>
-        </section>
+          <!-- Template for blog posts -->
+          <section
+            class="flex items-center md:items-start flex-col px-4 w-1/3 bg-white"
+            v-for="post in posts"
+            :key="post.id"
+            v-bind:post="post"
+          >
+            <!-- Here :post="post" passes the data to the component -->
+            <blog-widget :post="post"></blog-widget>
+          </section>
+        </div>
+        <!-- If no blog posts return message -->
+        <div v-else class="blog-main">
+          <p>No Posts published at this time.</p>
+        </div>
       </div>
-      <!-- If no blog posts return message -->
-      <div v-else class="blog-main">
-        <p>No Posts published at this time.</p>
-      </div>
-    </div>
+    </section>
     <ApplyBarber class="gradient" />
     <Footer />
   </div>
@@ -118,6 +97,7 @@ export default {
       // Query to get blog home content
       const document = await api.getSingle("blog_home");
       let homepageContent = document.data;
+      console.log(homepageContent);
       // Query to get posts content to preview
       const blogPosts = await api.query(
         Prismic.Predicates.at("document.type", "post"),

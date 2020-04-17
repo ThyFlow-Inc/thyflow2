@@ -1,6 +1,9 @@
 <template>
   <nuxt-link :to="link">
-    <div class="blog-post">
+    <div class="">
+      <div class="articles-item__image bg-center">
+        {{ post.data.url }}
+      </div>
       <h2
         class="text-greenery font-bold leading-snug text-md sm:text-lg md:text-1xl"
       >
@@ -46,6 +49,7 @@ export default {
           });
         }
       });
+      //console.log(post.data.body[0].primary.image);
 
       const limitedText = firstParagraph.substr(0, textLimit);
 
@@ -63,6 +67,7 @@ export default {
         month: "short",
         day: "2-digit"
       }).format(new Date(this.post.data.date)));
+    console.log(this.post.data.url);
   }
 };
 </script>
