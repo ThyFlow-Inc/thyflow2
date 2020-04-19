@@ -230,8 +230,9 @@
                 </h2>
               </div>
               <p class="my-4 text-greenery text-3xl">
-                ThyFlow services, 530 Divisadero St PMB 755 San Francisco, CA
-                94117
+                ThyFlow services, <br />
+                530 Divisadero St <br />
+                San Francisco, CA 94117
               </p>
               <p class="my-6">
                 Office hours <br />
