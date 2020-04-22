@@ -1,26 +1,30 @@
 <template>
-  <div>
-    <header class="header">    
-   <video
-        src="~assets/thyvideo.mp4"
-        ref="videoRef"
-        loop
-        preload="auto"
-      />
-      <vue-typer
-        class="t-color w-full my-3 text-3xl font-bold leading-tight text-center sub-header text-orange"
-        :text="Yusadolat"
-      ></vue-typer>
-
-      <div class="logo-box"></div>
-    </header>
-
+  <header class="header flex text-center">
+    <video
+      src="~assets/thyvideo.mp4"
+      ref="videoRef"
+      loop
+      preload="auto"
+    ></video>
     <h1
-      class="zoom t-color heading-primary w-full my-2 text-6xl font-bold leading-tight text-center tracking-widest text-box"
+      class="zoom logo-box w-full my-2 text-6xl font-bold leading-tight text-center tracking-widest lg:mt-32 sm:mt-28"
     >
       <span>ThyFLow</span>
     </h1>
-  </div>
+    <vue-typer
+      class="t-color w-full lg:mt-64 sm:mt-56 text-3xl font-bold leading-tight text-center  text-orange logo-box"
+      :text="Yusadolat"
+    >
+      <a
+        href="#"
+        class=" bg-indigo-700 hover:bg-indigo-800 text-white rounded-full shadow py-2 pl-6 pr-2 text-xl"
+      >
+        <span class="mr-4 font-semibold text-center">
+          Book a Barber
+        </span>
+      </a>
+    </vue-typer>
+  </header>
 </template>
 
 <script>
@@ -37,12 +41,11 @@ export default {
       ]
     };
   },
- 
-    mounted: function() {
+
+  mounted: function() {
     //this.$refs.videoRef.src = "./assets/thyvideo.mp4";
     this.$refs.videoRef.play();
   }
-
 };
 </script>
 
@@ -67,18 +70,18 @@ body {
 }
 
 .header {
-  height: 90vh;
-  background-image : linear-gradient(
-      to right,
-      rgba(88, 201, 236, 0.801),
-      rgba(28, 58, 228, 0.603)
-    );
+  background-image: linear-gradient(
+    to right,
+    rgba(88, 201, 236, 0.801),
+    rgba(28, 58, 228, 0.603)
+  );
   background-size: cover;
   background-position: top;
   position: relative;
 }
 .logo-box {
   position: absolute;
+  z-index: 1;
   top: 40px;
   left: 40px;
   color: orange;
@@ -113,19 +116,7 @@ body {
   text-transform: uppercase;
   margin-bottom: 20px;
 }
-.heading-primary-main {
-  font-size: 64px;
-  font-weight: 600;
-  letter-spacing: 30px;
-  animation: moveInLeft 2s;
-}
-.heading-primary-sub {
-  display: block;
-  font-size: 25px;
-  font-weight: 500;
-  letter-spacing: 3px;
-  animation: moveInRight 3s;
-}
+
 .vue-typer,
 .typed {
   background-color: transparent;
