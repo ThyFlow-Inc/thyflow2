@@ -1,8 +1,8 @@
 <template>
-  <div class="container">
+  <div>
     <Navbar />
     <section class="container">
-      <div class="my-16 text-center">
+      <div class="lg:my-32 text-center">
         <h1 class="hero__title mb-4">
           <strong> Terms and Conditions</strong>
         </h1>
@@ -193,7 +193,7 @@ export default {
 <style lang="scss" scoped>
 .hero__title {
   font-size: 2.667rem;
-  color: #fff;
+  color: orange;
   line-height: 1.2;
 }
 
