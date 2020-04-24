@@ -1,7 +1,7 @@
 <template>
   <div>
     <Navbar />
-    <section class="mb-20 rounded-lg">
+    <section class="mb-20 rounded-lg mt-16">
       <div
         class="pt-10 pb-12 text-center bg-gallery rounded-xl lg:pt-20 lg:pb-14"
       >
