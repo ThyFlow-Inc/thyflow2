@@ -14,7 +14,6 @@
 
     <faqComponent />
     <ApplyBarber />
-    <FloatFooter />
     <Footer />
   </div>
 </template>
@@ -29,7 +28,6 @@ import CustomerSlider from "~/components/CustomerSlider.vue";
 import faqComponent from "~/components/faqComponent.vue";
 import OurStoryHome from "~/components/OurStoryHome.vue";
 import ApplyBarber from "~/components/ApplyBarber.vue";
-import FloatFooter from "~/components/FloatFooter.vue";
 import Footer from "~/components/Footer.vue";
 
 export default {
@@ -43,7 +41,6 @@ export default {
     faqComponent,
     OurStoryHome,
     ApplyBarber,
-    FloatFooter,
     Footer
   }
 };
