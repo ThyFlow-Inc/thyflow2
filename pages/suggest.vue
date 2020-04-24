@@ -179,7 +179,7 @@
         <div class="text-center">
           <a
             href="https://forms.zohopublic.com/thyflow/form/SuggestYourCitytoThyFlow/formperma/cmIzL3wHRCRENgpCYGxVwdwbVxPiiIsRFkPS5HLLyWg"
-            class="bg-orange-500 text-center text-gray-100 hover:text-white shadow font-bold text-sm lg:text-lg py-3 px-4 rounded-lg flex justify-start items-center cursor-pointer w-full md:w-64"
+            class="bg-orange-500 text-center text-gray-100 hover:bg-blue-500 shadow font-bold text-sm lg:text-lg py-3 px-4 rounded-lg flex justify-start items-center cursor-pointer w-full md:w-64"
           >
             Suggest your city here
           </a>
@@ -212,7 +212,7 @@
             placeholder="Your email address"
           />
           <button
-            class="text-white py-3 px-10 w-full mt-4 sm:mt-0 sm:w-auto rounded sm:rounded-r sm:rounded-l-none bg-orange-500 font-normal block uppercase hover:bg-purple-400 transition border-2 border-custom-purple text-lg font-medium"
+            class="text-white py-3 px-10 w-full mt-4 sm:mt-0 sm:w-auto rounded sm:rounded-r sm:rounded-l-none bg-orange-500 font-normal block uppercase hover:bg-blue-500 transition border-2 border-custom-purple text-lg font-medium"
           >
             Sign me up
           </button>
