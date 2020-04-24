@@ -16,7 +16,9 @@ export default {
         content: process.env.npm_package_description || ""
       }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+      { rel: "stylesheet", href: "/assets/plugins/mediabox/mediabox.min.css" },
+    ],
     script: [
       {
         innerHTML:
@@ -24,6 +26,7 @@ export default {
           PrismicConfig.apiEndpoint +
           '"} }'
       },
+      { src: "/assets/plugins/mediabox/mediabox.min.js", body: true },
       { src: "//static.cdn.prismic.io/prismic.min.js" }
     ],
     __dangerouslyDisableSanitizers: ["script"]
