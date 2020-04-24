@@ -3,8 +3,8 @@
   <section class="bg-blue-700 border-b py-12">
     <div class="container max-w-7xl mx-auto m-8 text-center">
       <!---<img src="~/assets/bookease.png" alt="bookease" class="h-48 text-center" />--->
-      <h2 class="mb-4 text-orange-500 lg:text-5xl text-center leading-relaxed">
-        Book With <strong>Ease</strong>
+      <h2 class="mb-4 text-white lg:text-5xl text-center leading-relaxed">
+        Book<strong> <span class="text-orange-500"> With </span></strong>Ease
       </h2>
 
       <div class="w-full mb-4"></div>

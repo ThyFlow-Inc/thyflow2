@@ -1,17 +1,17 @@
 <template>
   <div class="bg-blue-700">
     <Navbar />
-    <Header  />
-    <OurStoryHome  />
+    <Header />
+    <OurStoryHome />
     <HowItWorks />
     <!------------First Book a barber--------------->
-     
-   <!----- <Features class="bg-blue-700" />----->
+
+    <!----- <Features class="bg-blue-700" />----->
     <Features2 />
 
     <!-----------------Second Book a barber---------->
     <CustomerSlider />
-   
+
     <faqComponent />
     <ApplyBarber />
     <Footer />
@@ -25,7 +25,7 @@ import HowItWorks from "~/components/HowItWorks.vue";
 //import Features from "~/components/Features.vue";
 import Features2 from "~/components/Features2.vue";
 import CustomerSlider from "~/components/CustomerSlider.vue";
-import faqComponent from "~/components/faqComponent.vue"
+import faqComponent from "~/components/faqComponent.vue";
 import OurStoryHome from "~/components/OurStoryHome.vue";
 import ApplyBarber from "~/components/ApplyBarber.vue";
 import Footer from "~/components/Footer.vue";

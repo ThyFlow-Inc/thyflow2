@@ -152,7 +152,8 @@ export default {
     OurStory,
     ApplyBarber,
     Footer
-  }
+  },
+
 };
 </script>
 

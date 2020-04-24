@@ -31,9 +31,9 @@
               the platform soon! Hope you join us on this journey.
             </p>
             <div class="mt-5 sm:mt-8 flex sm:justify-center lg:justify-start">
-              <button
-                type="button"
-                class="cursor-pointer inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-bold rounded-md text-white bg-orange-500  hover:bg-blue-600 focus:outline-none focus:shadow-outline focus:border-blue-300 transition duration-150 ease-in-out"
+              <a
+                href="https://youtu.be/HRpI1cH5bbI"
+                class="mediabox cursor-pointer inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-bold rounded-md text-white bg-orange-500  hover:bg-blue-600 focus:outline-none focus:shadow-outline focus:border-blue-300 transition duration-150 ease-in-out"
               >
                 <svg
                   stroke="currentColor"
@@ -48,7 +48,7 @@
                   <path d="M8 5v14l11-7z"></path>
                 </svg>
                 Watch a video
-              </button>
+              </a>
             </div>
           </div>
           <svg
@@ -76,7 +76,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: "About header ",
+  mounted() {
+    MediaBox('.mediabox');
+  }
+
+};
 </script>
 
 <style lang="css" scoped>
