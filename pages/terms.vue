@@ -19,7 +19,7 @@
                 <h2 class="mb-6 text-peachy text-lg font-bold">
                   Terms of services
                 </h2>
-                <div class="bg-gallery rounded-xl px-8 lg:px-6 xl:px-8 py-8">
+                <div class="bg-gallery rounded-lg px-8 lg:px-6 xl:px-8 py-8">
                   <div class="text-peachy text-lg font-bold mb-4">
                     Any Question?
                   </div>
@@ -191,6 +191,38 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1240px) {
+  .container {
+    max-width: 1240px;
+  }
+}
+
 .hero__title {
   font-size: 2.667rem;
   color: orange;
