@@ -1,9 +1,5 @@
 <template>
-  <nav
-    id="header"
-    class="fixed flex w-full bg-white border-b items-center justify-between flex-wrap p-2 m-auto top-0 animated"
-    :class="{ scrolled: !view.atTopOfPage }"
-  >
+  <nav id="header" class="w-full z-30 text-white gradient sticky top-0">
     <div
       class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2"
     >
@@ -23,7 +19,7 @@
       <div class="block sm:hidden">
         <button
           @click="toggle"
-          class="flex items-center px-3 py-2 border rounded bg-orange-500 text-teal-lighter border-teal-light hover:text-white hover:border-white"
+          class="flex items-center px-3 py-2 border rounded text-teal-lighter border-teal-light hover:text-white hover:border-white"
         >
           <svg
             class="fill-current h-3 w-3"
@@ -42,7 +38,7 @@
       >
         <div class="text-sm sm:flex-grow">
           <nuxt-link
-            class="block py-2 px-4 lg:invisible bg-orange-500 rounded-lg text-white sm:inline-block font-bolder text-lg no-underline mt-4"
+            class="block py-2 px-4 lg:invisible text-orange sm:inline-block font-bolder text-lg no-underline mt-4"
             to="/become-a-barber"
             >Become a barber</nuxt-link
           >
@@ -58,7 +54,13 @@
           >
         </div>
       </div>
-
+      <div class="mb-4 w-full md:mb-0 md:w-1/4">
+        <a
+          class="header-button bg-orange-500 hover:bg-blue-700 text-white font-bold py-2 px-4"
+          href="https://zfrmz.com/YwaCWiBx7wEJ3E7hNmZl"
+          >Book a Mobile barber</a
+        >
+      </div>
       <div
         class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
         id="nav-content"
@@ -66,21 +68,21 @@
         <ul class="list-reset lg:flex justify-end flex-1 items-center">
           <li class="mr-3">
             <nuxt-link
-              class="inline-block py-2 px-4 bg-orange-500 rounded-lg text-white font-bold no-underline"
+              class="inline-block py-2 px-4 text-white font-bold no-underline"
               to="/become-a-barber"
               >Become a barber</nuxt-link
             >
           </li>
           <li class="mr-3">
             <nuxt-link
-              class="inline-block py-2 px-4 bg-orange-500 rounded-lg text-white font-bold no-underline"
+              class="inline-block py-2 px-4 text-white font-bold no-underline"
               to="/blog"
               >Blog</nuxt-link
             >
           </li>
           <li class="mr-3">
             <nuxt-link
-              class="inline-block bg-orange-500 rounded-lg text-white no-underline font-bold hover:text-gray-800 hover:text-underline py-2 px-4"
+              class="inline-block text-white no-underline font-bold hover:text-gray-800 hover:text-underline py-2 px-4"
               to="about"
               >About</nuxt-link
             >
@@ -88,6 +90,8 @@
         </ul>
       </div>
     </div>
+
+    <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
   </nav>
 </template>
 
@@ -95,29 +99,12 @@
 export default {
   data() {
     return {
-      view: {
-        atTopOfPage: true
-      },
       open: false
     };
   },
-  beforeMount() {
-    window.addEventListener("scroll", this.handleScroll);
-  },
-
   methods: {
     toggle() {
       this.open = !this.open;
-    },
-    handleScroll() {
-      // when the user scrolls, check the pageYOffset
-      if (window.pageYOffset > 0) {
-        // user is scrolled
-        if (this.view.atTopOfPage) this.view.atTopOfPage = false;
-      } else {
-        // user is at top of page
-        if (!this.view.atTopOfPage) this.view.atTopOfPage = true;
-      }
     }
   }
 };
