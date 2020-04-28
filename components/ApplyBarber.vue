@@ -20,8 +20,8 @@
               >Book a Barber</a
             >
             <a
-              class="bg-orange-500 rounded-lg ml-4 px-4 md:px-5 xl:px-4 py-4 md:py-4 xl:py-3 hover:bg-gray-200 md:text-lg xl:text-xl text-white font-semibold leading-tight shadow-md"
-              href="https://thyflow.co"
+              class="bg-orange-500 rounded-lg ml-4 px-4 md:px-5 xl:px-4 py-4 md:py-4 xl:py-3 hover:bg-blue-600 md:text-lg xl:text-xl text-white font-semibold leading-tight shadow-md"
+              href="https://zfrmz.com/YwaCWiBx7wEJ3E7hNmZl"
               >View Barbers Profile</a
             >
           </div>
