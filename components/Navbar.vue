@@ -34,13 +34,13 @@
 
       <div
         :class="open ? 'block' : 'hidden'"
-        class="w-full flex-grow sm:flex sm:items-center sm:w-auto"
+        class="w-full flex-grow lg:flex sm:flex sm:items-center sm:w-auto"
       >
-        <div class="text-sm sm:flex-grow">
+        <div class="text-sm sm:flex-grow w-auto">
           <nuxt-link
             class="block py-2 px-4 lg:invisible text-orange sm:inline-block font-bolder text-lg no-underline mt-4"
             to="/become-a-barber"
-            >Join beta test</nuxt-link
+            >Become a barber</nuxt-link
           >
           <nuxt-link
             class="block py-2 px-4 lg:invisible text-orange sm:inline-block font-bolder text-lg no-underline mt-4"
@@ -54,12 +54,18 @@
           >
         </div>
       </div>
-      <div class="mb-4 w-full md:mb-0 md:w-1/4">
-        <a
-          class="header-button bg-orange-500 hover:bg-blue-700 text-white font-bold py-2 px-4"
-          href="https://zfrmz.com/YwaCWiBx7wEJ3E7hNmZl"
-          >Book a Mobile barber</a
-        >
+      <div class="mb-4 w-full md:mb-0 md:w-1/3">
+        <p class="">
+          Be the first to Book a Mobile Barber Join our Beta Test Group Today!
+          Limited Space, First come first Serve.
+        </p>
+        <div class="text-center">
+          <a
+            class=" text-center header-button bg-orange-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg text-center"
+            href="https://zfrmz.com/YwaCWiBx7wEJ3E7hNmZl"
+            >Click here</a
+          >
+        </div>
       </div>
       <div
         class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
