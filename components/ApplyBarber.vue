@@ -15,13 +15,13 @@
           </div>
           <div class="w-full px-4 md:w-auto lg:text-center">
             <a
-              href="#"
+              href="https://zfrmz.com/YwaCWiBx7wEJ3E7hNmZl"
               class="rolling_tiles  ml-4 rounded-lg px-4 md:px-5 xl:px-4 py-4 md:py-4 xl:py-3 bg-transparent hover:bg-white rounded border border-orange-500 md:text-lg xl:text-xl text-orange-700 font-semibold leading-tight"
               >Book a Barber</a
             >
             <a
               class="bg-orange-500 rounded-lg ml-4 px-4 md:px-5 xl:px-4 py-4 md:py-4 xl:py-3 hover:bg-gray-200 md:text-lg xl:text-xl text-white font-semibold leading-tight shadow-md"
-              href="https://zfrmz.com/YwaCWiBx7wEJ3E7hNmZl"
+              href="https://thyflow.co"
               >View Barbers Profile</a
             >
           </div>
