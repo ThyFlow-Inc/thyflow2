@@ -106,15 +106,21 @@
               </div>
               <div class="content-strong-peachy mb-8 leading-loose">
                 <p class=" text-1xl sm:text-lg">
-                  We believe by making barbers/ hair stylist mobile, customers
-                  can experience a more personalized and tailored service. Users
-                  can stay home, request a mobile service provider, and receive
-                  a haircut with ease. We employ service providers that are
-                  passionate about what they do and believe in quality over
-                  quantity. Plus, service providers can make a good income
-                  traveling/driving to locals within their neighborhood to
-                  provide a world-class mobile service; while focusing on their
-                  craft.
+                  The ThyFlow team believes having a mobile barber/hairstylist
+                  ensures our customers to have a personalized and tailored hair
+                  cutting experience. Users can stay home, request a local
+                  barber or hairstylist, and receive a haircut with ease. As we
+                  employ barbers and hairstylists within your neighborhood, who
+                  are passionate about what they do, well qualified, and believe
+                  in quality over quantity with each appointment.
+                </p>
+                <p>
+                  We offer local hairstyles and barbers a great income and
+                  access to many customers within their neighborhood. Where they
+                  can provide an exceptional service; while focusing on their
+                  craft. ThyFlow is your option for a local, timely, and
+                  outstanding service that leaves you clean, confident, and
+                  fresh.
                 </p>
               </div>
               <div
@@ -152,8 +158,7 @@ export default {
     OurStory,
     ApplyBarber,
     Footer
-  },
-
+  }
 };
 </script>
 

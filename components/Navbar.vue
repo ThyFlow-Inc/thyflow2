@@ -54,8 +54,8 @@
           >
         </div>
       </div>
-      <div class="mb-4 w-full md:mb-0 md:w-1/3">
-        <p class="">
+      <div class="mb-2 w-full md:mb-0 md:w-1/3">
+        <p class="sm:text-center">
           Be the first to Book a Mobile Barber Join our Beta Test Group Today!
           Limited Space, First come first Serve.
         </p>
