@@ -19,7 +19,7 @@
                 <div class="menu-wraper">
                   <nav>
                     <!-- Header-menu -->
-                    <div class="header-menu dosis">
+                    <!---   <div class="header-menu dosis">
                       <div id="menu-button" class="">
                         <i class="fa fa-bars"></i>
                       </div>
@@ -51,7 +51,7 @@
                           </ul>
                         </li>
                       </ul>
-                    </div>
+                    </div>-->
                     <!-- End of Header-menu -->
                   </nav>
                 </div>
@@ -59,7 +59,7 @@
             </div>
             <div class="col-lg-3 col-md-4 col-sm-5 d-md-block d-none">
               <div class="urgent-call text-right">
-                <a href="#" class="btn">Get Jironis</a>
+                <nuxt-link class="btn" to="/about">About Us</nuxt-link>
               </div>
             </div>
           </div>
@@ -98,11 +98,11 @@ export default {
       let mainNavToggler = document.querySelector("#menu-button");
       let mainNav = document.querySelector(".main-nav");
 
-      mainNavToggler.addEventListener("click", function() {
-        //mainNavToggler.classList.add('menu-opened');
-        mainNav.style.display =
-          mainNav.style.display != "block" ? "block" : "none";
-      });
+      //  mainNavToggler.addEventListener("click", function() {
+      //mainNavToggler.classList.add('menu-opened');
+      // mainNav.style.display =
+      //   mainNav.style.display != "block" ? "block" : "none";
+      //  });
     }
   }
 };

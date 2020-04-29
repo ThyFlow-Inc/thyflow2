@@ -41,6 +41,11 @@
               <!-- Form -->
               <form
                 action="https://forms.zohopublic.com/thyflow/form/SoftwareEvaluation/formperma/MU3LPuPQcFL-l4IZfInMb1Bia7Vc1I79YkZpx59NXEY/htmlRecords/submit"
+                name="form"
+                id="form"
+                method="POST"
+                accept-charset="UTF-8"
+                enctype="multipart/form-data"
               >
                 <div class="form-group">
                   <input
