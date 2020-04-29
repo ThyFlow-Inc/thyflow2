@@ -1,5 +1,6 @@
 <template>
   <div>
+    <NewNav />
     <BetaHeader />
     <section class="app-video" id="Video">
       <div class="container">
@@ -38,12 +39,15 @@
           <div class="row justify-content-center">
             <div class="col-lg-6">
               <!-- Form -->
-              <form action="POST">
+              <form
+                action="https://forms.zohopublic.com/thyflow/form/SoftwareEvaluation/formperma/MU3LPuPQcFL-l4IZfInMb1Bia7Vc1I79YkZpx59NXEY/htmlRecords/submit"
+              >
                 <div class="form-group">
                   <input
                     class="form-control form-control-lg"
                     type="text"
                     placeholder="Your name"
+                    name="SingleLine"
                     required
                   />
                 </div>
@@ -51,6 +55,7 @@
                   <input
                     class="form-control form-control-lg"
                     type="email"
+                    name="Email"
                     placeholder="Your email here"
                     required
                   />
@@ -77,7 +82,7 @@
 </template>
 
 <script>
-import Navbar from "~/components/Navbar.vue";
+import NewNav from "~/components/NewNav.vue";
 import BetaHeader from "~/components/BetaHeader.vue";
 
 import Video from "~/components/Video.vue";
@@ -105,7 +110,7 @@ export default {
     };
   },
   components: {
-    Navbar,
+    NewNav,
     BetaHeader,
     Video,
     Footer
