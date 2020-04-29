@@ -30,10 +30,10 @@
           <div class="row justify-content-center mb-5">
             <div class="col-lg-6 text-center">
               <h3>Be the first, to try ThyFlow mobile barber service.</h3>
-              <p class="lh-190">
+              <p class="lh-190 mb-2">
                 Beta Test in
               </p>
-              <p class="lh-190">
+              <p class="lh-190 ">
                 South Bay Area,CA San Jose, Santa Clara, Mountain view,
                 Cupertino, Palo Alto.
               </p>
