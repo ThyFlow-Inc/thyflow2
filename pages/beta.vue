@@ -73,7 +73,7 @@
                     type="submit"
                     class="btn btn-block btn-lg btn-primary mt-4"
                   >
-                    Send your message
+                    Join Beta Test
                   </button>
                 </div>
               </form>
