@@ -1,0 +1,119 @@
+<template>
+  <div>
+    <BetaHeader />
+    <section class="app-video" id="Video">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <!-- why bottle video -->
+            <div class="theme-video-wrap">
+              <a href="https://youtu.be/HRpI1cH5bbI" class="mediabox video-btn"
+                ><i class="fa fa-play"></i
+              ></a>
+            </div>
+            <!-- end of why bottle video -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-----Join Beta Form--->
+    <div class="mt-6">
+      <section class="slice slice-lg" id="beta-form">
+        <img
+          class="b-section__oval b-section__oval--top"
+          src="images/top-bg.png"
+        />
+        <div
+          class="container position-relative zindex-100 b-section__bg--bottom"
+        >
+          <div class="row justify-content-center mb-5">
+            <div class="col-lg-6 text-center">
+              <h3>Be the first, to try ThyFlow mobile barbers service.</h3>
+              <p class="lh-190">
+                Beta Test in South Bay Area,CA San Jose, Santa Clara, Mountain
+                view, Cupertino, Palo Alto.
+              </p>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+              <!-- Form -->
+              <form action="POST">
+                <div class="form-group">
+                  <input
+                    class="form-control form-control-lg"
+                    type="text"
+                    placeholder="Your name"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    class="form-control form-control-lg"
+                    type="email"
+                    placeholder="Your email here"
+                    required
+                  />
+                </div>
+
+                <div class="text-center">
+                  <!-- <div class="g-recaptcha" data-sitekey="6Lfs5ScUAAAAANAJwGrdfvWLFRRiVbKRE2vfoaFj"></div> -->
+                  <button type="reset" class="btn-reset d-none"></button>
+                  <button
+                    type="submit"
+                    class="btn btn-block btn-lg btn-primary mt-4"
+                  >
+                    Send your message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <Footer />
+  </div>
+</template>
+
+<script>
+import Navbar from "~/components/Navbar.vue";
+import BetaHeader from "~/components/BetaHeader.vue";
+
+import Video from "~/components/Video.vue";
+import Footer from "~/components/Footer.vue";
+
+export default {
+  head() {
+    return {
+      script: [],
+      link: [
+        {
+          rel: "stylesheet",
+          href: "https://fonts.googleapis.com/css?family=Roboto&display=swap"
+        },
+        { rel: "stylesheet", href: "/assets/css/bootstrap.min.css" },
+        { rel: "stylesheet", href: "/assets/css/font-awesome.min.css" },
+        {
+          rel: "stylesheet",
+          href: "/assets/plugins/mediabox/mediabox.min.css"
+        },
+        { rel: "stylesheet", href: "/assets/css/style.css" },
+        { rel: "stylesheet", href: "/assets/css/responsive.css" },
+        { rel: "stylesheet", href: "/assets/css/custom.css" }
+      ]
+    };
+  },
+  components: {
+    Navbar,
+    BetaHeader,
+    Video,
+    Footer
+  },
+  mounted() {
+    MediaBox(".mediabox");
+  }
+};
+</script>
+
+<style lang="scss" scoped></style>

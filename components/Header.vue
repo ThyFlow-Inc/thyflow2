@@ -4,6 +4,7 @@
       src="~assets/thyvideo.mp4"
       ref="videoRef"
       loop
+      playsinline
       preload="auto"
     ></video>
     <h1
