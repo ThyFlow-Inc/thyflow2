@@ -29,10 +29,13 @@
         >
           <div class="row justify-content-center mb-5">
             <div class="col-lg-6 text-center">
-              <h3>Be the first, to try ThyFlow mobile barbers service.</h3>
+              <h3>Be the first, to try ThyFlow mobile barber service.</h3>
               <p class="lh-190">
-                Beta Test in South Bay Area,CA San Jose, Santa Clara, Mountain
-                view, Cupertino, Palo Alto.
+                Beta Test in
+              </p>
+              <p class="lh-190">
+                South Bay Area,CA San Jose, Santa Clara, Mountain view,
+                Cupertino, Palo Alto.
               </p>
             </div>
           </div>
@@ -94,6 +97,7 @@ import Video from "~/components/Video.vue";
 import Footer from "~/components/Footer.vue";
 
 export default {
+  name: "beta",
   head() {
     return {
       script: [],
