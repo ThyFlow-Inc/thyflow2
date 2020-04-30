@@ -10,7 +10,7 @@
     <h1
       class="zoom logo-box w-full my-2 text-6xl font-bold leading-tight text-center tracking-widest lg:mt-32 sm:mt-28"
     >
-      <span>ThyFLow</span>
+      <span>ThyFlow</span>
     </h1>
     <vue-typer
       class="t-color w-full lg:mt-64 sm:mt-56 text-3xl font-bold leading-tight text-center  text-orange logo-box"
