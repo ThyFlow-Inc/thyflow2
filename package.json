@@ -26,7 +26,6 @@
     "prismic-vue": "git+https://github.com/prismicio/prismic-vue.git#nuxt",
     "vue-aos": "^1.0.1",
     "vue-easy-slider": "^5.3.2",
-    "vue-scroll-reveal": "^1.0.11",
     "vue-scrollto": "^2.17.1",
     "vue-typer": "^1.2.0",
     "vue-videobg": "^2.0.0"

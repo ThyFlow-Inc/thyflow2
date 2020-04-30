@@ -1,7 +1,4 @@
 import Vue from "vue";
+import LottieAnimation from "lottie-vuejs"; // import lottie-vuejs
 
-// In main.js
-import VueScrollReveal from "vue-scroll-reveal";
-
-// Using ScrollReveal's default configuration
-Vue.use(VueScrollReveal);
+Vue.use(LottieAnimation); // add lottie-animation to your global scope
