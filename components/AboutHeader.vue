@@ -77,11 +77,10 @@
 
 <script>
 export default {
-  name: "About header ",
+  name: "headera",
   mounted() {
-    MediaBox('.mediabox');
+    MediaBox(".mediabox");
   }
-
 };
 </script>
 
