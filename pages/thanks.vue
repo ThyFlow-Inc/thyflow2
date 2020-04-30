@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Navbar />
     <section class="container">
       <div class="lg:my-32 text-center">
         <h1 class="hero__title mb-4">
@@ -8,8 +7,13 @@
         </h1>
       </div>
     </section>
-    <section></section>
-    <Footer />
+    <section>
+      <div class="lg:my-32 text-center">
+        <h1 class="hero__title mb-4">
+          <video autoplay src="~assets/thank-you.mp4"></video>
+        </h1>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -17,6 +21,27 @@
 import Footer from "~/components/Footer.vue";
 import Navbar from "~/components/Navbar.vue";
 export default {
+  name: "Thanks",
+  head() {
+    return {
+      script: [],
+      link: [
+        {
+          rel: "stylesheet",
+          href: "https://fonts.googleapis.com/css?family=Roboto&display=swap"
+        },
+        { rel: "stylesheet", href: "/assets/css/bootstrap.min.css" },
+        { rel: "stylesheet", href: "/assets/css/font-awesome.min.css" },
+        {
+          rel: "stylesheet",
+          href: "/assets/plugins/mediabox/mediabox.min.css"
+        },
+        { rel: "stylesheet", href: "/assets/css/style.css" },
+        { rel: "stylesheet", href: "/assets/css/responsive.css" },
+        { rel: "stylesheet", href: "/assets/css/custom.css" }
+      ]
+    };
+  },
   components: {
     Navbar,
     Footer

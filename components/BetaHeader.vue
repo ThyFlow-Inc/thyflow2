@@ -52,7 +52,7 @@
                 mobile for local customers like you. We are here to tell you, WE
                 DID IT!
               </p>
-              <p class="text-black ">
+              <p class="text-black">
                 The platform is called ThyFlow. It is a mobile app and website
                 that lets users view profiles and book an appointment with a
                 verify mobile barber. Yes, the barber will show up to your
