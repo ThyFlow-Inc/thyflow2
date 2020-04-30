@@ -79,7 +79,8 @@ export default {
         ]
       }
     ],
-    ["vue-scrollto/nuxt", { duration: 300 }]
+    ["vue-scrollto/nuxt", { duration: 300 }],
+    "@nuxtjs/tailwindcss"
   ],
   /*
    ** Build configuration
