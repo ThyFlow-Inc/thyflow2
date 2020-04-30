@@ -1,6 +1,8 @@
 <template>
-  <div class="bg-blue-500" v-scroll-reveal>
-    <section class="bg-blue-700 border-b py-24 lg:px-64 px-8 story-section mt-8">
+  <div class="bg-blue-500">
+    <section
+      class="bg-blue-700 border-b py-24 lg:px-64 px-8 story-section mt-8"
+    >
       <a class="container mx-auto flex flex-wrap pt-4 rounded">
         <div class="mx-auto w-auto">
           <svg
@@ -12,7 +14,9 @@
             viewBox="0 0 500.000000 500.000000"
             preserveAspectRatio="xMidYMid meet"
           >
-            <metadata>Created by potrace 1.15, written by Peter Selinger 2001-2017</metadata>
+            <metadata>
+              Created by potrace 1.15, written by Peter Selinger 2001-2017
+            </metadata>
             <g
               transform="translate(0.000000,500.000000) scale(0.100000,-0.100000)"
               fill="#000000"
@@ -142,9 +146,15 @@ m1000 -1471 c31 -36 29 -79 -7 -115 -33 -32 -58 -36 -100 -14 -32 16 -41 33
           >
             At
             <span class="text-orange-500 inline font-bold">ThyFlow</span>
-            ,we believe your appearance is part of your journey to <span class="text-orange-500 inline font-bold">Confidence</span> and  
-            <span class="text-orange-500 inline font-bold">Success.</span> Sit back and Relax. Let our <span class="text-orange-500 inline font-bold">Top Rated, Handpicked,</span> Local, Mobile,  
-            Barbers and Hair Stylist Bring their service to <span class="text-orange-500 inline font-bold">YOU!</span>
+            ,we believe your appearance is part of your journey to
+            <span class="text-orange-500 inline font-bold">Confidence</span> and
+            <span class="text-orange-500 inline font-bold">Success.</span> Sit
+            back and Relax. Let our
+            <span class="text-orange-500 inline font-bold"
+              >Top Rated, Handpicked,</span
+            >
+            Local, Mobile, Barbers and Hair Stylist Bring their service to
+            <span class="text-orange-500 inline font-bold">YOU!</span>
           </p>
         </div>
       </a>
