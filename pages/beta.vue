@@ -20,10 +20,6 @@
     <!-----Join Beta Form--->
     <div class="mt-6">
       <section class="slice slice-lg" id="beta-form">
-        <img
-          class="b-section__oval b-section__oval--top"
-          src="images/top-bg.png"
-        />
         <div
           class="container position-relative zindex-100 b-section__bg--bottom"
         >
