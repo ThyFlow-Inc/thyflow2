@@ -16,8 +16,11 @@ export default {
         content: process.env.npm_package_description || ""
       }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+    link: [
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+      { rel: "stylesheet", href: "/assets/css/font-awesome.min.css" },
       { rel: "stylesheet", href: "/assets/plugins/mediabox/mediabox.min.css" },
+      { rel: "stylesheet", href: "/assets/css/custom.css" }
     ],
     script: [
       {
@@ -47,7 +50,6 @@ export default {
     { src: "~/plugins/link-resolver.js" },
     { src: "~/plugins/prismic-vue.js" },
     { src: "~/plugins/vue-slider.js", ssr: false },
-    { src: "~/plugins/aos.js", ssr: false },
     { src: "~/plugins/vue-scrollto.js", ssr: false }
   ],
   /*
@@ -76,7 +78,8 @@ export default {
         ]
       }
     ],
-    ["vue-scrollto/nuxt", { duration: 300 }]
+    ["vue-scrollto/nuxt", { duration: 300 }],
+    "@nuxtjs/tailwindcss"
   ],
   /*
    ** Build configuration

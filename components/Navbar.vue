@@ -60,10 +60,10 @@
           Limited Space, First come first Serve.
         </p>
         <div class="text-center">
-          <a
+          <nuxt-link
             class=" text-center header-button bg-orange-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg text-center"
-            href="https://zfrmz.com/YwaCWiBx7wEJ3E7hNmZl"
-            >Click here</a
+            to="/beta"
+            >Click here</nuxt-link
           >
         </div>
       </div>

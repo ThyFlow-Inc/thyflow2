@@ -14,13 +14,14 @@
         <p
           class="lg:mx-16 sm:mx-6 text-white font-bold lg:text-2xl md:text-1xl"
         >
-        If you are looking for a flexible way to earn a great income doing what you enjoy! Join ThyFlow Barber Team!
+          If you are looking for a flexible way to earn a great income doing
+          what you enjoy! Join ThyFlow Barber Team!
         </p>
         <p class="lg:mx-16 sm:mx-4 text-white lg:text-2xl md:text-1xl">
-         ThyFlow - Is an alternative way for people to get a haircut at home.
-           ThyFlow, offers customers a barbershop experience at home or wherever they are. 
-           ThyFlow Barbers work within their neighborhood, drive to customer's homes, and
-            give an excellent haircut 
+          ThyFlow - Is an alternative way for people to get a haircut at home.
+          ThyFlow, offers customers a barbershop experience at home or wherever
+          they are. ThyFlow Barbers work within their neighborhood, drive to
+          customer's homes, and give an excellent haircut
         </p>
       </div>
 
@@ -149,11 +150,10 @@
           Why ThyFlow?
         </p>
         <p class="px-3 text-orange md:text-2xl sm:text-base mb-3">
-          The ThyFlow Team focuses on building a trusted platform, 
-          for anyone to book a hair appointment with verified Mobile
-           Service providers in their local area. We connect service 
-           providers with customers that need and want their service, 
-           in a safe and secure manner.
+          The ThyFlow Team focuses on building a trusted platform, for anyone to
+          book a hair appointment with verified Mobile Service providers in
+          their local area. We connect service providers with customers that
+          need and want their service, in a safe and secure manner.
         </p>
       </div>
       <div class="w-full sm:w-1/2 mb-5">
