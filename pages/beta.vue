@@ -102,7 +102,11 @@ export default {
           rel: "stylesheet",
           href: "https://fonts.googleapis.com/css?family=Roboto&display=swap"
         },
-        { rel: "stylesheet", href: "/assets/css/bootstrap.min.css" },
+        {
+          rel: "stylesheet",
+          href:
+            "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        },
         { rel: "stylesheet", href: "/assets/css/font-awesome.min.css" },
         {
           rel: "stylesheet",
