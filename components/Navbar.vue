@@ -54,24 +54,19 @@
           >
         </div>
       </div>
-      <div class="mb-2 w-full md:mb-0 md:w-1/3">
-        <p class="sm:text-center">
-          Be the first to Book a Mobile Barber Join our Beta Test Group Today!
-          Limited Space, First come first Serve.
-        </p>
-        <div class="text-center">
-          <nuxt-link
-            class=" text-center header-button bg-orange-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg text-center"
-            to="/beta"
-            >Click here</nuxt-link
-          >
-        </div>
-      </div>
+
       <div
         class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
         id="nav-content"
       >
         <ul class="list-reset lg:flex justify-end flex-1 items-center">
+          <li class="mr-3">
+            <nuxt-link
+              class="inline-block py-2 px-4 text-white font-bold no-underline"
+              to="/beta"
+              >Join Beta</nuxt-link
+            >
+          </li>
           <li class="mr-3">
             <nuxt-link
               class="inline-block py-2 px-4 text-white font-bold no-underline"
