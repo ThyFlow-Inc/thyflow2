@@ -24,15 +24,11 @@
           class="container position-relative zindex-100 b-section__bg--bottom"
         >
           <div class="row justify-content-center mb-5">
-            <div class="col-lg-6 text-center">
-              <h3>Be the first, to try ThyFlow mobile barber service.</h3>
-              <p class="lh-190 mb-2">
-                Beta Test in
-              </p>
-              <p class="lh-190 ">
-                South Bay Area,CA San Jose, Santa Clara, Mountain view,
-                Cupertino, Palo Alto.
-              </p>
+            <div class="col-lg-6 text-center lg:mt-10 sm:mt-6">
+              <h2 class="font-bold">
+                Be the first, to try ThyFlow mobile barber service.
+              </h2>
+              <p class="1h-190 mb-2">ThyFlow Beta test Starts May 15/2020</p>
             </div>
           </div>
           <div class="row justify-content-center">
@@ -130,4 +126,10 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="css" scoped>
+.section-title h2 {
+  color: #36324a;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+</style>
