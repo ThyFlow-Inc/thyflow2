@@ -9,10 +9,8 @@
               ThyFlow Beta Test.
             </h2>
             <h3>
-              Thank you for Joining to ThyFlow Beta. Please, check your email
-              because we sent you a message in which you will find further
-              instructions on how to proceed from now on.We are looking forward
-              to your feedback before releasing our latest version of ThyFlow.
+              Thank you for Joining to ThyFlow Beta. Someone on our team will
+              reach out to you via Email.
             </h3>
             <a href="https://thyflow.com/beta" class="btn">Go back Home</a>
           </div>
@@ -33,7 +31,11 @@ export default {
           rel: "stylesheet",
           href: "https://fonts.googleapis.com/css?family=Roboto&display=swap"
         },
-        { rel: "stylesheet", href: "/assets/css/bootstrap.min.css" },
+        {
+          rel: "stylesheet",
+          href:
+            "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        },
         { rel: "stylesheet", href: "/assets/css/font-awesome.min.css" },
         {
           rel: "stylesheet",

@@ -151,17 +151,6 @@ import ApplyBarber from "~/components/ApplyBarber.vue";
 import Footer from "~/components/Footer.vue";
 
 export default {
-  head() {
-    return {
-      script: [],
-      link: [
-        {
-          rel: "stylesheet",
-          href: "https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
-        }
-      ]
-    };
-  },
   components: {
     Navbar,
     BarberProfile,
@@ -277,9 +266,6 @@ export default {
 }
 .leading-relaxed {
   line-height: 1.625;
-}
-.header-2 {
-  background-image: url("~assets/about-header.jpg");
 }
 
 .features {

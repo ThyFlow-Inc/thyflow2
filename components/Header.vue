@@ -1,7 +1,7 @@
 <template>
   <header class="header flex text-center">
     <video
-      src="~assets/thyvideo.mp4"
+      src="https://res.cloudinary.com/thyflow/video/upload/v1588451371/thyvideo_xrhqf2.mp4"
       ref="videoRef"
       loop
       playsinline
