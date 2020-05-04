@@ -65,6 +65,8 @@ export default {
   modules: [
     [
       "nuxt-fontawesome",
+      "@bazzite/nuxt-optimized-images",
+
       {
         imports: [
           {
@@ -81,6 +83,9 @@ export default {
     ["vue-scrollto/nuxt", { duration: 300 }],
     "@nuxtjs/tailwindcss"
   ],
+  optimizedImages: {
+    optimizeImages: true
+  },
   /*
    ** Build configuration
    */ build: {
