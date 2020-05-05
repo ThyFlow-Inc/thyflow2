@@ -9,8 +9,8 @@
               ThyFlow Beta Test.
             </h2>
             <h3>
-              Thank you for Joining to ThyFlow Beta. Someone on our team will
-              reach out to you via Email.
+              Thank you for Joining ThyFlow Beta. Someone on our team will reach
+              out to you via Email.
             </h3>
             <a href="https://thyflow.com/beta" class="btn">Go back Home</a>
           </div>
@@ -33,8 +33,7 @@ export default {
         },
         {
           rel: "stylesheet",
-          href:
-            "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          href: "/assets/css/bootstrap.min.css"
         },
         { rel: "stylesheet", href: "/assets/css/font-awesome.min.css" },
         {
