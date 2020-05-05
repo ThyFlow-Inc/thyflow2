@@ -107,7 +107,7 @@
 
           <img
             class="w-full object-cover zoom"
-            src="~/assets/barber.png"
+            src="~/assets/barber.jpg"
             alt="barber"
           />
 

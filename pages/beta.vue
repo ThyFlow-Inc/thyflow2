@@ -100,12 +100,18 @@ export default {
         },
         {
           rel: "stylesheet",
+          rel: "prefetch",
           href:
             "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         },
-        { rel: "stylesheet", href: "/assets/css/font-awesome.min.css" },
         {
           rel: "stylesheet",
+          prefetch,
+          href: "/assets/css/font-awesome.min.css"
+        },
+        {
+          rel: "stylesheet",
+          prefetch,
           href: "/assets/plugins/mediabox/mediabox.min.css"
         },
         { rel: "stylesheet", href: "/assets/css/style.css" },

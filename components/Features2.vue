@@ -80,38 +80,18 @@
           </h4>
           <p class="text-white md:text-lg sm:text-base mb-3">
             Are Background Checked
-            <font-awesome-icon
-              :icon="['fas', 'check']"
-              class="mx-1 h-4 inline-block"
-            />
           </p>
           <p class="text-white md:text-lg sm:text-base mb-3">
             Have A Barber/Hairstyling License
-            <font-awesome-icon
-              :icon="['fas', 'check']"
-              class="mx-1 h-4 inline-block"
-            />
           </p>
           <p class="text-white md:text-lg sm:text-base mb-3">
             Go Through A Two-step Interview Process
-            <font-awesome-icon
-              :icon="['fas', 'check']"
-              class="mx-1 h-4 inline-block"
-            />
           </p>
           <p class="text-white md:text-lg sm:text-base mb-3">
             Are Interviewed By Industry Professional
-            <font-awesome-icon
-              :icon="['fas', 'check']"
-              class="mx-1 h-4 inline-block"
-            />
           </p>
           <p class="text-white md:text-lg sm:text-base mb-3">
             And The Thyflow Team Requests Friends And Family Referrals
-            <font-awesome-icon
-              :icon="['fas', 'check']"
-              class="mx-1 h-4 inline-block"
-            />
           </p>
         </div>
         <!-----          style="background: linear-gradient(60deg, #C10149, #E97348);"--->
