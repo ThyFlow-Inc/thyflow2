@@ -106,12 +106,10 @@ export default {
         },
         {
           rel: "stylesheet",
-          prefetch,
           href: "/assets/css/font-awesome.min.css"
         },
         {
           rel: "stylesheet",
-          prefetch,
           href: "/assets/plugins/mediabox/mediabox.min.css"
         },
         { rel: "stylesheet", href: "/assets/css/style.css" },
