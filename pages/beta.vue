@@ -28,7 +28,9 @@
               <h2 class="font-bold">
                 Be the first, to try ThyFlow mobile barber service.
               </h2>
-              <p class="1h-190 mb-2">ThyFlow Beta test Starts May 15/2020</p>
+              <p class="1h-190 mb-2">
+                Beta test Starts <span class="text-underline">May 15/2020</span>
+              </p>
             </div>
           </div>
           <div class="row justify-content-center">
@@ -134,5 +136,19 @@ export default {
   color: #36324a;
   font-weight: 600;
   margin-bottom: 30px;
+}
+.content-text-white a,
+.content-text a,
+.slice-text a,
+.text-underline,
+.text-underline-charcoal {
+  background-repeat: repeat-x;
+  font-weight: 600;
+  padding-bottom: 3px;
+  line-height: 1.5;
+  background-image: linear-gradient(#f5a08c, #f5a08c);
+  background-repeat: repeat-x;
+  background-position: 0 95%;
+  background-size: 1px 2px;
 }
 </style>
