@@ -3,11 +3,9 @@
 
   <section class="bg-white border-b py-12">
     <a class="container mx-auto flex flex-wrap pt-4 pb-12">
-      <h1
-        class="w-full my-2 text-4xl font-bold leading-tight text-center text-orange-500"
-      >
-        How ThyFlow Works
-      </h1>
+      <h2 class="w-full my-4 text-5xl text-center text-orange-500">
+        How ThyFlow <strong>Works</strong>
+      </h2>
 
       <div class="w-full mb-4">
         <div

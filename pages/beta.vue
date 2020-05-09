@@ -29,7 +29,8 @@
                 Be the first, to try ThyFlow mobile barber service.
               </h2>
               <p class="1h-190 mb-2">
-                Beta test Starts <span class="text-underline">May 15/2020</span>
+                Beta test Starts
+                <span class="text-underline">May 15 / 2020</span>
               </p>
             </div>
           </div>
