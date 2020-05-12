@@ -30,7 +30,7 @@
               </h2>
               <p class="1h-190 mb-2">
                 Beta test Starts
-                <span class="text-underline">May 15 / 2020</span>
+                <span class="text-underline">June 1, 2020</span>
               </p>
             </div>
           </div>
