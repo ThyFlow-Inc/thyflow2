@@ -79,17 +79,7 @@ import ApplyBarber from "~/components/ApplyBarber.vue";
 
 export default {
   name: "Home",
-  head() {
-    return {
-      script: [],
-      link: [
-        {
-          rel: "stylesheet",
-          href: "https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
-        }
-      ]
-    };
-  },
+
   components: {
     ApplyBarber,
     BlogWidget,
@@ -125,6 +115,7 @@ export default {
       };
     } catch (e) {
       // Returns error page
+      console.log(e.response);
       error({ statusCode: 404, message: "Page not found" });
     }
   }

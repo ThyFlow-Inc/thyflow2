@@ -4,12 +4,14 @@
     <div class="container" :data-wio-id="documentId">
       <div class="outer-container">
         <div class="back">
-          <a href="https://thyflow.com/blog">back to list</a>
+          <a href="https://www.thyflow.com/blog">back to list</a>
         </div>
         <!-- Button to edit document in dashboard -->
         <prismic-edit-button :documentId="documentId" />
         <!-- Template for page title -->
-        <h1 class="blog-title">{{ $prismic.richTextAsPlain(document.title) }}</h1>
+        <h1 class="blog-title">
+          {{ $prismic.richTextAsPlain(document.title) }}
+        </h1>
         <!-- Template for published date -->
         <p class="blog-post-meta">
           <span class="created-at">{{ formattedDate }}</span>
