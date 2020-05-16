@@ -115,6 +115,7 @@ export default {
       };
     } catch (e) {
       // Returns error page
+      console.log(e.response);
       error({ statusCode: 404, message: "Page not found" });
     }
   }
