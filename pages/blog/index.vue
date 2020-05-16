@@ -98,7 +98,7 @@ export default {
       // Query to get blog home content
       const document = await api.getSingle("blog_home");
       let homepageContent = document.data;
-      console.log(homepageContent);
+      //console.log(homepageContent);
       // Query to get posts content to preview
       const blogPosts = await api.query(
         Prismic.Predicates.at("document.type", "post"),
@@ -115,7 +115,7 @@ export default {
       };
     } catch (e) {
       // Returns error page
-      console.log(e.response);
+      console.log(e);
       error({ statusCode: 404, message: "Page not found" });
     }
   }
