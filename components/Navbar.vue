@@ -77,7 +77,7 @@
           <li class="mr-3">
             <nuxt-link
               class="inline-block py-2 px-4 text-white font-bold no-underline"
-              to="/blog"
+              to="/blog/"
               >Blog</nuxt-link
             >
           </li>
