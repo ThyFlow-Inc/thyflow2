@@ -104,8 +104,6 @@ export default {
         Prismic.Predicates.at("document.type", "post"),
         { orderings: "[my.post.date desc]" }
       );
-      // Load the edit button
-      if (process.client) window.prismic.setupEditButton();
       // Returns data to be used in template
       return {
         homepageContent,
