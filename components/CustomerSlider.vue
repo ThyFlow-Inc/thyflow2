@@ -1,7 +1,7 @@
 <template>
   <div class="bg-white p-20">
     <h2
-      class="mb-2 text-4xl lg:text-5xl font-bold leading-tight text-center text-orange-500"
+      class="mb-2 text-4xl lg:text-5xl font-bold leading-tight text-center text-orange-500 font-normal"
     >
       What Our Customers are Saying
     </h2>

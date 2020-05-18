@@ -112,7 +112,7 @@
 export default {
   head () {
     return {
-      title: this.title,
+      title: "ThyFlow Website",
       link: [      
        { 
          rel: 'stylesheet', href: 'href="https://fonts.googleapis.com/css2?family=Poppins&display=swap' }
