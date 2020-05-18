@@ -90,8 +90,6 @@
             </p>
           </div>
         </div>
-
-        <div class="text-center md:text-left"></div>
       </SliderItem>
     </Slider>
   </div>
