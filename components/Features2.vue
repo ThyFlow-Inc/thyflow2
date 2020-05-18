@@ -124,21 +124,6 @@ export default {};
 .zoom:hover {
   transform: scale(1.1);
 }
-.threeD {
-  color: orange;
-  white-space: nowrap;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 3em;
-  font-family: sans-serif;
-  letter-spacing: 0.1em;
-  transition: 0.3s;
-  text-shadow: 1px 1px 0 rgb(233, 77, 163), 1px 2px 0 grey, 1px 3px 0 grey,
-    1px 4px 0 grey, 1px 5px 0 grey, 1px 6px 0 grey, 1px 7px 0 grey,
-    1px 8px 0 grey, 5px 13px 15px white;
-}
 
 .threeD:hover {
   transition: 0.3s;
