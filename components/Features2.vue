@@ -109,10 +109,23 @@
 </template>
 
 <script>
-export default {};
+export default {
+  head () {
+    return {
+      title: this.title,
+      link: [      
+       { 
+         rel: 'stylesheet', href: 'href="https://fonts.googleapis.com/css2?family=Poppins&display=swap' }
+      ],
+    }
+  }
+};
 </script>
 
 <style lang="css" scoped>
+body {
+  font-family: "Poppins", Times, serif;
+}
 .animate1:hover {
   animation: moveInLeft 3s;
 }
