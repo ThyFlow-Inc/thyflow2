@@ -1,14 +1,12 @@
 <template>
-  <div class="bg-white">
-    <h1
-      class="w-full mb-2 text-4xl font-bold leading-tight text-center text-orange-500"
+  <div class="bg-white p-20">
+    <h2
+      class="mb-2 text-4xl lg:text-5xl font-bold leading-tight text-center text-orange-500 font-normal"
     >
-      What our customers are saying
-    </h1>
+      What Our Customers are Saying
+    </h2>
 
-    <div class="w-full mb-4">
-      <div class="h-1 mx-auto w-64 opacity-25 my-0 py-0 rounded-t"></div>
-    </div>
+ 
     <Slider
       animation="fade"
       v-model="sliderValue"
@@ -90,8 +88,6 @@
             </p>
           </div>
         </div>
-
-        <div class="text-center md:text-left"></div>
       </SliderItem>
     </Slider>
   </div>
