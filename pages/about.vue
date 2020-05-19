@@ -133,9 +133,6 @@
         </div>
       </div>
     </section>
-
-    <BarberProfile />
-
     <ApplyBarber />
 
     <Footer />
@@ -144,7 +141,6 @@
 
 <script>
 import Navbar from "~/components/Navbar.vue";
-import BarberProfile from "~/components/BarberProfile.vue";
 import AboutHeader from "~/components/AboutHeader.vue";
 import OurStory from "~/components/OurStory.vue";
 import ApplyBarber from "~/components/ApplyBarber.vue";
@@ -153,7 +149,6 @@ import Footer from "~/components/Footer.vue";
 export default {
   components: {
     Navbar,
-    BarberProfile,
     AboutHeader,
     OurStory,
     ApplyBarber,
