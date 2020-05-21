@@ -332,7 +332,7 @@
               <nuxt-link
                 to="/guide"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Comunity guide</nuxt-link
+                >Community guide</nuxt-link
               >
             </li>
           </ul>
