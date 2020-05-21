@@ -18,116 +18,71 @@
             <div class="w-full lg:w-3/3 lg:px-8">
               <hr />
               <div class="slice-text mb-10 mt-10">
-                <div class="mb-4 text-2xl font-bold">Privacy</div>
+                <div class="mb-4 text-2xl font-bold">Community Guide</div>
 
                 <p>
-                  Your use of www.Thyflow.com is subject to ThyFlow's Privacy
-                  Policy. Please review our Privacy Policy, which also governs
-                  the Site and informs users of our data collection practices.
-                </p>
-                <div class="mb-4 text-2xl font-bold">
-                  Electronic Communications
-                </div>
+                  Our guidelines were developed to help make every experience feel safe, respectful, and positive. They apply to everyone who uses any of our apps, including barbers, customers, and Master Barbers. We appreciate you for joining us to support and safeguard a welcoming environment for everyone.
 
-                <p>
-                  Visiting www.Thyflow.com or sending emails to ThyFlow
-                  constitutes electronic communications. You consent to receive
-                  electronic communications and you agree that all agreements,
-                  notices, disclosures and other communications that we provide
-                  to you electronically, via email and on the Site, satisfy any
-                  legal requirement that such communications be in writing.
-                </p>
-                <div class="mb-4 text-2xl font-bold">Your Account</div>
-                <p>
-                  If you use this site, you are responsible for maintaining the
-                  confidentiality of your account and password and for
-                  restricting access to your computer, and you agree to accept
-                  responsibility for all activities that occur under your
-                  account or password. You may not assign or otherwise transfer
-                  your account to any other person or entity. You acknowledge
-                  that ThyFlow is not responsible for third party access to your
-                  account that results from theft or misappropriation of your
-                  account. ThyFlow and its associates reserve the right to
-                  refuse or cancel service, terminate accounts, or remove or
-                  edit content in our sole discretion.
+The guidelines below help explain some of the specific kinds of behavior that may cause you to lose access to the ThyFlow app and website. There will always be unforeseen events that may ultimately lead to you losing access to ThyFlow app and we’ll update these guidelines regularly but the following guidelines are sufficient cause for ThyFlow to take action. Please take a moment to read them.
                 </p>
                 <div class="mb-4 text-2xl font-bold">
-                  Children Under Thirteen
+                  Guideline for All
                 </div>
 
                 <p>
-                  ThyFlow does not knowingly collect, either online or offline,
-                  personal information from persons under the age of thirteen.
-                  If you are under 18, you may use www.Thyflow.com only with
-                  permission of a parent or guardian.
+                Everyone who signs up for a ThyFlow account is required to follow ThyFlow’s  Community Guidelines. They reflect the following pillars and the standards in each of these sections.
+Treat everyone with respect at all times.
+
+Our community is remarkably diverse and, chances are, you will encounter people who might not look like you or share your beliefs. The guidelines in this section help to foster positive interactions during every experience and help keep one another safe.
+
+We are hard at work every day to help create safer experiences for everyone. Your safety drives us. That is why these standards were written. We are committed to following all applicable laws and earning your trust, and we expect everyone who uses our apps to do their part and adhere to applicable laws and regulations, as well as privacy rules and regulations where applicable.
+                </p>
+                <div class="mb-4 text-2xl font-bold">Your feedback matters</div>
+                <p>
+                If something happens, whether it is good or bad, we make it easy for you to tell us. Our team is continuously improving our standards, and your feedback is important to keep our standards relevant as our technology evolves. 
+
                 </p>
                 <div class="mb-4 text-2xl font-bold">
-                  Cancellation/Refund Policy
+                  Treat Everyone with Respect
                 </div>
+
                 <p>
-                  You can cancel your account anytime in the account setting
+                 Treat your fellow ThyFlow app users as you would like to be treated yourself: with respect. The actions you take while using the ThyFlow apps can have a big impact on the safety and comfort of others. Courtesy matters. That’s why you are expected to exercise good judgment and behave decently towards other people when using ThyFlow apps—just as you would in any public place.
+
+                  For example: Always try to be at home and ready for your appointment because nobody likes to wait. It is also a common courtesy to take care of your pets and by making sure there is a place for haircut to take place. Most importantly, remember that when you use ThyFlow apps you will meet people who may look differently or think differently than you. Please respect those differences. We believe that everyone should feel supported and welcomed when they use ThyFlow apps. That’s why we’ve created standards on physical contact, sexual assault and misconduct, rude behavior, unwanted contact, and discrimination.
                 </p>
                 <div class="mb-4 text-2xl font-bold">
-                  Links to Third Party Sites/Third Party Services
+                  Physical Contact
                 </div>
                 <p>
-                  www.Thyflow.com may contain links to other websites ("Linked
-                  Sites"). The Linked Sites are not under the control of ThyFlow
-                  and ThyFlow is not responsible for the contents of any Linked
-                  Site, including without limitation any link contained in a
-                  Linked Site, or any changes or updates to a Linked Site.
-                  ThyFlow is providing these links to you only as a convenience,
-                  and the inclusion of any link does not imply endorsement by
-                  ThyFlow of the site or any association with its operators.
-                  Certain services made available via www.Thyflow.com are
-                  delivered by third party sites and organizations. By using any
-                  product, service or functionality originating from the
-                  www.Thyflow.com domain, you hereby acknowledge and consent
-                  that ThyFlow may share such information and data with any
-                  third party with whom ThyFlow has a contractual relationship
-                  to provide the requested product, service or functionality on
-                  behalf of www.Thyflow.com users and customers.
+                Don’t touch strangers or anyone you just met while using any of  ThyFlow Apps, Hitting, hurting, or otherwise intending to hurt anyone is never allowed.
                 </p>
                 <div class="mb-4 text-2xl font-bold">
-                  No Unlawful or Prohibited Use/Intellectual Property
+                Sexual Assault and Misconduct
                 </div>
                 <p>
-                  You are granted a non-exclusive, non-transferable, revocable
-                  license to access and use www.Thyflow.com strictly in
-                  accordance with these terms of use. As a condition of your use
-                  of the Site, you warrant to ThyFlow that you will not use the
-                  Site for any purpose that is unlawful or prohibited by these
-                  Terms. You may not use the Site in any manner which could
-                  damage, disable, overburden, or impair the Site or interfere
-                  with any other party's use and enjoyment of the Site. You may
-                  not obtain or attempt to obtain any materials or information
-                  through any means not intentionally made available or provided
-                  for through the Site. All content included as part of the
-                  Service, such as text, graphics, logos, images, as well as the
-                  compilation thereof, and any software used on the Site, is the
-                  property of ThyFlow or its suppliers and protected by
-                  copyright and other laws that protect intellectual property
-                  and proprietary rights. You agree to observe and abide by all
-                  copyright and other proprietary notices, legends or other
-                  restrictions contained in any such content and will not make
-                  any changes thereto.
+                We all value our personal space and privacy. It is okay to chat with other people. But please do not comment on someone’s appearance or ask whether they are single. Sexual assault and sexual misconduct of any kind is prohibited. Sexual assault and misconduct refers to sexual contact or behavior without explicit consent of the other person.
+
+Personal space and privacy should be respected. The following list provides examples of inappropriate conduct.
+
+    Behaviors and comments that could make people feel uncomfortable are not acceptable. Examples include nudges, whistles, and winks. Do not touch or flirt with people you do not know.
+
+    Certain conversations that could be perceived as harmless can be offensive. Do not comment on appearance, perceived gender identity, or sexual orientation. Refrain from asking unrelated personal questions, such as “Are you in a relationship?” Avoid discussing your own or someone else’s sex life, using explicit language, or making jokes about sex.
+
+    ThyFlow has a no-sex rule. Sexual contact is prohibited while using ThyFlow apps, including at home haircut appointments, regardless of whether you know the person or they give you their consent. This includes activities such as sexual intercourse, solicitation of sexual intercourse, masturbation, or touching and exposure of sexual body parts.
+
                 </p>
+                <div class="mb-4 text-2xl font-bold">
+                  Threatening and Rude Behavior
+                </div>
                 <p>
-                  You will not modify, publish, transmit, reverse engineer,
-                  participate in the transfer or sale, create derivative works,
-                  or in any way exploit any of the content, in whole or in part,
-                  found on the Site. ThyFlow content is not for resale. Your use
-                  of the Site does not entitle you to make any unauthorized use
-                  of any protected content, and in particular you will not
-                  delete or alter any proprietary rights or attribution notices
-                  in any content. You will use protected content solely for your
-                  personal use, and will make no other use of the content
-                  without the express written permission of ThyFlow and the
-                  copyright owner. You agree that you do not acquire any
-                  ownership rights in any protected content. We do not grant you
-                  any licenses, express or implied, to the intellectual property
-                  of ThyFlow or our licensors except as expressly authorized by
-                  these Terms.
+                 Aggressive, confrontational, and harassing behavior is not allowed. Do not use language or make gestures that could be disrespectful, threatening, or inappropriate. It may be a good idea to stay away from personal topics that can potentially be divisive, like religion and political beliefs.
+                </p>
+                  <div class="mb-4 text-2xl font-bold">
+Unwanted Contact
+                </div>
+                <p>
+                 Contact should end when the appointment is complete, unless it’s to return a lost item. For example, texting, calling, visiting, or trying to visit someone in person after an appointment has been completed is not allowed.
                 </p>
                 <div class="mb-4 text-2xl font-bold">International Users</div>
                 <p>
@@ -139,65 +94,19 @@
                   in any country or in any manner prohibited by any applicable
                   laws, restrictions or regulations.
                 </p>
-                <div class="mb-4 text-2xl font-bold">Indemnification</div>
+                <div class="mb-4 text-2xl font-bold">Discrimination</div>
                 <p>
-                  You agree to indemnify, defend and hold harmless ThyFlow, its
-                  officers, directors, employees, agents and third parties, for
-                  any losses, costs, liabilities and expenses (including
-                  reasonable attorney's fees) relating to or arising out of your
-                  use of or inability to use the Site or services, any user
-                  postings made by you, your violation of any terms of this
-                  Agreement or your violation of any rights of a third party, or
-                  your violation of any applicable laws, rules or regulations.
-                  ThyFlow reserves the right, at its own cost, to assume the
-                  exclusive defense and control of any matter otherwise subject
-                  to indemnification by you, in which event you will fully
-                  cooperate with ThyFlow in asserting any available defenses.
+                  You should always feel safe and welcome. That’s why we don’t tolerate conduct we’ve determined to be discriminatory. Do not discriminate against someone based on traits such as their age, color, disability, gender identity, marital status, national origin, race, religion, sex, sexual orientation, or any other characteristic protected under relevant law.
+
+For example, it is unacceptable to refuse to provide services based on characteristics like a person’s age, color, disability, gender identity, marital status, national origin, race, religion, sex, sexual orientation, or any other characteristic protected under relevant law. It is also unacceptable to rate another user—whether they’re a customer, service provider, team member, based on these above traits.
+
+In addition, it is not acceptable to discriminate on the basis of a customers house or a customer’s haircut location (Friends house). We understand how important it is to fit a mobile haircut appointment around your life, rather than the other way around. It is not a violation of these guidelines to pass on an appointment because it does not work for you. But intentionally refusing or canceling requests, or using features in ThyFlow apps to avoid receiving appointment request, solely for the purpose of avoiding a particular neighborhood due to the characteristics of the people or businesses that are located in that area is not allowed.
+
+You can learn more about ThyFlow’s non-discrimination policy here.
+
+We also want to help increase the mobile service industry options for locals with disabilities. That’s why we have information available for customers, Service providers on this topic. You can go here to learn more about ThyFlow commitment to accessibility. Service providers using ThyFlow apps must comply with all relevant laws governing the transportation of motor vehicle. 
                 </p>
-                <div class="mb-4 text-2xl font-bold">Arbitration</div>
-                <p>
-                  In the event the parties are not able to resolve any dispute
-                  between them arising out of or concerning these Terms and
-                  Conditions, or any provisions hereof, whether in contract,
-                  tort, or otherwise at law or in equity for damages or any
-                  other relief, then such dispute shall be resolved only by
-                  final and binding arbitration pursuant to the Federal
-                  Arbitration Act, conducted by a single neutral arbitrator and
-                  administered by the American Arbitration Association, or a
-                  similar arbitration service selected by the parties, in a
-                  location mutually agreed upon by the parties. The arbitrator's
-                  award shall be final, and judgment may be entered upon it in
-                  any court having jurisdiction. In the event that any legal or
-                  equitable action, proceeding or arbitration arises out of or
-                  concerns these Terms and Conditions, the prevailing party
-                  shall be entitled to recover its costs and reasonable
-                  attorney's fees. The parties agree to arbitrate all disputes
-                  and claims in regards to these Terms and Conditions or any
-                  disputes arising as a result of these Terms and Conditions,
-                  whether directly or indirectly, including Tort claims that are
-                  a result of these Terms and Conditions. The parties agree that
-                  the Federal Arbitration Act governs the interpretation and
-                  enforcement of this provision. The entire dispute, including
-                  the scope and enforceability of this arbitration provision
-                  shall be determined by the Arbitrator. This arbitration
-                  provision shall survive the termination of these Terms and
-                  Conditions.
-                </p>
-                <div class="mb-4 text-2xl font-bold">Class Action Waiver</div>
-                <p>
-                  Any arbitration under these Terms and Conditions will take
-                  place on an individual basis; class arbitrations and
-                  class/representative/collective actions are not permitted. The
-                  parties agree that a party may bring claims against the other
-                  only in each's individual capacity, and not as a plaintiff or
-                  class member in any putative class, collective and/ or
-                  representative proceeding, such as in the form of a private
-                  attorney general action against the other. Further, unless
-                  both you and ThyFlow agree otherwise, the arbitrator may not
-                  consolidate more than one person's claims, and may not
-                  otherwise preside over any form of a representative or class
-                  proceeding.
-                </p>
+                
               </div>
             </div>
           </div>
