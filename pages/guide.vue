@@ -125,6 +125,7 @@ export default {
   head() {
     return {
       script: [],
+            title: "ThyFlow Community Guide",
       link: [
         {
           rel: "stylesheet",
