@@ -71,8 +71,50 @@
                 </p>
               </div>
             </div>
+            <hr class="mt-12" />
+
+          </div>
+          <div>
+            <div class="text-peachy text-6xl">
+              <span class="text-stroke-peachy">04</span>
+              <span class="font-hairline opacity-50">/</span>
+            </div>
+            <div class="flex flex-wrap -mx-4">
+              <p
+                class="w-full px-4 mb-4 text-greenery leading-tight text-4xl md:w-1/2 lg:text-5xl"
+              >
+                Passion for Winning
+              </p>
+              <div class="w-full px-4 leading-relaxed md:w-1/2">
+                <p class="text-1xl sm:text-xl">
+                  We have an unyielding drive to win. But always remain
+                  humble.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-----------New Core Value Added--->
+          <div>
+            <div class="text-peachy text-6xl">
+              <span class="text-stroke-peachy">05</span>
+              <span class="font-hairline opacity-50">/</span>
+            </div>
+            <div class="flex flex-wrap -mx-4">
+              <p
+                class="w-full px-4 mb-4 text-greenery leading-tight text-4xl md:w-1/2 lg:text-5xl"
+              >
+                Unique Culture
+              </p>
+              <div class="w-full px-4 leading-relaxed md:w-1/2">
+                <p class="text-1xl sm:text-xl">
+                  We hold ourselves and each other accountable, and work well as
+                  a team, collaborate, and embrace a lean, flat and horizontal structure.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
+
       </div>
     </section>
 
