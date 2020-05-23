@@ -1,16 +1,25 @@
 <template>
   <div class="about">
-    <Navbar />
-    <AboutHeader />
+    <Navbar/>
+    <AboutHeader/>
+    <div class="container mb-20">
+      <div class="pt-10 pb-12 text-center bg-gallery rounded-lg lg:pt-20 lg:pb-14">
+        <div class="px-10 lg:px-20">
+          <h2 class="mb-6 text-greenery font-normal text-4xl lg:text-5xl">Our <strong>Mission</strong></h2>
+          <p class="text-2xl content-strong-peachy leading-loose mb-12">The platform to book verified mobile service
+            providers within your neighborhood.</p>
+        </div>
+      </div>
+    </div>
     <section class=" pt-12 pb-10 bg-gallery">
       <div class="container">
         <h2
           class="m-8  text-center text-greenery font-bold text-5xl lg:text-6xl"
         >
           Our <span class="text-orange-500">Core</span> Values<span
-            class="text-orange-500"
-            >.</span
-          >
+          class="text-orange-500"
+        >.</span
+        >
         </h2>
         <div>
           <div class="text-peachy text-6xl">
@@ -71,8 +80,52 @@
                 </p>
               </div>
             </div>
+            <hr class="mt-12" />
+
+          </div>
+          <div>
+            <div class="text-peachy text-6xl">
+              <span class="text-stroke-peachy">04</span>
+              <span class="font-hairline opacity-50">/</span>
+            </div>
+            <div class="flex flex-wrap -mx-4">
+              <p
+                class="w-full px-4 mb-4 text-greenery leading-tight text-4xl md:w-1/2 lg:text-5xl"
+              >
+                Passion for Winning
+              </p>
+              <div class="w-full px-4 leading-relaxed md:w-1/2">
+                <p class="text-1xl sm:text-xl">
+                  We have an unyielding drive to win. But always remain
+                  humble.
+                </p>
+              </div>
+            </div>
+            <hr class="mt-12"/>
+
+          </div>
+          <!-----------New Core Value Added--->
+          <div>
+            <div class="text-peachy text-6xl">
+              <span class="text-stroke-peachy">05</span>
+              <span class="font-hairline opacity-50">/</span>
+            </div>
+            <div class="flex flex-wrap -mx-4">
+              <p
+                class="w-full px-4 mb-4 text-greenery leading-tight text-4xl md:w-1/2 lg:text-5xl"
+              >
+                Unique Culture
+              </p>
+              <div class="w-full px-4 leading-relaxed md:w-1/2">
+                <p class="text-1xl sm:text-xl">
+                  We hold ourselves and each other accountable, and work well as
+                  a team, collaborate, and embrace a lean, flat and horizontal structure.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
+
       </div>
     </section>
 
@@ -189,7 +242,7 @@ export default {
 .text-stroke-peachy {
   color: transparent;
   font-weight: 700;
-  -webkit-text-stroke: 0.8px #f5a08c;
+  -webkit-text-stroke: 1px #f5a08c;
 }
 
 @media (-ms-high-contrast: none), screen and (-ms-high-contrast: active) {
@@ -467,5 +520,9 @@ export default {
   .features__image-play-button {
     transform: translate(calc(-50% - 4rem), -50%);
   }
+}
+
+.leading-loose {
+  line-height: 1.7
 }
 </style>
