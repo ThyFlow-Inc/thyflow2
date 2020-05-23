@@ -4,5 +4,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "[javascript]": {
     "editor.formatOnSave": true
-  }
+  },
+  "editor.fontFamily": "'Operator Mono Lig', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 15,
+  "vetur.format.defaultFormatter.html": "js-beautify-html"
 }
