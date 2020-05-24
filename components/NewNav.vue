@@ -9,7 +9,7 @@
               <!-- Logo -->
               <div class="logo">
                 <nuxt-link to="/">
-                  <img src="~/assets/big_logo.png" alt="jironis" class="h-10" />
+                  <img src="~/assets/big_logo.png" alt="thyflow" class="h-10"/>
                 </nuxt-link>
               </div>
               <!-- End of Logo -->
