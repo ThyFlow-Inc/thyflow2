@@ -6,7 +6,7 @@
       <div class="pt-10 pb-12 text-center bg-gallery rounded-lg lg:pt-20 lg:pb-14">
         <div class="px-10 lg:px-20">
           <h2 class="mb-6 text-greenery font-normal text-4xl lg:text-5xl">Our <strong>Mission</strong></h2>
-          <p class="text-2xl content-strong-peachy leading-loose mb-12">The platform to book verified mobile service
+          <p class="text-2xl sm:text-xl content-strong-peachy leading-loose mb-12">The platform to book verified mobile service
             providers within your neighborhood.</p>
         </div>
       </div>
