@@ -2,7 +2,6 @@
   <div>
     <NewNav/>
     <Header/>
-    <OurStoryHome/>
     <HowItWorks/>
     <!------------First Book a barber--------------->
 
@@ -25,7 +24,6 @@
   import Features2 from "~/components/Features2.vue";
   import CustomerSlider from "~/components/CustomerSlider.vue";
   import faqComponent from "~/components/faqComponent.vue";
-  import OurStoryHome from "~/components/OurStoryHome.vue";
   import ApplyBarber from "~/components/ApplyBarber.vue";
   import Footer from "~/components/Footer.vue";
 
@@ -50,7 +48,6 @@
     Features2,
     CustomerSlider,
     faqComponent,
-    OurStoryHome,
     ApplyBarber,
     Footer
   }
