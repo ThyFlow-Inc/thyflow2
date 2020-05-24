@@ -4,7 +4,7 @@
   <section class="bg-white border-b py-12">
     <a class="container mx-auto flex flex-wrap pt-4 pb-12">
       <h2 class="w-full my-4 text-5xl text-center text-orange-500">
-        How ThyFlow <strong>Works</strong>
+        How ThyFlow Works
       </h2>
 
       <div class="w-full mb-4">
@@ -125,10 +125,21 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: 'HowItworks',
+  head: {
+    link: [
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Lobster&display=swap' }
+    ]
+  }
+};
 </script>
 
 <style lang="css" scoped>
+  h2{
+    font-family: 'Lobster', sans-serif;
+
+  }
 .zoom {
   transition: all 1s;
 }
@@ -151,4 +162,6 @@ export default {};
     transform: rotate(1turn);
   }
 }
+
+
 </style>

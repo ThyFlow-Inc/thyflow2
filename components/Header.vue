@@ -8,7 +8,7 @@
       preload="auto"
     ></video>
     <h1
-      class="zoom logo-box w-full my-2 text-6xl font-bold leading-tight text-center tracking-widest lg:mt-32 sm:mt-28"
+      class="logo-box w-full my-2 text-6xl font-bold leading-tight text-center tracking-widest lg:mt-32 sm:mt-28"
     >
       <span>ThyFlow</span>
     </h1>
@@ -16,14 +16,6 @@
       class="t-color w-full lg:mt-64 sm:mt-56 text-3xl font-bold leading-tight text-center  text-orange logo-box"
       :text="Yusadolat"
     >
-      <a
-        href="#"
-        class=" bg-indigo-700 hover:bg-indigo-800 text-white rounded-full shadow py-2 pl-6 pr-2 text-xl"
-      >
-        <span class="mr-4 font-semibold text-center">
-          Book a Barber
-        </span>
-      </a>
     </vue-typer>
   </header>
 </template>

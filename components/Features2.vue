@@ -113,9 +113,9 @@ export default {
   head () {
     return {
       title: "ThyFlow Website",
-      link: [      
-       { 
-         rel: 'stylesheet', href: 'href="https://fonts.googleapis.com/css2?family=Poppins&display=swap' }
+      link: [
+       {
+         rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Lobster&display=swap' }
       ],
     }
   }
@@ -125,6 +125,9 @@ export default {
 <style lang="css" scoped>
 body {
   font-family: "Poppins", Times, serif;
+}
+h2 {
+  font-family: 'Lobster', sans-serif;
 }
 .animate1:hover {
   animation: moveInLeft 3s;
