@@ -1,23 +1,20 @@
 <template>
   <div class="banner-area-inner">
-    <div class="banner-inner-area banner-area1">
-      <div class="flex flex-wrap my-5">
+    <div class="banner-inner-area">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-8 col-lg-6 col-xl-5">
         <!--Left Col-->
-        <div class="w-full lg:w-2/5 px-4 text-center lg:text-left self-center">
+        <div class="banner-text-inner">
           <h1
-            class="mb-12 text-3xl font-bold leading-none text-white xl:text-5xl"
-          >Better Communication Means Better Service</h1>
-          <p class="mb-12">
-            <a
-              class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
-              href="#"
-              v-scroll-to="'#requestrial'"
-            >Sign up for a free pilot!</a>
+            class=""
+          >Book verified mobile service providers within your neighborhood</h1>
+          <p class="text-black lg:text-xl mb-4">
+            we believe your appearance is part of your journey to Confidence and
+            Success. Sit back and Relax. Let our Top Rated, Handpicked, Local, Mobile,
+            Barbers and Hair Stylist Bring their service to YOU!
           </p>
-          <a
-            class="mx-auto lg:mx-0 hover:underline text-gray-800 font-bold my-6 py-4 px-8"
-            v-scroll-to="'#requestrial'"
-          ></a>
+
         </div>
 
         <!--Right Col-->
@@ -25,7 +22,8 @@
 
         </div>
       </div>
-
+        </div>
+      </div>
     </div>
   </div>
 </template>
