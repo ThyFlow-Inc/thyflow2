@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-greenery-50">
     <NewNav/>
     <Header/>
     <HowItWorks/>

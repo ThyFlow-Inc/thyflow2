@@ -1,6 +1,6 @@
 <template>
   <div class="banner-area-inner">
-    <div class="banner-inner-area">
+    <div class="banner-inner-area1">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-8 col-lg-6 col-xl-5">
@@ -18,7 +18,7 @@
         </div>
 
         <!--Right Col-->
-        <div class="w-full lg:w-3/5 px-4 text-center lg:text-right lg:text-left self-center px-4">
+        <div class="col-lg-5 offset-lg-1 col-md-4 offset-xl-2">
 
         </div>
       </div>
@@ -31,6 +31,11 @@
   export default {};
 </script>
 <style lang="css" scoped>
+  .banner-inner-area1 {
+    padding: 160px 0 70px;
+    position: relative;
+    overflow: hidden;
+  }
   .nodisplay {
     display: none;
   }
