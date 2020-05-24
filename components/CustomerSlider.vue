@@ -6,7 +6,7 @@
       What Our Customers are Saying
     </h2>
 
- 
+
     <Slider
       animation="fade"
       v-model="sliderValue"
@@ -99,6 +99,11 @@ import { Slider, SliderItem } from "vue-easy-slider";
 export default {
   data() {
     return {
+      head: {
+        link: [
+          { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Lobster&display=swap' }
+        ]
+      },
       list: [],
       sliderValue: 2
     };
@@ -112,4 +117,8 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+  h2{
+    font-family: 'Lobster', sans-serif;
+  }
+</style>

@@ -126,7 +126,7 @@
 
 <script>
 export default {
-  name: 'How it works',
+  name: 'HowItworks',
   head: {
     link: [
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Lobster&display=swap' }
