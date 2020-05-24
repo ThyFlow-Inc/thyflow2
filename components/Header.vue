@@ -20,9 +20,7 @@
         href="#"
         class=" bg-indigo-700 hover:bg-indigo-800 text-white rounded-full shadow py-2 pl-6 pr-2 text-xl"
       >
-        <span class="mr-4 font-semibold text-center">
-          Book a Barber
-        </span>
+
       </a>
     </vue-typer>
   </header>
