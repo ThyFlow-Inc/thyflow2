@@ -3,11 +3,11 @@
     class="pt-2 bg-white md:pt-8 px-6 mx-auto flex flex-wrap flex-col md:flex-col text-center"
   >
     <!-------Accordion-------->
-    <h1
+    <h2
       class="mx-auto md:text-3xl  sm:text-3xl font-bold leading-tight text-center text-orange-500"
     >
       Frequently asked question(FAQ)
-    </h1>
+    </h2>
 
     <div class="accordion flex flex-col items-center justify-center mb-8">
       <!--  Panel 1  -->
@@ -91,10 +91,19 @@
 </template>
 
 <script>
-export default {};
+export default {
+  head: {
+    link: [
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Lobster&display=swap' }
+    ]
+  }
+};
 </script>
 
 <style lang="css" scoped>
+  h2{
+    font-family: "Lobster", Times, serif;
+  }
 .gradient {
   background: linear-gradient(90deg, #0a3ead 0%, #c59d68 100%);
 }
