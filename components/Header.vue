@@ -16,7 +16,7 @@
               <p class="text-black lg:text-xl mb-2">
                 we believe your appearance is part of your journey to Confidence and Success.
                 Sit back and Relax. Let our Top Rated, Handpicked, Local, Mobile, Barbers and
-                Hair Stylist Bring their service to YOU!
+                Hair Stylist Bring their service to you!
               </p>
 
               <a href="#beta-form" class="btn bg-orange-500 text-white"
@@ -26,9 +26,8 @@
             </div>
             <!-- banner text -->
           </div>
-          <div class="col-lg-5 offset-lg-1 col-md-4 offse-xl-2">
+          <div class="col-lg-5 offset-lg-1 col-md-6 offse-xl-2">
             <!-- banner Video-->
-            <div class="banner-image">
               <video
                 src="https://res.cloudinary.com/thyflow/video/upload/v1588451371/thyvideo_xrhqf2.mp4"
                 ref="videoRef"
@@ -36,7 +35,6 @@
                 playsinline
                 preload="auto"
               ></video>
-            </div>
             <!--End of banner image-->
           </div>
         </div>
@@ -45,7 +43,12 @@
   </div>
 </template>
 <script>
-  export default {};
+  export default {
+    mounted: function() {
+      //this.$refs.videoRef.src = "./assets/thyvideo.mp4";
+      this.$refs.videoRef.play();
+    }
+  };
 </script>
 <style lang="css" scoped>
   .banner-inner-area1 {
