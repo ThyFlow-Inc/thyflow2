@@ -1,7 +1,9 @@
 <template>
-  <div class="bg-greenery-50">
+  <div class="bg-blue-700">
     <Navbar/>
     <Header/>
+        <OurStoryHome />
+
     <HowItWorks/>
     <!------------First Book a barber--------------->
 
@@ -25,6 +27,7 @@
   import CustomerSlider from "~/components/CustomerSlider.vue";
   import faqComponent from "~/components/faqComponent.vue";
   import ApplyBarber from "~/components/ApplyBarber.vue";
+  import OurStoryHome from "~/components/OurStoryHome.vue";
   import Footer from "~/components/Footer.vue";
 
 export default {
@@ -42,6 +45,7 @@ export default {
   components: {
     Navbar,
     Header,
+    OurStoryHome,
     HowItWorks,
     //Features,
     Features2,
