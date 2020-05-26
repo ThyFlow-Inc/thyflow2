@@ -73,7 +73,7 @@
               to="/become-a-barber"
               >Become a barber</nuxt-link
             >
-
+</li>
             <nuxt-link
               class="inline-block py-2 px-4 text-white font-bold no-underline"
               to="/blog"
@@ -84,7 +84,7 @@
               to="about"
               >About</nuxt-link
             >
-
+</ul>
       </div>
     </div>
   </nav>
