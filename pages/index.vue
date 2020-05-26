@@ -1,6 +1,6 @@
 <template>
   <div class="bg-greenery-50">
-    <NewNav/>
+    <NavBar/>
     <Header/>
     <HowItWorks/>
     <!------------First Book a barber--------------->
@@ -17,7 +17,7 @@
 </template>
 
 <script>
-  import NewNav from "~/components/NewNav.vue";
+  import NavBar from "~/components/NavBar.vue";
   import Header from "~/components/Header.vue";
   import HowItWorks from "~/components/HowItWorks.vue";
   //import Features from "~/components/Features.vue";
@@ -41,7 +41,7 @@
     };
   },
   components: {
-    NewNav,
+    NavBar,
     Header,
     HowItWorks,
     //Features,

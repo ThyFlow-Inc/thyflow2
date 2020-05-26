@@ -54,7 +54,7 @@
             </div>
             <div class="col-lg-3 col-md-4 col-sm-5 d-md-block d-none">
               <div class="urgent-call text-right">
-                <nuxt-link class="btn" to="/about">About Us</nuxt-link>
+                <nuxt-link class="btn font-bold text-lg" to="/about">About Us</nuxt-link>
               </div>
             </div>
           </div>
