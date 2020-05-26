@@ -27,16 +27,25 @@
   import ApplyBarber from "~/components/ApplyBarber.vue";
   import Footer from "~/components/Footer.vue";
 
+<<<<<<< HEAD
   export default {
+=======
+export default {
+>>>>>>> Beta-Page
   head() {
     return {
       script: [],
       link: [
         {
           rel: "stylesheet",
+<<<<<<< HEAD
           href: "/assets/css/bootstrap.min.css"
         },
         {rel: "stylesheet", href: "/assets/css/style.css"},
+=======
+          href: "https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+        }
+>>>>>>> Beta-Page
       ]
     };
   },

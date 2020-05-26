@@ -54,19 +54,20 @@
           >
         </div>
       </div>
-
+ 
       <div
         class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 text-black p-4 lg:p-0 z-20"
         id="nav-content"
       >
-
+        <ul class="list-reset lg:flex justify-end flex-1 items-center">
+        <li class="mr-3">
             <nuxt-link
-              class="inline-block py-2 px-4  font-bold no-underline"
+              class="inline-block py-2 px-4 text-white font-bold no-underline"
               to="/beta"
               >Join Beta</nuxt-link
             >
-
-
+          </li>
+          <li class="mr-3">
             <nuxt-link
               class="inline-block py-2 px-4 text-white font-bold no-underline"
               to="/become-a-barber"

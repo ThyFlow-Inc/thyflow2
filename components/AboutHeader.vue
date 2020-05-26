@@ -77,7 +77,7 @@
 
 <script>
 export default {
-  name: "header-about",
+  name: "headera",
   mounted() {
     MediaBox(".mediabox");
   }
