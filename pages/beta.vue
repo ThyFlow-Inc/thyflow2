@@ -103,7 +103,6 @@ export default {
         },
         {
           rel: "stylesheet",
-          rel: "prefetch",
           href: "/assets/css/bootstrap.min.css"
         },
         {

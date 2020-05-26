@@ -1,5 +1,5 @@
 <template>
-  <nav id="header" class="w-full z-30 text-white gradient sticky top-0">
+  <nav id="header" class="w-full z-30 bg-orange-300">
     <div
       class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2"
     >
@@ -56,43 +56,36 @@
       </div>
 
       <div
-        class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
+        class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 text-black p-4 lg:p-0 z-20"
         id="nav-content"
       >
-        <ul class="list-reset lg:flex justify-end flex-1 items-center">
-          <li class="mr-3">
+
             <nuxt-link
-              class="inline-block py-2 px-4 text-white font-bold no-underline"
+              class="inline-block py-2 px-4  font-bold no-underline"
               to="/beta"
               >Join Beta</nuxt-link
             >
-          </li>
-          <li class="mr-3">
+
+
             <nuxt-link
               class="inline-block py-2 px-4 text-white font-bold no-underline"
               to="/become-a-barber"
               >Become a barber</nuxt-link
             >
-          </li>
-          <li class="mr-3">
+
             <nuxt-link
               class="inline-block py-2 px-4 text-white font-bold no-underline"
               to="/blog"
               >Blog</nuxt-link
             >
-          </li>
-          <li class="mr-3">
             <nuxt-link
               class="inline-block text-white no-underline font-bold hover:text-gray-800 hover:text-underline py-2 px-4"
               to="about"
               >About</nuxt-link
             >
-          </li>
-        </ul>
+
       </div>
     </div>
-
-    <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
   </nav>
 </template>
 

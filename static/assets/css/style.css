@@ -1,8 +1,8 @@
 /*---------------------------------------------
-Template name:  jironis
+Template name:  thyflow
 Version:        1.0
-Author:         layerdrops
-Author Email:   layerdrops@gmail.com 
+Author:         yusadolat
+Author Email:   yusadolat@gmail.com
 
 NOTE:
 -----
@@ -11,7 +11,7 @@ We may release future updates so it will overwrite this file. it's better and sa
 
 [Table of Content]
 
-01: General CSS 
+01: General CSS
     1.1: Default CSS
     1.2: background color
     1.3: Buttons
@@ -38,17 +38,17 @@ We may release future updates so it will overwrite this file. it's better and sa
 14: our quality feature
     14:01 quality type2
 15: our blog area
-16: Bloge details page
+16: Blog details page
     16:01 blog details
 17: map area
-18: Conatct page
-    18:01 conatct info
+18: Contact page
+    18:01 contact info
 19: Call to action
 20: Footer
     20.01: footer top
     20.02: footer bottom
 21: Others
-    21.01: pettrns
+    21.01: patterns
     21.02: About block
     21.03: Why us
     21.04: Subscription
@@ -1145,7 +1145,7 @@ label input[type="radio"] {
     right: -21%;
     position: absolute;
     content: "";
-} 
+}
  .banner-inner-area.banner-area1:after {
     background: url(../img/banner/base2.png);
     background-position: top right;
@@ -1157,7 +1157,7 @@ label input[type="radio"] {
     position: absolute;
     content: "";
     z-index: -1;
-} 
+}
 */
 
 .banner-area1 .banner-text-wrap span {
@@ -2069,7 +2069,7 @@ section.app-video:before {
   opacity: 1;
 }
 /* ==============================================
-        blog page 
+        blog page
 ==============================================*/
 .blog-list-inner .post-details {
   padding: 39px 0 0 0;
