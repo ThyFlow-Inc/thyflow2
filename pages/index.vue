@@ -1,56 +1,53 @@
 <template>
-  <div class="bg-blue-700">
-    <Navbar />
-    <Header />
-    <OurStoryHome />
-    <HowItWorks />
+  <div class="bg-greenery-50">
+    <NavBar/>
+    <Header/>
+    <HowItWorks/>
     <!------------First Book a barber--------------->
 
-    <!----- <Features class="bg-blue-700" />----->
-    <Features2 />
+    <Features2/>
 
     <!-----------------Second Book a barber---------->
-    <CustomerSlider />
+    <CustomerSlider/>
 
-    <faqComponent />
-    <ApplyBarber />
-    <Footer />
+    <faqComponent/>
+    <ApplyBarber/>
+    <Footer/>
   </div>
 </template>
 
 <script>
-import Navbar from "~/components/Navbar.vue";
-import Header from "~/components/Header.vue";
-import HowItWorks from "~/components/HowItWorks.vue";
-//import Features from "~/components/Features.vue";
-import Features2 from "~/components/Features2.vue";
-import CustomerSlider from "~/components/CustomerSlider.vue";
-import faqComponent from "~/components/faqComponent.vue";
-import OurStoryHome from "~/components/OurStoryHome.vue";
-import ApplyBarber from "~/components/ApplyBarber.vue";
-import Footer from "~/components/Footer.vue";
+  import NavBar from "~/components/NavBar.vue";
+  import Header from "~/components/Header.vue";
+  import HowItWorks from "~/components/HowItWorks.vue";
+  //import Features from "~/components/Features.vue";
+  import Features2 from "~/components/Features2.vue";
+  import CustomerSlider from "~/components/CustomerSlider.vue";
+  import faqComponent from "~/components/faqComponent.vue";
+  import ApplyBarber from "~/components/ApplyBarber.vue";
+  import Footer from "~/components/Footer.vue";
 
-export default {
+  export default {
   head() {
     return {
       script: [],
       link: [
         {
           rel: "stylesheet",
-          href: "https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
-        }
+          href: "/assets/css/bootstrap.min.css"
+        },
+        {rel: "stylesheet", href: "/assets/css/style.css"},
       ]
     };
   },
   components: {
-    Navbar,
+    NavBar,
     Header,
     HowItWorks,
     //Features,
     Features2,
     CustomerSlider,
     faqComponent,
-    OurStoryHome,
     ApplyBarber,
     Footer
   }
