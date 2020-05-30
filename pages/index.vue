@@ -2,7 +2,7 @@
   <div class="bg-blue-700">
     <Navbar/>
     <Header/>
-        <OurStoryHome />
+    <OurStoryHome />
 
     <HowItWorks/>
     <!------------First Book a barber--------------->
