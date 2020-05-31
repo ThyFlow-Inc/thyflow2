@@ -5,9 +5,7 @@
     <OurStoryHome />
     <HowItWorks/>
     <!------------First Book a barber--------------->
-
     <Features2/>
-
     <!-----------------Second Book a barber---------->
     <CustomerSlider/>
 
