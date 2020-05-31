@@ -3,7 +3,6 @@
     <Navbar/>
     <Header/>
     <OurStoryHome />
-
     <HowItWorks/>
     <!------------First Book a barber--------------->
 
