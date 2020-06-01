@@ -23,7 +23,7 @@
                       <div id="menu-button" class="">
                         <i class="fa fa-bars"></i>
                       </div>
-
+<!----
                       <ul class="main-nav">
                         <li class="active">
                           <nuxt-link to="/">Home</nuxt-link>
@@ -45,7 +45,7 @@
                             </li>
                           </ul>
                         </li>
-                      </ul>
+                      </ul>---->
                     </div>
                     <!-- End of Header-menu -->
                   </nav>
