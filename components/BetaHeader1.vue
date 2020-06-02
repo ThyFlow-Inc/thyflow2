@@ -58,6 +58,7 @@
         ref="videoRef"
         loop
         playsinline
+        muted
         preload="auto"
       ></video>
 

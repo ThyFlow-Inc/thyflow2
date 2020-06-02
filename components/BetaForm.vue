@@ -4,10 +4,10 @@
     <div
       class="w-full lg:w-3/6 sm:w-3/6 px-8 text-center lg:text-left self-center mt-4"
     >
-      <h1 class="lg:mx-16 sm:mx-8 lg:text-3xl sm:text-1xl text-black mt-6">
+      <h1 class="lg:mx-16 sm:mx-8 lg:text-3xl sm:text-1xl text-black mt-4">
         ThyFlow Invite Only Beta Test
       </h1>
-      <h2 class="lg:mx-16 sm:mx-8 lg:text-2xl sm:text-xl text-white mt-6">
+      <h2 class="lg:mx-16 sm:mx-8 lg:text-2xl sm:text-xl text-white mt-4">
         What is ThyFlow?
       </h2>
       <p class="lg:mx-16 sm:mx-6  lg:text-base md:text-md">
@@ -16,7 +16,7 @@
         an appointment, sit back and relax, and let ThyFlow barbers will bring
         their service to you! Because you are a VIP.
       </p>
-      <h2 class="lg:mx-16 sm:mx-8 lg:text-2xl sm:text-xl text-white mt-6">
+      <h2 class="lg:mx-16 sm:mx-8 lg:text-2xl sm:text-xl text-white mt-4">
         Why ThyFlow?
       </h2>
       <p class="lg:mx-16 sm:mx-4 lg:text-base md:text-md">
@@ -29,7 +29,7 @@
         for your haircut. P.s. You do not have to deal with any cash transaction
         either, Pay and rate service in app.
       </p>
-      <h2 class="lg:mx-16 sm:mx-8 lg:text-2xl sm:text-xl text-white mt-6">
+      <h2 class="lg:mx-16 sm:mx-8 lg:text-2xl sm:text-xl text-white mt-4">
         How to Join & Book a Mobile Barber?
       </h2>
       <p class="lg:mx-16 sm:mx-4 lg:text-base md:text-md">
