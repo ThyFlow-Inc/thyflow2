@@ -2,21 +2,7 @@
   <div>
     <NewNav />
     <BetaHeader1 />
-    <section class="app-video" id="Video">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <!-- why bottle video -->
-            <div class="theme-video-wrap">
-              <a href="https://youtu.be/HRpI1cH5bbI" class="mediabox video-btn"
-                ><i class="fa fa-play"></i
-              ></a>
-            </div>
-            <!-- end of why bottle video -->
-          </div>
-        </div>
-      </div>
-    </section>
+    <BetaForm />
     <!-----Join Beta Form--->
     <div class="mt-6">
       <section class="slice slice-lg" id="beta-form">
@@ -87,7 +73,7 @@
 <script>
 import NewNav from "~/components/NewNav.vue";
 import BetaHeader1 from "~/components/BetaHeader1.vue";
-
+import BetaForm from "~/components/BetaForm.vue";
 import Video from "~/components/Video.vue";
 import Footer from "~/components/Footer.vue";
 
@@ -122,8 +108,7 @@ export default {
   components: {
     NewNav,
     BetaHeader1,
-    Video,
-    Footer
+    BetaForm
   },
   mounted() {
     MediaBox(".mediabox");

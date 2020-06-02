@@ -5,19 +5,19 @@
     <div
       class="sm:w-1/2 sm:pt-16 lg:pt-24 pb-10 sm:pb-16 lg:pb-32 relative z-30  bg-opacity-75"
     >
-      <h2 class="uppercase text-blue-900 font-bold tracking-wider text-2xl">
+      <h2 class="text-blue-900 font-bold tracking-wider text-2xl">
         At ThyFlow, we believe
       </h2>
-      <h2 class="uppercase text-blue-900 font-bold tracking-wider text-2xl">
+      <h2 class=" text-blue-900 font-bold tracking-wider text-2xl">
         your appearance is
       </h2>
-      <h2 class="uppercase text-blue-900 font-bold tracking-wider text-2xl">
+      <h2 class=" text-blue-900 font-bold tracking-wider text-2xl">
         part of your journey
       </h2>
-      <h2 class="uppercase text-blue-900 font-bold tracking-wider text-2xl">
+      <h2 class="text-blue-900 font-bold tracking-wider text-2xl">
         to Confidence and Success.
       </h2>
-      <p class="text-gray-600 font-roboto text-lg sm:w-2/3 lg:w-1/2">
+      <p class="text-gray-600 text-xl sm:w-2/3 lg:w-1/2">
         Let our Top Rated, Handpicked, Local, Mobile, Barbers and Hair Stylist
         Bring their service to YOU!
       </p>
@@ -25,7 +25,6 @@
     <div
       class="sm:w-1/2 lg:w-2/3 relative sm:absolute bottom-0 right-0 bg-gray-300"
     >
-    
       <div
         class="left-0 bottom-0 w-full h-16 absolute z-30 flex items-center justify-center mb-12 lg:mb-24 xl:mb-32"
       >
@@ -34,15 +33,15 @@
           >ThyFlow</span
         >
       </div>
-       <video
-       class="absolute left-0 right-0 w-full h-full object-cover z-10"
-      src="https://res.cloudinary.com/thyflow/video/upload/v1588451371/thyvideo_xrhqf2.mp4"
-      ref="videoRef"
-      loop
-      playsinline
-      preload="auto"
-    ></video>
-  
+      <video
+        class="absolute left-0 right-0 w-full h-full object-cover z-10"
+        src="https://res.cloudinary.com/thyflow/video/upload/v1588451371/thyvideo_xrhqf2.mp4"
+        ref="videoRef"
+        loop
+        playsinline
+        preload="auto"
+      ></video>
+
       <div class="bg-gray-500 absolute inset-0 mt-16 -ml-8"></div>
       <svg
         class="relative z-20 pt-8 -ml-16"
@@ -170,7 +169,7 @@ export default {
     };
   },
   components: {},
-    mounted: function() {
+  mounted: function() {
     //this.$refs.videoRef.src = "./assets/thyvideo.mp4";
     this.$refs.videoRef.play();
   }
