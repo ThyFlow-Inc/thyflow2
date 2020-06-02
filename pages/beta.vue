@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header class="header">
+    <header class="header mb-8">
       <!-- Start Header Navbar-->
       <div :class="`main-header ${sticky ? 'sticky fadeInDown' : ''}`">
         <div class="main-menu-wrap">
