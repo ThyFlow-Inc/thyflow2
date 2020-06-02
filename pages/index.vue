@@ -30,13 +30,7 @@
 export default {
   head() {
     return {
-      script: [],
-      link: [
-        {
-          rel: "stylesheet",
-          href: "https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
-        }
-      ]
+      
     };
   },
   components: {

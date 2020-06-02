@@ -86,20 +86,18 @@ export default {
   head() {
     return {
       script: [],
+      title: "ThyFLow Beta",
       link: [
         {
           rel: "stylesheet",
           href: "https://fonts.googleapis.com/css?family=Roboto&display=swap"
         },
-        { rel: "stylesheet", href: "/assets/css/bootstrap.min.css" },
-        { rel: "stylesheet", href: "/assets/css/font-awesome.min.css" },
+        
         {
           rel: "stylesheet",
           href: "/assets/plugins/mediabox/mediabox.min.css"
         },
-        { rel: "stylesheet", href: "/assets/css/style.css" },
-        { rel: "stylesheet", href: "/assets/css/responsive.css" },
-        { rel: "stylesheet", href: "/assets/css/custom.css" }
+        
       ]
     };
   },
