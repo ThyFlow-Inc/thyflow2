@@ -3,38 +3,40 @@
     class="container mx-auto px-6 sm:px-12 sm:py-12 lg:py-2 xl:py-20 relative flex flex-col sm:flex-row"
   >
     <div
-      class="sm:w-2/2 lg:w-full sm:pt-16 lg:pt-24 pb-10 sm:pb-16 lg:pb-30 relative z-30 bg-orange-400 bg-opacity-75 rounded-lg"
+      class="sm:w-2/2 lg:w-full sm:pt-16 lg:pt-24 pb-10 sm:pb-16 lg:pb-30 relative z-30 header rounded-lg"
     >
-      <h2 class="text-blue-900 font-bold tracking-wider text-3xl">
-        At <stong>ThyFlow</stong>, we believe
-      </h2>
-      <h2 class=" text-blue-900 font-bold tracking-wider text-3xl">
-        your appearance is
-      </h2>
-      <h2 class=" text-blue-900 font-bold tracking-wider text-3xl">
-        part of your journey
-      </h2>
-      <h2 class="text-blue-900 font-bold tracking-wider text-3xl">
-        to Confidence and Success.
-      </h2>
-      <p class="text-black  text-xl sm:w-2/3 lg:w-1/2">
-        Let our Top Rated, Handpicked, Local, Mobile, Barbers and Hair Stylist
-        Bring their service to YOU!
-      </p>
-      <div class="md:w-1/3">
-        <input
-          class="bg-gray-200 appearance-none border-2 border-gray-200 rounded-full w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
-          id="inline-full-name"
-          type="text"
-          value="Enter Your  Email"
-        />
-      </div>
-      <div class="lg:w-1/6 text-center lg:pt-4">
-        <a
-          href="#"
-          class="block bg-indigo-500 hover:bg-indigo-400 py-2 px-4 rounded-full text-sm font-mitr text-white uppercase mt-"
-          >Get Invite</a
-        >
+      <div class="lg:pl-6">
+        <h2 class="text-black font-bold tracking-wider text-3xl">
+          At <stong>ThyFlow</stong>, we believe
+        </h2>
+        <h2 class=" text-black font-bold tracking-wider text-3xl">
+          your appearance is
+        </h2>
+        <h2 class=" text-black font-bold tracking-wider text-3xl">
+          part of your journey
+        </h2>
+        <h2 class="text-black font-bold tracking-wider text-3xl">
+          to Confidence and Success.
+        </h2>
+        <p class="text-black text-xl sm:w-2/3 lg:w-1/2">
+          Let our Top Rated, Handpicked, Local, Mobile, <br />
+          Barbers and Hair Stylist Bring their service to YOU!
+        </p>
+        <div class="md:w-1/3">
+          <input
+            class="bg-blue-200 appearance-none border-2 border-gray-200 rounded-full w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+            id="inline-full-name"
+            type="text"
+            value="Enter Your  Email"
+          />
+        </div>
+        <div class="lg:w-1/6 text-center lg:pt-4">
+          <a
+            href="#"
+            class="block bg-blue-500 hover:bg-indigo-400 py-2 px-4 rounded-full text-sm font-mitr text-white uppercase mt-"
+            >Get Invite</a
+          >
+        </div>
       </div>
     </div>
     <div
@@ -98,4 +100,12 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="css" scoped>
+.header {
+  background: linear-gradient(
+    to right,
+    rgba(236, 159, 88, 0.801),
+    rgba(228, 125, 28, 0.308)
+  );
+}
+</style>
