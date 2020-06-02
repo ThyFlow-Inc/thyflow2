@@ -3,7 +3,7 @@
     class="container mx-auto px-6 sm:px-12 sm:py-12 lg:py-2 xl:py-20 relative flex flex-col sm:flex-row"
   >
     <div
-      class="sm:w-2/2 lg:w-full sm:pt-16 lg:pt-24 pb-10 sm:pb-16 lg:pb-30 relative z-30 header rounded-lg"
+      class="sm:w-2/2 lg:w-full sm:py-16 lg:pt-24 pb-10 sm:pb-16 lg:pb-30 relative z-30 header rounded-lg"
     >
       <div class="pl-6">
         <h2 class="text-black font-bold leading-tight text-4xl">
@@ -30,7 +30,7 @@
           enctype="multipart/form-data"
           id="form"
         >
-          <div class="md:w-1/3">
+          <div class="md:w-1/3 sm:w-1/3">
             <input
               class="bg-blue-200 appearance-none border-2 border-gray-200 rounded-full w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
               id="inline-full-name"
@@ -41,7 +41,7 @@
           </div>
           <div class="lg:w-1/6 text-center lg:pt-4">
             <button
-              class="block bg-blue-500 hover:bg-indigo-400 py-2 px-4 rounded-full text-sm font-mitr text-white uppercase mt-"
+              class="block bg-blue-500 hover:bg-indigo-400 py-2 px-4 font-mono rounded-full text-sm font-mitr text-white uppercase mt-"
             >
               Get Invite
             </button>
@@ -61,9 +61,9 @@
         preload="auto"
       ></video>
 
-      <div class="bg-gray-500 absolute inset-0 mt-16 -ml-8"></div>
+      <div class="bg-gray-500 absolute inset-0 mt-12"></div>
       <svg
-        class="relative z-20 pt-8 -ml-16"
+        class="relative z-20 pt-12 rounded-lg -ml-16"
         xmlns="http://www.w3.org/2000/svg"
         data-name="Capa 1"
         viewBox="0 0 428.29 298.11"
@@ -93,11 +93,6 @@ export default {
         {
           rel: "stylesheet",
           href: "https://fonts.googleapis.com/css?family=Poppins&display=swap"
-        },
-
-        {
-          rel: "stylesheet",
-          href: "/assets/plugins/mediabox/mediabox.min.css"
         }
       ]
     };

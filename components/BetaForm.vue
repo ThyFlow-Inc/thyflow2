@@ -117,7 +117,27 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: "BetaForm",
+  head() {
+    return {
+      script: [],
+      title: "ThyFLow Beta",
+      link: [
+        {
+          rel: "stylesheet",
+          href: "https://fonts.googleapis.com/css?family=Poppins&display=swap"
+        }
+      ]
+    };
+  }
+};
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="css" scoped>
+h1,
+h2,
+p {
+  font-display: "Poppins";
+}
+</style>
