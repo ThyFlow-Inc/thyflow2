@@ -1,9 +1,9 @@
 <template>
   <div
-    class="container mx-auto px-6 sm:px-12 lg:py-6 xl:py-20 relative flex flex-col sm:flex-row"
+    class="container mx-auto px-6 sm:px-12 sm:py-12 lg:py-6 xl:py-20 relative flex flex-col sm:flex-row"
   >
     <div
-      class="sm:w-1/2 sm:pt-8 lg:pt-16 pb-10 sm:pb-16 lg:pb-32 relative z-30"
+      class="sm:w-1/2 sm:pt-16 lg:pt-24 pb-10 sm:pb-16 lg:pb-32 relative z-30  bg-opacity-75"
     >
       <h2 class="uppercase text-blue-900 font-bold tracking-wider text-2xl">
         At ThyFlow, we believe
@@ -25,17 +25,13 @@
     <div
       class="sm:w-1/2 lg:w-2/3 relative sm:absolute bottom-0 right-0 bg-gray-300"
     >
-      <h3
-        class="monteserrat font-black text-white absolute top-0 left-0 mt-32 sm:mt-32 lg:mt-56 ml-0 lg:ml-12 z-30 text-xl sm:text-3xl lg:text-4xl xl:text-5xl transform rotate-90"
-      >
-        up to 50%
-      </h3>
+    
       <div
         class="left-0 bottom-0 w-full h-16 absolute z-30 flex items-center justify-center mb-12 lg:mb-24 xl:mb-32"
       >
         <span
           class="bg-black text-white uppercase font-black xl:text-2xl py-2 px-6 rounded-full"
-          >Get the code here</span
+          >ThyFlow</span
         >
       </div>
        <video
