@@ -6,10 +6,10 @@
       class="sm:w-2/2 lg:w-full sm:pt-16 lg:pt-24 pb-10 sm:pb-16 lg:pb-30 relative z-30 header rounded-lg"
     >
       <div class="pl-6">
-        <h2 class="text-black font-bold tracking-wider text-3xl">
+        <h2 class="text-black font-bold leading-tight text-4xl">
           At <strong>ThyFlow</strong>, we believe
         </h2>
-        <h2 class=" text-black font-bold leading text-3xl">
+        <h2 class=" text-black font-bold leading-tight text-3xl">
           your appearance is
         </h2>
         <h2 class=" text-black font-bold tracking-wider text-3xl">
@@ -92,7 +92,7 @@ export default {
       link: [
         {
           rel: "stylesheet",
-          href: "https://fonts.googleapis.com/css?family=Roboto&display=swap"
+          href: "https://fonts.googleapis.com/css?family=Poppins&display=swap"
         },
 
         {
@@ -111,6 +111,10 @@ export default {
 </script>
 
 <style lang="css" scoped>
+h2,
+p {
+  font-family: "Poppins", Courier, monospace;
+}
 .header {
   background: linear-gradient(
     to right,
