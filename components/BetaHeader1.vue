@@ -16,7 +16,7 @@
           to Confidence and Success.
         </h2>
         <p class="text-black text-2xl sm:w-2/3 lg:w-1/2">
-          Let our Top Rated, Handpicked, Local, Mobile, <br />
+          Let our Handpicked, Local, Mobile, <br />
           Barbers and Hair Stylist Bring their service to YOU!
         </p>
         <form
