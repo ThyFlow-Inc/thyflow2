@@ -1,7 +1,7 @@
 <template>
   <div>
     <NewNav />
-    <BetaHeader />
+    <BetaHeader1 />
     <section class="app-video" id="Video">
       <div class="container">
         <div class="row">
@@ -86,7 +86,7 @@
 
 <script>
 import NewNav from "~/components/NewNav.vue";
-import BetaHeader from "~/components/BetaHeader.vue";
+import BetaHeader1 from "~/components/BetaHeader1.vue";
 
 import Video from "~/components/Video.vue";
 import Footer from "~/components/Footer.vue";
@@ -121,7 +121,7 @@ export default {
   },
   components: {
     NewNav,
-    BetaHeader,
+    BetaHeader1,
     Video,
     Footer
   },
