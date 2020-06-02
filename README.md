@@ -1,6 +1,6 @@
-# ThyFlow Phase II Website
+# ThyFlow Phase III Website
 
-> Thyflow Phase II Website [ThyFlow](https://thyflow.com) | [ThyFlow Dev] (https://thyflowdev.netlify.com)
+> Thyflow Phase III Website [ThyFlow](https://thyflow.com) | [ThyFlow Dev] (https://thyflowdev.netlify.com)
 
 ## Build Setup
 

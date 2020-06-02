@@ -1,62 +1,129 @@
 <template>
-  <div class="banner-area-inner">
-    <div class="banner-inner-area1">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-8 col-lg-6 col-xl-5">
-            <!-- banner text -->
-            <div class="banner-text-inner">
-              <div class="banner-shape-wrap">
-                <div class="banner-shape-inner">
-
-                </div>
-              </div>
-
-              <h1>Book verified mobile service providers within your neighborhood</h1>
-              <p class="text-black lg:text-xl mb-2">
-                we believe your appearance is part of your journey to Confidence and Success.
-                Sit back and Relax. Let our Top Rated, Handpicked, Local, Mobile, Barbers and
-                Hair Stylist Bring their service to you!
-              </p>
-
-              <a href="#beta-form" class="btn bg-orange-500 text-white"
-              >Join ThyFlow Beta</a
-              >
-              <a href="#Video" class="btn">Discover More</a>
-            </div>
-            <!-- banner text -->
-          </div>
-          <div class="col-lg-5 offset-lg-1 col-md-6 offse-xl-2">
-            <!-- banner Video-->
-              <video
-                src="https://res.cloudinary.com/thyflow/video/upload/v1588451371/thyvideo_xrhqf2.mp4"
-                ref="videoRef"
-                loop
-                playsinline
-                preload="auto"
-              ></video>
-            <!--End of banner image-->
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <header class="header flex text-center">
+    <video
+      src="https://res.cloudinary.com/thyflow/video/upload/v1588451371/thyvideo_xrhqf2.mp4"
+      ref="videoRef"
+      loop
+      playsinline
+      preload="auto"
+    ></video>
+    <h1
+      class="zoom logo-box w-full my-2 text-6xl font-bold leading-tight text-center tracking-widest lg:mt-32 sm:mt-28"
+    >
+      <span>ThyFLow</span>
+    </h1>
+    <vue-typer
+      class="t-color w-full lg:mt-64 sm:mt-56 text-3xl font-bold leading-tight text-center  text-orange logo-box"
+      :text="Yusadolat"
+    >
+      <a
+        href="#"
+        class=" bg-indigo-700 hover:bg-indigo-800 text-white rounded-full shadow py-2 pl-6 pr-2 text-xl"
+      >
+        <span class="mr-4 font-semibold text-center">
+          Book a Barber
+        </span>
+      </a>
+    </vue-typer>
+  </header>
 </template>
+
 <script>
-  export default {
-    mounted: function() {
-      //this.$refs.videoRef.src = "./assets/thyvideo.mp4";
-      this.$refs.videoRef.play();
-    }
-  };
+export default {
+  data() {
+    return {
+      Yusadolat: [
+        "Mobile Barbers",
+        "Local Barbers",
+        "Handpicked Barbers",
+        "Haircut at home",
+        "Your Private Barber",
+        "Barbershop Experience at home"
+      ]
+    };
+  },
+
+  mounted: function() {
+    //this.$refs.videoRef.src = "./assets/thyvideo.mp4";
+    this.$refs.videoRef.play();
+  }
+};
 </script>
+
 <style lang="css" scoped>
-  .banner-inner-area1 {
-    padding: 160px 0 70px;
-    position: relative;
-    overflow: hidden;
-  }
-  .nodisplay {
-    display: none;
-  }
+body {
+  font-weight: 400;
+  font-size: 16px;
+  color: #777;
+}
+.t-color {
+  color: orange !important;
+}
+.vue-typer {
+  /* Styles for the vue-typer container
+     e.g. font-family, font-size  */
+  color: orange;
+}
+.custom.char {
+  /* Styles for each character
+       e.g. color, background-color */
+  color: orange;
+}
+
+.header {
+  background-image: linear-gradient(
+    to right,
+    rgba(88, 201, 236, 0.801),
+    rgba(28, 58, 228, 0.603)
+  );
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+.logo-box {
+  position: absolute;
+  z-index: 1;
+  top: 40px;
+  left: 40px;
+  color: orange;
+}
+.logo {
+  height: 35px;
+}
+.text-box {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.sub-header {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: orange !important;
+}
+.header-button {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.heading-primary {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.vue-typer,
+.typed {
+  background-color: transparent;
+}
+.selected[data-v-302772ec] {
+  color: #000;
+  background-color: #accef7;
+}
 </style>
