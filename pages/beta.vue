@@ -2,7 +2,7 @@
   <div>
     <header class="header mb-8">
       <!-- Start Header Navbar-->
-      <div :class="`main-header ${sticky ? 'sticky fadeInDown' : ''}`">
+      <div class="mainheader">
         <div class="main-menu-wrap">
           <div class="container">
             <div class="row align-items-center">

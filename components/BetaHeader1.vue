@@ -5,11 +5,11 @@
     <div
       class="sm:w-2/2 lg:w-full sm:pt-16 lg:pt-24 pb-10 sm:pb-16 lg:pb-30 relative z-30 header rounded-lg"
     >
-      <div class="lg:pl-6">
+      <div class="pl-6">
         <h2 class="text-black font-bold tracking-wider text-3xl">
-          At <stong>ThyFlow</stong>, we believe
+          At <strong>ThyFlow</strong>, we believe
         </h2>
-        <h2 class=" text-black font-bold tracking-wider text-3xl">
+        <h2 class=" text-black font-bold leading text-3xl">
           your appearance is
         </h2>
         <h2 class=" text-black font-bold tracking-wider text-3xl">
@@ -22,21 +22,31 @@
           Let our Top Rated, Handpicked, Local, Mobile, <br />
           Barbers and Hair Stylist Bring their service to YOU!
         </p>
-        <div class="md:w-1/3">
-          <input
-            class="bg-blue-200 appearance-none border-2 border-gray-200 rounded-full w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
-            id="inline-full-name"
-            type="text"
-            value="Enter Your  Email"
-          />
-        </div>
-        <div class="lg:w-1/6 text-center lg:pt-4">
-          <a
-            href="#"
-            class="block bg-blue-500 hover:bg-indigo-400 py-2 px-4 rounded-full text-sm font-mitr text-white uppercase mt-"
-            >Get Invite</a
-          >
-        </div>
+        <form
+          action="https://forms.zohopublic.com/thyflow/form/SoftwareEvaluation/formperma/MU3LPuPQcFL-l4IZfInMb1Bia7Vc1I79YkZpx59NXEY/htmlRecords/submit"
+          name="form"
+          method="POST"
+          accept-charset="UTF-8"
+          enctype="multipart/form-data"
+          id="form"
+        >
+          <div class="md:w-1/3">
+            <input
+              class="bg-blue-200 appearance-none border-2 border-gray-200 rounded-full w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+              id="inline-full-name"
+              name="Email"
+              type="text"
+              placeholder="Your Email Address"
+            />
+          </div>
+          <div class="lg:w-1/6 text-center lg:pt-4">
+            <button
+              class="block bg-blue-500 hover:bg-indigo-400 py-2 px-4 rounded-full text-sm font-mitr text-white uppercase mt-"
+            >
+              Get Invite
+            </button>
+          </div>
+        </form>
       </div>
     </div>
     <div
