@@ -63,13 +63,13 @@
                 class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2"
                 for="grid-email"
               >
-                Email
+                Your Name
               </label>
               <input
                 class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 mb-3"
-                name="Email"
+                name="SingleLine"
                 type="text"
-                placeholder="Type your email"
+                placeholder="Type your Name"
               />
             </div>
           </div>
@@ -79,13 +79,13 @@
                 class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2"
                 for="grid-phone"
               >
-                Phone Number
+                Email Address
               </label>
               <input
                 class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 mb-3"
-                name="PhoneNumber_countrycode"
+                name="Email"
                 type="text"
-                placeholder="Type your Phone"
+                placeholder="Type your Email"
               />
             </div>
           </div>
