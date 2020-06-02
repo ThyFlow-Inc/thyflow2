@@ -59,7 +59,7 @@
         preload="auto"
       ></video>
 
-      <div class="bg-gray-500 absolute inset-0 mt-16 -ml-12"></div>
+      <div class="bg-gray-400 absolute inset-0 mt-16 -ml-12"></div>
       <svg
         class="relative z-20 pt-8 -ml-16"
         xmlns="http://www.w3.org/2000/svg"
@@ -72,24 +72,24 @@
           fill="#b7791f"
           d="M336.29 92.93h92v5h-92zM336.29 77.93h92v5h-92zM336.29 62.93h92v5h-92zM336.29 122.93h92v5h-92zM336.29 107.93h92v5h-92z"
         />
-        <circle cx="1.75" cy="296.36" r="1.75" fill="#24263a" />
-        <circle cx="1.75" cy="286.99" r="1.75" fill="#24263a" />
-        <circle cx="1.75" cy="277.62" r="1.75" fill="#24263a" />
-        <circle cx="1.75" cy="268.26" r="1.75" fill="#24263a" />
-        <circle cx="1.75" cy="258.89" r="1.75" fill="#24263a" />
-        <circle cx="1.75" cy="249.53" r="1.75" fill="#24263a" />
-        <circle cx="1.75" cy="240.16" r="1.75" fill="#24263a" />
-        <circle cx="1.75" cy="230.8" r="1.75" fill="#24263a" />
-        <circle cx="1.75" cy="221.43" r="1.75" fill="#24263a" />
-        <circle cx="1.75" cy="212.06" r="1.75" fill="#24263a" />
-        <circle cx="1.75" cy="202.7" r="1.75" fill="#24263a" />
-        <circle cx="1.75" cy="193.33" r="1.75" fill="#24263a" />
-        <circle cx="1.75" cy="183.97" r="1.75" fill="#24263a" />
-        <circle cx="1.75" cy="174.6" r="1.75" fill="#24263a" />
-        <circle cx="1.75" cy="165.23" r="1.75" fill="#24263a" />
-        <circle cx="1.75" cy="155.87" r="1.75" fill="#24263a" />
-        <circle cx="1.75" cy="146.5" r="1.75" fill="#24263a" />
-        <circle cx="1.75" cy="137.14" r="1.75" fill="#24263a" />
+        <circle cx="1.75" cy="296.36" r="1.75" fill="#e2c9a5" />
+        <circle cx="1.75" cy="286.99" r="1.75" fill="#e2c9a5" />
+        <circle cx="1.75" cy="277.62" r="1.75" fill="#e2c9a5" />
+        <circle cx="1.75" cy="268.26" r="1.75" fill="#e2c9a5" />
+        <circle cx="1.75" cy="258.89" r="1.75" fill="#e2c9a5" />
+        <circle cx="1.75" cy="249.53" r="1.75" fill="#e2c9a5" />
+        <circle cx="1.75" cy="240.16" r="1.75" fill="#e2c9a5" />
+        <circle cx="1.75" cy="230.8" r="1.75" fill="#e2c9a5" />
+        <circle cx="1.75" cy="221.43" r="1.75" fill="#e2c9a5" />
+        <circle cx="1.75" cy="212.06" r="1.75" fill="#e2c9a5" />
+        <circle cx="1.75" cy="202.7" r="1.75" fill="#e2c9a5" />
+        <circle cx="1.75" cy="193.33" r="1.75" fill="#e2c9a5" />
+        <circle cx="1.75" cy="183.97" r="1.75" fill="#e2c9a5" />
+        <circle cx="1.75" cy="174.6" r="1.75" fill="#e2c9a5" />
+        <circle cx="1.75" cy="165.23" r="1.75" fill="#e2c9a5" />
+        <circle cx="1.75" cy="155.87" r="1.75" fill="#e2c9a5" />
+        <circle cx="1.75" cy="146.5" r="1.75" fill="#e2c9a5" />
+        <circle cx="1.75" cy="137.14" r="1.75" fill="#e2c9a5" />
 
         <path
           fill="#24263a"
