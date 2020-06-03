@@ -6,16 +6,20 @@
       class="sm:w-2/2 lg:w-full sm:py-4 md:py-4 lg:pt-12 pb-10 sm:pb-16 lg:pb-30 relative z-30 header rounded-lg"
     >
       <div class="pl-6">
-        <h2 class="text-black font-bold leading-text text-5xl pb-2 md:pb-0">
+        <h2
+          class="text-orange-500 font-bold leading-text text-5xl pb-2 md:pb-0"
+        >
           Your appearance is
         </h2>
-        <h2 class=" text-black font-bold leading-text text-5xl pb-2 md:pb-0">
+        <h2
+          class=" text-orange-500 font-bold leading-text text-5xl pb-2 md:pb-0"
+        >
           part of your journey
         </h2>
-        <h2 class="text-black leading-text text-5xl pb-2">
+        <h2 class="text-orange-500 leading-text text-5xl pb-2">
           to Confidence and Success.
         </h2>
-        <p class="text-black text-2xl sm:w-2/3 lg:w-1/2">
+        <p class="text-orange-500 text-2xl sm:w-2/3 lg:w-1/2">
           Let our Handpicked, Local, Mobile, <br />
           Barbers and Hair Stylist Bring their service to YOU!
         </p>
@@ -29,7 +33,7 @@
         >
           <div class="md:w-1/3 sm:w-1/3">
             <input
-              class="bg-blue-200 appearance-none border-2 border-gray-200 rounded-full w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+              class="bg-blue-200 appearance-none border-2 border-orange-200 rounded-full w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
               id="inline-full-name"
               name="Email"
               type="text"
@@ -38,7 +42,7 @@
           </div>
           <div class="lg:w-1/6 text-center lg:pt-4">
             <button
-              class="block bg-blue-500 hover:bg-indigo-400 py-2 px-4 font-mono rounded-full text-sm font-mitr text-white uppercase mt-"
+              class="block bg-orange-500 hover:bg-indigo-400 py-2 px-4 font-mono rounded-full text-sm  text-white uppercase mt-"
             >
               Get Invite
             </button>

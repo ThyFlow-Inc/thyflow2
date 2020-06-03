@@ -75,7 +75,7 @@
       >
         <div class="px-10 lg:px-20">
           <h2 class="mb-6 text-orange-500 font-normal text-3xl lg:text-5xl">
-            Beta Testing have started in San Francisco Bay Area.
+            Beta Test have started in San Francisco Bay Area
           </h2>
         </div>
       </div>
