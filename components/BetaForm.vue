@@ -4,13 +4,13 @@
     <div
       class="w-full lg:w-3/6 sm:w-3/6 px-8 text-center lg:text-left self-center mt-4"
     >
-      <h1 class="lg:mx-16 sm:mx-8 lg:text-3xl sm:text-1xl text-black mt-4">
+      <h1 class="lg:mx-16 sm:mx-8 lg:text-4xl sm:text-1xl text-black mt-4">
         ThyFlow Invite Only Beta Test
       </h1>
-      <h2 class="lg:mx-16 sm:mx-8 lg:text-2xl sm:text-xl text-white mt-4">
+      <h2 class="lg:mx-16 sm:mx-8 lg:text-3xl sm:text-2xl text-white mt-4">
         What is ThyFlow?
       </h2>
-      <p class="lg:mx-16 sm:mx-6  lg:text-base md:text-md">
+      <p class="lg:mx-16 sm:mx-6  lg:text-xl md:text-md">
         ThyFlow, is a mobile app and website that let users view profiles and
         book an appointment with a verify, local, mobile barber. After booking
         an appointment, sit back and relax, and let ThyFlow barbers will bring
@@ -19,7 +19,7 @@
       <h2 class="lg:mx-16 sm:mx-8 lg:text-2xl sm:text-xl text-white mt-4">
         Why ThyFlow?
       </h2>
-      <p class="lg:mx-16 sm:mx-4 lg:text-base md:text-md">
+      <p class="lg:mx-16 sm:mx-4 lg:text-xl md:text-md">
         Well, ThyFlow handpicked mobile barbers, have years of experience
         working in a barbershop. Our barbers are open-minded individuals that
         now enjoy providing convenient alternatives to local customers just like
@@ -32,7 +32,7 @@
       <h2 class="lg:mx-16 sm:mx-8 lg:text-2xl sm:text-xl text-white mt-4">
         How to Join & Book a Mobile Barber?
       </h2>
-      <p class="lg:mx-16 sm:mx-4 lg:text-base md:text-md">
+      <p class="lg:mx-16 sm:mx-4 lg:text-xl md:text-md">
         The invitation will include the link to download the app! ThyFlow is
         currently Beta testing the platform and service in San Francisco Bay
         Area. Fill this form to receive an invitation. We are looking forward to
@@ -138,6 +138,6 @@ export default {
 h1,
 h2,
 p {
-  font-display: "Poppins";
+  font-family: "Poppins", Courier, monospace;
 }
 </style>

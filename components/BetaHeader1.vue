@@ -6,9 +6,7 @@
       class="sm:w-2/2 lg:w-full sm:py-4 md:py-4 lg:pt-12 pb-10 sm:pb-16 lg:pb-30 relative z-30 header rounded-lg"
     >
       <div class="pl-6">
-        <h2
-          class=" text-black leading-text text-5xl sm:text-3xl pb-2 sm:pb-0 md:pb-0"
-        >
+        <h2 class="text-black font-bold leading-text text-5xl pb-2 md:pb-0">
           Your appearance is
         </h2>
         <h2 class=" text-black font-bold leading-text text-5xl pb-2 md:pb-0">
