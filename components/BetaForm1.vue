@@ -14,33 +14,27 @@
       </h2>
       <p class="lg:mx-16 sm:mx-6  lg:text-xl md:text-md">
         ThyFlow, is a mobile app and website that let users view profiles and
-        book an appointment with a verify, local, mobile barber. After booking
-        an appointment, sit back and relax, and let ThyFlow barbers will bring
-        their service to you! Because you are a VIP.
+        book an appointment with a local, mobile, barber.
       </p>
       <h2 class="lg:mx-16 sm:mx-8 lg:text-2xl sm:text-xl font-bold mt-4">
         Why ThyFlow?
       </h2>
       <p class="lg:mx-16 sm:mx-4 lg:text-xl md:text-md">
-        Well, ThyFlow handpicked mobile barbers, have years of experience
-        working in a barbershop. Our barbers are open-minded individuals that
-        now enjoy providing convenient alternatives to local customers just like
-        you! That simply does not have the time to go to the barbershop or just
-        want to do things differently. Last but not least, After booking,
-        ThyFlow barbers will show up at your location with professional tools
-        for your haircut. P.s. You do not have to deal with any cash transaction
-        either, Pay and rate service in app.
+        ThyFlow handpicked, licensed, mobile barbers, have years of experience
+        cutting hair in a barbershop setting. They are professionals,
+        open-minded individuals, They are offering a convenient way for locals
+        just like you, to get a haircut at home. After booking, ThyFlow barbers
+        will show up at your location with professional tools for your haircut.
+        No cash, no problem, Pay for your service in app
       </p>
       <h2 class="lg:mx-16 sm:mx-8 lg:text-2xl sm:text-xl font-bold mt-4">
         How to Join & Book a Mobile Barber?
       </h2>
       <p class="lg:mx-16 sm:mx-4 lg:text-xl md:text-md">
-        The invitation will include the link to download the app! ThyFlow is
-        currently Beta testing the platform and service in San Francisco Bay
-        Area. Fill this form to receive an invitation. We are looking forward to
-        helping you look your best! However, please do not send repeated emails
-        to our customer service email asking to send you the link first, Thanks
-        for understanding.
+        Fill the form to receive an invitation to our Invite only beta. After
+        filling the form, an email with a link and steps to book your first
+        mobile barber will be sent to you. We are looking forward to helping you
+        look your best.
       </p>
     </div>
 
@@ -69,7 +63,7 @@
                 Your Name
               </label>
               <input
-                class="appearance-none block w-full bg-grey-lighter text-black border border-grey-lighter rounded py-3 px-3"
+                class="appearance-none block w-full bg-grey-lighter text-black border border-grey-lighter rounded py-3 "
                 name="SingleLine"
                 type="text"
                 placeholder="Type your Name"
@@ -116,6 +110,9 @@
         </div>
       </form>
     </div>
+    <div>
+      <p>Support@thyflow.com</p>
+    </div>
   </div>
 </template>
 
@@ -146,9 +143,10 @@ p {
 .header {
   background-image: linear-gradient(
       to right,
-      rgba(88, 201, 236, 0.801),
+      rgba(88, 201, 236, 0.521),
       rgba(28, 58, 228, 0.603)
     ),
-    url("~assets/barber_88.png");
+    url("~assets/back_use.png");
+  background-size: contain;
 }
 </style>
