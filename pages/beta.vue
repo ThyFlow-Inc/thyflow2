@@ -8,14 +8,8 @@
             <div class="row align-items-center">
               <div class="col-xl-3 col-lg-3 col-md-4 col-6">
                 <!-- Logo -->
-                <div class="logo">
-                  <nuxt-link to="/">
-                    <img
-                      src="~/assets/big_logo.png"
-                      alt="thyflow"
-                      class="h-10"
-                    />
-                  </nuxt-link>
+                <div class="logo p-2">
+                  <img src="~/assets/big_logo.png" alt="thyflow" class="h-10" />
                 </div>
                 <!-- End of Logo -->
               </div>
