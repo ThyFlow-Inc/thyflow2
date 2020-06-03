@@ -1,69 +1,152 @@
 <template>
-  <div class="bg-blue-700">
-    <Navbar/>
-    <Header/>
-    <OurStoryHome />
-    <HowItWorks/>
-    <!------------First Book a barber--------------->
-    <Features2/>
-    <!-----------------Second Book a barber---------->
-    <CustomerSlider/>
+  <div>
+    <header class="header mb-8">
+      <!-- Start Header Navbar-->
+      <div class="mainheader">
+        <div class="main-menu-wrap">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-xl-3 col-lg-3 col-md-4 col-6">
+                <!-- Logo -->
+                <div class="logo p-2">
+                  <img src="~/assets/big_logo.png" alt="thyflow" class="h-10" />
+                </div>
+                <!-- End of Logo -->
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-4 col-6 menu-button">
+                <div class="menu--inner-area clearfix">
+                  <div class="menu-wrapper">
+                    <nav>
+                      <!-- Header-menu -->
+                      <div class="header-menu dosis">
+                        <div id="menu-button" class="">
+                          <i class="fa fa-bars"></i>
+                        </div>
+                        <!----
+                      <ul class="main-nav">
+                        <li class="active">
+                          <nuxt-link to="/">Home</nuxt-link>
 
-    <faqComponent/>
-    <ApplyBarber/>
-    <Footer/>
+                        </li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#app">App Screens</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li>
+                          <a href="#">Blog</a>
+                          <ul>
+                            <li>
+                              <nuxt-link to="/blog">Blog Posts</nuxt-link>
+                            </li>
+                            <li>
+                              <nuxt-link to="/blog-details"
+                                >single Post</nuxt-link
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>---->
+                      </div>
+                      <!-- End of Header-menu -->
+                    </nav>
+                  </div>
+                </div>
+              </div>
+              <!--- <div class="col-lg-3 col-md-4 col-sm-5 d-md-block d-none">
+              <div class="urgent-call text-right">
+                <nuxt-link class="btn font-bold text-lg" to="/about">About Us</nuxt-link>
+              </div>
+            </div>-->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Header Navbar-->
+    </header>
+    <BetaHeader1 />
+    <div class="container mb-20">
+      <div
+        class="pt-10 pb-12 text-center bg-gallery rounded-lg lg:pt-20 lg:pb-14"
+      >
+        <div class="px-10 lg:px-20">
+          <h2 class="mb-6 text-orange-500 font-normal text-3xl lg:text-5xl">
+            Beta Test have started in San Francisco Bay Area
+          </h2>
+        </div>
+      </div>
+    </div>
+    <BetaForm1 />
+    <!-----Join Beta Form--->
   </div>
 </template>
 
 <script>
-  import Navbar from "~/components/Navbar.vue";
-  import Header from "~/components/Header.vue";
-  import HowItWorks from "~/components/HowItWorks.vue";
-  //import Features from "~/components/Features.vue";
-  import Features2 from "~/components/Features2.vue";
-  import CustomerSlider from "~/components/CustomerSlider.vue";
-  import faqComponent from "~/components/faqComponent.vue";
-  import ApplyBarber from "~/components/ApplyBarber.vue";
-  import OurStoryHome from "~/components/OurStoryHome.vue";
-  import Footer from "~/components/Footer.vue";
+import NewNav from "~/components/NewNav.vue";
+import BetaHeader1 from "~/components/BetaHeader1.vue";
+import BetaForm1 from "~/components/BetaForm1.vue";
+import Video from "~/components/Video.vue";
+import Footer from "~/components/Footer.vue";
 
 export default {
+  name: "beta",
   head() {
     return {
-      
+      script: [],
+      link: [
+        {
+          rel: "stylesheet",
+          href: "https://fonts.googleapis.com/css?family=Roboto&display=swap"
+        },
+        {
+          rel: "stylesheet",
+          href: "/assets/css/bootstrap.min.css"
+        },
+        {
+          rel: "stylesheet",
+          href: "/assets/css/font-awesome.min.css"
+        },
+        {
+          rel: "stylesheet",
+          href: "/assets/plugins/mediabox/mediabox.min.css"
+        },
+        { rel: "stylesheet", href: "/assets/css/style.css" },
+        { rel: "stylesheet", href: "/assets/css/responsive.css" },
+        { rel: "stylesheet", href: "/assets/css/custom.css" }
+      ]
     };
   },
   components: {
-    Navbar,
-    Header,
-    OurStoryHome,
-    HowItWorks,
-    //Features,
-    Features2,
-    CustomerSlider,
-    faqComponent,
-    ApplyBarber,
-    Footer
+    NewNav,
+    BetaHeader1,
+
+    BetaForm1
+  },
+  mounted() {
+    MediaBox(".mediabox");
   }
 };
 </script>
 
 <style lang="css" scoped>
-.gradient-back {
-  background-color: rgba(6, 36, 207, 0.603);
+html {
+  font-display: "Roboto";
 }
-
-.slide-in-enter {
-  opacity: 0;
-  transform: scale(0.5);
+.section-title h2 {
+  color: #36324a;
+  font-weight: 600;
+  margin-bottom: 30px;
 }
-.slide-in-enter-to {
-  transition: all 0.4s ease;
-}
-.give-white {
-  color: white !important;
-}
-.gradient {
-  background: linear-gradient(90deg, #0a3ead 0%, #e38914 100%);
+.content-text-white a,
+.content-text a,
+.slice-text a,
+.text-underline,
+.text-underline-charcoal {
+  background-repeat: repeat-x;
+  font-weight: 600;
+  padding-bottom: 3px;
+  line-height: 1.5;
+  background-image: linear-gradient(#f5a08c, #f5a08c);
+  background-repeat: repeat-x;
+  background-position: 0 95%;
+  background-size: 1px 2px;
 }
 </style>
