@@ -110,8 +110,8 @@
         </div>
       </form>
     </div>
-    <div>
-      <p>Support@thyflow.com</p>
+    <div class="container mx-auto px-6 flex flex-col items-center">
+      <p class="text-xl text-white">Support@thyflow.com</p>
     </div>
   </div>
 </template>
