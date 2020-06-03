@@ -9,8 +9,7 @@
               ThyFlow Beta Test.
             </h2>
             <h3>
-              Thank you for Joining ThyFlow Beta. Someone on our team will reach
-              out to you via Email.
+              Someone from our team will reach out to you via email.
             </h3>
             <a href="https://thyflow.com/" class="btn">Go back Home</a>
           </div>
