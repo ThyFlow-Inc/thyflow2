@@ -42,7 +42,7 @@
     <div
       class=" lg:w-2/6 px-4 text-center lg:center lg:text-left self-center lg:px-20 sm:px-10"
     >
-      <p class="text-black text-2xl font-bold bg-white p-1">
+      <p class="text-white bg-transparent text-2xl font-bold p-1">
         Fill in form below to get an invite to ThyFlow
       </p>
       <form
