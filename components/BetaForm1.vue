@@ -23,9 +23,12 @@
         ThyFlow handpicked, licensed, mobile barbers, have years of experience
         cutting hair in a barbershop setting. They are professionals,
         open-minded individuals, They are offering a convenient way for locals
-        just like you, to get a haircut at home. After booking, ThyFlow barbers
-        will show up at your location with professional tools for your haircut.
-        No cash, no problem, Pay for your service in app
+        just like you, to get a haircut at home.
+      </p>
+      <p class="lg:mx-16 sm:mx-4 lg:text-xl md:text-md">
+        After booking, ThyFlow barbers will show up at your location with
+        professional tools for your haircut. No cash, no problem, Pay for your
+        service in app
       </p>
       <h2 class="lg:mx-16 sm:mx-8 lg:text-2xl sm:text-xl font-bold mt-4">
         How to Join & Book a Mobile Barber?
@@ -43,7 +46,7 @@
       class=" lg:w-2/6 px-4 text-center lg:center lg:text-left self-center lg:px-20 sm:px-10"
     >
       <p class="text-white bg-transparent text-2xl font-bold p-1">
-        Fill in form below to get an invite to ThyFlow
+        Fill out the form below to get an invite to ThyFlow
       </p>
       <form
         action="https://forms.zohopublic.com/thyflow/form/SoftwareEvaluation/formperma/MU3LPuPQcFL-l4IZfInMb1Bia7Vc1I79YkZpx59NXEY/htmlRecords/submit"
