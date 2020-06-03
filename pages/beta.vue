@@ -69,7 +69,7 @@
       <!-- End Header Navbar-->
     </header>
     <BetaHeader1 />
-    <BetaForm />
+    <BetaForm1 />
     <!-----Join Beta Form--->
   </div>
 </template>
@@ -77,7 +77,7 @@
 <script>
 import NewNav from "~/components/NewNav.vue";
 import BetaHeader1 from "~/components/BetaHeader1.vue";
-import BetaForm from "~/components/BetaForm.vue";
+import BetaForm1 from "~/components/BetaForm1.vue";
 import Video from "~/components/Video.vue";
 import Footer from "~/components/Footer.vue";
 
@@ -112,7 +112,8 @@ export default {
   components: {
     NewNav,
     BetaHeader1,
-    BetaForm
+
+    BetaForm1
   },
   mounted() {
     MediaBox(".mediabox");
