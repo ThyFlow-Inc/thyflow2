@@ -12,7 +12,7 @@
               Thank you for Joining ThyFlow Beta. Someone on our team will reach
               out to you via Email.
             </h3>
-            <a href="https://thyflow.com/beta" class="btn">Go back Home</a>
+            <a href="https://thyflow.com/" class="btn">Go back Home</a>
           </div>
         </div>
       </div>
