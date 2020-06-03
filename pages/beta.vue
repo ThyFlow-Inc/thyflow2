@@ -69,6 +69,17 @@
       <!-- End Header Navbar-->
     </header>
     <BetaHeader1 />
+    <div class="container mb-20">
+      <div
+        class="pt-10 pb-12 text-center bg-gallery rounded-lg lg:pt-20 lg:pb-14"
+      >
+        <div class="px-10 lg:px-20">
+          <h2 class="mb-6 text-orange-500 font-normal text-3xl lg:text-5xl">
+            Beta Testing have started in San Francisco Bay Area.
+          </h2>
+        </div>
+      </div>
+    </div>
     <BetaForm1 />
     <!-----Join Beta Form--->
   </div>

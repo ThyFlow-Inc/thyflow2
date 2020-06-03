@@ -190,8 +190,8 @@ p {
 .header {
   background: linear-gradient(
     to right,
-    rgba(236, 159, 88, 0.801),
-    rgba(228, 125, 28, 0.308)
+    rgba(88, 201, 236, 0.521),
+    rgba(28, 58, 228, 0.37)
   );
 }
 </style>
