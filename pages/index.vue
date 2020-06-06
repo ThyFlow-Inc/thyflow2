@@ -85,7 +85,6 @@
 import NewNav from "~/components/NewNav.vue";
 import BetaHeader1 from "~/components/BetaHeader1.vue";
 import BetaForm1 from "~/components/BetaForm1.vue";
-import Video from "~/components/Video.vue";
 import Footer from "~/components/Footer.vue";
 
 export default {
