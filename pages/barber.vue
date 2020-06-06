@@ -1,8 +1,12 @@
 <template>
-  <div></div>
+  <div>
+    <barberHeader />
+  </div>
 </template>
 
 <script>
+import barberHeader from "~/components/barberHeader.vue";
+
 export default {
   name: "barber",
   head() {
@@ -30,6 +34,9 @@ export default {
         { rel: "stylesheet", href: "/assets/css/custom.css" }
       ]
     };
+  },
+  components: {
+    barberHeader
   }
 };
 </script>
