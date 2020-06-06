@@ -1,11 +1,13 @@
 <template>
   <div>
     <barberHeader />
+    <barberForm />
   </div>
 </template>
 
 <script>
 import barberHeader from "~/components/barberHeader.vue";
+import barberForm from "~/components/barberForm.vue";
 
 export default {
   name: "barber",
@@ -36,7 +38,8 @@ export default {
     };
   },
   components: {
-    barberHeader
+    barberHeader,
+    barberForm
   }
 };
 </script>
