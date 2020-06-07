@@ -80,12 +80,12 @@
               >
                 Become a barber and join
                 <br class="xl:hidden" />
-                <span class="text-indigo-600"
+                <span class="text-orange-600"
                   >order amazing platform today.</span
                 >
               </h2>
               <p
-                class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
+                class="mt-3 text-base text-blue-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
               >
                 ThyFlow is an alternative way for people to get a haircut at
                 home. ThyFlow, offers customers a barbershop experience at home
@@ -95,11 +95,12 @@
                 class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"
               >
                 <div class="mt-3 sm:mt-0 sm:ml-3">
-                  <button
-                    class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-700 bg-indigo-100 hover:text-indigo-600 hover:bg-indigo-50 focus:outline-none focus:shadow-outline focus:border-indigo-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+                  <a
+                    href="https://www.youtube.com/watch?v=HRpI1cH5bbI"
+                    class="mediabox w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-bold rounded-md text-white bg-orange-500 hover:text-orange-600 hover:bg-orange-500 focus:outline-none focus:shadow-outline focus:border-indigo-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
                   >
                     Watch Video
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -127,7 +128,10 @@
 
 <script>
 export default {
-  name: "barberHeader"
+  name: "barberHeader",
+  mounted() {
+    MediaBox(".mediabox");
+  }
 };
 </script>
 
