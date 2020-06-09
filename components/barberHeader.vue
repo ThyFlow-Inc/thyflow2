@@ -80,9 +80,7 @@
               >
                 Become a barber and join
                 <br class="xl:hidden" />
-                <span class="text-orange-600"
-                  >order amazing platform today.</span
-                >
+                <span class="text-orange-600">our amazing platform today.</span>
               </h2>
               <p
                 class="mt-3 text-base text-blue-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
