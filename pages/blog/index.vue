@@ -41,7 +41,7 @@
     <section class="bg-grey-lighter pb-6">
       <div>
         <ul v-for="(blogPost, index) in blogPosts" :key="index">
-          <nuxt-link :to="`blog/${blogPost.slug}`">{{
+          <nuxt-link :to="'/blog/' + blogPost.slug">{{
             blogPost.title
           }}</nuxt-link>
           <p>{{ blogPost.description }}</p>
