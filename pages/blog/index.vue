@@ -39,13 +39,24 @@
     <!----------Header Section------->
     <hr class="w-full bg-gray-100 my-12" style="height: 1px" />
     <section class="bg-grey-lighter pb-6">
-      <div>
-        <ul v-for="(blogPost, index) in blogPosts" :key="index">
+      <div class="lg:flex">
+        <div
+          class="flex items-center md:items-start flex-col px-8 w-1/2"
+          v-for="(blogPost, index) in blogPosts"
+          :key="index"
+        >
+          <img
+            class="rounded-lg articles-item__image bg-center loaded"
+            :src="blogPost.thumbnail"
+          />
+          <div
+            class="flex flex-col justify-center mt-3 articles-item__info"
+          ></div>
           <nuxt-link :to="'/blog/' + blogPost.slug">{{
             blogPost.title
           }}</nuxt-link>
           <p>{{ blogPost.description }}</p>
-        </ul>
+        </div>
       </div>
     </section>
   </div>
@@ -71,6 +82,8 @@ export default {
   },
   computed: {
     blogPosts() {
+      console.log(this.$store.state.blogPosts);
+
       return this.$store.state.blogPosts;
     }
   }

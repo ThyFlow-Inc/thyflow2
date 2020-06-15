@@ -17,6 +17,8 @@
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@fortawesome/vue-fontawesome": "^0.1.9",
     "@nuxtjs/markdownit": "^1.2.9",
+    "front-matter-markdown": "^0.4.3",
+    "frontmatter-markdown-loader": "^1.6.1",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
     "core-js": "^2.6.5",
     "encoding": "^0.1.12",

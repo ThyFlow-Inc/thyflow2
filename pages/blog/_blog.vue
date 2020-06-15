@@ -4,7 +4,10 @@
 
     <article>
       <h1>{{ blogPost.title }}</h1>
-      <div>{{ blogPost.body }}</div>
+
+      <div class="container">
+        <article v-html="$md.render(blogPost.body)"></article>
+      </div>
     </article>
   </div>
 </template>
