@@ -63,7 +63,10 @@ export default {
   },
   head() {
     return {
-      title: "ThyFlow Blog"
+      title: "ThyFlow Blog",
+      script: [
+        { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" }
+      ]
     };
   },
   computed: {

@@ -91,7 +91,9 @@ export default {
   name: "beta",
   head() {
     return {
-      script: [],
+      script: [
+        { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" }
+      ],
       link: [
         {
           rel: "stylesheet",
