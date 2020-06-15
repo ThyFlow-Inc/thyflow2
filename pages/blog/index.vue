@@ -62,7 +62,6 @@
         </div>
       </div>
     </section>
-    <ApplyBarber class="gradient" />
     <Footer />
   </div>
 </template>
@@ -74,13 +73,11 @@ import Navbar from "~/components/Navbar.vue";
 import Footer from "~/components/Footer.vue";
 // Importing blog posts widget
 import BlogWidget from "~/components/BlogWidget.vue";
-import ApplyBarber from "~/components/ApplyBarber.vue";
 
 export default {
   name: "Home",
 
   components: {
-    ApplyBarber,
     BlogWidget,
     Navbar,
     Footer
