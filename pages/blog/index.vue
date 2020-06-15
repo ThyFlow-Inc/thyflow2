@@ -82,8 +82,6 @@ export default {
   },
   computed: {
     blogPosts() {
-      console.log(this.$store.state.blogPosts);
-
       return this.$store.state.blogPosts;
     }
   }
