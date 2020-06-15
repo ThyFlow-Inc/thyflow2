@@ -6,7 +6,7 @@
       <h1>{{ blogPost.title }}</h1>
 
       <div class="container">
-        <article v-html="$md.render(blogPost.body)"></article>
+        <article class="p-4" v-html="$md.render(blogPost.body)"></article>
       </div>
     </article>
   </div>

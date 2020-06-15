@@ -71,6 +71,9 @@ export default {
     "@nuxtjs/tailwindcss",
     "@nuxtjs/markdownit"
   ],
+  markdownit: {
+    injected: true
+  },
   /*
    ** Nuxt.js modules
    */
@@ -96,6 +99,9 @@ export default {
     ["vue-scrollto/nuxt", { duration: 300 }],
     "@nuxtjs/tailwindcss"
   ],
+  markdownit: {
+    injected: true
+  },
   optimizedImages: {
     optimizeImages: true
   },

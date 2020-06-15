@@ -23,7 +23,7 @@
     "core-js": "^2.6.5",
     "encoding": "^0.1.12",
     "lottie-vuejs": "^0.3.7",
-    "nuxt": "2.6.3",
+    "nuxt": "^2.11.0",
     "nuxt-fontawesome": "^0.4.0",
     "prismic-dom": "^2.1.0",
     "prismic-javascript": "^2.1.1",
