@@ -7,7 +7,7 @@
           <a href="https://www.thyflow.com/blog">back to list</a>
         </div>
         <!-- Button to edit document in dashboard -->
-        <prismic-edit-button :documentId="documentId" />
+        <!--<prismic-edit-button :documentId="documentId" />-->
         <!-- Template for page title -->
         <h1 class="blog-title">
           {{ $prismic.richTextAsPlain(document.title) }}
@@ -20,13 +20,11 @@
       <!-- Slice Block Componenet tag -->
       <slices-block :slices="slices" />
     </div>
-    <Footer></Footer>
   </div>
 </template>
 
 <script>
 import Navbar from "~/components/Navbar.vue";
-import Footer from "~/components/Footer.vue";
 import Prismic from "prismic-javascript";
 import PrismicConfig from "~/prismic.config.js";
 //Importing all the slices components
@@ -36,7 +34,6 @@ export default {
   name: "post",
   components: {
     Navbar,
-    Footer,
     SlicesBlock
   },
   head() {
@@ -51,8 +48,6 @@ export default {
 
       // Query to get post content
       const post = await api.getByUID("post", params.uid);
-
-      // Load the edit button
 
       // Returns data to be used in template
       return {

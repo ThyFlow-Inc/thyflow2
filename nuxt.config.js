@@ -34,6 +34,17 @@ export default {
     ],
     __dangerouslyDisableSanitizers: ["script"]
   },
+  generate: {
+    routes: function() {
+      const fs = require("fs");
+      return fs.readdirSync("./assets/content/blog").map(file => {
+        return {
+          route: `/blog/${file.slice(2, -5)}`,
+          payload: require(`./assets/content/blog/${file}`)
+        };
+      });
+    }
+  },
   /*
    ** Customize the progress-bar color
    */
@@ -66,6 +77,7 @@ export default {
     [
       "nuxt-fontawesome",
       "@bazzite/nuxt-optimized-images",
+      "@nuxtjs/markdownit",
 
       {
         imports: [

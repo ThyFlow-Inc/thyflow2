@@ -51,11 +51,13 @@
                   </div>
                 </div>
               </div>
-              <!--- <div class="col-lg-3 col-md-4 col-sm-5 d-md-block d-none">
-              <div class="urgent-call text-right">
-                <nuxt-link class="btn font-bold text-lg" to="/about">About Us</nuxt-link>
+              <div class="col-lg-3 col-md-4 col-sm-5 d-md-block d-none">
+                <div class="urgent-call text-right">
+                  <nuxt-link class="btn font-bold text-lg" to="/barber"
+                    >Join ThyFlow as a Barber</nuxt-link
+                  >
+                </div>
               </div>
-            </div>-->
             </div>
           </div>
         </div>
@@ -83,14 +85,15 @@
 import NewNav from "~/components/NewNav.vue";
 import BetaHeader1 from "~/components/BetaHeader1.vue";
 import BetaForm1 from "~/components/BetaForm1.vue";
-import Video from "~/components/Video.vue";
 import Footer from "~/components/Footer.vue";
 
 export default {
   name: "beta",
   head() {
     return {
-      script: [],
+      script: [
+        { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" }
+      ],
       link: [
         {
           rel: "stylesheet",

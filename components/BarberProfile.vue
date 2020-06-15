@@ -1,80 +1,288 @@
 <template>
-  <section class="bg-gray-100 py-8">
-    <div class="container mx-auto px-2 pt-4 pb-12 text-gray-800">
-      <h1
-        class="w-full my-2 text-5xl font-bold leading-tight text-center text-orange-500"
-      >ThyFlow Barbers</h1>
-      <div class="w-full mb-4">
-        <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-      </div>
-
-      <div class="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4">
+  <div class="header2">
+    <div class="container mx-auto px-4">
+      <div class="flex justify-between py-16 sm:py-24">
         <div
-          class="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4"
+          class="lg:w-1/2 xl:w-6/12 text-center lg:text-left py-4 sm:p-0 m-12"
         >
-          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-            <img class="h-16 w-16 rounded-full mx-auto" src="~/assets/barber1.jpg" />
-
-            <div class="p-8 text-3xl font-bold text-center border-b-4">Thy Barber Noah</div>
-            <div class="p-5 text-2xl font-bold text-center border-b-4">San Jose</div>
-
-            <p class="w-full text-center text-sm px-5 py-6">
-              I been cutting hair for 6+ Years. Cutting haircut is something I enjoy doing and
-              I take pride in my work. As a Barber giving my clients the best haircut everything is what I strive for. ThyFlow App, Allows me to bring my service to local clients in my local area.
-            </p>
-          </div>
-          <div
-            class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6"
-          ></div>
+          <a
+            v-on:click="activetab = 1"
+            v-bind:class="[activetab === 1 ? 'active' : '']"
+            class="bg-orange-500 text-white no-underline text-center block font-medium text-lg px-4 py-2 shadow uppercase rounded hover:shadow-md sm:mr-4 py-3 px-2 text-base mb-6"
+            >What you will do</a
+          >
+          <a
+            v-on:click="activetab = 2"
+            v-bind:class="[activetab === 2 ? 'active' : '']"
+            class="border hover:bg-orange-500 text-white no-underline text-center block font-medium text-lg px-4 py-2 shadow uppercase rounded hover:shadow-md sm:mr-4 py-3 px-2 text-base mb-6"
+            >What you will need</a
+          >
+          <a
+            v-on:click="activetab = 3"
+            v-bind:class="[activetab === 3 ? 'active' : '']"
+            class="border hover:bg-orange-500 text-white no-underline text-center block font-medium text-lg px-4 py-2 shadow uppercase rounded hover:shadow-md sm:mr-4 py-3 px-2 text-base mb-6"
+            >Requirements</a
+          >
         </div>
 
         <div
-          class="flex flex-col w-5/6 lg:w-1/3 mx-auto lg:mx-0 rounded-lg bg-white mt-4 sm:-mt-6 shadow-lg z-10"
+          class="lg:w-1/2 xl:w-6/12 text-center lg:text-left py-4 sm:p-0 mx-12"
         >
-          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-            <img class="h-16 w-16 rounded-full mx-auto" src="~/assets/barber2.png" />
-
-            <div class="w-full p-8 text-3xl font-bold text-center">Thy Barber Aaron</div>
-            <div class="h-1 w-full gradient my-0 py-0 rounded-t"></div>
-
-            <div class="w-full p-5 text-2xl font-bold text-center">Santa Clara</div>
-
-            <div class="h-1 w-full gradient my-0 py-0 rounded-t"></div>
-            <p class="w-full text-center text-base font-bold py-6 px-5">
-              Cutting hair is something I have been doing for years now, I worked at a local barbershop for 3+ years. ThyFlow, Makes it easy for a barber like me who been doing mobile haircut for a while,
-              Can have more customers to cut.
-            </p>
-          </div>
           <div
-            class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6"
-          ></div>
-        </div>
-
-        <div
-          class="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4"
-        >
-          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-            <img class="h-16 w-16 rounded-full mx-auto" src="~/assets/barber3.jpg" />
-
-            <div class="p-8 text-3xl font-bold text-center border-b-4">Thy Barber</div>
-            <div class="p-5 text-2xl font-bold text-center border-b-4">San Francisco</div>
-
-            <p
-              class="w-full text-center text-sm py-6 px-5"
-            >I am a Bay Area native, Cutting hair is what I've been doing for 5+ years. After I got my Barber license, I worked at a local barbershop for years. Being a mobile Barber with ThyFlow Is new to me, I still enjoy it because I get to cut locals hair everyday.</p>
+            v-if="activetab === 1"
+            class="rounded-lg shadow-lg overflow-hidden bg-gray-200"
+          >
+            <div class="px-6 py-8 bg-white sm:p-10 sm:pb-6">
+              <div
+                class="mt-4 flex items-baseline text-4xl leading-none font-extrabold"
+              >
+                Your Responsibilities
+              </div>
+            </div>
+            <div class="px-6 pt-6 pb-8 bg-gray-50 sm:p-10 sm:pt-6">
+              <ul>
+                <li class="flex items-start">
+                  <svg
+                    class="mx-1 h-6 inline-block"
+                    stroke="currentColor"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M5 13l4 4L19 7"
+                    ></path>
+                  </svg>
+                  <p class="ml-3 text-lg leading-6 text-gray-700">
+                    Provide customers with a
+                    <span class="text-orange-500">High-Quality haircut.</span>
+                  </p>
+                </li>
+                <li class="flex items-start">
+                  <svg
+                    class="mx-1 h-6 inline-block"
+                    stroke="currentColor"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M5 13l4 4L19 7"
+                    ></path>
+                  </svg>
+                  <p class="ml-3 text-lg leading-6 text-gray-700">
+                    Represent the <span class="text-orange-500"> Brand.</span>
+                  </p>
+                </li>
+                <li class="flex items-start">
+                  <svg
+                    class="mx-1 h-6 inline-block"
+                    stroke="currentColor"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M5 13l4 4L19 7"
+                    ></path>
+                  </svg>
+                  <p class="ml-3 text-lg leading-6 text-gray-700">
+                    Provide exceptional
+                    <span class="text-orange-500">customer service.</span>
+                  </p>
+                </li>
+              </ul>
+            </div>
           </div>
+
+          <!------Tab COntent 1------->
+
           <div
-            class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6"
-          ></div>
+            v-if="activetab === 2"
+            class="rounded-lg shadow-lg overflow-hidden bg-gray-200"
+          >
+            <div class="px-6 py-8 bg-white sm:p-10 sm:pb-6">
+              <div
+                class="mt-4 flex items-baseline text-4xl leading-none font-extrabold"
+              >
+                Professionalism
+              </div>
+            </div>
+            <div class="px-6 pt-6 pb-8 bg-gray-50 sm:p-10 sm:pt-6">
+              <ul>
+                <li class="flex items-start">
+                  <svg
+                    class="mx-1 h-6 inline-block"
+                    stroke="currentColor"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M5 13l4 4L19 7"
+                    ></path>
+                  </svg>
+                  <p class="ml-3 text-lg leading-6 text-gray-700">
+                    Barbing Experience
+                  </p>
+                </li>
+                <li class="flex items-start">
+                  <svg
+                    class="mx-1 h-6 inline-block"
+                    stroke="currentColor"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M5 13l4 4L19 7"
+                    ></path>
+                  </svg>
+                  <p class="ml-3 text-lg leading-6 text-gray-700">
+                    Have <span class="text-orange-500">Barber</span> license
+                  </p>
+                </li>
+                <li class="flex items-start">
+                  <svg
+                    class="mx-1 h-6 inline-block"
+                    stroke="currentColor"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M5 13l4 4L19 7"
+                    ></path>
+                  </svg>
+                  <p class="ml-3 text-lg leading-6 text-gray-700">
+                    Interview by industry
+                    <span class="text-orange-500">professional</span>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!------Second Content Finish Here--->
+
+          <div
+            v-if="activetab === 3"
+            class="rounded-lg shadow-lg overflow-hidden bg-gray-200"
+          >
+            <div class="px-6 py-8 bg-white sm:p-10 sm:pb-6">
+              <div
+                class="mt-4 flex items-baseline text-4xl leading-none font-extrabold"
+              >
+                Qualifications
+              </div>
+            </div>
+            <div class="px-6 pt-6 pb-8 bg-gray-50 sm:p-10 sm:pt-6">
+              <ul>
+                <li class="flex items-start">
+                  <svg
+                    class="mx-1 h-6 inline-block"
+                    stroke="currentColor"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M5 13l4 4L19 7"
+                    ></path>
+                  </svg>
+                  <p class="ml-3 text-lg leading-6 text-gray-700">
+                    Can <b>communicate</b> with customers.
+                  </p>
+                </li>
+                <li class="flex items-start">
+                  <svg
+                    class="mx-1 h-6 inline-block"
+                    stroke="currentColor"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M5 13l4 4L19 7"
+                    ></path>
+                  </svg>
+                  <p class="ml-3 text-lg leading-6 text-gray-700">
+                    Have a smart <span class="text-orange-500">phone</span>.
+                  </p>
+                </li>
+                <li class="flex items-start">
+                  <svg
+                    class="mx-1 h-6 inline-block"
+                    stroke="currentColor"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M5 13l4 4L19 7"
+                    ></path>
+                  </svg>
+                  <p class="ml-3 text-lg leading-6 text-gray-700">
+                    Take Pride in your
+                    <span class="text-orange-500">work.</span>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-----End og tab Content------>
         </div>
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>
-export default {};
+export default {
+  data: function() {
+    return {
+      activetab: 1
+    };
+  },
+  methods: {
+    isActive(menuItem) {
+      return this.activeItem === menuItem;
+    },
+    setActive(menuItem) {
+      this.activeItem = menuItem;
+    }
+  }
+};
 </script>
 
 <style lang="css" scoped>
+.header2 {
+  background-image: linear-gradient(
+      to right,
+      rgba(65, 99, 109, 0.801),
+      rgba(28, 58, 228, 0.603)
+    ),
+    url("~assets/barber_11.jpg");
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
 </style>

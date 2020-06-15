@@ -5,14 +5,13 @@
       <div class="lg:mt-24 sm:mt-12 ">
         <article class="text-center">
           <!-- Button to edit document in dashboard -->
-          <prismic-edit-button :documentId="documentId" />
           <!-- Template for page title -->
           <h1 class="blog-title">
-            {{ $prismic.richTextAsPlain(homepageContent.headline) }}
+            ThyFlow Blog
           </h1>
           <!-- Template for page description -->
           <p class="blog-description">
-            {{ $prismic.richTextAsPlain(homepageContent.description) }}
+            Where we write about our journey
           </p>
         </article>
       </div>
@@ -40,81 +39,39 @@
     <!----------Header Section------->
     <hr class="w-full bg-gray-100 my-12" style="height: 1px" />
     <section class="bg-grey-lighter pb-6">
-      <div class="container">
-        <!-- Check blog posts exist -->
-        <div
-          v-if="posts.length !== 0"
-          class="hidden lg:flex flex-wrap lg:-mx-4"
-        >
-          <!-- Template for blog posts -->
-          <section
-            class="flex items-center md:items-start flex-col px-4 w-1/3 bg-white"
-            v-for="post in posts"
-            :key="post.id"
-            v-bind:post="post"
-          >
-            <!-- Here :post="post" passes the data to the component -->
-            <blog-widget :post="post"></blog-widget>
-          </section>
-        </div>
-        <!-- If no blog posts return message -->
-        <div v-else class="blog-main">
-          <p>No Posts published at this time.</p>
-        </div>
+      <div>
+        <ul v-for="(blogPost, index) in blogPosts" :key="index">
+          <nuxt-link :to="`blog/${blogPost.slug}`">{{
+            blogPost.title
+          }}</nuxt-link>
+          <p>{{ blogPost.description }}</p>
+        </ul>
       </div>
     </section>
-    <ApplyBarber class="gradient" />
-    <Footer />
   </div>
 </template>
 
 <script>
-import Prismic from "prismic-javascript";
-import PrismicConfig from "~/prismic.config.js";
 import Navbar from "~/components/Navbar.vue";
-import Footer from "~/components/Footer.vue";
 // Importing blog posts widget
-import BlogWidget from "~/components/BlogWidget.vue";
-import ApplyBarber from "~/components/ApplyBarber.vue";
 
 export default {
   name: "Home",
 
   components: {
-    ApplyBarber,
-    BlogWidget,
-    Navbar,
-    Footer
+    Navbar
   },
   head() {
     return {
-      title: "ThyFlow Blog"
+      title: "ThyFlow Blog",
+      script: [
+        { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" }
+      ]
     };
   },
-  async asyncData({ context, error, req }) {
-    try {
-      // Query to get API object
-      const api = await Prismic.getApi(PrismicConfig.apiEndpoint, { req });
-      // Query to get blog home content
-      const document = await api.getSingle("blog_home");
-      let homepageContent = document.data;
-      //console.log(homepageContent);
-      // Query to get posts content to preview
-      const blogPosts = await api.query(
-        Prismic.Predicates.at("document.type", "post"),
-        { orderings: "[my.post.date desc]" }
-      );
-      // Returns data to be used in template
-      return {
-        homepageContent,
-        documentId: document.id,
-        posts: blogPosts.results,
-        image: homepageContent.image.url
-      };
-    } catch (e) {
-      // Returns error page
-      console.log(e);
-      error({ statusCode: 404, message: "Page not found" });
+  computed: {
+    blogPosts() {
+      return this.$store.state.blogPosts;
     }
   }
 };
