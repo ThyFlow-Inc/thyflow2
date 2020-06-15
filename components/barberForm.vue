@@ -1,59 +1,43 @@
 <template>
-  <section class="bg-red-100 body-font">
+  <section class="header2 body-font">
     <div class="container px-5 py-24 mx-auto flex flex-wrap">
-      <div class="lg:w-1/2 w-full py-8 px-20 flex flex-col ">
-        <h2
-          class="sm:text-3xl text-2xl title-font font-bold text-gray-900 mt-4 mb-4 uppercase"
-        >
-          What you will do
+      <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
+        <h2 class="text-lg font-bold text-white tracking-widest">
+          WHAT YOU WILL DO
         </h2>
-        <span
-          class="inline-block m-1 py-1 px-3 rounded bg-orange-100 text-orange-500 text-sm font-medium tracking-widest"
-          >Provide all customers with a High-Quality haircut.
-        </span>
-        <span
-          class="inline-block m-1 py-1 px-3 rounded bg-orange-100 text-orange-500 text-sm font-medium tracking-widest"
-          >Provide exceptional customer service.
-        </span>
-        <span
-          class="inline-block m-1 py-1 px-3 rounded bg-orange-100 text-orange-500 text-sm font-medium tracking-widest"
-          >Represent the Brand.
-        </span>
-
-        <!---1-->
-        <h2
-          class="sm:text-3xl text-2xl title-font font-bold text-gray-900 mt-4 mb-4 uppercase"
-        >
+        <div class="flex border-t border-orange-400 py-2">
+          <span class="text-white"
+            >Provide all customers with a High-Quality haircut.</span
+          >
+        </div>
+        <div class="flex border-t border-orange-300 py-2">
+          <span class="text-white">Provide exceptional customer service.</span>
+        </div>
+        <div class="flex border-t border-b mb-6 border-orange-300 py-2">
+          <span class="text-white">Represent the Brand. </span>
+        </div>
+        <!-------1--->
+        <h2 class="text-lg font-bold text-white tracking-widest">
           WHAT YOU WILL NEED
         </h2>
-        <span
-          class="inline-block m-1 py-1 px-3 rounded bg-orange-100 text-orange-500 text-sm font-medium tracking-widest"
-          >Barbing Experience
-        </span>
-        <span
-          class="inline-block m-1 py-1 px-3 rounded bg-orange-100 text-orange-500 text-sm font-medium tracking-widest"
-          >Have Barber license
-        </span>
-
-        <!----2-->
-        <h2
-          class="sm:text-3xl text-2xl title-font font-bold text-gray-900 mt-4 mb-4 uppercase"
-        >
+        <div class="flex border-t border-orange-300 py-2">
+          <span class="text-white">Barbing Experience.</span>
+        </div>
+        <div class="flex border-t border-orange-300 py-2">
+          <span class="text-white">Have Barber license.</span>
+        </div>
+        <h2 class="text-lg font-bold text-white tracking-widest">
           WHO WE ARE LOOKING FOR
         </h2>
-        <span
-          class="inline-block m-1 py-1 px-3 rounded bg-orange-100 text-orange-500 text-sm font-medium tracking-widest"
-          >Can communicate with customers.
-        </span>
-        <span
-          class="inline-block m-1 py-1 px-3 rounded bg-orange-100 text-orange-500 text-sm font-medium tracking-widest"
-          >Take Pride in your work.
-        </span>
-        <span
-          class="inline-block m-1 py-1 px-3 rounded bg-orange-100 text-orange-500 text-sm font-medium tracking-widest"
-          >Have a smart phone.
-        </span>
+        <div class="flex border-t border-orange-300 py-2">
+          <span class="text-white">Can communicate with customers.</span>
+        </div>
+        <div class="flex border-t border-orange-300 py-2">
+          <span class="text-white text-base">Have a smart phone.</span>
+        </div>
       </div>
+      <!------2----->
+
       <!----Free0--->
       <div class="flex flex-col flex-wrap lg:py-6 lg:w-1/2 lg:pl-12 ">
         <form
@@ -253,5 +237,16 @@ h2 {
 .icon {
   max-width: 3.75rem;
   max-height: 3rem;
+}
+.header2 {
+  background-image: linear-gradient(
+      to right,
+      rgba(65, 99, 109, 0.801),
+      rgba(28, 58, 228, 0.603)
+    ),
+    url("~assets/barber_11.jpg");
+  background-size: cover;
+  background-position: top;
+  position: relative;
 }
 </style>

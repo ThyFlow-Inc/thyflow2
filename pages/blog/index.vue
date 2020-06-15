@@ -5,7 +5,6 @@
       <div class="lg:mt-24 sm:mt-12 ">
         <article class="text-center">
           <!-- Button to edit document in dashboard -->
-          <prismic-edit-button :documentId="documentId" />
           <!-- Template for page title -->
           <h1 class="blog-title">
             {{ $prismic.richTextAsPlain(homepageContent.headline) }}
