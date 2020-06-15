@@ -1,45 +1,10 @@
 <template>
-  <section class="header2 body-font">
+  <section class=" body-font">
     <div class="container px-5 py-24 mx-auto flex flex-wrap">
-      <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
-        <h2 class="text-lg font-bold text-white tracking-widest">
-          WHAT YOU WILL DO
-        </h2>
-        <div class="flex border-t border-orange-400 py-2">
-          <span class="text-white"
-            >Provide all customers with a High-Quality haircut.</span
-          >
-        </div>
-        <div class="flex border-t border-orange-300 py-2">
-          <span class="text-white">Provide exceptional customer service.</span>
-        </div>
-        <div class="flex border-t border-b mb-6 border-orange-300 py-2">
-          <span class="text-white">Represent the Brand. </span>
-        </div>
-        <!-------1--->
-        <h2 class="text-lg font-bold text-white tracking-widest">
-          WHAT YOU WILL NEED
-        </h2>
-        <div class="flex border-t border-orange-300 py-2">
-          <span class="text-white">Barbing Experience.</span>
-        </div>
-        <div class="flex border-t border-orange-300 py-2">
-          <span class="text-white">Have Barber license.</span>
-        </div>
-        <h2 class="text-lg font-bold text-white tracking-widest">
-          WHO WE ARE LOOKING FOR
-        </h2>
-        <div class="flex border-t border-orange-300 py-2">
-          <span class="text-white">Can communicate with customers.</span>
-        </div>
-        <div class="flex border-t border-orange-300 py-2">
-          <span class="text-white text-base">Have a smart phone.</span>
-        </div>
-      </div>
       <!------2----->
 
       <!----Free0--->
-      <div class="flex flex-col flex-wrap lg:py-6 lg:w-1/2 lg:pl-12 ">
+      <div class="flex flex-col flex-wrap lg:py-6 lg:w-full lg:px-56 ">
         <form
           action="https://forms.zohopublic.com/thyflow/form/JobApplicationForm1/formperma/1Mjwi0GhpXVJPdj52haw-eWIuyNXje40sTFLllnIVEk/htmlRecords/submit"
           name="form"

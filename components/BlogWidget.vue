@@ -1,7 +1,7 @@
 <template>
   <nuxt-link :to="link">
     <div class="">
-      <div class="articles-item__image bg-center">
+      <div class="articles-item__image bg-center loaded">
         {{ post.data.url }}
       </div>
       <h2
@@ -67,7 +67,7 @@ export default {
         month: "short",
         day: "2-digit"
       }).format(new Date(this.post.data.date)));
-    console.log(this.post.data.url);
+    console.log(this.post.primary);
   }
 };
 </script>
@@ -75,5 +75,48 @@ export default {
 <style lang="css" scoped>
 .text-greenery {
   color: #061410;
+}
+.articles-item__image {
+  width: 50%;
+  height: 0;
+  order: 9999;
+  background-size: cover;
+  background-position: 50%;
+  background-color: #faebe6;
+  padding-top: 50%;
+}
+
+@media (min-width: 768px) {
+  .articles-item__image {
+    width: 100%;
+    padding-top: 100%;
+    order: -9999;
+  }
+}
+
+.articles-item__image,
+.fade-self {
+  transition: opacity 0.5s;
+}
+
+.articles-item__image:active,
+.articles-item__image:focus,
+.articles-item__image:hover,
+.fade-self:active,
+.fade-self:focus,
+.fade-self:hover {
+  opacity: 0.75;
+}
+.articles-item__info {
+  width: 50%;
+  padding-right: 1rem;
+}
+
+@media (min-width: 768px) {
+  .articles-item__info {
+    flex-grow: 1;
+    padding-right: 0;
+    width: 83.33333%;
+  }
 }
 </style>
