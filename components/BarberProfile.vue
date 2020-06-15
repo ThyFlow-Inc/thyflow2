@@ -21,7 +21,7 @@
             v-on:click="activetab = 3"
             v-bind:class="[activetab === 3 ? 'active' : '']"
             class="border hover:bg-orange-500 text-white no-underline text-center block font-medium text-lg px-4 py-2 shadow uppercase rounded hover:shadow-md sm:mr-4 py-3 px-2 text-base mb-6"
-            >Who we are looking for</a
+            >Requirements</a
           >
         </div>
 
