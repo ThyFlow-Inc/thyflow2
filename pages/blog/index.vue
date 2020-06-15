@@ -7,7 +7,7 @@
           <!-- Button to edit document in dashboard -->
           <!-- Template for page title -->
           <h1 class="blog-title">
-            ThyFloe Blog
+            ThyFlow Blog
           </h1>
           <!-- Template for page description -->
           <p class="blog-description">
@@ -59,9 +59,7 @@ export default {
   name: "Home",
 
   components: {
-    BlogWidget,
-    Navbar,
-    Footer
+    Navbar
   },
   head() {
     return {
