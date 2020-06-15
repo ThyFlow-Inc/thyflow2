@@ -13,13 +13,13 @@
                 class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0"
               >
                 <div class="flex items-center justify-between w-full md:w-auto">
-                  <a href="#">
+                  <nuxt-link to="/">
                     <img
                       class="h-8 w-auto sm:h-10"
                       src="~/assets/big_logo.png"
                       alt="ThyFlow"
                     />
-                  </a>
+                  </nuxt-link>
                   <div class="-mr-2 flex items-center md:hidden">
                     <button
                       @click="open = true"
