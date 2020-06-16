@@ -38,10 +38,10 @@
     </section>
     <!----------Header Section------->
     <hr class="w-full bg-gray-100 my-12" style="height: 1px" />
-    <section class="bg-grey-lighter pb-6">
-      <div class="lg:flex m-8">
+    <section class="bg-grey-lighter py-10">
+      <div class="hidden lg:flex flex-wrap lg:-mx-4">
         <div
-          class="flex items-center md:items-start flex-col px-8 w-1/2"
+          class="flex items-center md:items-start flex-col px-12 pb-8 w-1/3"
           v-for="(blogPost, index) in blogPosts"
           :key="index"
         >
