@@ -11,15 +11,15 @@
         {{ blogPost.title }}
       </h1>
     </div>
-    <div class="text items-center">
+    <div class="container">
       <img class="rounded-lg" :src="blogPost.thumbnail" />
     </div>
 
     <div
-      class="mt-4 mb-5 px-2 content-text text-greenery text-xl leading-snug md:mt-20 md:mb-10 md:text-2xl lg:mx-26"
+      class="mt-4 text-greenery text-xl leading-snug md:mt-20 md:mb-10 md:text-2xl lg:mx-26"
     >
       <article
-        class="container small"
+        class="container__article"
         v-html="$md.render(blogPost.body)"
       ></article>
     </div>
@@ -53,8 +53,8 @@ export default {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 1rem;
-  padding-left: 1rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
 }
 
 @media (min-width: 640px) {
@@ -86,6 +86,15 @@ export default {
     padding-left: 10vw;
   }
 }
+
+.container__article {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 18rem;
+  padding-left: 18rem;
+}
+
 .overflowhidden {
   overflow: hidden;
 }

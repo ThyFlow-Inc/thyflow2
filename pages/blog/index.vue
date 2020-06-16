@@ -39,7 +39,7 @@
     <!----------Header Section------->
     <hr class="w-full bg-gray-100 my-12" style="height: 1px" />
     <section class="bg-grey-lighter pb-6">
-      <div class="lg:flex">
+      <div class="lg:flex m-8">
         <div
           class="flex items-center md:items-start flex-col px-8 w-1/2"
           v-for="(blogPost, index) in blogPosts"
@@ -52,9 +52,11 @@
           <div
             class="flex flex-col justify-center mt-3 articles-item__info"
           ></div>
-          <nuxt-link :to="'/blog/' + blogPost.slug">{{
-            blogPost.title
-          }}</nuxt-link>
+          <nuxt-link
+            class="lg:text-2xl md:text-xl sm:text-lg font-bold m-4"
+            :to="'/blog/' + blogPost.slug"
+            >{{ blogPost.title }}</nuxt-link
+          >
           <p>{{ blogPost.description }}</p>
         </div>
       </div>
@@ -77,6 +79,9 @@ export default {
       title: "ThyFlow Blog",
       script: [
         { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" }
+      ],
+      link: [
+        { src: "https://fonts.googleapis.com/css2?family=Poppins&display=swap" }
       ]
     };
   },
@@ -89,6 +94,9 @@ export default {
 </script>
 
 <style lang="css" scoped>
+body {
+  font-family: "Poppins", Courier, monospace;
+}
 .container {
   width: 100%;
   margin-right: auto;
