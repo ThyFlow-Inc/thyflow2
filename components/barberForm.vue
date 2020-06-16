@@ -1,10 +1,10 @@
 <template>
   <section class=" body-font">
-    <div class="container px-5 py-24 mx-auto flex flex-wrap">
+    <div class="container px-5 pb-24 mx-auto flex flex-wrap">
       <!------2----->
 
       <!----Free0--->
-      <div class="flex flex-col flex-wrap lg:py-6 lg:w-full lg:px-56 ">
+      <div class="flex flex-col flex-wrap lg:p2-6 lg:w-full lg:px-56 ">
         <form
           action="https://forms.zohopublic.com/thyflow/form/JobApplicationForm1/formperma/1Mjwi0GhpXVJPdj52haw-eWIuyNXje40sTFLllnIVEk/htmlRecords/submit"
           name="form"
