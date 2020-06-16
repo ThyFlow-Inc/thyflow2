@@ -1,6 +1,41 @@
 <template>
   <div>
-    <Navbar />
+    <header class="text-gray-700 body-font">
+      <div
+        class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+      >
+        <a
+          class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
+        >
+          <img src="~/assets/big_logo.png" class="ml-3 text-xl h-12" />
+        </a>
+        <nav
+          class="md:ml-auto flex flex-wrap items-center text-base justify-center"
+        >
+          <nuxt-link
+            to="/barber"
+            class="mr-5 text-orange-500 text-lg font-bold hover:text-gray-900"
+            >Join ThyFlow as a Barber</nuxt-link
+          >
+        </nav>
+        <button
+          class="inline-flex text-white font-bold items-center bg-orange-500 py-1 px-3  hover:bg-orange-300 rounded text-lg mt-4 md:mt-0"
+        >
+          Home
+          <svg
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            class="w-4 h-4 ml-1"
+            viewBox="0 0 24 24"
+          >
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button>
+      </div>
+    </header>
     <section class="flex-1">
       <div class="lg:mt-24 sm:mt-12 ">
         <article class="text-center">
@@ -38,23 +73,21 @@
     </section>
     <!----------Header Section------->
     <hr class="w-full bg-gray-100 my-12" style="height: 1px" />
-    <section class="bg-grey-lighter py-10">
+    <section class="py-10">
       <div class="flex flex-wrap lg:mx-8">
         <div
-          class="flex items-center md:items-start flex-col px-16 pb-8 w-1/3"
+          class="flex items-center md:items-start flex-col px-8 pb-8 w-1/3"
           v-for="(blogPost, index) in blogPosts"
           :key="index"
         >
-          <div
-            class="h-full border-2 border-gray-200 rounded-lg overflow-hidden"
-          >
+          <div class="h-full  overflow-hidden">
             <img
               class="lg:h-48 md:h-36 w-full object-cover object-center"
               :src="blogPost.thumbnail"
             />
 
             <nuxt-link
-              class="title-font text-lg font-medium text-gray-900 m-4"
+              class="title-font text-xl font-bold mt-6 text-gray-900 m-4"
               :to="'/blog/' + blogPost.slug"
               >{{ blogPost.title }}</nuxt-link
             >

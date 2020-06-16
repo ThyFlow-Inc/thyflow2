@@ -1,6 +1,41 @@
 <template>
   <div>
-    <Navbar />
+    <header class="text-gray-700 body-font">
+      <div
+        class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+      >
+        <a
+          class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
+        >
+          <img src="~/assets/big_logo.png" class="ml-3 text-xl h-12" />
+        </a>
+        <nav
+          class="md:ml-auto flex flex-wrap items-center text-base justify-center"
+        >
+          <nuxt-link
+            to="/barber"
+            class="mr-5 text-orange-500 text-lg font-bold hover:text-gray-900"
+            >Join ThyFlow as a Barber</nuxt-link
+          >
+        </nav>
+        <button
+          class="inline-flex text-white font-bold items-center bg-orange-500 py-1 px-3  hover:bg-orange-300 rounded text-lg mt-4 md:mt-0"
+        >
+          Home
+          <svg
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            class="w-4 h-4 ml-1"
+            viewBox="0 0 24 24"
+          >
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button>
+      </div>
+    </header>
     <div
       class="container flex flex-col justify-center items-center my-8 text-center"
     >
