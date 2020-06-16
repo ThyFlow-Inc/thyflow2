@@ -39,25 +39,27 @@
     <!----------Header Section------->
     <hr class="w-full bg-gray-100 my-12" style="height: 1px" />
     <section class="bg-grey-lighter py-10">
-      <div class="hidden lg:flex flex-wrap lg:-mx-4">
+      <div class="flex flex-wrap lg:mx-8">
         <div
-          class="flex items-center md:items-start flex-col px-12 pb-8 w-1/3"
+          class="flex items-center md:items-start flex-col px-16 pb-8 w-1/3"
           v-for="(blogPost, index) in blogPosts"
           :key="index"
         >
-          <img
-            class="rounded-lg articles-item__image bg-center loaded"
-            :src="blogPost.thumbnail"
-          />
           <div
-            class="flex flex-col justify-center mt-3 articles-item__info"
-          ></div>
-          <nuxt-link
-            class="lg:text-2xl md:text-xl sm:text-lg font-bold m-4"
-            :to="'/blog/' + blogPost.slug"
-            >{{ blogPost.title }}</nuxt-link
+            class="h-full border-2 border-gray-200 rounded-lg overflow-hidden"
           >
-          <p>{{ blogPost.description }}</p>
+            <img
+              class="lg:h-48 md:h-36 w-full object-cover object-center"
+              :src="blogPost.thumbnail"
+            />
+
+            <nuxt-link
+              class="title-font text-lg font-medium text-gray-900 m-4"
+              :to="'/blog/' + blogPost.slug"
+              >{{ blogPost.title }}</nuxt-link
+            >
+            <p class="leading-relaxed m-4">{{ blogPost.description }}</p>
+          </div>
         </div>
       </div>
     </section>

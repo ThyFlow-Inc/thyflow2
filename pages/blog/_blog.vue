@@ -4,22 +4,29 @@
     <div
       class="container flex flex-col justify-center items-center my-8 text-center"
     >
-      <div class="mt-2 text-lg text-peachy font-semibold lg:text-xl">
+      <!--<div class="mt-2 text-lg text-peachy font-semibold lg:text-xl">
         ThyFlow Admin
-      </div>
-      <h1 class="elevate-cover__title">
+      </div>-->
+      <h2 class="lg:text-4xl md:text-2xl font-bold">
         {{ blogPost.title }}
-      </h1>
+      </h2>
     </div>
-    <div class="container">
-      <img class="rounded-lg" :src="blogPost.thumbnail" />
+    <div class="rounded-lg h-64 overflow-hidden">
+      <img class="rounded-lg w-full h-72" :src="blogPost.thumbnail" />
     </div>
-
+    <div class="flex justify-center mt-10">
+      <p class="inline-flex text-orange-500  py-2 px-6 font-bold  text-lg">
+        Author | Yusuf from ThyFlow
+      </p>
+      <p class="ml-4 inline-flex text-blue-700  py-2 px-6 font-bold text-lg">
+        Date | Nov, 17 2020
+      </p>
+    </div>
     <div
-      class="mt-4 text-greenery text-xl leading-snug md:mt-20 md:mb-10 md:text-2xl lg:mx-26"
+      class="container mt-4 text-greenery text-xl leading-snug md:mt-20 md:mb-10 md:text-2xl lg:mx-26"
     >
       <article
-        class="container__article"
+        class="lg:mx-64 md:mx-20 sm:mx-16"
         v-html="$md.render(blogPost.body)"
       ></article>
     </div>
@@ -95,6 +102,15 @@ export default {
   padding-left: 18rem;
 }
 
+@media (min-width: 640px) {
+  .container__article {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 8rem;
+    padding-left: 8rem;
+  }
+}
 .overflowhidden {
   overflow: hidden;
 }
@@ -151,7 +167,7 @@ export default {
   }
 
   &__title {
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: "Tiempos Headline", Arial, sans-serif;
     color: black;
 
@@ -187,7 +203,7 @@ export default {
   }
 
   h2 {
-    padding-bottom: 3.2rem;
+    padding-bottom: 3rem;
     padding-bottom: 2rem;
 
     @media (max-width: 360px) {
@@ -198,37 +214,6 @@ export default {
   h3 {
     font-size: 2.2rem;
     padding-bottom: 2rem;
-  }
-
-  li {
-    list-style-type: initial;
-  }
-
-  pre {
-    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
-    padding: 2.4rem;
-    border-radius: 4px;
-    background-color: #f6f8fa;
-    overflow-x: scroll;
-    display: block;
-    margin-bottom: 5rem;
-
-    code {
-      background-color: #f6f8fa;
-    }
-  }
-
-  code {
-    background: #f3f4f4;
-    border-radius: 4px;
-    display: inline;
-    color: bisque;
-    font-size: 14px;
-    padding: 0.2em 0.4em;
-
-    @media (min-width: 350px) {
-      font-size: 16px;
-    }
   }
 }
 </style>
