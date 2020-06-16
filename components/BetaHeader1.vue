@@ -7,19 +7,17 @@
     >
       <div class="pl-6">
         <h2
-          class="text-orange-500 font-bold leading-text text-5xl pb-2 md:pb-0"
+          class="text-orange-600 font-bold leading-text text-5xl pb-2 md:pb-0"
         >
           Your appearance is
         </h2>
-        <h2
-          class=" text-orange-500 font-bold leading-text text-5xl pb-2 md:pb-0"
-        >
+        <h2 class=" text-white font-bold leading-text text-5xl pb-2 md:pb-0">
           part of your journey
         </h2>
-        <h2 class="text-orange-500 leading-text text-5xl pb-2">
+        <h2 class="text-white leading-text text-5xl pb-2">
           to Confidence and Success.
         </h2>
-        <p class="text-orange-500 text-2xl sm:w-2/3 lg:w-1/2">
+        <p class="text-2xl text-red-500 sm:w-2/3 lg:w-1/2">
           Let our Handpicked, Local, Mobile, <br />
           Barbers and Hair Stylist Bring their service to YOU!
         </p>
