@@ -250,8 +250,20 @@
                 </ul>
               </div>
             </div>
-            <!-----End og tab Content------>
+            <!-----End of tab Content------>
           </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div
+        class="pt-10 pb-12 text-center bg-gallery rounded-lg lg:pt-20 lg:pb-14"
+      >
+        <div class="px-10 lg:px-20">
+          <h2 class="mb-6 text-orange-500 font-normal text-2xl lg:text-5xl">
+            Fill the form below to show interest in joining ThyFlow as a Mobile
+            Barber
+          </h2>
         </div>
       </div>
     </div>

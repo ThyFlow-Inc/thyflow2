@@ -28,7 +28,7 @@
       <p class="lg:mx-16 sm:mx-4 lg:text-xl md:text-md">
         After booking, ThyFlow barbers will show up at your location with
         professional tools for your haircut. No cash, no problem, Pay for your
-        service in app
+        service in app.
       </p>
       <h2 class="lg:mx-16 sm:mx-8 lg:text-2xl sm:text-xl font-bold mt-4">
         How to Join & Book a Mobile Barber?
