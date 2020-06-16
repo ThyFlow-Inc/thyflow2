@@ -7,7 +7,9 @@
         <a
           class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
         >
-          <img src="~/assets/big_logo.png" class="ml-3 text-xl h-12" />
+          <nuxt-link to="/">
+            <img src="~/assets/big_logo.png" class="ml-3 text-xl h-12" />
+          </nuxt-link>
         </a>
         <nav
           class="md:ml-auto flex flex-wrap items-center text-base justify-center"
