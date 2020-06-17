@@ -48,7 +48,6 @@ export default {
   plugins: [
     { src: "~/plugins/VueTyper.js", ssr: false },
     { src: "~/plugins/link-resolver.js" },
-    { src: "~/plugins/prismic-vue.js" },
     { src: "~/plugins/vue-slider.js", ssr: false },
     { src: "~/plugins/vue-scrollto.js", ssr: false }
   ],
