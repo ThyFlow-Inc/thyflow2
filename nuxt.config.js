@@ -1,5 +1,3 @@
-const PrismicConfig = require("./prismic.config");
-
 export default {
   mode: "universal",
   /*
@@ -22,16 +20,7 @@ export default {
       { rel: "stylesheet", href: "/assets/plugins/mediabox/mediabox.min.css" },
       { rel: "stylesheet", href: "/assets/css/custom.css" }
     ],
-    script: [
-      {
-        innerHTML:
-          '{ window.prismic = { endpoint: "' +
-          PrismicConfig.apiEndpoint +
-          '"} }'
-      },
-      { src: "/assets/plugins/mediabox/mediabox.min.js", body: true },
-      { src: "//static.cdn.prismic.io/prismic.min.js" }
-    ],
+    script: [{ src: "/assets/plugins/mediabox/mediabox.min.js", body: true }],
     __dangerouslyDisableSanitizers: ["script"]
   },
   generate: {
@@ -81,20 +70,7 @@ export default {
     [
       "nuxt-fontawesome",
       "@bazzite/nuxt-optimized-images",
-      "@nuxtjs/markdownit",
-
-      {
-        imports: [
-          {
-            set: "@fortawesome/free-solid-svg-icons",
-            icons: ["fas"]
-          },
-          {
-            set: "@fortawesome/free-brands-svg-icons",
-            icons: ["fab"]
-          }
-        ]
-      }
+      "@nuxtjs/markdownit"
     ],
     ["vue-scrollto/nuxt", { duration: 300 }],
     "@nuxtjs/tailwindcss"
