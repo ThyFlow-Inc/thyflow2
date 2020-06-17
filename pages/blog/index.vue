@@ -24,17 +24,6 @@
           class="inline-flex text-white font-bold items-center bg-orange-500 py-1 px-3  hover:bg-orange-300 rounded text-lg mt-4 md:mt-0"
         >
           Home
-          <svg
-            fill="none"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            class="w-4 h-4 ml-1"
-            viewBox="0 0 24 24"
-          >
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
         </button>
       </div>
     </header>
@@ -102,15 +91,12 @@
 </template>
 
 <script>
-import Navbar from "~/components/Navbar.vue";
 // Importing blog posts widget
 
 export default {
   name: "Home",
 
-  components: {
-    Navbar
-  },
+  components: {},
   head() {
     return {
       title: "ThyFlow Blog",
