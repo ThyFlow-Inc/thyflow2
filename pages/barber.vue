@@ -57,7 +57,9 @@
                         d="M5 13l4 4L19 7"
                       ></path>
                     </svg>
-                    <p class="ml-3 text-lg leading-6 text-gray-700">
+                    <p
+                      class="lg:ml-3 md:ml-0 sm:ml-0 text-lg leading-6 text-gray-700"
+                    >
                       Provide customers with a
                       <span class="text-orange-500">High-Quality haircut.</span>
                     </p>
