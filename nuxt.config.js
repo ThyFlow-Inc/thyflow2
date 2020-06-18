@@ -57,7 +57,8 @@ export default {
   buildModules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     "@nuxtjs/tailwindcss",
-    "@nuxtjs/markdownit"
+    "@nuxtjs/markdownit",
+    "@aceforth/nuxt-optimized-images"
   ],
   markdownit: {
     injected: true
@@ -66,11 +67,7 @@ export default {
    ** Nuxt.js modules
    */
   modules: [
-    [
-      "nuxt-fontawesome",
-      "@bazzite/nuxt-optimized-images",
-      "@nuxtjs/markdownit"
-    ],
+    ["@bazzite/nuxt-optimized-images", "@nuxtjs/markdownit"],
     ["vue-scrollto/nuxt", { duration: 300 }],
     "@nuxtjs/tailwindcss"
   ],
