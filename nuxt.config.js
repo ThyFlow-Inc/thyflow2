@@ -67,7 +67,7 @@ export default {
    ** Nuxt.js modules
    */
   modules: [
-    ["@bazzite/nuxt-optimized-images", "@nuxtjs/markdownit"],
+    ["@nuxtjs/markdownit"],
     ["vue-scrollto/nuxt", { duration: 300 }],
     "@nuxtjs/tailwindcss"
   ],
