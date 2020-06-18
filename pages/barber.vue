@@ -41,7 +41,7 @@
                   Your Responsibilities
                 </div>
               </div>
-              <div class="px-6 pt-6 pb-8 bg-gray-50 sm:p-10 sm:pt-6">
+              <div class="lg:px-6 pt-6 pb-8 bg-gray-50 sm:px-0 sm:pt-6">
                 <ul>
                   <li class="flex items-start">
                     <svg
