@@ -259,10 +259,12 @@
     </div>
     <div class="container">
       <div
-        class="pt-10 pb-12 text-center bg-gallery rounded-lg lg:pt-20 lg:pb-14"
+        class="pt-10 pb-12 text-center bg-gallery rounded-lg lg:pt-20 lg:pb-8"
       >
         <div class="px-10 lg:px-20">
-          <h2 class="mb-6 text-orange-500 font-normal text-2xl lg:text-5xl">
+          <h2
+            class="mb-6 text-orange-500 font-normal text-2xl xl:text-5xl lg:text-4xl"
+          >
             Fill the form below to become a Mobile Barber
           </h2>
         </div>
