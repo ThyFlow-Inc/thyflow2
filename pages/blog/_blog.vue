@@ -47,7 +47,7 @@
     </div>
     <div class="flex justify-center mt-10">
       <p class="inline-flex text-orange-500  py-2 px-6 font-bold  text-lg">
-        Author | Yusuf from ThyFlow
+        Author | Sals from ThyFlow
       </p>
       <p class="ml-4 inline-flex text-blue-700  py-2 px-6 font-bold text-lg">
         Date | Nov, 17 2020
