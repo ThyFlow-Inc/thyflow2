@@ -13,13 +13,7 @@
         </a>
         <nav
           class="md:ml-auto flex flex-wrap items-center text-base justify-center"
-        >
-          <nuxt-link
-            to="/barber"
-            class="mr-5 text-orange-500 text-lg font-bold hover:text-gray-900"
-            >Join ThyFlow as a Barber</nuxt-link
-          >
-        </nav>
+        ></nav>
         <button
           class="inline-flex text-white font-bold items-center bg-orange-500 py-1 px-3  hover:bg-orange-300 rounded text-lg mt-4 md:mt-0"
         >
@@ -53,7 +47,7 @@
     </div>
     <div class="flex justify-center mt-10">
       <p class="inline-flex text-orange-500  py-2 px-6 font-bold  text-lg">
-        Author | Yusuf from ThyFlow
+        Author | Sals from ThyFlow
       </p>
       <p class="ml-4 inline-flex text-blue-700  py-2 px-6 font-bold text-lg">
         Date | Nov, 17 2020
